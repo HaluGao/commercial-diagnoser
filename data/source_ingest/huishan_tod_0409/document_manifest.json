@@ -1,0 +1,119 @@
+{
+  "sample_id": "huishan_tod_0409",
+  "project_name": "惠山TOD项目",
+  "input_pdf_path": "/Users/halu/Library/Mobile Documents/com~apple~CloudDocs/Work/2026 work/02 AI Projects/01 平面诊断（基于集团标准）/资料/项目平面参考/惠山TOD平面汇总-0409.pdf",
+  "page_count": 11,
+  "output_dir": "/Users/halu/Desktop/codex/commercial_diagnoser/data/source_ingest/huishan_tod_0409",
+  "pages": [
+    {
+      "page_index": 0,
+      "page_number": 1,
+      "page_label": "惠山TOD项目",
+      "page_pdf_path": "/Users/halu/Desktop/codex/commercial_diagnoser/data/source_ingest/huishan_tod_0409/page_pdfs/page_001.pdf",
+      "preview_path": "/Users/halu/Desktop/codex/commercial_diagnoser/data/source_ingest/huishan_tod_0409/page_previews/page_001.png",
+      "text_chars": 7,
+      "text_excerpt": "惠山TOD项目",
+      "content_profile": "drawing_heavy_page"
+    },
+    {
+      "page_index": 1,
+      "page_number": 2,
+      "page_label": "总平面图",
+      "page_pdf_path": "/Users/halu/Desktop/codex/commercial_diagnoser/data/source_ingest/huishan_tod_0409/page_pdfs/page_002.pdf",
+      "preview_path": "/Users/halu/Desktop/codex/commercial_diagnoser/data/source_ingest/huishan_tod_0409/page_previews/page_002.png",
+      "text_chars": 4,
+      "text_excerpt": "总平面图",
+      "content_profile": "drawing_heavy_page"
+    },
+    {
+      "page_index": 2,
+      "page_number": 3,
+      "page_label": "B2F平面图",
+      "page_pdf_path": "/Users/halu/Desktop/codex/commercial_diagnoser/data/source_ingest/huishan_tod_0409/page_pdfs/page_003.pdf",
+      "preview_path": "/Users/halu/Desktop/codex/commercial_diagnoser/data/source_ingest/huishan_tod_0409/page_previews/page_003.png",
+      "text_chars": 6,
+      "text_excerpt": "B2F平面图",
+      "content_profile": "drawing_heavy_page"
+    },
+    {
+      "page_index": 3,
+      "page_number": 4,
+      "page_label": "B1F平面图",
+      "page_pdf_path": "/Users/halu/Desktop/codex/commercial_diagnoser/data/source_ingest/huishan_tod_0409/page_pdfs/page_004.pdf",
+      "preview_path": "/Users/halu/Desktop/codex/commercial_diagnoser/data/source_ingest/huishan_tod_0409/page_previews/page_004.png",
+      "text_chars": 6,
+      "text_excerpt": "B1F平面图",
+      "content_profile": "drawing_heavy_page"
+    },
+    {
+      "page_index": 4,
+      "page_number": 5,
+      "page_label": "1F平面图",
+      "page_pdf_path": "/Users/halu/Desktop/codex/commercial_diagnoser/data/source_ingest/huishan_tod_0409/page_pdfs/page_005.pdf",
+      "preview_path": "/Users/halu/Desktop/codex/commercial_diagnoser/data/source_ingest/huishan_tod_0409/page_previews/page_005.png",
+      "text_chars": 5,
+      "text_excerpt": "1F平面图",
+      "content_profile": "drawing_heavy_page"
+    },
+    {
+      "page_index": 5,
+      "page_number": 6,
+      "page_label": "2F平面图",
+      "page_pdf_path": "/Users/halu/Desktop/codex/commercial_diagnoser/data/source_ingest/huishan_tod_0409/page_pdfs/page_006.pdf",
+      "preview_path": "/Users/halu/Desktop/codex/commercial_diagnoser/data/source_ingest/huishan_tod_0409/page_previews/page_006.png",
+      "text_chars": 5,
+      "text_excerpt": "2F平面图",
+      "content_profile": "drawing_heavy_page"
+    },
+    {
+      "page_index": 6,
+      "page_number": 7,
+      "page_label": "3F平面图",
+      "page_pdf_path": "/Users/halu/Desktop/codex/commercial_diagnoser/data/source_ingest/huishan_tod_0409/page_pdfs/page_007.pdf",
+      "preview_path": "/Users/halu/Desktop/codex/commercial_diagnoser/data/source_ingest/huishan_tod_0409/page_previews/page_007.png",
+      "text_chars": 5,
+      "text_excerpt": "3F平面图",
+      "content_profile": "drawing_heavy_page"
+    },
+    {
+      "page_index": 7,
+      "page_number": 8,
+      "page_label": "4F平面图",
+      "page_pdf_path": "/Users/halu/Desktop/codex/commercial_diagnoser/data/source_ingest/huishan_tod_0409/page_pdfs/page_008.pdf",
+      "preview_path": "/Users/halu/Desktop/codex/commercial_diagnoser/data/source_ingest/huishan_tod_0409/page_previews/page_008.png",
+      "text_chars": 5,
+      "text_excerpt": "4F平面图",
+      "content_profile": "drawing_heavy_page"
+    },
+    {
+      "page_index": 8,
+      "page_number": 9,
+      "page_label": "5F平面图",
+      "page_pdf_path": "/Users/halu/Desktop/codex/commercial_diagnoser/data/source_ingest/huishan_tod_0409/page_pdfs/page_009.pdf",
+      "preview_path": "/Users/halu/Desktop/codex/commercial_diagnoser/data/source_ingest/huishan_tod_0409/page_previews/page_009.png",
+      "text_chars": 5,
+      "text_excerpt": "5F平面图",
+      "content_profile": "drawing_heavy_page"
+    },
+    {
+      "page_index": 9,
+      "page_number": 10,
+      "page_label": "6F平面图",
+      "page_pdf_path": "/Users/halu/Desktop/codex/commercial_diagnoser/data/source_ingest/huishan_tod_0409/page_pdfs/page_010.pdf",
+      "preview_path": "/Users/halu/Desktop/codex/commercial_diagnoser/data/source_ingest/huishan_tod_0409/page_previews/page_010.png",
+      "text_chars": 5,
+      "text_excerpt": "6F平面图",
+      "content_profile": "drawing_heavy_page"
+    },
+    {
+      "page_index": 10,
+      "page_number": 11,
+      "page_label": "6F夹层平面图",
+      "page_pdf_path": "/Users/halu/Desktop/codex/commercial_diagnoser/data/source_ingest/huishan_tod_0409/page_pdfs/page_011.pdf",
+      "preview_path": "/Users/halu/Desktop/codex/commercial_diagnoser/data/source_ingest/huishan_tod_0409/page_previews/page_011.png",
+      "text_chars": 7,
+      "text_excerpt": "6F夹层平面图",
+      "content_profile": "drawing_heavy_page"
+    }
+  ]
+}

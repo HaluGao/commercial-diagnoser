@@ -1,0 +1,103 @@
+{
+  "source_system": "antigravity_demo",
+  "source_file": "/Users/halu/Desktop/codex/commercial_diagnoser/imports/antigravity_snapshot/extracted_rules.raw.json",
+  "normalized_output": "/Users/halu/Desktop/codex/commercial_diagnoser/data/rules/imported/antigravity/antigravity_rule_candidates.normalized.json",
+  "rule_count": 569,
+  "mapped_category_counts": {
+    "TOD与地下商业": 55,
+    "产品表达与建筑形象": 20,
+    "到达与交通组织": 3,
+    "动线与客流分发": 95,
+    "建造标准与安全底线": 59,
+    "待人工归类": 77,
+    "总纲与价值逻辑": 10,
+    "整体定位与规划逻辑": 20,
+    "景观场景与铺前界面": 4,
+    "租户落位与铺位效率": 164,
+    "空间布局与体验场景": 61,
+    "精装场景": 1
+  },
+  "top_source_images": [
+    [
+      "42.png",
+      38
+    ],
+    [
+      "5.png",
+      36
+    ],
+    [
+      "10.png",
+      36
+    ],
+    [
+      "31.png",
+      23
+    ],
+    [
+      "8.png",
+      22
+    ],
+    [
+      "56.png",
+      19
+    ],
+    [
+      "21.png",
+      17
+    ],
+    [
+      "48.png",
+      17
+    ],
+    [
+      "52.png",
+      16
+    ],
+    [
+      "22.png",
+      15
+    ],
+    [
+      "30.png",
+      15
+    ],
+    [
+      "41.png",
+      15
+    ],
+    [
+      "7.png",
+      14
+    ],
+    [
+      "29.png",
+      14
+    ],
+    [
+      "19.png",
+      13
+    ],
+    [
+      "33.png",
+      13
+    ],
+    [
+      "44.png",
+      13
+    ],
+    [
+      "47.png",
+      13
+    ],
+    [
+      "14.png",
+      12
+    ],
+    [
+      "49.png",
+      12
+    ]
+  ],
+  "note": "该文件是导入候选规则摘要，不等同于 codex 当前正式基础规则库。"
+}

@@ -1,0 +1,357 @@
+[
+  {
+    "rule_id": "LF-C2-MAIN-ANCHOR-0001",
+    "title": "多层商业中的影院宜优先平层设置并压缩无效通道长度",
+    "source_type": "longfor_c2",
+    "source_file": "31.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "31.png",
+      "region_hint": "页面主体说明和案例图区"
+    },
+    "category_l1": "租户落位与铺位效率",
+    "category_l2": "主力店落位",
+    "tags": [
+      "主力店",
+      "影院",
+      "平层设置",
+      "通道效率"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "medium",
+    "rule_text": "多层商业中的影院等主力店宜优先采用平层设置，观影层与厅集中对称布置，并尽量缩短无效通道面积和动线长度；若考虑下沉层，应充分利用下沉高净高与端头空间设置端头铺或高价值功能。",
+    "interpretation": "这条规则关注主力店效率和空间价值释放。若主力店占据大量面积却拉长低效通道，或端头空间未被利用，通常可输出优化建议。",
+    "evidence_requirement": "需要在楼层平面中识别主力店位置、主力店前场动线和端头/下沉空间关系。",
+    "diagnosis_targets": [
+      "anchor_store",
+      "circulation",
+      "void_space"
+    ],
+    "trigger_clues": [
+      "主力店前场通道过长",
+      "端头空间邻接主力店但未被有效使用",
+      "下沉层空间与主力店未形成协同"
+    ],
+    "output_template": {
+      "issue_title_hint": "主力店落位与前场通道效率仍有优化空间",
+      "issue_body_hint": "当前主力店与前场动线的组织尚未充分兼顾运营效率和空间价值释放。",
+      "recommendation_hint": "建议结合主力店边界、端头空间和竖向关系，优化前场效率并释放高价值空间。"
+    },
+    "source_excerpt": "多层商业，影院优先平层设置，最小化通道面积及动线长度；可考虑下沉3F，保留厅下3m净高的有效空间，设置端头铺。",
+    "notes": "来源于 C2 工具主力店案例页。"
+  },
+  {
+    "rule_id": "LF-C2-SUPERMARKET-0001",
+    "title": "一字型商业中超市宜位于非TOD端头并与竖向交通耦合",
+    "source_type": "longfor_c2",
+    "source_file": "35.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "35.png",
+      "region_hint": "左侧商业动线说明和右侧位置说明"
+    },
+    "category_l1": "租户落位与铺位效率",
+    "category_l2": "主力店落位",
+    "tags": [
+      "超市",
+      "TOD",
+      "端头",
+      "扶梯"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "medium",
+    "rule_text": "一字型商业动线中，超市宜设置于非TOD端头；若为L型商业，宜位于中部进深较厚处。超市应布置在地面客流密度较低入口下方，并通过上下分区扶梯串联地面与地下流线。端头位置宜在距离入口1至2跨范围内正对上行扶梯，非端头口部宜贴口部布置上下行扶梯及客梯。",
+    "interpretation": "这条规则把超市位置、端头策略和竖向交通关系绑在一起。若项目是TOD界面，应避免把超市直接吃掉最高价值界面，同时要检查超市到达效率。",
+    "evidence_requirement": "需要识别TOD主界面、超市/大铺位置、扶梯位置和入口关系。",
+    "diagnosis_targets": [
+      "anchor_store",
+      "escalator",
+      "main_entry",
+      "circulation"
+    ],
+    "trigger_clues": [
+      "TOD高价值端头被低展示性大铺占用",
+      "超市入口与扶梯脱节",
+      "地面与地下导流关系不连续"
+    ],
+    "output_template": {
+      "issue_title_hint": "超市位置与竖向导流关系需要再校准",
+      "issue_body_hint": "当前超市或大铺的落位方式可能未充分兼顾高价值界面使用和地下客流转化效率。",
+      "recommendation_hint": "建议结合TOD端头价值、入口位置和扶梯系统，优化超市或同等级大铺的落位。"
+    },
+    "source_excerpt": "一字型动线-超市于非TOD的端头；超市在端头-距离入口1~2跨设置正对上行扶梯；非端头-临靠口部设置上下行扶梯及客梯。",
+    "notes": "适合用于审视TOD项目的高价值界面分配。"
+  },
+  {
+    "rule_id": "LF-C2-B1-METRO-0001",
+    "title": "B1层应高效转化地铁客流价值并布局匹配的零售与体验业态",
+    "source_type": "longfor_c2",
+    "source_file": "24.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "24.png",
+      "region_hint": "页面右侧B1地铁客流转化说明"
+    },
+    "category_l1": "整体定位与规划逻辑",
+    "category_l2": "到达与交通组织",
+    "tags": [
+      "B1",
+      "地铁客流",
+      "高效动线",
+      "业态布局"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "medium",
+    "rule_text": "B1层应通过高效动线实现地铁客流的高效转化，优先深挖地铁流量价值；同时可布局超前切小铺、零售生活杂品、珠宝等适配通勤客群的业态，并结合新能源集合区、地库联通等方式增强体验和比选效率。",
+    "interpretation": "这条规则强调B1不是被动承接层，而是主动转化交通流量的经营层。对TOD项目尤其关键。",
+    "evidence_requirement": "需要识别B1层动线、外部交通接驳关系及B1主力业态位置。",
+    "diagnosis_targets": [
+      "circulation",
+      "anchor_store",
+      "parking",
+      "feature_space"
+    ],
+    "trigger_clues": [
+      "B1流线割裂",
+      "B1未承担有效客流转化",
+      "B1与地铁/停车导入关系弱"
+    ],
+    "output_template": {
+      "issue_title_hint": "B1层的交通流量转化价值尚未充分释放",
+      "issue_body_hint": "当前B1层在交通客流承接和商业转化上的主动性偏弱，可能影响整体运营效率。",
+      "recommendation_hint": "建议围绕通勤导流和B1经营逻辑，补强高效动线及匹配业态。"
+    },
+    "source_excerpt": "B1-地铁客流的高效转化：高效动线，极致切铺，深挖地铁流量价值；深挖主力店流量，超前切小铺。",
+    "notes": "适用于TOD或强交通导入项目。"
+  },
+  {
+    "rule_id": "LF-C2-LOW-EFFICIENCY-END-0001",
+    "title": "转角与尽端低效空间应优先转化为有效经营面积",
+    "source_type": "longfor_c2",
+    "source_file": "40.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "40.png",
+      "region_hint": "案例平面对比和热力图区"
+    },
+    "category_l1": "租户落位与铺位效率",
+    "category_l2": "低坪效大铺优化",
+    "tags": [
+      "转角",
+      "尽端",
+      "低效空间",
+      "坪效"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "medium",
+    "rule_text": "当影院挑空空间、塔楼端头空间或其他转角/尽端空间产生价值浪费时，应优先通过补板、边界重组、功能补入等方式转化为可经营的有效面积，提升坪效并延续商业氛围。",
+    "interpretation": "这是非常适合做AI诊断的规则类型，因为它对形态和经营效率都有直接影响，也容易在图面上观察到。",
+    "evidence_requirement": "需要定位转角/尽端空间、主力店边界和相邻流线强弱。",
+    "diagnosis_targets": [
+      "void_space",
+      "anchor_store",
+      "circulation"
+    ],
+    "trigger_clues": [
+      "端头面积较大但无经营功能",
+      "转角空间与主流线脱节",
+      "热力或主流线无法有效覆盖端头"
+    ],
+    "output_template": {
+      "issue_title_hint": "端头或转角空间存在价值未充分释放的问题",
+      "issue_body_hint": "当前方案在关键端头或转角位置仍有低效空间迹象，影响租赁效率和商业氛围延续。",
+      "recommendation_hint": "建议结合结构与消防约束，通过补板、边界重组或业态调整释放有效经营面积。"
+    },
+    "source_excerpt": "原影院挑空空间与塔楼端头空间价值浪费，通过补板增加租赁面积，提升坪效，延续商业氛围。",
+    "notes": "适合作为端头和异形空间优化诊断规则。"
+  },
+  {
+    "rule_id": "LF-C2-MULTI-KIOSK-0001",
+    "title": "多经点位应根据楼层、位置与业态控制数量和尺度",
+    "source_type": "longfor_c2",
+    "source_file": "42.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "42.png",
+      "region_hint": "各楼层多经点位控制原则表"
+    },
+    "category_l1": "空间布局与体验场景",
+    "category_l2": "多经点位",
+    "tags": [
+      "多经",
+      "点位",
+      "通道宽度",
+      "临中庭"
+    ],
+    "applicable_asset_types": [
+      "mall"
+    ],
+    "judgement_type": "hard_rule",
+    "severity_default": "medium",
+    "rule_text": "多经点位的设置应依据所在楼层、位置和业态最终确定控制原则与面积尺寸。地下商业层零售多经宜无遮挡岛柜并控制与墙边距离；首层宜靠近入口、正对扶梯到达点或扶梯下方，次中庭集中区可相对允许；标准零售层宜位于正对扶梯、靠近中庭或连桥位置，并严格控制点位连续度与临中庭过近问题；餐饮及影院大厅层建议位于餐饮流量门口或影院前口。",
+    "interpretation": "虽然具体尺寸还需要更细的条文校核，但点位位置原则已经足以形成首轮错误指出或优化建议。",
+    "evidence_requirement": "需要识别扶梯、中庭、入口、连桥和大厅口位置，以及疑似多经点位位置。",
+    "diagnosis_targets": [
+      "escalator",
+      "atrium",
+      "main_entry",
+      "feature_space"
+    ],
+    "trigger_clues": [
+      "多经连续设置过多",
+      "多经贴近中庭主界面",
+      "点位阻断主要客流或压缩通行宽度"
+    ],
+    "output_template": {
+      "issue_title_hint": "多经点位与主要空间节点的关系需要优化",
+      "issue_body_hint": "当前多经点位设置可能对通行、展示或节点体验产生干扰。",
+      "recommendation_hint": "建议根据楼层属性、扶梯节点和中庭界面重新校准点位位置和数量。"
+    },
+    "source_excerpt": "多经点位的研究基于所在楼层、位置、业态最终确定其控制原则和面积尺寸。",
+    "notes": "可先用于原则性判断，后续再补充更精细尺寸规则。"
+  },
+  {
+    "rule_id": "LF-C2-PARKING-EFFICIENCY-0001",
+    "title": "停车位配比应与周转率协同优化，避免无效地下成本",
+    "source_type": "longfor_c2",
+    "source_file": "22.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "22.png",
+      "region_hint": "停车指标压降分析区"
+    },
+    "category_l1": "建造标准与安全底线",
+    "category_l2": "停车与成本",
+    "tags": [
+      "停车",
+      "周转率",
+      "地下成本",
+      "配比"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "low",
+    "rule_text": "停车位配置应结合项目区位、定位和实际周转率综合判断，避免机械追求高配比导致地下车库面积和成本过大。若车位周转率偏低，应优先优化配比和组织效率，以降低隐性成本。",
+    "interpretation": "这类规则更适合作为顾问式提示，不一定直接出硬错误，但对TOD项目和城市中心项目有较强参考价值。",
+    "evidence_requirement": "需要停车层平面、车位规模和项目区位定位信息支持。",
+    "diagnosis_targets": [
+      "parking"
+    ],
+    "trigger_clues": [
+      "地下停车面积明显偏大",
+      "TOD项目仍采用郊区型配比逻辑",
+      "停车层与上部经营价值不匹配"
+    ],
+    "output_template": {
+      "issue_title_hint": "地下停车规模与项目实际需求的匹配度值得复核",
+      "issue_body_hint": "当前地下停车配置可能存在与项目区位和周转效率不完全匹配的情况。",
+      "recommendation_hint": "建议结合周转率、TOD属性和运营需求复核地下停车规模与配比。"
+    },
+    "source_excerpt": "P2/P3项目应极致压缩地库面积和车位配比，保证车位周转率位于合理区间。",
+    "notes": "适用于首轮总体评估，不依赖精细建模。"
+  },
+  {
+    "rule_id": "LF-STD-CIRCULATION-0001",
+    "title": "一字动线与环形动线应控制在合理进深与长度区间",
+    "source_type": "longfor_standard",
+    "source_file": "2024天街建标.pdf",
+    "source_locator": {
+      "page": 6,
+      "image_name": null,
+      "region_hint": "动线类型条目"
+    },
+    "category_l1": "动线与客流分发",
+    "category_l2": "主流线尺度",
+    "tags": [
+      "一字动线",
+      "环形动线",
+      "进深",
+      "长度"
+    ],
+    "applicable_asset_types": [
+      "mall"
+    ],
+    "judgement_type": "hard_rule",
+    "severity_default": "high",
+    "rule_text": "当天街采用一字动线时，宜控制平均进深在62m至70m；采用环形动线时，宜控制平均进深在110m至140m；动线长度宜控制在280m至400m之间。",
+    "interpretation": "这是可直接进入尺度校核的规则。首轮如果无法精确量化，也可先作为需要重点复核的硬约束提示。",
+    "evidence_requirement": "需要总平或楼层平面的主流线形态和基本尺度信息。",
+    "diagnosis_targets": [
+      "circulation"
+    ],
+    "trigger_clues": [
+      "一字动线过长",
+      "一字动线进深明显偏薄或偏厚",
+      "环形动线尺度失衡"
+    ],
+    "output_template": {
+      "issue_title_hint": "主流线尺度需要与建标区间进一步校核",
+      "issue_body_hint": "当前主流线组织已经较明确，但其进深与长度是否落在适宜区间仍需重点复核。",
+      "recommendation_hint": "建议补充平面尺度校核，验证主流线长度和平均进深是否满足建标控制要求。"
+    },
+    "source_excerpt": "当单一动线时，宜平均进深62m-70m；当环形动线时，宜平均进深110m-140m；动线长度宜控制在280-400m之间。",
+    "notes": "来源于 2024 天街建标第 6 页。"
+  },
+  {
+    "rule_id": "LF-STD-CONCOURSE-0001",
+    "title": "公共连廊应具备围合感，且室内连廊净宽和净高满足下限",
+    "source_type": "longfor_standard",
+    "source_file": "2024天街建标.pdf",
+    "source_locator": {
+      "page": 6,
+      "image_name": null,
+      "region_hint": "公共连廊条目"
+    },
+    "category_l1": "空间布局与体验场景",
+    "category_l2": "公共连廊",
+    "tags": [
+      "连廊",
+      "净宽",
+      "净高",
+      "围合感"
+    ],
+    "applicable_asset_types": [
+      "mall"
+    ],
+    "judgement_type": "hard_rule",
+    "severity_default": "high",
+    "rule_text": "两端均为商业室内空间的公共连廊应为具有封闭围护结构的室内空间；大商业MALL之间的连廊净宽宜不小于12m；大小MALL之间的地下连廊经营区净高应不小于2.7m，经营区面积范围净高宜不小于3.2m。",
+    "interpretation": "该条适合用于检查跨体量连廊、连桥和地下经营连通空间的基本尺度与体验底线。",
+    "evidence_requirement": "需要识别是否存在连廊/连桥，以及其经营属性和基础尺度。",
+    "diagnosis_targets": [
+      "circulation",
+      "feature_space"
+    ],
+    "trigger_clues": [
+      "连廊尺度狭窄",
+      "连廊缺乏围合感",
+      "地下连廊净高疑似不足"
+    ],
+    "output_template": {
+      "issue_title_hint": "公共连廊的空间品质和基础尺度需要重点校核",
+      "issue_body_hint": "当前方案中的连廊或连通空间若尺度不足，可能影响客流舒适度和经营界面价值。",
+      "recommendation_hint": "建议复核连廊净宽、净高和围合方式，并避免将其做成低品质过道空间。"
+    },
+    "source_excerpt": "大MALL之间的连廊宽度应≥12m；大小MALL之间的地下连廊经营区净高应≥2.7m，经营区面积范围净高≥3.2m。",
+    "notes": "来源于 2024 天街建标第 6 页。"
+  }
+]

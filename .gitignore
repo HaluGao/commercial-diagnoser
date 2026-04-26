@@ -1,0 +1,13 @@
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+.env
+.streamlit/secrets.toml
+.streamlit/credentials.toml
+/data/projects/*.json
+!/data/projects/.gitkeep

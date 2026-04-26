@@ -1,0 +1,483 @@
+{
+  "document_id": "huishan_tod_0409",
+  "project_name": "惠山TOD项目",
+  "input_files": [
+    {
+      "path": "/Users/halu/Library/Mobile Documents/com~apple~CloudDocs/Work/2026 work/02 AI Projects/01 平面诊断（基于集团标准）/资料/项目平面参考/惠山TOD平面汇总-0409.pdf",
+      "file_type": "pdf",
+      "page_count": 11
+    }
+  ],
+  "pages": [
+    {
+      "page_index": 0,
+      "page_label": "惠山TOD项目",
+      "text_blocks": [
+        {
+          "text": "惠山TOD项目",
+          "confidence": 1.0,
+          "bbox": null
+        }
+      ],
+      "visual_regions": [
+        {
+          "region_id": "p0-r1",
+          "region_type": "diagram",
+          "summary": "项目封面页，当前不作为首轮诊断重点。",
+          "bbox": null
+        }
+      ]
+    },
+    {
+      "page_index": 1,
+      "page_label": "总平面图",
+      "text_blocks": [
+        {
+          "text": "总平面图",
+          "confidence": 1.0,
+          "bbox": null
+        }
+      ],
+      "visual_regions": [
+        {
+          "region_id": "htod-p1-east-arrival",
+          "region_type": "plan",
+          "summary": "东侧TOD到达与主界面：用于观察东侧主界面是否具备承载主入口和导流界面的条件。",
+          "bbox": [
+            650,
+            40,
+            940,
+            500
+          ]
+        },
+        {
+          "region_id": "htod-p1-south-waterfront",
+          "region_type": "plan",
+          "summary": "南侧滨水界面：用于观察商业主体与南侧滨水空间的打开关系。",
+          "bbox": [
+            230,
+            180,
+            760,
+            500
+          ]
+        }
+      ]
+    },
+    {
+      "page_index": 2,
+      "page_label": "B2F平面图",
+      "text_blocks": [
+        {
+          "text": "B2F平面图",
+          "confidence": 1.0,
+          "bbox": null
+        }
+      ],
+      "visual_regions": [
+        {
+          "region_id": "p2-r1",
+          "region_type": "plan",
+          "summary": "B2层以大面积停车为主，平面整体与上部商业轮廓一致，停车组织连续。",
+          "bbox": null
+        }
+      ]
+    },
+    {
+      "page_index": 3,
+      "page_label": "B1F平面图",
+      "text_blocks": [
+        {
+          "text": "B1F平面图",
+          "confidence": 1.0,
+          "bbox": null
+        }
+      ],
+      "visual_regions": [
+        {
+          "region_id": "htod-p3-west-anchor",
+          "region_type": "plan",
+          "summary": "B1西侧主力功能区：用于观察B1西侧主力区的规模和前场关系。",
+          "bbox": [
+            80,
+            105,
+            420,
+            350
+          ]
+        },
+        {
+          "region_id": "htod-p3-east-node",
+          "region_type": "plan",
+          "summary": "B1东端节点与口部：用于观察B1层东端节点是否具备客流转化条件。",
+          "bbox": [
+            620,
+            120,
+            900,
+            360
+          ]
+        }
+      ]
+    },
+    {
+      "page_index": 4,
+      "page_label": "1F平面图",
+      "text_blocks": [
+        {
+          "text": "1F平面图",
+          "confidence": 1.0,
+          "bbox": null
+        }
+      ],
+      "visual_regions": [
+        {
+          "region_id": "htod-p4-west-anchor",
+          "region_type": "plan",
+          "summary": "1F西侧主力店与前场：用于观察首层西侧大铺/主力店与前场关系。",
+          "bbox": [
+            95,
+            110,
+            340,
+            370
+          ]
+        },
+        {
+          "region_id": "htod-p4-main-spine",
+          "region_type": "plan",
+          "summary": "1F主流线中段：用于观察首层主流线是否存在节奏变化和中段疲劳风险。",
+          "bbox": [
+            220,
+            110,
+            760,
+            310
+          ]
+        },
+        {
+          "region_id": "htod-p4-east-turn",
+          "region_type": "plan",
+          "summary": "1F东端转折与节点：用于观察首层东端转折及其与外部界面的连接关系。",
+          "bbox": [
+            640,
+            100,
+            925,
+            460
+          ]
+        }
+      ]
+    },
+    {
+      "page_index": 5,
+      "page_label": "2F平面图",
+      "text_blocks": [
+        {
+          "text": "2F平面图",
+          "confidence": 1.0,
+          "bbox": null
+        }
+      ],
+      "visual_regions": [
+        {
+          "region_id": "htod-p5-west-node",
+          "region_type": "plan",
+          "summary": "2F西端环形节点：用于观察西端扶梯与节点的一体化组织。",
+          "bbox": [
+            105,
+            110,
+            320,
+            300
+          ]
+        },
+        {
+          "region_id": "htod-p5-central-atrium",
+          "region_type": "plan",
+          "summary": "2F中部中庭与连桥：用于观察二层中庭净宽、节奏和扶梯联系。",
+          "bbox": [
+            300,
+            105,
+            650,
+            290
+          ]
+        },
+        {
+          "region_id": "htod-p5-east-oval",
+          "region_type": "plan",
+          "summary": "2F东端椭圆节点：用于观察东端大尺度节点的界面和动线转换效率。",
+          "bbox": [
+            620,
+            95,
+            920,
+            380
+          ]
+        }
+      ]
+    },
+    {
+      "page_index": 6,
+      "page_label": "3F平面图",
+      "text_blocks": [
+        {
+          "text": "3F平面图",
+          "confidence": 1.0,
+          "bbox": null
+        }
+      ],
+      "visual_regions": [
+        {
+          "region_id": "htod-p6-east-complex",
+          "region_type": "plan",
+          "summary": "3F东端复合节点：用于观察三层东端功能复合和端头风险。",
+          "bbox": [
+            650,
+            90,
+            925,
+            430
+          ]
+        }
+      ]
+    },
+    {
+      "page_index": 7,
+      "page_label": "4F平面图",
+      "text_blocks": [
+        {
+          "text": "4F平面图",
+          "confidence": 1.0,
+          "bbox": null
+        }
+      ],
+      "visual_regions": [
+        {
+          "region_id": "htod-p7-east-branches",
+          "region_type": "plan",
+          "summary": "4F东端支路与端头：用于观察四层东端支路、端头和异形空间是否存在价值释放不足。",
+          "bbox": [
+            620,
+            95,
+            920,
+            430
+          ]
+        }
+      ]
+    },
+    {
+      "page_index": 8,
+      "page_label": "5F平面图",
+      "text_blocks": [
+        {
+          "text": "5F平面图",
+          "confidence": 1.0,
+          "bbox": null
+        }
+      ],
+      "visual_regions": []
+    },
+    {
+      "page_index": 9,
+      "page_label": "6F平面图",
+      "text_blocks": [
+        {
+          "text": "6F平面图",
+          "confidence": 1.0,
+          "bbox": null
+        }
+      ],
+      "visual_regions": []
+    },
+    {
+      "page_index": 10,
+      "page_label": "6F夹层平面图",
+      "text_blocks": [
+        {
+          "text": "6F夹层平面图",
+          "confidence": 1.0,
+          "bbox": null
+        }
+      ],
+      "visual_regions": []
+    }
+  ],
+  "recognized_elements": [
+    {
+      "element_id": "el-001",
+      "element_type": "circulation",
+      "description": "项目商业主体呈线性主流线组织，主流线从西侧贯穿至东端，并在东端发生转折延展。",
+      "page_index": 4,
+      "region_id": "p4-r1",
+      "confidence": 0.93
+    },
+    {
+      "element_id": "el-002",
+      "element_type": "anchor_store",
+      "description": "首层西侧存在大面积主力功能区，面积和体量明显高于标准小铺。",
+      "page_index": 4,
+      "region_id": "p4-r2",
+      "confidence": 0.84
+    },
+    {
+      "element_id": "el-003",
+      "element_type": "atrium",
+      "description": "二层中部存在椭圆形中庭，是主流线中的核心聚客节点。",
+      "page_index": 5,
+      "region_id": "p5-r1",
+      "confidence": 0.91
+    },
+    {
+      "element_id": "el-004",
+      "element_type": "atrium",
+      "description": "二层东端存在大尺度椭圆形空洞节点，具有较强的空间识别性。",
+      "page_index": 5,
+      "region_id": "p5-r1",
+      "confidence": 0.9
+    },
+    {
+      "element_id": "el-005",
+      "element_type": "escalator",
+      "description": "多个扶梯沿一二层主流线和节点空间布置，形成较强的竖向联系。",
+      "page_index": 5,
+      "region_id": "p5-r2",
+      "confidence": 0.88
+    },
+    {
+      "element_id": "el-006",
+      "element_type": "feature_space",
+      "description": "总平南侧形成大面积滨水景观界面，可作为商业外摆或特色空间联动界面。",
+      "page_index": 1,
+      "region_id": "p1-r1",
+      "confidence": 0.76
+    },
+    {
+      "element_id": "el-007",
+      "element_type": "main_entry",
+      "description": "东侧城市主界面与TOD方向存在高概率主到达面，是关键对外展示和导流界面。",
+      "page_index": 1,
+      "region_id": "p1-r2",
+      "confidence": 0.68
+    },
+    {
+      "element_id": "el-008",
+      "element_type": "parking",
+      "description": "B2层以大规模连续停车布局为主，停车供给骨架较完整。",
+      "page_index": 2,
+      "region_id": "p2-r1",
+      "confidence": 0.95
+    },
+    {
+      "element_id": "el-009",
+      "element_type": "feature_space",
+      "description": "三层东端出现较复合的空间节点，疑似体验型或社交型业态聚集区。",
+      "page_index": 6,
+      "region_id": "p6-r1",
+      "confidence": 0.63
+    }
+  ],
+  "derived_facts": [
+    {
+      "fact_id": "fact-001",
+      "topic": "整体商业骨架",
+      "statement": "惠山TOD项目的商业主体呈较强的一字型线性骨架，西中东节点串联明确，具备连续购物动线的基础条件。",
+      "supporting_evidence": [
+        {
+          "page_index": 4,
+          "region_id": "p4-r1",
+          "reason": "首层平面可见清晰的连续主流线。"
+        },
+        {
+          "page_index": 5,
+          "region_id": "p5-r1",
+          "reason": "二层主流线与首层高度吻合，并由多个节点增强识别性。"
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "fact_id": "fact-002",
+      "topic": "节点组织",
+      "statement": "项目在二层形成多个中庭或空洞节点，节点间距较均匀，有利于延长浏览路径并形成空间节奏。",
+      "supporting_evidence": [
+        {
+          "page_index": 5,
+          "region_id": "p5-r1",
+          "reason": "西端环形节点、中部椭圆中庭、东端大尺度节点同时存在。"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "fact_id": "fact-003",
+      "topic": "主力店落位",
+      "statement": "首层西侧配置大面积主力功能区，具备承担端部引流和稳定客流锚点的潜力。",
+      "supporting_evidence": [
+        {
+          "page_index": 4,
+          "region_id": "p4-r2",
+          "reason": "西端铺位面积显著大于标准商铺。"
+        },
+        {
+          "page_index": 3,
+          "region_id": "p3-r1",
+          "reason": "B1层西侧同样出现大面积功能区，说明该端具有较强的复合主力承载能力。"
+        }
+      ],
+      "confidence": 0.83
+    },
+    {
+      "fact_id": "fact-004",
+      "topic": "TOD与城市界面",
+      "statement": "项目东侧面向城市主界面，且存在较明显的TOD接驳可能，是首轮诊断中需要重点审视的主到达界面。",
+      "supporting_evidence": [
+        {
+          "page_index": 1,
+          "region_id": "p1-r2",
+          "reason": "总平东侧城市界面关系突出，图面显示接驳通道和大尺度城市界面。"
+        }
+      ],
+      "confidence": 0.69
+    },
+    {
+      "fact_id": "fact-005",
+      "topic": "滨水特色空间潜力",
+      "statement": "项目南侧具备较强滨水景观界面，若与商业界面协同得当，有机会形成差异化体验价值。",
+      "supporting_evidence": [
+        {
+          "page_index": 1,
+          "region_id": "p1-r1",
+          "reason": "总平南侧存在连续河道和景观空间。"
+        }
+      ],
+      "confidence": 0.74
+    },
+    {
+      "fact_id": "fact-006",
+      "topic": "高层端头与支路复杂性",
+      "statement": "三层及以上东端空间结构比中段更复杂，后续需要重点检查端头价值释放、动线连续性和消极空间风险。",
+      "supporting_evidence": [
+        {
+          "page_index": 6,
+          "region_id": "p6-r1",
+          "reason": "三层东端出现复合节点和较复杂边界。"
+        },
+        {
+          "page_index": 7,
+          "region_id": "p7-r1",
+          "reason": "四层东端存在更强的支路空间和端头组织。"
+        }
+      ],
+      "confidence": 0.79
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "东侧主入口精确位置",
+      "reason": "当前仅基于总平和楼层图整体判断东侧界面重要，但尚未读取更高清标注和入口文字。",
+      "recommended_followup": "后续增加更高分辨率页面切块，专门识别入口标注和到达流线。"
+    },
+    {
+      "topic": "业态颜色图例含义",
+      "reason": "图纸中不同颜色可能对应业态分类，但当前未解析图例和文字标识。",
+      "recommended_followup": "补做图例和铺位文字识别，以区分主力店、次主力店、普通零售、餐饮和配套。"
+    },
+    {
+      "topic": "三层东端复合节点真实业态",
+      "reason": "当前仅从形态上判断其为体验型节点，缺少直接文字证据。",
+      "recommended_followup": "结合高分辨率切图与页内文字做二次识别。"
+    }
+  ]
+}

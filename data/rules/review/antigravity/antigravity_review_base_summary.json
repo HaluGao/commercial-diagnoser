@@ -1,0 +1,34 @@
+{
+  "input_imported_rule_count": 569,
+  "formal_rule_count": 28,
+  "review_base_count": 569,
+  "review_status_counts": {
+    "auto_screened": 569
+  },
+  "review_bucket_counts": {
+    "candidate_rule": 362,
+    "case_specific_example": 132,
+    "needs_category_refine": 64,
+    "needs_manual_split": 11
+  },
+  "merge_recommendation_counts": {
+    "candidate_for_foundation_merge": 362,
+    "hold_as_reference_only": 132,
+    "keep_in_review_base": 75
+  },
+  "category_l1_counts": {
+    "TOD与地下商业": 55,
+    "产品表达与建筑形象": 20,
+    "到达与交通组织": 3,
+    "动线与客流分发": 95,
+    "建造标准与安全底线": 59,
+    "待人工归类": 77,
+    "总纲与价值逻辑": 10,
+    "整体定位与规划逻辑": 20,
+    "景观场景与铺前界面": 4,
+    "租户落位与铺位效率": 164,
+    "空间布局与体验场景": 61,
+    "精装场景": 1
+  },
+  "note": "这是 569 条导入候选规则的首轮自动复核底库，不等同于逐条人工定稿后的正式基础规则库。"
+}

@@ -1,0 +1,413 @@
+[
+  {
+    "rule_id": "LF-C2-VALUE-LOGIC-0001",
+    "title": "方案诊断应同时校核生意逻辑、客户体验与成本效率",
+    "source_type": "longfor_c2",
+    "source_file": "1.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "1.png",
+      "region_hint": "总纲首页与价值框架说明"
+    },
+    "category_l1": "总纲与价值逻辑",
+    "category_l2": "综合评价框架",
+    "tags": [
+      "生意逻辑",
+      "客户体验",
+      "成本效率",
+      "综合判断"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "medium",
+    "rule_text": "商业方案诊断不应只看平面完整性或单项技术指标，而应同时校核生意逻辑、客户体验、产品表达、技术实现与成本效率的协同性，避免出现单一维度优化却损伤整体价值的情况。",
+    "interpretation": "这是基础总控规则，用于约束后续诊断口径，避免只按审图式条款输出结论。",
+    "evidence_requirement": "需要总平、平面、效果图和必要的指标说明共同支撑综合判断。",
+    "diagnosis_targets": [
+      "circulation",
+      "main_entry",
+      "anchor_store",
+      "feature_space",
+      "facade",
+      "parking"
+    ],
+    "trigger_clues": [
+      "只满足技术底线但经营逻辑不清",
+      "单点体验强化却破坏整体客流组织",
+      "高成本投入未形成对应经营价值"
+    ],
+    "output_template": {
+      "issue_title_hint": "方案的综合价值框架仍需进一步校准",
+      "issue_body_hint": "当前方案在局部技术或表达上已有基础，但生意逻辑、客户体验与成本效率之间的协同关系还不够稳。",
+      "recommendation_hint": "建议回到项目核心价值目标，统一校核经营逻辑、空间体验和建造效率。"
+    },
+    "source_excerpt": "从建造标准走向生意逻辑与客户视角，形成产品、客户、成本和增量价值的一体判断框架。",
+    "notes": "来源于 C2 工具总纲章节。"
+  },
+  {
+    "rule_id": "LF-C2-HIGH-VALUE-FRONTAGE-0001",
+    "title": "高价值城市界面应优先承接高价值商业功能与主到达界面",
+    "source_type": "longfor_c2",
+    "source_file": "10.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "10.png",
+      "region_hint": "整体规划与主界面策略页"
+    },
+    "category_l1": "整体定位与规划逻辑",
+    "category_l2": "高价值界面分配",
+    "tags": [
+      "主界面",
+      "高价值界面",
+      "入口",
+      "功能分配"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "high",
+    "rule_text": "面向城市主干道、轨道接驳、广场或滨水等高价值界面，应优先布置主入口、主节点、展示性业态或高识别界面，不宜被后勤面、弱展示性功能或无效侧界面占用。",
+    "interpretation": "这是整体规划阶段非常关键的规则，适合总平与首层联合诊断。",
+    "evidence_requirement": "需要识别城市主界面、主要到达方向、首层主入口和沿街界面的功能分配。",
+    "diagnosis_targets": [
+      "main_entry",
+      "secondary_entry",
+      "circulation",
+      "facade",
+      "anchor_store"
+    ],
+    "trigger_clues": [
+      "高价值界面没有形成主入口",
+      "主界面被弱展示性功能占用",
+      "城市主界面与项目主流线脱节"
+    ],
+    "output_template": {
+      "issue_title_hint": "高价值界面的资源配置仍需优化",
+      "issue_body_hint": "当前方案对主界面和高价值到达面的利用还不够充分，未完全转化为商业识别与导流优势。",
+      "recommendation_hint": "建议重新梳理主界面资源，把主入口、主节点与高展示价值功能优先落在高价值界面上。"
+    },
+    "source_excerpt": "整体规划阶段需先判断项目主界面、主入口与主客流方向，再组织商业骨架和功能分配。",
+    "notes": "来源于 C2 工具整体规划章节。"
+  },
+  {
+    "rule_id": "LF-C2-SCENE-IN-SKELETON-0001",
+    "title": "广场、下沉、街巷与景观场景应嵌入商业骨架而非孤立设置",
+    "source_type": "longfor_c2",
+    "source_file": "15.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "15.png",
+      "region_hint": "场景与骨架协同示意"
+    },
+    "category_l1": "整体定位与规划逻辑",
+    "category_l2": "场景嵌入式规划",
+    "tags": [
+      "广场",
+      "下沉",
+      "街巷",
+      "场景空间"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use",
+      "street_commerce"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "medium",
+    "rule_text": "广场、下沉庭院、街巷、景观内院和主题场景应在整体规划阶段与商业主流线、主入口和节点系统一体设计，不宜作为方案后期附加的孤立景观构件。",
+    "interpretation": "这条规则用于判断场景空间是否真正服务经营与导流，而非停留在形式层面。",
+    "evidence_requirement": "需要总平、首层平面和场景效果图共同判断。",
+    "diagnosis_targets": [
+      "circulation",
+      "feature_space",
+      "main_entry"
+    ],
+    "trigger_clues": [
+      "场景空间与主流线脱节",
+      "下沉或广场不可达或不可停留",
+      "主题空间只承担展示功能没有经营联系"
+    ],
+    "output_template": {
+      "issue_title_hint": "场景空间与商业骨架的耦合度需要增强",
+      "issue_body_hint": "当前场景节点已具备一定形象表达，但与主流线和经营界面的联动还不够强。",
+      "recommendation_hint": "建议把广场、下沉和主题场景重新放回商业骨架中，强化导流、停留和经营联动。"
+    },
+    "source_excerpt": "下沉、广场、街巷和景观模块应前置进入总图，并服务于经营价值与客流组织。",
+    "notes": "来源于 C2 工具整体规划与场景组织章节。"
+  },
+  {
+    "rule_id": "LF-C2-DISTRIBUTION-NODES-0001",
+    "title": "入口、节点、中庭与扶梯应形成连续客流分发系统",
+    "source_type": "longfor_c2",
+    "source_file": "43.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "43.png",
+      "region_hint": "客流分发章节总纲"
+    },
+    "category_l1": "动线与客流分发",
+    "category_l2": "节点系统",
+    "tags": [
+      "客流分发",
+      "入口",
+      "中庭",
+      "扶梯"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "hard_rule",
+    "severity_default": "high",
+    "rule_text": "商业主入口、次入口、核心节点、中庭和自动扶梯不应各自孤立设置，而应形成连续的客流分发系统，使进入、识别、停留和换层在体验上保持顺畅递进。",
+    "interpretation": "该条适合跨总平、首层和标准层联合诊断，是主流线和换层系统的总控规则。",
+    "evidence_requirement": "需要至少两层以上平面和主入口体系共同支撑判断。",
+    "diagnosis_targets": [
+      "main_entry",
+      "secondary_entry",
+      "atrium",
+      "escalator",
+      "circulation"
+    ],
+    "trigger_clues": [
+      "入口进入后无法快速识别核心节点",
+      "扶梯未接入主节点节奏",
+      "中庭节点和换层节点彼此脱节"
+    ],
+    "output_template": {
+      "issue_title_hint": "项目客流分发系统的连续性有待加强",
+      "issue_body_hint": "当前入口、节点和换层系统虽然都有设置，但尚未形成顺畅的连续分发链条。",
+      "recommendation_hint": "建议把主入口、节点、中庭和扶梯放到同一客流系统中联动优化。"
+    },
+    "source_excerpt": "客流分发的核心不是单看扶梯，而是看入口、节点、扶梯与经营界面是否构成连续系统。",
+    "notes": "来源于 C2 工具客流分发章节。"
+  },
+  {
+    "rule_id": "LF-C2-SUNKEN-CONVERSION-0001",
+    "title": "下沉空间应兼顾换层、识别与经营转化，不宜只做通行节点",
+    "source_type": "longfor_c2",
+    "source_file": "52.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "52.png",
+      "region_hint": "下沉空间与地下导流专题"
+    },
+    "category_l1": "TOD与地下商业",
+    "category_l2": "下沉空间转化",
+    "tags": [
+      "下沉空间",
+      "地下商业",
+      "换层",
+      "经营转化"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "medium",
+    "rule_text": "下沉空间既应承担地上地下换层与到达识别功能，也应具备停留、展示、活动或经营转化能力，不宜只作为单纯通行节点或被消极空间包围。",
+    "interpretation": "适合TOD和地下商业较强项目，也适合总平和B1联合判断。",
+    "evidence_requirement": "需要总平、B1平面和下沉场景图共同支撑。",
+    "diagnosis_targets": [
+      "feature_space",
+      "circulation",
+      "main_entry",
+      "atrium"
+    ],
+    "trigger_clues": [
+      "下沉空间只有交通功能",
+      "下沉周边界面缺乏经营性",
+      "下沉节点不能形成有效停留"
+    ],
+    "output_template": {
+      "issue_title_hint": "下沉空间的经营转化能力仍需加强",
+      "issue_body_hint": "当前下沉空间更多承担换层或到达作用，但停留和经营转化价值尚未完全建立。",
+      "recommendation_hint": "建议同步检视下沉空间的经营界面、活动承载和换层识别关系。"
+    },
+    "source_excerpt": "TOD与地下商业章节强调下沉空间需要同时服务导流、识别和经营转化。",
+    "notes": "来源于 C2 工具地下商业与下沉空间专题。"
+  },
+  {
+    "rule_id": "LF-C2-PODIUM-CORNER-0001",
+    "title": "低区基座与转角界面应承担城市识别和商业展示双重任务",
+    "source_type": "longfor_c2",
+    "source_file": "73.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "73.png",
+      "region_hint": "低区基座与转角表达专题"
+    },
+    "category_l1": "产品表达与建筑形象",
+    "category_l2": "基座与转角界面",
+    "tags": [
+      "基座",
+      "转角",
+      "城市识别",
+      "商业展示"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "medium",
+    "rule_text": "低区基座和转角界面不应仅满足围护和造型需要，而应承担城市识别、品牌展示、入口导向和连续商业界面的双重任务，避免转角被弱化成普通侧立面。",
+    "interpretation": "适合立面、总平和首层联合判断，尤其适合城市展示面和沿街转角评价。",
+    "evidence_requirement": "需要立面图、首层沿街界面和主要到达方向信息。",
+    "diagnosis_targets": [
+      "facade",
+      "main_entry",
+      "feature_space"
+    ],
+    "trigger_clues": [
+      "转角界面识别性偏弱",
+      "基座表达与首层经营界面脱节",
+      "重要转角未形成有效展示和导向"
+    ],
+    "output_template": {
+      "issue_title_hint": "基座与转角界面的城市展示价值仍有提升空间",
+      "issue_body_hint": "当前低区基座或转角界面的表达尚不足以形成强识别和强展示效果。",
+      "recommendation_hint": "建议强化转角和基座的导向、展示和品牌表达，使其与首层经营界面协同。"
+    },
+    "source_excerpt": "低区基座、转角和檐口均应服务于入口识别、城市界面和商业表情。",
+    "notes": "来源于 C2 工具产品表达章节。"
+  },
+  {
+    "rule_id": "LF-C2-MATERIAL-HIERARCHY-0001",
+    "title": "立面材质与构件系统应形成清晰层级，避免碎片化拼贴",
+    "source_type": "longfor_c2",
+    "source_file": "77.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "77.png",
+      "region_hint": "材质与构件系统专题"
+    },
+    "category_l1": "产品表达与建筑形象",
+    "category_l2": "材质与构件系统",
+    "tags": [
+      "材质",
+      "构件",
+      "立面系统",
+      "层级"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "low",
+    "rule_text": "商业立面的材质、分缝、幕墙模块、构件尺度和夜景表达应形成清晰主次层级，既要保证品牌感和城市性，也应避免零散拼贴、主次不清或实施难度过高的问题。",
+    "interpretation": "这是立面评价中的顾问式规则，更适合优化建议而非硬错误。",
+    "evidence_requirement": "需要立面图、效果图或材质分析图支撑判断。",
+    "diagnosis_targets": [
+      "facade"
+    ],
+    "trigger_clues": [
+      "材质系统过于碎片化",
+      "构件和分缝逻辑不统一",
+      "主次界面表达混乱"
+    ],
+    "output_template": {
+      "issue_title_hint": "立面材质和构件系统的层级关系需要进一步梳理",
+      "issue_body_hint": "当前立面表达已有一定意图，但材质、构件和主次界面的关系还不够清晰。",
+      "recommendation_hint": "建议统一材质、构件和分缝逻辑，建立更清楚的界面层级和实施策略。"
+    },
+    "source_excerpt": "材质、幕墙模块和构件系统应服务品牌感、城市性与可实施性的统一。",
+    "notes": "来源于 C2 工具立面材质与构件专题。"
+  },
+  {
+    "rule_id": "LF-C2-INTERIOR-CONSISTENCY-0001",
+    "title": "公区、中庭与高频接触空间应形成统一的精装语言与场景气质",
+    "source_type": "longfor_c2",
+    "source_file": "82.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "82.png",
+      "region_hint": "精装场景章节与中庭、公区示例"
+    },
+    "category_l1": "精装场景",
+    "category_l2": "公区与高频空间",
+    "tags": [
+      "精装",
+      "公区",
+      "中庭",
+      "卫生间"
+    ],
+    "applicable_asset_types": [
+      "mall"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "medium",
+    "rule_text": "中庭、公区走道、卫生间和其他高频接触空间应形成统一的精装语言、材料策略与照明气质，并与整体产品定位和商业场景保持一致，不宜出现空间分裂或气质断档。",
+    "interpretation": "适合效果图和室内专项表达诊断，也能用于支撑顾问式建议。",
+    "evidence_requirement": "需要室内效果图、精装示意或相关专项图支撑。",
+    "diagnosis_targets": [
+      "feature_space",
+      "atrium"
+    ],
+    "trigger_clues": [
+      "中庭和走道气质割裂",
+      "高频空间缺乏统一语言",
+      "精装表达与项目定位不一致"
+    ],
+    "output_template": {
+      "issue_title_hint": "公区与高频空间的精装语言仍需统一",
+      "issue_body_hint": "当前室内场景已具备部分表达基础，但整体精装语言和空间气质还不够连贯。",
+      "recommendation_hint": "建议围绕项目定位统一中庭、公区和高频空间的材料、照明与细部策略。"
+    },
+    "source_excerpt": "精装不是装饰收尾，而是商业气质和停留价值的重要组成部分。",
+    "notes": "来源于 C2 工具精装场景章节。"
+  },
+  {
+    "rule_id": "LF-C2-STOREFRONT-FORECOURT-0001",
+    "title": "铺前界面、外摆与主题场景应共同支撑停留、展示与经营外溢",
+    "source_type": "longfor_c2",
+    "source_file": "99.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "99.png",
+      "region_hint": "铺前群落与外摆专题"
+    },
+    "category_l1": "景观场景与铺前界面",
+    "category_l2": "铺前群落与外摆",
+    "tags": [
+      "铺前界面",
+      "外摆",
+      "停留",
+      "经营外溢"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "street_commerce",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "medium",
+    "rule_text": "铺前界面、外摆区、儿童或餐饮主题场景应共同服务停留、展示、社交和经营外溢，既要形成群落氛围，也应避免侵占主流线或成为只可观看不可使用的装饰界面。",
+    "interpretation": "适合用于评价首层开放界面、餐饮集合区和主题外摆空间。",
+    "evidence_requirement": "需要总平、首层平面和效果图共同支撑。",
+    "diagnosis_targets": [
+      "feature_space",
+      "circulation",
+      "main_entry"
+    ],
+    "trigger_clues": [
+      "铺前空间缺乏停留和展示能力",
+      "外摆与主流线冲突",
+      "主题群落不可运营或不可持续使用"
+    ],
+    "output_template": {
+      "issue_title_hint": "铺前界面与外摆场景的经营外溢能力仍需提升",
+      "issue_body_hint": "当前铺前与外摆空间有一定场景表达，但停留、展示和经营联动还不够充分。",
+      "recommendation_hint": "建议同步优化铺前停留、外摆尺度和主流线关系，使场景空间真正形成经营外溢。"
+    },
+    "source_excerpt": "铺前界面、外摆和主题群落应服务停留、社交、展示和经营外溢。",
+    "notes": "来源于 C2 工具景观场景与铺前界面章节。"
+  }
+]

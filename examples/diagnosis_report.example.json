@@ -1,0 +1,92 @@
+{
+  "report_id": "report-demo-001",
+  "project_info": {
+    "project_name": "示例商业综合体",
+    "input_types": [
+      "pdf"
+    ],
+    "asset_mix": [
+      "mall",
+      "office"
+    ]
+  },
+  "executive_summary": {
+    "overall_view": "方案整体商业骨架已形成，但在端头空间价值释放、流线连续性和局部体验场景强化方面仍有进一步优化空间。",
+    "key_strengths": [
+      "主商业体量较完整，主要业态组织较清晰。",
+      "方案已体现特色空间营造意图。"
+    ],
+    "key_risks": [
+      "局部端头空间未充分释放经营价值。",
+      "部分关键节点与主流线衔接关系偏弱。"
+    ]
+  },
+  "issues": [
+    {
+      "item_id": "issue-001",
+      "title": "关键端头空间经营属性不明确，存在低效使用风险",
+      "category_l1": "租户落位与铺位效率",
+      "category_l2": "低坪效大铺优化",
+      "finding_type": "error",
+      "basis_type": "group_standard",
+      "severity": "medium",
+      "summary": "四层西侧靠近影院的端头区域未见明确经营功能，且与主流线的价值耦合不够，存在空间价值浪费风险。",
+      "detailed_analysis": "结合图面可见，该区域面积不小，但当前边界组织和界面处理尚未体现明确的商业转化策略。如果该区域最终仍以消极空间状态存在，将影响端头价值释放和整体坪效表现。",
+      "evidence_refs": [
+        {
+          "page_index": 3,
+          "region_id": "p3-r1",
+          "description": "四层西侧端头区域，靠近影院边界。"
+        }
+      ],
+      "rule_refs": [
+        "LF-C2-RETAIL-SPACE-0001"
+      ],
+      "recommendation": "建议评估通过补板、边界调整或与相邻主力店协同的方式，将该端头空间转化为有效经营面积，并增强与主流线的关系。",
+      "confidence": 0.79
+    }
+  ],
+  "optimizations": [
+    {
+      "item_id": "opt-001",
+      "title": "可进一步强化端头节点的商业展示与场景吸引力",
+      "category_l1": "空间布局与体验场景",
+      "category_l2": "节点场景优化",
+      "finding_type": "optimization",
+      "basis_type": "general_principle",
+      "severity": "low",
+      "summary": "当前端头节点具备被塑造成目的性场景的潜力，但图面尚未体现足够清晰的空间标签。",
+      "detailed_analysis": "若结合立面展示、节点装置或特色品牌界面进行强化，可进一步提升到达感与停留价值。",
+      "evidence_refs": [
+        {
+          "page_index": 3,
+          "region_id": "p3-r1",
+          "description": "四层端头节点与相邻主流线连接区域。"
+        }
+      ],
+      "rule_refs": [
+        "LF-C2-RETAIL-SPACE-0001"
+      ],
+      "recommendation": "建议把端头节点纳入重点场景策划，强化空间标签与可识别性。",
+      "confidence": 0.67
+    }
+  ],
+  "citations": [
+    {
+      "citation_id": "cite-001",
+      "source_type": "longfor_c2",
+      "source_file": "40.png",
+      "source_locator": "页面中部案例说明区",
+      "quoted_or_paraphrased_text": "转角或尽端低效空间应通过补板、边界重组等方式转化为有效租赁面积，并延续商业氛围。"
+    }
+  ],
+  "appendix": {
+    "evidence_images": [
+      {
+        "image_id": "img-001",
+        "caption": "四层西侧端头空间证据图",
+        "path": "reports/demo-project-001/evidence/p3-r1.png"
+      }
+    ]
+  }
+}

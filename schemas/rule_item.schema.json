@@ -1,0 +1,173 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "commercial_diagnoser/rule_item.schema.json",
+  "title": "Commercial Diagnoser Rule Item",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "rule_id",
+    "source_type",
+    "source_file",
+    "source_locator",
+    "category_l1",
+    "category_l2",
+    "applicable_asset_types",
+    "judgement_type",
+    "severity_default",
+    "rule_text",
+    "interpretation"
+  ],
+  "properties": {
+    "rule_id": {
+      "type": "string",
+      "description": "Stable rule identifier."
+    },
+    "title": {
+      "type": "string"
+    },
+    "source_type": {
+      "type": "string",
+      "enum": [
+        "longfor_c2",
+        "longfor_standard",
+        "public_web",
+        "manual_note",
+        "case_summary"
+      ]
+    },
+    "source_file": {
+      "type": "string"
+    },
+    "source_locator": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "page": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1
+        },
+        "image_name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "region_hint": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "page",
+        "image_name",
+        "region_hint"
+      ]
+    },
+    "category_l1": {
+      "type": "string"
+    },
+    "category_l2": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "default": []
+    },
+    "applicable_asset_types": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "enum": [
+          "mall",
+          "apartment",
+          "hotel",
+          "office",
+          "commercial_street",
+          "mixed_use"
+        ]
+      }
+    },
+    "judgement_type": {
+      "type": "string",
+      "enum": [
+        "hard_rule",
+        "heuristic",
+        "case_pattern"
+      ]
+    },
+    "severity_default": {
+      "type": "string",
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ]
+    },
+    "rule_text": {
+      "type": "string"
+    },
+    "interpretation": {
+      "type": "string",
+      "description": "Plain-language explanation of how the rule should be interpreted."
+    },
+    "evidence_requirement": {
+      "type": "string"
+    },
+    "diagnosis_targets": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "default": []
+    },
+    "trigger_clues": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "default": []
+    },
+    "output_template": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "issue_title_hint": {
+          "type": "string"
+        },
+        "issue_body_hint": {
+          "type": "string"
+        },
+        "recommendation_hint": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "issue_title_hint",
+        "issue_body_hint",
+        "recommendation_hint"
+      ]
+    },
+    "source_excerpt": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}
+

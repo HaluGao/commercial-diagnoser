@@ -1,0 +1,134 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "commercial_diagnoser/checker_review.schema.json",
+  "title": "Commercial Diagnoser Checker Review",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "review_id",
+    "source_report_id",
+    "review_status",
+    "accepted_items",
+    "downgraded_items",
+    "rejected_items",
+    "missing_candidates",
+    "review_notes"
+  ],
+  "properties": {
+    "review_id": {
+      "type": "string"
+    },
+    "source_report_id": {
+      "type": "string"
+    },
+    "review_status": {
+      "type": "string",
+      "enum": [
+        "approved_with_minor_edits",
+        "needs_revision",
+        "insufficient_evidence"
+      ]
+    },
+    "accepted_items": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "downgraded_items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "item_id",
+          "reason",
+          "suggested_change"
+        ],
+        "properties": {
+          "item_id": {
+            "type": "string"
+          },
+          "reason": {
+            "type": "string"
+          },
+          "suggested_change": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "rejected_items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "item_id",
+          "reason"
+        ],
+        "properties": {
+          "item_id": {
+            "type": "string"
+          },
+          "reason": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "missing_candidates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "title",
+          "reason"
+        ],
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "reason": {
+            "type": "string"
+          },
+          "suggested_rule_refs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "default": []
+          }
+        }
+      }
+    },
+    "tone_rewrites": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "item_id",
+          "rewritten_summary"
+        ],
+        "properties": {
+          "item_id": {
+            "type": "string"
+          },
+          "rewritten_summary": {
+            "type": "string"
+          }
+        }
+      },
+      "default": []
+    },
+    "review_notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}
+

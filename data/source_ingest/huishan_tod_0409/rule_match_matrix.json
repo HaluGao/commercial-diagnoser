@@ -1,0 +1,113 @@
+{
+  "sample_id": "huishan_tod_0409",
+  "matches": [
+    {
+      "rule_id": "LF-C2-B1-METRO-0001",
+      "status": "matched",
+      "related_facts": [
+        "fact-004",
+        "fact-003"
+      ],
+      "related_pages": [
+        1,
+        3
+      ],
+      "note": "B1层的连续商业带和TOD属性可直接进入后续专项诊断。"
+    },
+    {
+      "rule_id": "LF-C2-SUPERMARKET-0001",
+      "status": "partially_matched",
+      "related_facts": [
+        "fact-004"
+      ],
+      "related_pages": [
+        1,
+        4
+      ],
+      "note": "已识别TOD高价值界面，但尚未确认超市或同等级大铺的真实落位。"
+    },
+    {
+      "rule_id": "LF-C2-MAIN-ANCHOR-0001",
+      "status": "matched",
+      "related_facts": [
+        "fact-003"
+      ],
+      "related_pages": [
+        3,
+        4
+      ],
+      "note": "西侧主力功能区明显，可直接作为锚点效率专题。"
+    },
+    {
+      "rule_id": "LF-C2-LOW-EFFICIENCY-END-0001",
+      "status": "matched",
+      "related_facts": [
+        "fact-006"
+      ],
+      "related_pages": [
+        6,
+        7
+      ],
+      "note": "高层东端复杂转折区与该规则高度相关。"
+    },
+    {
+      "rule_id": "LF-STD-CIRCULATION-0001",
+      "status": "needs_measurement",
+      "related_facts": [
+        "fact-001",
+        "fact-002"
+      ],
+      "related_pages": [
+        4,
+        5
+      ],
+      "note": "已识别一字型骨架和节点节奏，但缺少定量尺度。"
+    },
+    {
+      "rule_id": "LF-STD-ENTRY-0001",
+      "status": "needs_refined_detection",
+      "related_facts": [
+        "fact-004"
+      ],
+      "related_pages": [
+        1,
+        4
+      ],
+      "note": "入口体系需通过高分辨率切图和文字识别进一步确认。"
+    },
+    {
+      "rule_id": "LF-STD-ATRIUM-0001",
+      "status": "needs_measurement",
+      "related_facts": [
+        "fact-002"
+      ],
+      "related_pages": [
+        5
+      ],
+      "note": "中庭已识别，但宽度、面积和扶梯距离尚未量化。"
+    },
+    {
+      "rule_id": "LF-STD-WALKWAY-0001",
+      "status": "needs_measurement",
+      "related_facts": [
+        "fact-001"
+      ],
+      "related_pages": [
+        4,
+        5
+      ],
+      "note": "主次走道结构清晰，但需做主次走道净宽复核。"
+    },
+    {
+      "rule_id": "LF-STD-ESCALATOR-0001",
+      "status": "matched",
+      "related_facts": [
+        "fact-002"
+      ],
+      "related_pages": [
+        5
+      ],
+      "note": "二层扶梯沿节点连续排布，已具备较强关联性，可进入组团与遮挡复核。"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "library_id": "longfor-foundation-rule-library-v1",
+  "coverage_note": "该覆盖矩阵用于说明基础规则库的来源边界和章节级条目覆盖情况。惠山TOD等项目案例不计入规则来源，只用于测试诊断链路。",
+  "source_boundary": {
+    "included": [
+      "C2工具",
+      "2024天街建标"
+    ],
+    "excluded": [
+      "惠山TOD测试案例",
+      "其他项目测试样本"
+    ]
+  },
+  "rule_count_summary": {
+    "total_rules": 28,
+    "c2_rules": 20,
+    "standard_rules": 8
+  },
+  "c2_chapter_coverage": [
+    {
+      "section_id": "c2-01",
+      "title": "总纲与价值逻辑",
+      "pages": "1-8",
+      "coverage_status": "章节已覆盖，后续可继续补更多条目",
+      "rule_ids": [
+        "LF-C2-VALUE-LOGIC-0001"
+      ]
+    },
+    {
+      "section_id": "c2-02",
+      "title": "整体规划与业态组织",
+      "pages": "10-22",
+      "coverage_status": "章节已覆盖，当前以主界面、场景组织、停车效率为主",
+      "rule_ids": [
+        "LF-C2-HIGH-VALUE-FRONTAGE-0001",
+        "LF-C2-SCENE-IN-SKELETON-0001",
+        "LF-C2-PARKING-EFFICIENCY-0001"
+      ]
+    },
+    {
+      "section_id": "c2-03",
+      "title": "租户落位与铺位效率",
+      "pages": "23-42",
+      "coverage_status": "章节已覆盖，当前已含B1、主力店、超市、低效端头、多经点位等核心条目",
+      "rule_ids": [
+        "LF-C2-B1-METRO-0001",
+        "LF-C2-MAIN-ANCHOR-0001",
+        "LF-C2-SUPERMARKET-0001",
+        "LF-C2-LOW-EFFICIENCY-END-0001",
+        "LF-C2-MULTI-KIOSK-0001"
+      ]
+    },
+    {
+      "section_id": "c2-04",
+      "title": "客流分发、地下商业与TOD",
+      "pages": "43-63",
+      "coverage_status": "章节已覆盖，当前已含客流分发系统、地下商业策略、TOD一体化、到达体验和下沉转化",
+      "rule_ids": [
+        "LF-C2-DISTRIBUTION-NODES-0001",
+        "LF-C2-UG-COMMERCIAL-0001",
+        "LF-C2-TOD-INTEGRATION-0001",
+        "LF-C2-ARRIVAL-EXPERIENCE-0001",
+        "LF-C2-SUNKEN-CONVERSION-0001"
+      ]
+    },
+    {
+      "section_id": "c2-05",
+      "title": "产品表达与建筑形象",
+      "pages": "64-80",
+      "coverage_status": "章节已覆盖，当前已含入口、基座与转角、材质构件层级等条目",
+      "rule_ids": [
+        "LF-C2-FACADE-ENTRY-0001",
+        "LF-C2-PODIUM-CORNER-0001",
+        "LF-C2-MATERIAL-HIERARCHY-0001"
+      ]
+    },
+    {
+      "section_id": "c2-06",
+      "title": "精装场景",
+      "pages": "81-87",
+      "coverage_status": "章节已覆盖，当前以公区、中庭和高频空间的统一表达为主",
+      "rule_ids": [
+        "LF-C2-INTERIOR-CONSISTENCY-0001"
+      ]
+    },
+    {
+      "section_id": "c2-07",
+      "title": "景观场景与铺前界面",
+      "pages": "88-100",
+      "coverage_status": "章节已覆盖，当前已含下沉广场、场景空间与铺前外摆条目",
+      "rule_ids": [
+        "LF-C2-SCENE-PLAZA-0001",
+        "LF-C2-STOREFRONT-FORECOURT-0001"
+      ]
+    }
+  ],
+  "standard_page_coverage": [
+    {
+      "source_page": 6,
+      "topic": "动线类型、公共连廊",
+      "rule_ids": [
+        "LF-STD-CIRCULATION-0001",
+        "LF-STD-CONCOURSE-0001"
+      ]
+    },
+    {
+      "source_page": 7,
+      "topic": "室外场地与入口广场",
+      "rule_ids": [
+        "LF-STD-OUTDOOR-PLAZA-0001"
+      ]
+    },
+    {
+      "source_page": 8,
+      "topic": "商业出入口、中庭",
+      "rule_ids": [
+        "LF-STD-ENTRY-0001",
+        "LF-STD-ATRIUM-0001"
+      ]
+    },
+    {
+      "source_page": 9,
+      "topic": "公区走道",
+      "rule_ids": [
+        "LF-STD-WALKWAY-0001"
+      ]
+    },
+    {
+      "source_page": 10,
+      "topic": "自动扶梯、卫生间",
+      "rule_ids": [
+        "LF-STD-ESCALATOR-0001",
+        "LF-STD-RESTROOM-0001"
+      ]
+    }
+  ]
+}

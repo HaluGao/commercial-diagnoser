@@ -1,0 +1,76 @@
+{
+  "sample_id": "huishan_tod_0409",
+  "focus_pages": [
+    {
+      "page_index": 1,
+      "page_label": "总平面图",
+      "priority": "high",
+      "focus_topics": [
+        "TOD主到达界面",
+        "主入口潜在线位",
+        "南侧滨水场景",
+        "城市界面与项目展示关系"
+      ],
+      "notes": "优先用于判断项目主界面价值和外部场景资源。"
+    },
+    {
+      "page_index": 3,
+      "page_label": "B1F平面图",
+      "priority": "high",
+      "focus_topics": [
+        "TOD/地库客流转化",
+        "西侧主力功能区",
+        "B1连续商业带",
+        "东端节点导流潜力"
+      ],
+      "notes": "优先用于判断B1层是否具备主动经营逻辑。"
+    },
+    {
+      "page_index": 4,
+      "page_label": "1F平面图",
+      "priority": "high",
+      "focus_topics": [
+        "一字型主流线",
+        "首层主次入口关系",
+        "西侧锚点",
+        "中东段节点节奏"
+      ],
+      "notes": "优先用于判断首层骨架、导流和主力店牵引关系。"
+    },
+    {
+      "page_index": 5,
+      "page_label": "2F平面图",
+      "priority": "high",
+      "focus_topics": [
+        "中庭与扶梯系统",
+        "节点节奏",
+        "换层动力",
+        "走道连续性"
+      ],
+      "notes": "优先用于判断中庭、扶梯和二层经营骨架。"
+    },
+    {
+      "page_index": 6,
+      "page_label": "3F平面图",
+      "priority": "medium",
+      "focus_topics": [
+        "东端复合节点",
+        "高层端头效率",
+        "体验业态潜力"
+      ],
+      "notes": "用于观察复杂端头和异形边界风险。"
+    },
+    {
+      "page_index": 7,
+      "page_label": "4F平面图",
+      "priority": "medium",
+      "focus_topics": [
+        "高层端头与支路空间",
+        "消极空间风险",
+        "高层体验节点"
+      ],
+      "notes": "与3F一起构成高层复核专题。"
+    }
+  ]
+}
+

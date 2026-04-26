@@ -1,0 +1,170 @@
+[
+  {
+    "category": "基础策略",
+    "target": "整体设计",
+    "metric": "核心关注点",
+    "value": "大规划, 大交通, 大连接, 大骨架, 大场景",
+    "rule_desc": "商业建筑设计应夯实基础行活，关注大规划、大交通、大连接、大骨架、大场景五大基本策略。",
+    "source_image": "1.png"
+  },
+  {
+    "category": "基础策略",
+    "target": "设计依据",
+    "metric": "组成要素",
+    "value": "建造标准, 空间模块",
+    "rule_desc": "商业建筑设计应以建造标准和空间模块为基础。",
+    "source_image": "1.png"
+  },
+  {
+    "category": "整体规划策略",
+    "target": "策略方向",
+    "metric": "核心策略",
+    "value": "连接策略, 消防策略, 铺位有效化, 扶梯动线",
+    "rule_desc": "商业建筑的整体规划策略应从生意逻辑出发，关注连接策略、消防策略、铺位有效化和扶梯动线等提Y策略。",
+    "source_image": "1.png"
+  },
+  {
+    "category": "铺位设计",
+    "target": "铺位",
+    "metric": "目标",
+    "value": "有效化",
+    "rule_desc": "商业建筑设计应确保铺位的有效性。",
+    "source_image": "1.png"
+  },
+  {
+    "category": "商业动线",
+    "target": "扶梯",
+    "metric": "优化方向",
+    "value": "动线",
+    "rule_desc": "商业建筑设计应优化扶梯动线以支持生意逻辑。",
+    "source_image": "1.png"
+  },
+  {
+    "category": "消防设计",
+    "target": "消防",
+    "metric": "策略",
+    "value": "整合生意逻辑",
+    "rule_desc": "商业建筑的消防策略应与生意逻辑挂接，进行整体规划。",
+    "source_image": "1.png"
+  },
+  {
+    "category": "商业连接",
+    "target": "连接",
+    "metric": "策略",
+    "value": "优化",
+    "rule_desc": "商业建筑设计应制定并优化连接策略以支持生意逻辑。",
+    "source_image": "1.png"
+  },
+  {
+    "category": "客户体验",
+    "target": "到达",
+    "metric": "体验",
+    "value": "提升",
+    "rule_desc": "商业建筑设计应从客户视角出发，提升到达体验。",
+    "source_image": "1.png"
+  },
+  {
+    "category": "业态规划",
+    "target": "业态落位",
+    "metric": "优化方向",
+    "value": "优化",
+    "rule_desc": "商业建筑设计应从客户视角出发，优化业态落位。",
+    "source_image": "1.png"
+  },
+  {
+    "category": "空间设计",
+    "target": "空间布局",
+    "metric": "优化方向",
+    "value": "优化",
+    "rule_desc": "商业建筑设计应从客户视角出发，优化空间布局。",
+    "source_image": "1.png"
+  },
+  {
+    "category": "项目定位",
+    "target": "项目",
+    "metric": "定位",
+    "value": "标签化",
+    "rule_desc": "商业建筑设计应从客户视角出发，明确项目定位标签。",
+    "source_image": "1.png"
+  },
+  {
+    "category": "整体策略",
+    "target": "产品认知",
+    "metric": "迭代方式",
+    "value": "整合五大基本策略，针对不同专题整理综合性策略，根据实际项目反馈，不断迭代",
+    "rule_desc": "产品认知应整合五大基本策略，针对不同专题整理综合性策略，并根据实际项目反馈不断迭代。",
+    "source_image": "1.png"
+  },
+  {
+    "category": "商业运营",
+    "target": "整体经营效益",
+    "metric": "收益成本比 (Y/C)",
+    "value": "NPI提升, COST降低",
+    "rule_desc": "龙湖商业的整体经营效益（Y/C）应通过提升NPI（净物业收入）和降低COST（成本）来实现。",
+    "source_image": "4.png"
+  },
+  {
+    "category": "商业运营",
+    "target": "B端客户价值",
+    "metric": "租户落位",
+    "value": "优化",
+    "rule_desc": "商业设计应优化租户落位，以提升B端客户（租户）的价值。",
+    "source_image": "4.png"
+  },
+  {
+    "category": "商业运营",
+    "target": "B端客户价值",
+    "metric": "客流分发",
+    "value": "优化",
+    "rule_desc": "商业设计应优化客流分发，以提升B端客户（租户）的价值。",
+    "source_image": "4.png"
+  },
+  {
+    "category": "商业运营",
+    "target": "C端客户体验",
+    "metric": "到达体验",
+    "value": "优化",
+    "rule_desc": "商业设计应优化C端客户的到达体验。",
+    "source_image": "4.png"
+  },
+  {
+    "category": "商业运营",
+    "target": "C端客户体验",
+    "metric": "场景体验 - 高阶美感",
+    "value": "优化/提升",
+    "rule_desc": "商业场景体验应具备高阶美感，以提升C端客户体验。",
+    "source_image": "4.png"
+  },
+  {
+    "category": "商业运营",
+    "target": "C端客户体验",
+    "metric": "场景体验 - 自然融合",
+    "value": "优化/提升",
+    "rule_desc": "商业场景体验应实现自然融合，以提升C端客户体验。",
+    "source_image": "4.png"
+  },
+  {
+    "category": "商业运营",
+    "target": "C端客户体验",
+    "metric": "场景体验 - 情绪价值",
+    "value": "优化/提升",
+    "rule_desc": "商业场景体验应提供情绪价值，以提升C端客户体验。",
+    "source_image": "4.png"
+  },
+  {
+    "category": "商业运营",
+    "target": "C端客户体验",
+    "metric": "场景体验 - 社群运营",
+    "value": "优化/提升",
+    "rule_desc": "商业场景体验应融入社群运营，以提升C端客户体验。",
+    "source_image": "4.png"
+  },
+  {
+    "category": "商业运营",
+    "target": "C端客户体验",
+    "metric": "场景体验 - 艺术融入",
+    "value": "优化/提升",
+    "rule_desc": "商业场景体验应融入艺术元素，以提升C端客户体验。",
+    "source_image": "4.png"
+  }
+]

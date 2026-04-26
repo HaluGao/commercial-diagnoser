@@ -1,0 +1,49 @@
+{
+  "review_id": "huishan_tod_checker_v0",
+  "source_report_id": "huishan_tod_draft_v0",
+  "review_status": "needs_revision",
+  "accepted_items": [
+    "issue-001",
+    "opt-001",
+    "opt-002",
+    "opt-003",
+    "opt-004",
+    "opt-005",
+    "opt-006",
+    "opt-007"
+  ],
+  "downgraded_items": [
+    {
+      "item_id": "issue-002",
+      "reason": "Current judgment about main-spine length depends on visual reading only and has not been backed by measurement yet.",
+      "suggested_change": "Keep it as a high-priority optimization or hard-check item until quantitative verification is added."
+    }
+  ],
+  "rejected_items": [],
+  "missing_candidates": [
+    {
+      "title": "首层与B1层入口-扶梯-节点的一体化专项复核",
+      "reason": "The current draft discusses arrival and B1 conversion separately, but the stronger consultant question is whether entrance, escalator and node act as one continuous conversion system.",
+      "suggested_rule_refs": [
+        "LF-STD-ENTRY-0001",
+        "LF-C2-B1-METRO-0001",
+        "LF-STD-ESCALATOR-0001"
+      ]
+    }
+  ],
+  "tone_rewrites": [
+    {
+      "item_id": "issue-001",
+      "rewritten_summary": "高层东端复杂区域存在经营效率偏弱的风险，建议结合端头和支路空间做专题复核。"
+    },
+    {
+      "item_id": "issue-002",
+      "rewritten_summary": "主流线长度与节奏建议按建标做下一轮定量复核。"
+    }
+  ],
+  "review_notes": [
+    "当前草稿的方向基本成立，但需要压低未经量化校核的硬性判断。",
+    "证据截图应服务于说明，不应替代图纸理解本身。",
+    "后续复核应优先检查入口、扶梯、中庭和主流线是否构成一个完整的导流系统。"
+  ]
+}

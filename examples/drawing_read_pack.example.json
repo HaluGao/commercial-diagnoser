@@ -1,0 +1,50 @@
+{
+  "document_id": "huishan_tod_0409",
+  "project_name": "惠山TOD项目",
+  "page_reads": [
+    {
+      "page_index": 1,
+      "page_label": "总平面图",
+      "page_type": "site_plan",
+      "read_summary": "项目主体沿北侧和东侧展开，东侧面向城市主界面，南侧形成滨水空间。",
+      "key_objects": [
+        "东侧城市界面",
+        "南侧滨水空间",
+        "主体商业体量"
+      ],
+      "key_relations": [
+        "东侧界面与项目到达关系强",
+        "南侧景观界面与商业主体存在场景转化潜力"
+      ],
+      "confidence": 0.82
+    }
+  ],
+  "cross_page_understanding": [
+    {
+      "topic": "整体骨架",
+      "statement": "项目以一字型商业骨架为主，节点沿西中东串联，并在高层东端出现更复杂的支路和端头关系。",
+      "supporting_pages": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "confirmed_points": [
+    "1F和2F均存在明确的一字型主流线。",
+    "2F存在多个中庭/空洞型节点。"
+  ],
+  "inferred_points": [
+    {
+      "statement": "东侧很可能承担主到达界面角色。",
+      "reason": "总平显示该侧对城市与TOD界面的联系最强，但入口文字未被精确识别。"
+    }
+  ],
+  "open_questions": [
+    "主次入口的精确位置分别在哪里？",
+    "东侧高价值界面最终由哪些业态承接？"
+  ]
+}
+

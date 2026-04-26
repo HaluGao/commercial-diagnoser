@@ -1,0 +1,83 @@
+{
+  "document_id": "demo-project-001",
+  "project_name": "示例商业综合体",
+  "input_files": [
+    {
+      "path": "uploads/demo-project-001/plan.pdf",
+      "file_type": "pdf",
+      "page_count": 12
+    }
+  ],
+  "pages": [
+    {
+      "page_index": 3,
+      "page_label": "4F平面",
+      "text_blocks": [
+        {
+          "text": "4F平面 影院 塔楼 端头",
+          "confidence": 0.92,
+          "bbox": [
+            108.0,
+            96.0,
+            412.0,
+            168.0
+          ]
+        }
+      ],
+      "visual_regions": [
+        {
+          "region_id": "p3-r1",
+          "region_type": "plan",
+          "summary": "四层平面图，西侧存在大面积端头空间，靠近影院边界。",
+          "bbox": [
+            95.0,
+            180.0,
+            1250.0,
+            890.0
+          ]
+        }
+      ]
+    }
+  ],
+  "recognized_elements": [
+    {
+      "element_id": "el-001",
+      "element_type": "void_space",
+      "description": "四层西侧端头存在疑似低效消极空间。",
+      "page_index": 3,
+      "region_id": "p3-r1",
+      "confidence": 0.81
+    },
+    {
+      "element_id": "el-002",
+      "element_type": "anchor_store",
+      "description": "影院主力店位于四层西侧，端头空间与其边界相邻。",
+      "page_index": 3,
+      "region_id": "p3-r1",
+      "confidence": 0.73
+    }
+  ],
+  "derived_facts": [
+    {
+      "fact_id": "fact-001",
+      "topic": "低效端头空间",
+      "statement": "四层西侧靠近影院一侧存在面积较大的端头空间，当前未体现明确经营功能，疑似低效空间。",
+      "supporting_evidence": [
+        {
+          "page_index": 3,
+          "region_id": "p3-r1",
+          "reason": "平面图中可见端头区域空置且与主流线联系偏弱。"
+        }
+      ],
+      "confidence": 0.78
+    }
+  ],
+  "uncertainties": [
+    {
+      "topic": "端头空间真实用途",
+      "reason": "图面未出现明确房间名称或招商用途标注。",
+      "recommended_followup": "结合更高清平面或招商图复核该区域真实功能。"
+    }
+  ]
+}
+

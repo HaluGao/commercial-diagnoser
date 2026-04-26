@@ -1,0 +1,479 @@
+{
+  "document_id": "huishan_tod_0409",
+  "project_name": "惠山TOD项目",
+  "rule_library_path": "/Users/halu/Desktop/codex/commercial_diagnoser/data/rules/longfor/longfor_foundation_rules_all.json",
+  "matching_note": "本文件用于把惠山TOD测试案例按楼层对接统一规则库。所有楼层均有条目，不再只保留重点层判断。状态说明包括 matched、partially_matched、needs_measurement、needs_refined_detection、not_primary 和 not_applicable。",
+  "floors": [
+    {
+      "page_index": 0,
+      "page_label": "惠山TOD项目",
+      "floor_role": "cover",
+      "read_summary": "封面页仅作为样本识别页保留，不参与空间诊断和规则比对。",
+      "primary_focus": [
+        "项目名称识别"
+      ],
+      "rule_matches": [
+        {
+          "rule_id": "LF-C2-VALUE-LOGIC-0001",
+          "status": "not_primary",
+          "reason": "封面页不承载空间信息，仅作为文档身份信息。"
+        }
+      ]
+    },
+    {
+      "page_index": 1,
+      "page_label": "总平面图",
+      "floor_role": "site_plan",
+      "read_summary": "总平主要提供高价值界面、TOD到达、滨水资源和整体骨架与城市关系。",
+      "primary_focus": [
+        "高价值城市界面分配",
+        "TOD接驳与主到达关系",
+        "滨水场景资源转化",
+        "入口前场与室外广场"
+      ],
+      "rule_matches": [
+        {
+          "rule_id": "LF-C2-HIGH-VALUE-FRONTAGE-0001",
+          "status": "matched",
+          "reason": "总平明确显示东侧城市主界面和高价值到达面，是最典型的主界面资源分配问题。 "
+        },
+        {
+          "rule_id": "LF-C2-TOD-INTEGRATION-0001",
+          "status": "matched",
+          "reason": "总平已显示TOD与商业主界面高度相关，适合直接进入一体化复核。"
+        },
+        {
+          "rule_id": "LF-C2-ARRIVAL-EXPERIENCE-0001",
+          "status": "matched",
+          "reason": "总平是判断车行、步行、落客和主入口序列关系的起点。"
+        },
+        {
+          "rule_id": "LF-STD-OUTDOOR-PLAZA-0001",
+          "status": "needs_measurement",
+          "reason": "入口广场与室外场地关系清楚，但坡度和高差尚未量化。"
+        },
+        {
+          "rule_id": "LF-C2-SCENE-PLAZA-0001",
+          "status": "partially_matched",
+          "reason": "南侧滨水和外部场景资源明显，但经营化方式尚不能仅凭总平确认。"
+        },
+        {
+          "rule_id": "LF-C2-SCENE-IN-SKELETON-0001",
+          "status": "partially_matched",
+          "reason": "总平已经显示滨水、外部界面和主体商业骨架的耦合潜力，但场景是否真正嵌入主流线仍需结合首层进一步确认。"
+        },
+        {
+          "rule_id": "LF-C2-STOREFRONT-FORECOURT-0001",
+          "status": "partially_matched",
+          "reason": "可见铺前与外部空间潜力，但尚缺更明确的铺前界面和外摆信息。"
+        },
+        {
+          "rule_id": "LF-C2-FACADE-ENTRY-0001",
+          "status": "needs_refined_detection",
+          "reason": "总平能看出主界面方向，但主入口表达强度仍需结合立面或效果图判断。"
+        }
+      ]
+    },
+    {
+      "page_index": 2,
+      "page_label": "B2F平面图",
+      "floor_role": "basement_support",
+      "read_summary": "B2层以停车组织为主，应重点判断地库规模、停车效率和TOD属性之间是否匹配。",
+      "primary_focus": [
+        "停车规模与周转效率",
+        "地下支撑逻辑",
+        "TOD项目地下成本控制"
+      ],
+      "rule_matches": [
+        {
+          "rule_id": "LF-C2-PARKING-EFFICIENCY-0001",
+          "status": "matched",
+          "reason": "B2层大面积停车布局与停车配比和周转效率规则直接相关。"
+        },
+        {
+          "rule_id": "LF-C2-UG-COMMERCIAL-0001",
+          "status": "partially_matched",
+          "reason": "B2层可作为地下策略背景页，但其本身并非经营层，更多是支撑信息。"
+        },
+        {
+          "rule_id": "LF-C2-VALUE-LOGIC-0001",
+          "status": "partially_matched",
+          "reason": "地库规模是否过度配置属于综合价值和成本效率判断的一部分。"
+        },
+        {
+          "rule_id": "LF-STD-RESTROOM-0001",
+          "status": "not_applicable",
+          "reason": "当前页主要承担停车功能，非首轮重点校核对象。"
+        }
+      ]
+    },
+    {
+      "page_index": 3,
+      "page_label": "B1F平面图",
+      "floor_role": "basement_commercial",
+      "read_summary": "B1层是交通转化与经营转化并存的关键层，应同时检查TOD转化、主力落位、节点组织和地上地下衔接。",
+      "primary_focus": [
+        "地铁与停车客流转化",
+        "B1经营定位",
+        "西侧主力牵引",
+        "东端节点承流"
+      ],
+      "rule_matches": [
+        {
+          "rule_id": "LF-C2-B1-METRO-0001",
+          "status": "matched",
+          "reason": "B1连续商业带和节点组织非常符合交通客流转化层的判断场景。"
+        },
+        {
+          "rule_id": "LF-C2-UG-COMMERCIAL-0001",
+          "status": "matched",
+          "reason": "B1已经显示出地下经营层属性，不是纯附属交通层。"
+        },
+        {
+          "rule_id": "LF-C2-TOD-INTEGRATION-0001",
+          "status": "matched",
+          "reason": "B1是TOD接驳与主商业骨架一体化的关键承接层。"
+        },
+        {
+          "rule_id": "LF-C2-MAIN-ANCHOR-0001",
+          "status": "partially_matched",
+          "reason": "西侧主力区明显，但具体主力类型和前场效率还需跨B1和1F联合判断。"
+        },
+        {
+          "rule_id": "LF-C2-SUPERMARKET-0001",
+          "status": "needs_refined_detection",
+          "reason": "尚未确认超市或同等级大铺是否占据TOD敏感端头。"
+        },
+        {
+          "rule_id": "LF-C2-SUNKEN-CONVERSION-0001",
+          "status": "partially_matched",
+          "reason": "可读到节点和口部潜力，但下沉界面和经营边界仍需联合总平判断。"
+        }
+      ]
+    },
+    {
+      "page_index": 4,
+      "page_label": "1F平面图",
+      "floor_role": "primary_retail_floor",
+      "read_summary": "1F是项目首要经营层，承担主入口承接、主流线建立、主力锚点落位和东端高价值界面转化任务。",
+      "primary_focus": [
+        "首层一字型主骨架",
+        "西侧主力锚点",
+        "东端高价值界面转化",
+        "入口体系与导流"
+      ],
+      "rule_matches": [
+        {
+          "rule_id": "LF-C2-HIGH-VALUE-FRONTAGE-0001",
+          "status": "matched",
+          "reason": "首层与总平一起构成高价值界面资源分配的核心判断面。"
+        },
+        {
+          "rule_id": "LF-C2-MAIN-ANCHOR-0001",
+          "status": "matched",
+          "reason": "西侧大面积主力功能区与首层前场关系清楚，是直接的锚点效率场景。"
+        },
+        {
+          "rule_id": "LF-C2-DISTRIBUTION-NODES-0001",
+          "status": "matched",
+          "reason": "首层主入口、主流线和东端节点是客流分发系统的核心组成。"
+        },
+        {
+          "rule_id": "LF-STD-ENTRY-0001",
+          "status": "needs_refined_detection",
+          "reason": "入口数量、精确宽度和主次层级仍需更细识别。"
+        },
+        {
+          "rule_id": "LF-STD-CIRCULATION-0001",
+          "status": "needs_measurement",
+          "reason": "一字型主流线识别清楚，但长度和平均进深没有量化。"
+        },
+        {
+          "rule_id": "LF-STD-WALKWAY-0001",
+          "status": "needs_measurement",
+          "reason": "主动线和次动线结构能看出，但净宽尚未量化。"
+        },
+        {
+          "rule_id": "LF-C2-FACADE-ENTRY-0001",
+          "status": "partially_matched",
+          "reason": "首层已显示东端主界面的潜在重要性，但入口识别强度仍需结合立面。"
+        }
+      ]
+    },
+    {
+      "page_index": 5,
+      "page_label": "2F平面图",
+      "floor_role": "experience_retail_floor",
+      "read_summary": "2F是项目体验节奏、换层动力和节点识别最强的一层，适合集中对中庭、扶梯、走道和节点系统做专项复核。",
+      "primary_focus": [
+        "中庭与节点节奏",
+        "扶梯组团与换层动力",
+        "主次走道尺度",
+        "二层体验层质量"
+      ],
+      "rule_matches": [
+        {
+          "rule_id": "LF-C2-DISTRIBUTION-NODES-0001",
+          "status": "matched",
+          "reason": "多个节点与扶梯系统共同构成了完整的客流分发节奏。"
+        },
+        {
+          "rule_id": "LF-STD-ATRIUM-0001",
+          "status": "matched",
+          "reason": "二层中庭和节点识别性很强，已具备进入中庭专项复核的条件。"
+        },
+        {
+          "rule_id": "LF-STD-ESCALATOR-0001",
+          "status": "matched",
+          "reason": "二层扶梯与节点沿主流线连续布置，最适合做组团和遮挡判断。"
+        },
+        {
+          "rule_id": "LF-STD-WALKWAY-0001",
+          "status": "needs_measurement",
+          "reason": "二层主次走道能看出层级，但净宽仍需量尺。"
+        },
+        {
+          "rule_id": "LF-STD-CIRCULATION-0001",
+          "status": "needs_measurement",
+          "reason": "二层是标准层骨架最清晰的一层，适合作为动线尺度复核基准层。"
+        },
+        {
+          "rule_id": "LF-C2-INTERIOR-CONSISTENCY-0001",
+          "status": "partially_matched",
+          "reason": "二层节点与空间气质较强，但目前缺少室内表达材料判断精装统一性。"
+        }
+      ]
+    },
+    {
+      "page_index": 6,
+      "page_label": "3F平面图",
+      "floor_role": "upper_retail_floor",
+      "read_summary": "3F维持标准零售骨架，但东端复杂节点开始放大，适合重点校核端头效率、复杂边界和高层体验型空间的边界控制。",
+      "primary_focus": [
+        "高层东端复合节点",
+        "端头价值释放",
+        "异形边界效率",
+        "高层主流线连续性"
+      ],
+      "rule_matches": [
+        {
+          "rule_id": "LF-C2-LOW-EFFICIENCY-END-0001",
+          "status": "matched",
+          "reason": "三层东端复合节点和异形端头与低效空间优化规则高度相关。"
+        },
+        {
+          "rule_id": "LF-C2-DISTRIBUTION-NODES-0001",
+          "status": "partially_matched",
+          "reason": "主流线仍连续，但东端节点开始偏离标准节点节奏。"
+        },
+        {
+          "rule_id": "LF-STD-CIRCULATION-0001",
+          "status": "needs_measurement",
+          "reason": "骨架延续明显，但高层末端复杂度可能导致有效动线长度和效率波动。"
+        },
+        {
+          "rule_id": "LF-C2-SCENE-PLAZA-0001",
+          "status": "not_primary",
+          "reason": "本页更偏平面效率问题，不是景观场景主判断面。"
+        }
+      ]
+    },
+    {
+      "page_index": 7,
+      "page_label": "4F平面图",
+      "floor_role": "upper_retail_floor",
+      "read_summary": "4F的支路、端头和异形空间继续加深，是高层最明显的低效空间和支路风险复核层。",
+      "primary_focus": [
+        "支路过深风险",
+        "端头消极空间",
+        "高层店铺效率",
+        "高层客流衰减"
+      ],
+      "rule_matches": [
+        {
+          "rule_id": "LF-C2-LOW-EFFICIENCY-END-0001",
+          "status": "matched",
+          "reason": "四层东端支路与端头空间是当前最强的低效空间风险区。"
+        },
+        {
+          "rule_id": "LF-STD-WALKWAY-0001",
+          "status": "needs_measurement",
+          "reason": "复杂支路有可能造成局部净宽收窄，需要专项量尺。"
+        },
+        {
+          "rule_id": "LF-STD-CIRCULATION-0001",
+          "status": "needs_measurement",
+          "reason": "高层支路和端头组织可能影响有效动线效率。"
+        },
+        {
+          "rule_id": "LF-C2-DISTRIBUTION-NODES-0001",
+          "status": "partially_matched",
+          "reason": "主骨架仍在，但节点连续性弱于低层和二层。"
+        }
+      ]
+    },
+    {
+      "page_index": 8,
+      "page_label": "5F平面图",
+      "floor_role": "upper_retail_transition_floor",
+      "read_summary": "5F仍可按高层标准零售层解读，但已经接近高层功能转化前的临界层，既要看主骨架，也要看高层客流吸附和端头逻辑是否还能成立。",
+      "primary_focus": [
+        "高层骨架延续性",
+        "东端复杂区持续性",
+        "高层吸附力",
+        "标准零售层向复合层过渡"
+      ],
+      "rule_matches": [
+        {
+          "rule_id": "LF-C2-LOW-EFFICIENCY-END-0001",
+          "status": "partially_matched",
+          "reason": "五层东端复杂区仍在，但风险强度略低于三四层，需要结合真实功能判断。"
+        },
+        {
+          "rule_id": "LF-STD-CIRCULATION-0001",
+          "status": "needs_measurement",
+          "reason": "骨架仍连续，适合继续沿用动线尺度复核逻辑。"
+        },
+        {
+          "rule_id": "LF-STD-RESTROOM-0001",
+          "status": "needs_refined_detection",
+          "reason": "高层服务配套是否足够目前仍缺少明确识别。"
+        },
+        {
+          "rule_id": "LF-C2-DISTRIBUTION-NODES-0001",
+          "status": "partially_matched",
+          "reason": "主节点系统延续存在，但高层节点强度和低层已出现差异。"
+        }
+      ]
+    },
+    {
+      "page_index": 9,
+      "page_label": "6F平面图",
+      "floor_role": "composite_upper_floor",
+      "read_summary": "6F应作为复合运营层理解，多数标准零售规则应降权使用，重点转向大空间运营、功能转换和高层界面组织。",
+      "primary_focus": [
+        "复合功能层判断",
+        "大空间运营逻辑",
+        "高层独立功能区",
+        "标准零售规则降权"
+      ],
+      "rule_matches": [
+        {
+          "rule_id": "LF-C2-VALUE-LOGIC-0001",
+          "status": "matched",
+          "reason": "六层最需要用综合价值逻辑而不是单一零售条款来判断。"
+        },
+        {
+          "rule_id": "LF-C2-INTERIOR-CONSISTENCY-0001",
+          "status": "partially_matched",
+          "reason": "若六层为大空间或特色功能层，后续应关注其空间气质与整体产品语言的一致性。"
+        },
+        {
+          "rule_id": "LF-STD-CIRCULATION-0001",
+          "status": "not_primary",
+          "reason": "该层已明显偏离标准零售层，不宜直接沿用低层动线指标做主判断。"
+        },
+        {
+          "rule_id": "LF-C2-LOW-EFFICIENCY-END-0001",
+          "status": "not_primary",
+          "reason": "六层端头不是当前最核心矛盾，功能转换逻辑更重要。"
+        }
+      ]
+    },
+    {
+      "page_index": 10,
+      "page_label": "6F夹层平面图",
+      "floor_role": "mezzanine_composite_floor",
+      "read_summary": "6F夹层进一步证明高层已进入复合运营模式，适合重点判断高层空间叠加关系和功能组织，而不是继续按标准零售层校核。",
+      "primary_focus": [
+        "夹层空间叠加关系",
+        "高层复合运营模式",
+        "高层功能组织",
+        "标准零售条款降权"
+      ],
+      "rule_matches": [
+        {
+          "rule_id": "LF-C2-VALUE-LOGIC-0001",
+          "status": "matched",
+          "reason": "夹层更适合按综合价值和运营模式判断，而非单一条款判断。"
+        },
+        {
+          "rule_id": "LF-C2-INTERIOR-CONSISTENCY-0001",
+          "status": "partially_matched",
+          "reason": "若夹层承担特色运营空间，其精装和场景一致性仍需要后续关注。"
+        },
+        {
+          "rule_id": "LF-STD-ATRIUM-0001",
+          "status": "not_primary",
+          "reason": "夹层页不再是中庭尺度校核主界面。"
+        },
+        {
+          "rule_id": "LF-STD-WALKWAY-0001",
+          "status": "not_primary",
+          "reason": "夹层空间逻辑已明显区别于标准公区走道判断。"
+        }
+      ]
+    }
+  ],
+  "cross_floor_rule_matches": [
+    {
+      "rule_id": "LF-STD-CIRCULATION-0001",
+      "status": "needs_measurement",
+      "related_pages": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "note": "1F至5F均已识别为一字型骨架体系，但尚未进行尺度量化。"
+    },
+    {
+      "rule_id": "LF-STD-ENTRY-0001",
+      "status": "needs_refined_detection",
+      "related_pages": [
+        1,
+        4
+      ],
+      "note": "总平和首层都指向东侧高价值到达面，但入口数量和主次层级仍需更细识别。"
+    },
+    {
+      "rule_id": "LF-C2-LOW-EFFICIENCY-END-0001",
+      "status": "matched",
+      "related_pages": [
+        6,
+        7,
+        8
+      ],
+      "note": "三层至五层东端复杂区构成连续高层端头风险带。"
+    },
+    {
+      "rule_id": "LF-C2-TOD-INTEGRATION-0001",
+      "status": "matched",
+      "related_pages": [
+        1,
+        3,
+        4
+      ],
+      "note": "总平、B1和1F共同构成TOD一体化判断主链路。"
+    },
+    {
+      "rule_id": "LF-C2-VALUE-LOGIC-0001",
+      "status": "matched",
+      "related_pages": [
+        1,
+        2,
+        9,
+        10
+      ],
+      "note": "总平、B2和高层复合层都需要回到综合价值逻辑而非单一条款判断。"
+    }
+  ],
+  "open_measurements": [
+    "1F至5F主流线长度和平均进深尚未量化。",
+    "2F中庭净宽、面积及扶梯距离尚未量化。",
+    "1F和2F主次走道净宽尚未量化。",
+    "总平入口广场坡度和高差关系尚未量化。",
+    "高层卫生间服务半径和上下对应关系尚未识别。"
+  ]
+}

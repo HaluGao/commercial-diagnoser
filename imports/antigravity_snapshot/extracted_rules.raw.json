@@ -1,0 +1,4429 @@
+[
+  {
+    "category": "商业产品核心财务指标",
+    "rule_desc": "商业产品生意逻辑的核心财务指标是Y/C，目标是提升NPI并降低COST。",
+    "metric": "核心财务指标",
+    "value": "Y/C (NPI↑, COST↓)",
+    "source_image": "2.png"
+  },
+  {
+    "category": "财务指标目标",
+    "rule_desc": "净物业收入（NPI）应增加。",
+    "metric": "NPI",
+    "value": "增加",
+    "source_image": "2.png"
+  },
+  {
+    "category": "财务指标定义",
+    "rule_desc": "净物业收入（NPI）的计算方式为收入减去成本和费用。",
+    "metric": "NPI 计算公式",
+    "value": "收入 - 成本 - 费用",
+    "source_image": "2.png"
+  },
+  {
+    "category": "财务指标目标",
+    "rule_desc": "成本（COST）应减少。",
+    "metric": "COST",
+    "value": "减少",
+    "source_image": "2.png"
+  },
+  {
+    "category": "财务指标定义",
+    "rule_desc": "成本（COST）包含土地成本和土地外开发成本。",
+    "metric": "COST 构成",
+    "value": "土地成本 + 土地外开发成本",
+    "source_image": "2.png"
+  },
+  {
+    "category": "商业运营目标",
+    "rule_desc": "商业运营维度应提升坪效。",
+    "metric": "坪效",
+    "value": "提升",
+    "source_image": "2.png"
+  },
+  {
+    "category": "商业运营目标",
+    "rule_desc": "商业运营维度应增加客流。",
+    "metric": "客流",
+    "value": "增加",
+    "source_image": "2.png"
+  },
+  {
+    "category": "商业开发目标",
+    "rule_desc": "商业开发维度应最小化非租赁面积。",
+    "metric": "非租赁面积",
+    "value": "最小化",
+    "source_image": "2.png"
+  },
+  {
+    "category": "商业开发目标",
+    "rule_desc": "商业开发维度应压降隐性成本。",
+    "metric": "隐性成本",
+    "value": "压降",
+    "source_image": "2.png"
+  },
+  {
+    "category": "产品策略",
+    "rule_desc": "产品策略应通过体验提升来驱动商业运营目标的实现（坪效提升、客流增加）。",
+    "metric": "策略要素",
+    "value": "体验提升",
+    "source_image": "2.png"
+  },
+  {
+    "category": "产品策略",
+    "rule_desc": "产品策略应通过显性成本适配来驱动商业开发目标的实现（非租赁面积最小化、隐性成本压降）。",
+    "metric": "策略要素",
+    "value": "显性成本适配",
+    "source_image": "2.png"
+  },
+  {
+    "category": "高阶美学",
+    "metric": "未来目标星级",
+    "value": "5颗星",
+    "rule_desc": "建筑、精装、景观场景基底简约高级，打造视觉焦点，并打造审美高级且经久的空间",
+    "source_image": "3.png"
+  },
+  {
+    "category": "自然融合",
+    "metric": "未来目标星级",
+    "value": "5颗星",
+    "rule_desc": "从自然景观的借力、生态技术、绿化覆盖等出发，打造重点户外场景空间、室外游逛空间；寻找室内外一体化打造的融合场景空间；打造室内空间室外化的休憩空间",
+    "source_image": "3.png"
+  },
+  {
+    "category": "艺术融入",
+    "metric": "未来目标星级",
+    "value": "5颗星",
+    "rule_desc": "从艺术装置、文化元素、活动策划等出发，结合空间骨架打造艺术融合空间",
+    "source_image": "3.png"
+  },
+  {
+    "category": "社群运营",
+    "metric": "未来目标星级",
+    "value": "5颗星",
+    "rule_desc": "用户互动、活动频次、转化效果",
+    "source_image": "3.png"
+  },
+  {
+    "category": "情绪价值",
+    "metric": "未来目标星级",
+    "value": "5颗星",
+    "rule_desc": "情感共鸣、身份认同、价值认可、心里代偿",
+    "source_image": "3.png"
+  },
+  {
+    "category": "评估标准",
+    "metric": "评分范围",
+    "value": "0-5颗星",
+    "rule_desc": "根据地区及项目自评情况，对5个维度做评价，最低0颗星，最高5颗星",
+    "source_image": "3.png"
+  },
+  {
+    "category": "产品策略 - 整体规划",
+    "rule_desc": "制定整体规划策略，以回应toB客户视角和生意逻辑",
+    "source_image": "5.png"
+  },
+  {
+    "category": "产品策略 - 连接",
+    "rule_desc": "制定连接策略",
+    "source_image": "5.png"
+  },
+  {
+    "category": "产品策略 - 消防疏散",
+    "rule_desc": "优化消防疏散设计",
+    "source_image": "5.png"
+  },
+  {
+    "category": "产品策略 - 铺位",
+    "rule_desc": "实现铺位有效化",
+    "source_image": "5.png"
+  },
+  {
+    "category": "产品策略 - 动线",
+    "rule_desc": "优化扶梯动线设计",
+    "source_image": "5.png"
+  },
+  {
+    "category": "产品策略 - 空间利用",
+    "rule_desc": "利用被忽略空间",
+    "source_image": "5.png"
+  },
+  {
+    "category": "产品策略 - 成本控制",
+    "rule_desc": "实现极致隐性成本和显性成本的适配",
+    "source_image": "5.png"
+  },
+  {
+    "category": "产品策略 - 空间设计",
+    "rule_desc": "实现层高适配",
+    "source_image": "5.png"
+  },
+  {
+    "category": "产品策略 - 停车",
+    "rule_desc": "实现车位适配",
+    "source_image": "5.png"
+  },
+  {
+    "category": "产品技术 - 建造标准",
+    "rule_desc": "遵循全专业建造标准",
+    "source_image": "5.png"
+  },
+  {
+    "category": "产品技术 - 安全管理",
+    "rule_desc": "执行安全必审清单",
+    "source_image": "5.png"
+  },
+  {
+    "category": "客户视角 - 租户落位",
+    "rule_desc": "优化业态布局",
+    "source_image": "5.png"
+  },
+  {
+    "category": "客户视角 - 租户落位",
+    "rule_desc": "优化主力店落位",
+    "source_image": "5.png"
+  },
+  {
+    "category": "客户视角 - 租户落位",
+    "rule_desc": "优化多经点位",
+    "source_image": "5.png"
+  },
+  {
+    "category": "客户视角 - 客流分发",
+    "rule_desc": "优化中庭洞口布局以引导客流",
+    "source_image": "5.png"
+  },
+  {
+    "category": "客户视角 - 客流分发",
+    "rule_desc": "优化扶梯布局以引导客流",
+    "source_image": "5.png"
+  },
+  {
+    "category": "客户视角 - 客流分发",
+    "rule_desc": "实现地下商业与轨道交通的导入",
+    "source_image": "5.png"
+  },
+  {
+    "category": "客户视角 - 客流分发",
+    "rule_desc": "通过超级TOD模式提升坪效",
+    "source_image": "5.png"
+  },
+  {
+    "category": "客户视角 - 到达体验",
+    "rule_desc": "优化场地到达体验",
+    "source_image": "5.png"
+  },
+  {
+    "category": "客户视角 - 到达体验",
+    "rule_desc": "优化地库交通体验",
+    "source_image": "5.png"
+  },
+  {
+    "category": "产品表达 - 立面设计",
+    "rule_desc": "优化主次入口立面设计",
+    "source_image": "5.png"
+  },
+  {
+    "category": "产品表达 - 立面设计",
+    "rule_desc": "优化低区立面设计",
+    "source_image": "5.png"
+  },
+  {
+    "category": "产品表达 - 立面设计",
+    "rule_desc": "优化高区立面设计",
+    "source_image": "5.png"
+  },
+  {
+    "category": "产品表达 - 立面设计",
+    "rule_desc": "优化推广区立面设计",
+    "source_image": "5.png"
+  },
+  {
+    "category": "产品表达 - 立面设计",
+    "rule_desc": "优化背街立面设计",
+    "source_image": "5.png"
+  },
+  {
+    "category": "产品表达 - 立面设计",
+    "rule_desc": "设计特色幕墙",
+    "source_image": "5.png"
+  },
+  {
+    "category": "产品表达 - 精装设计",
+    "rule_desc": "优化大场景空间精装设计",
+    "source_image": "5.png"
+  },
+  {
+    "category": "产品表达 - 精装设计",
+    "rule_desc": "优化功能空间精装设计",
+    "source_image": "5.png"
+  },
+  {
+    "category": "产品表达 - 精装设计",
+    "rule_desc": "优化定性空间精装设计",
+    "source_image": "5.png"
+  },
+  {
+    "category": "产品表达 - 租户管理",
+    "rule_desc": "优化租户管理相关精装设计",
+    "source_image": "5.png"
+  },
+  {
+    "category": "产品表达 - 景观设计",
+    "rule_desc": "设计特色场地景观",
+    "source_image": "5.png"
+  },
+  {
+    "category": "产品表达 - 景观设计",
+    "rule_desc": "优化外街景观设计",
+    "source_image": "5.png"
+  },
+  {
+    "category": "产品表达 - 景观设计",
+    "rule_desc": "优化内街景观设计",
+    "source_image": "5.png"
+  },
+  {
+    "category": "产品表达 - 景观设计",
+    "rule_desc": "优化街区景观设计",
+    "source_image": "5.png"
+  },
+  {
+    "category": "产品表达 - 景观设计",
+    "rule_desc": "设计屋顶露台景观",
+    "source_image": "5.png"
+  },
+  {
+    "category": "产品表达 - 景观设计",
+    "rule_desc": "设计下沉庭院景观",
+    "source_image": "5.png"
+  },
+  {
+    "category": "租客落位",
+    "target": "整体规划策略",
+    "metric": "整体规划策略",
+    "value": "合理",
+    "rule_desc": "合理的整体规划策略是项目YC达成基础。",
+    "source_image": "6.png"
+  },
+  {
+    "category": "客流分发",
+    "target": "连接策略",
+    "metric": "客流资源引导与分配",
+    "value": "充分且合理",
+    "rule_desc": "充分挖掘客流价值，实现客流资源的充分引导以及合理分配，以提升客流和收入。",
+    "source_image": "6.png"
+  },
+  {
+    "category": "到达体验",
+    "target": "消防策略",
+    "metric": "卷帘柱",
+    "value": "取消",
+    "rule_desc": "通过优化消防策略及新型消防产品，取消卷帘柱，可有效提升空间品质并减少展面遮挡。",
+    "source_image": "6.png"
+  },
+  {
+    "category": "立面场景",
+    "target": "铺位有效化",
+    "metric": "铺型及面积段",
+    "value": "合理 (展面+进深)",
+    "rule_desc": "采用合理的铺型（展面+进深）和面积段，以实现更高的租金坪效。",
+    "source_image": "6.png"
+  },
+  {
+    "category": "精装场景",
+    "target": "扶梯动线",
+    "metric": "扶梯动线布局",
+    "value": "合理",
+    "rule_desc": "合理布局扶梯动线，以有效缓解客流冷区并影响客流分配。",
+    "source_image": "6.png"
+  },
+  {
+    "category": "景观场景",
+    "target": "被忽略空间利用",
+    "metric": "价值挖掘不足空间类型",
+    "value": "下沉广场, 连廊, 屋面, 露台",
+    "rule_desc": "挖掘项目“习惯性遗忘”和“长期闲置”等价值挖掘不足的空间，包括下沉广场、连廊、屋面、露台等。",
+    "source_image": "6.png"
+  },
+  {
+    "category": "建造标准",
+    "target": "降C策略 (成本控制)",
+    "metric": "成本控制指标",
+    "value": "提升得铺率, 优化停车指标, 压降层高, 控制隐性成本 (针对P2/P3级项目)",
+    "rule_desc": "对于P2/P3级项目，有效的成本控制是提升YC的关键，具体包括提升得铺率、优化停车指标、压降层高和控制隐性成本。",
+    "source_image": "6.png"
+  },
+  {
+    "category": "规划策略",
+    "target": "高区商业",
+    "metric": "置换面积",
+    "value": "约1.2万方",
+    "rule_desc": "将高区3F低价值约1.2万方商业置换至地下轨交接驳层高价值区域。",
+    "source_image": "7.png"
+  },
+  {
+    "category": "楼层规划",
+    "target": "B1层",
+    "metric": "楼层定位",
+    "value": "LG化",
+    "rule_desc": "实现B1层LG化。",
+    "source_image": "7.png"
+  },
+  {
+    "category": "经济指标",
+    "target": "Y/C比",
+    "metric": "提升幅度",
+    "value": "由3.5%提升至3.8%",
+    "rule_desc": "Y/C比由3.5%提升至3.8%。",
+    "source_image": "7.png"
+  },
+  {
+    "category": "停车规划",
+    "target": "顶停车",
+    "metric": "人流导入方向",
+    "value": "高区楼层",
+    "rule_desc": "顶停车往高区楼层导入人流，提升高区楼层价值。",
+    "source_image": "7.png"
+  },
+  {
+    "category": "商业动线",
+    "target": "商业地下通道",
+    "metric": "计容状态",
+    "value": "免计容",
+    "rule_desc": "通过规范灰色地带，实现广州首例商业地下通道免计容，增加可租赁面积1402平米。",
+    "source_image": "7.png"
+  },
+  {
+    "category": "停车策略",
+    "target": "商业车位",
+    "metric": "折减政策",
+    "value": "20%",
+    "rule_desc": "破例享有商业车位折减20%政策，节约成本约1857万元。",
+    "source_image": "7.png"
+  },
+  {
+    "category": "停车策略",
+    "target": "天街屋面车位",
+    "metric": "设置数量",
+    "value": "87个",
+    "rule_desc": "巧妙利用天街屋面设置车位87个，节约成本约857万元。",
+    "source_image": "7.png"
+  },
+  {
+    "category": "交通接驳",
+    "target": "地铁口",
+    "metric": "接驳方式",
+    "value": "接驳地下商业",
+    "rule_desc": "增加地铁口接驳地下商业。",
+    "source_image": "7.png"
+  },
+  {
+    "category": "商业布局",
+    "target": "原五层商业",
+    "metric": "放置楼层",
+    "value": "B2层",
+    "rule_desc": "原五层商业放置B2层，并通过增加D口接驳提升地下商业租金。",
+    "source_image": "7.png"
+  },
+  {
+    "category": "商业面积计算",
+    "target": "地下24H通道",
+    "metric": "计容状态",
+    "value": "不计容",
+    "rule_desc": "地下24H通道认定不计容，增加约2400m²商业面积。",
+    "source_image": "7.png"
+  },
+  {
+    "category": "客流导入",
+    "target": "人流",
+    "metric": "导入方式",
+    "value": "极致导入",
+    "rule_desc": "人流极致导入，通过轨道2个口+交通核3个口+住宅4层口+学校车位引流。",
+    "source_image": "7.png"
+  },
+  {
+    "category": "成本控制",
+    "target": "商业车位",
+    "metric": "折扣",
+    "value": "8折",
+    "rule_desc": "商业车位打8折，减少93个车位，节约约3720m²车库面积。",
+    "source_image": "7.png"
+  },
+  {
+    "category": "成本控制",
+    "target": "机动车位",
+    "metric": "屋顶放置数量",
+    "value": "100辆",
+    "rule_desc": "100辆机动车放置屋顶，节约约4000m²车库面积。",
+    "source_image": "7.png"
+  },
+  {
+    "category": "成本控制",
+    "target": "非机动车位",
+    "metric": "首层解决数量",
+    "value": "450辆",
+    "rule_desc": "首层解决450辆非机动车，节约约850m²地库面积。",
+    "source_image": "7.png"
+  },
+  {
+    "category": "成本控制",
+    "target": "地下开挖",
+    "metric": "成本降低",
+    "value": "> 1亿元",
+    "rule_desc": "通过设置屋面停车楼，减少地下开挖等措施，压降成本超1亿元。",
+    "source_image": "8.png"
+  },
+  {
+    "category": "交通动线",
+    "target": "人流导入",
+    "metric": "通行路径",
+    "value": "首二层通行路径",
+    "rule_desc": "设置首二层通行路径，打通公交枢纽与商业之间的游逛路径，将人流直接导入商业内部。",
+    "source_image": "8.png"
+  },
+  {
+    "category": "商业空间",
+    "target": "广场首层街铺商业",
+    "metric": "面积",
+    "value": "1700m²",
+    "rule_desc": "广场首层1700m²的街铺商业。",
+    "source_image": "8.png"
+  },
+  {
+    "category": "商业空间",
+    "target": "MALL对外通铺",
+    "metric": "面积",
+    "value": "4000m²",
+    "rule_desc": "MALL于广场首二层设有对外通铺4000m²。",
+    "source_image": "8.png"
+  },
+  {
+    "category": "商业空间",
+    "target": "主要商业空间",
+    "metric": "层数",
+    "value": "压至4层",
+    "rule_desc": "主要商业空间压至4层提升租金坪效。",
+    "source_image": "8.png"
+  },
+  {
+    "category": "消防/设备",
+    "target": "消防栓/消防扑救面",
+    "metric": "设置要求",
+    "value": "无需设",
+    "rule_desc": "建筑为多层，采用封闭楼梯间，无需设消防栓，无需设消防扑救面，减少设备数量提高得铺率。",
+    "source_image": "8.png"
+  },
+  {
+    "category": "商业空间/多经点",
+    "target": "多经点位",
+    "metric": "面积",
+    "value": "1300m²",
+    "rule_desc": "增设多经点位1300m²，增加商铺对外拓展空间。",
+    "source_image": "8.png"
+  },
+  {
+    "category": "停车",
+    "target": "屋顶机动车",
+    "metric": "车位数",
+    "value": "499辆",
+    "rule_desc": "499辆机动车放置屋顶。",
+    "source_image": "8.png"
+  },
+  {
+    "category": "停车",
+    "target": "屋顶停车",
+    "metric": "节省车库面积",
+    "value": "约18900m²",
+    "rule_desc": "屋顶停车节省约18900m²车库面积。",
+    "source_image": "8.png"
+  },
+  {
+    "category": "停车",
+    "target": "屋顶停车",
+    "metric": "节约成本",
+    "value": "约6600万元",
+    "rule_desc": "屋顶停车节约成本约6600万元。",
+    "source_image": "8.png"
+  },
+  {
+    "category": "停车",
+    "target": "首层非机动车",
+    "metric": "车位数",
+    "value": "687辆",
+    "rule_desc": "首层放置687辆非机动车。",
+    "source_image": "8.png"
+  },
+  {
+    "category": "停车",
+    "target": "非机动车停车",
+    "metric": "节省地库面积",
+    "value": "约1030m²",
+    "rule_desc": "非机动车停车节省约1030m²地库面积。",
+    "source_image": "8.png"
+  },
+  {
+    "category": "停车",
+    "target": "非机动车停车",
+    "metric": "节约成本",
+    "value": "约300万元",
+    "rule_desc": "非机动车停车节约成本约300万元。",
+    "source_image": "8.png"
+  },
+  {
+    "category": "人防",
+    "target": "人防面积",
+    "metric": "计算方式",
+    "value": "地下室无地库区域按地上面积3%计算",
+    "rule_desc": "地下室无地库区域人防面积按地上面积3%计算。",
+    "source_image": "8.png"
+  },
+  {
+    "category": "人防",
+    "target": "人防面积",
+    "metric": "减少面积",
+    "value": "3000m²",
+    "rule_desc": "人防面积减少3000m²。",
+    "source_image": "8.png"
+  },
+  {
+    "category": "人防",
+    "target": "人防面积",
+    "metric": "节约成本",
+    "value": "约120万元",
+    "rule_desc": "人防面积减少3000m²，节约成本约120万元。",
+    "source_image": "8.png"
+  },
+  {
+    "category": "停车/人防",
+    "target": "社会停车场",
+    "metric": "放置区域",
+    "value": "人防区域",
+    "rule_desc": "社会停车场放置在人防区域。",
+    "source_image": "8.png"
+  },
+  {
+    "category": "停车/人防",
+    "target": "人防车库",
+    "metric": "减少面积",
+    "value": "15400m²",
+    "rule_desc": "商业少做人防车库面积15400m²。",
+    "source_image": "8.png"
+  },
+  {
+    "category": "停车/人防",
+    "target": "人防车库",
+    "metric": "节约成本",
+    "value": "600万元",
+    "rule_desc": "商业少做人防车库面积15400m²，节约成本600万元。",
+    "source_image": "8.png"
+  },
+  {
+    "category": "道路/交通",
+    "target": "匝道",
+    "metric": "匝道类型",
+    "value": "由双向改为单向4车道",
+    "rule_desc": "匝道由双向3000m²改为单向4车道。",
+    "source_image": "8.png"
+  },
+  {
+    "category": "道路/交通",
+    "target": "匝道",
+    "metric": "面积减少",
+    "value": "1500m²",
+    "rule_desc": "匝道面积减少1500m²。",
+    "source_image": "8.png"
+  },
+  {
+    "category": "道路/交通",
+    "target": "匝道",
+    "metric": "节约成本",
+    "value": "1000万元",
+    "rule_desc": "匝道面积减少1500m²，节约成本1000万元。",
+    "source_image": "8.png"
+  },
+  {
+    "category": "整体规划策略",
+    "target": "大渡口天街",
+    "metric": "策略类型",
+    "value": "多首层策略",
+    "rule_desc": "大渡口天街采用多首层策略，充分利用场地高差，打造多首层天街，以激活全场客流，并优化土护降隐性成本。",
+    "source_image": "10.png"
+  },
+  {
+    "category": "整体规划策略",
+    "target": "武汉光谷天街",
+    "metric": "策略类型",
+    "value": "双首层规划",
+    "rule_desc": "武汉光谷天街利用场地现状高差，实现LG和L1双首层规划。",
+    "source_image": "10.png"
+  },
+  {
+    "category": "楼层功能与面积",
+    "target": "大渡口天街 L4",
+    "metric": "业态",
+    "value": "养老",
+    "rule_desc": "大渡口天街L4层规划为养老业态。",
+    "source_image": "10.png"
+  },
+  {
+    "category": "楼层功能与面积",
+    "target": "大渡口天街 L4",
+    "metric": "面积",
+    "value": "16000m²",
+    "rule_desc": "大渡口天街L4层养老业态面积为16000m²。",
+    "source_image": "10.png"
+  },
+  {
+    "category": "楼层功能与面积",
+    "target": "大渡口天街 L3",
+    "metric": "业态",
+    "value": "冠寓",
+    "rule_desc": "大渡口天街L3层规划为冠寓业态。",
+    "source_image": "10.png"
+  },
+  {
+    "category": "楼层功能与面积",
+    "target": "大渡口天街 L3",
+    "metric": "面积",
+    "value": "18000m²",
+    "rule_desc": "大渡口天街L3层冠寓业态面积为18000m²。",
+    "source_image": "10.png"
+  },
+  {
+    "category": "楼层功能与面积",
+    "target": "大渡口天街 L2",
+    "metric": "业态",
+    "value": "商业",
+    "rule_desc": "大渡口天街L2层规划为商业业态。",
+    "source_image": "10.png"
+  },
+  {
+    "category": "楼层功能与面积",
+    "target": "大渡口天街 L2",
+    "metric": "面积",
+    "value": "19000m²",
+    "rule_desc": "大渡口天街L2层商业业态面积为19000m²。",
+    "source_image": "10.png"
+  },
+  {
+    "category": "楼层功能与面积",
+    "target": "大渡口天街 L1",
+    "metric": "业态",
+    "value": "商业",
+    "rule_desc": "大渡口天街L1层规划为商业业态。",
+    "source_image": "10.png"
+  },
+  {
+    "category": "楼层功能与面积",
+    "target": "大渡口天街 L1",
+    "metric": "面积",
+    "value": "22000m²",
+    "rule_desc": "大渡口天街L1层商业业态面积为22000m²。",
+    "source_image": "10.png"
+  },
+  {
+    "category": "楼层功能与面积",
+    "target": "大渡口天街 LG",
+    "metric": "业态",
+    "value": "地库",
+    "rule_desc": "大渡口天街LG层规划为地库。",
+    "source_image": "10.png"
+  },
+  {
+    "category": "楼层功能与面积",
+    "target": "大渡口天街 LG",
+    "metric": "地库面积",
+    "value": "21000m²",
+    "rule_desc": "大渡口天街LG层地库面积为21000m²。",
+    "source_image": "10.png"
+  },
+  {
+    "category": "楼层功能与面积",
+    "target": "大渡口天街 LG",
+    "metric": "地库面积",
+    "value": "3000m²",
+    "rule_desc": "大渡口天街LG层另有3000m²地库面积。",
+    "source_image": "10.png"
+  },
+  {
+    "category": "停车",
+    "target": "大渡口天街 屋顶停车",
+    "metric": "停车位数量",
+    "value": "300辆",
+    "rule_desc": "大渡口天街屋顶停车位数量为300辆。",
+    "source_image": "10.png"
+  },
+  {
+    "category": "楼层高程",
+    "target": "大渡口天街 屋顶停车",
+    "metric": "高程",
+    "value": "278.5m",
+    "rule_desc": "大渡口天街屋顶停车高程为278.5米。",
+    "source_image": "10.png"
+  },
+  {
+    "category": "楼层高程",
+    "target": "大渡口天街 L4",
+    "metric": "高程",
+    "value": "273.1m",
+    "rule_desc": "大渡口天街L4层高程为273.1米。",
+    "source_image": "10.png"
+  },
+  {
+    "category": "楼层高程",
+    "target": "大渡口天街 L3",
+    "metric": "高程",
+    "value": "267.7m",
+    "rule_desc": "大渡口天街L3层高程为267.7米。",
+    "source_image": "10.png"
+  },
+  {
+    "category": "楼层高程",
+    "target": "大渡口天街 L2",
+    "metric": "高程",
+    "value": "262.0m",
+    "rule_desc": "大渡口天街L2层高程为262.0米。",
+    "source_image": "10.png"
+  },
+  {
+    "category": "楼层高程",
+    "target": "大渡口天街 L1",
+    "metric": "高程",
+    "value": "256.0m",
+    "rule_desc": "大渡口天街L1层高程为256.0米。",
+    "source_image": "10.png"
+  },
+  {
+    "category": "楼层高程",
+    "target": "大渡口天街 LG",
+    "metric": "高程",
+    "value": "249m",
+    "rule_desc": "大渡口天街LG层高程为249米。",
+    "source_image": "10.png"
+  },
+  {
+    "category": "场地高差与坡度",
+    "target": "大渡口天街 道路",
+    "metric": "高程",
+    "value": "261m",
+    "rule_desc": "大渡口天街部分道路高程为261米。",
+    "source_image": "10.png"
+  },
+  {
+    "category": "场地高差与坡度",
+    "target": "大渡口天街 道路",
+    "metric": "坡度",
+    "value": "2%",
+    "rule_desc": "大渡口天街部分道路坡度为2%，连接至261高程。",
+    "source_image": "10.png"
+  },
+  {
+    "category": "场地高差与坡度",
+    "target": "大渡口天街 道路",
+    "metric": "高程",
+    "value": "246.7m",
+    "rule_desc": "大渡口天街部分道路高程为246.7米。",
+    "source_image": "10.png"
+  },
+  {
+    "category": "场地高差与坡度",
+    "target": "大渡口天街 道路",
+    "metric": "坡度",
+    "value": "3%",
+    "rule_desc": "大渡口天街部分道路坡度为3%，连接至246.7高程。",
+    "source_image": "10.png"
+  },
+  {
+    "category": "场地高差与坡度",
+    "target": "大渡口天街 公园",
+    "metric": "高程",
+    "value": "272m",
+    "rule_desc": "大渡口天街公园高程为272米。",
+    "source_image": "10.png"
+  },
+  {
+    "category": "动线连接",
+    "target": "大渡口天街 L2",
+    "metric": "连接坡度",
+    "value": "1%",
+    "rule_desc": "大渡口天街L2层通过1%缓坡与外部连接。",
+    "source_image": "10.png"
+  },
+  {
+    "category": "动线连接",
+    "target": "大渡口天街 L2",
+    "metric": "连接坡度",
+    "value": "3%",
+    "rule_desc": "大渡口天街L2层通过3%坡与外部连接。",
+    "source_image": "10.png"
+  },
+  {
+    "category": "动线连接",
+    "target": "大渡口天街 L1",
+    "metric": "连接方式",
+    "value": "下接",
+    "rule_desc": "大渡口天街L1层通过下接方式与外部连接。",
+    "source_image": "10.png"
+  },
+  {
+    "category": "动线连接",
+    "target": "大渡口天街 屋顶停车",
+    "metric": "连接方式",
+    "value": "上接",
+    "rule_desc": "大渡口天街屋顶停车通过上接方式与外部连接。",
+    "source_image": "10.png"
+  },
+  {
+    "category": "动线连接",
+    "target": "大渡口天街 楼层间",
+    "metric": "连接设施",
+    "value": "楼梯+扶梯",
+    "rule_desc": "大渡口天街楼层间通过楼梯和扶梯连接。",
+    "source_image": "10.png"
+  },
+  {
+    "category": "品牌落位与面积",
+    "target": "武汉光谷天街 LG",
+    "metric": "小米品牌面积",
+    "value": "210m²",
+    "rule_desc": "武汉光谷天街LG层小米品牌面积为210m²。",
+    "source_image": "10.png"
+  },
+  {
+    "category": "品牌落位与面积",
+    "target": "武汉光谷天街 LG",
+    "metric": "华为品牌面积",
+    "value": "190m²",
+    "rule_desc": "武汉光谷天街LG层华为品牌面积为190m²。",
+    "source_image": "10.png"
+  },
+  {
+    "category": "品牌落位与面积",
+    "target": "武汉光谷天街 LG",
+    "metric": "迪卡侬品牌面积",
+    "value": "1150m²",
+    "rule_desc": "武汉光谷天街LG层迪卡侬品牌面积为1150m²。",
+    "source_image": "10.png"
+  },
+  {
+    "category": "品牌落位与面积",
+    "target": "武汉光谷天街 L1",
+    "metric": "小米品牌面积",
+    "value": "460m²",
+    "rule_desc": "武汉光谷天街L1层小米品牌面积为460m²。",
+    "source_image": "10.png"
+  },
+  {
+    "category": "品牌落位与面积",
+    "target": "武汉光谷天街 L1",
+    "metric": "华为品牌面积",
+    "value": "400m²",
+    "rule_desc": "武汉光谷天街L1层华为品牌面积为400m²。",
+    "source_image": "10.png"
+  },
+  {
+    "category": "品牌落位与面积",
+    "target": "武汉光谷天街 L1",
+    "metric": "迪卡侬品牌面积",
+    "value": "340m²",
+    "rule_desc": "武汉光谷天街L1层迪卡侬品牌面积为340m²。",
+    "source_image": "10.png"
+  },
+  {
+    "category": "客流导入",
+    "target": "城市公共交通",
+    "metric": "连接程度",
+    "value": "应联尽联",
+    "rule_desc": "城市公共交通（地铁、轻轨、公交等）应尽可能多地连接，以实现极致客流导入。",
+    "source_image": "11.png"
+  },
+  {
+    "category": "客流导入",
+    "target": "轨道交通连接",
+    "metric": "连接轨道线路数量",
+    "value": "3条",
+    "rule_desc": "（以重庆南坪天街为例）项目应连接3条轨道线路。",
+    "source_image": "11.png"
+  },
+  {
+    "category": "客流导入",
+    "target": "地铁连接口",
+    "metric": "地铁连接口数量",
+    "value": "5个",
+    "rule_desc": "（以重庆南坪天街为例）项目应设置5个地铁连接口。",
+    "source_image": "11.png"
+  },
+  {
+    "category": "客流导入",
+    "target": "公交接驳口",
+    "metric": "公交接驳口数量",
+    "value": "3个",
+    "rule_desc": "（以重庆南坪天街为例）项目应设置3个公交接驳口。",
+    "source_image": "11.png"
+  },
+  {
+    "category": "客流导入",
+    "target": "交通接驳动线",
+    "metric": "动线顺畅度",
+    "value": "直接顺畅",
+    "rule_desc": "从公共交通出站闸机到商业天街入口的动线应进行研究，确保直接顺畅，以实现极致客流导入。",
+    "source_image": "11.png"
+  },
+  {
+    "category": "商业布局",
+    "target": "商业界面",
+    "metric": "延展性",
+    "value": "外延",
+    "rule_desc": "商业界面应向外延展，以更好地承接导入的客流。",
+    "source_image": "11.png"
+  },
+  {
+    "category": "客流连接",
+    "target": "杭州云城天街",
+    "metric": "连接楼层",
+    "value": "B1, B2, L1, L4 (零售层), 办公首层",
+    "rule_desc": "杭州云城天街项目，塔楼的B1、B2、L1、L4（零售层）与办公首层之间通过扶梯连接，实现地下客流连接。",
+    "source_image": "12.png"
+  },
+  {
+    "category": "客流连接",
+    "target": "杭州云城天街 - 办公A塔",
+    "metric": "连接方式",
+    "value": "增加通道 (给小水井)",
+    "rule_desc": "杭州云城天街的办公A塔大堂首层右侧需增加通道（给小水井），以实现与天街商业的室内连接。",
+    "source_image": "12.png"
+  },
+  {
+    "category": "商业业态",
+    "target": "杭州云城天街",
+    "metric": "临街商铺面积",
+    "value": "85㎡",
+    "rule_desc": "杭州云城天街项目需增加85平方米的临街商铺。",
+    "source_image": "12.png"
+  },
+  {
+    "category": "客流连接",
+    "target": "武汉滨江天街",
+    "metric": "连接楼层",
+    "value": "B1, L1, L4 (零售层)",
+    "rule_desc": "武汉滨江天街项目，塔楼的B1、L1、L4（零售层）之间进行连接。",
+    "source_image": "12.png"
+  },
+  {
+    "category": "客流连接",
+    "target": "武汉滨江天街",
+    "metric": "高价值餐饮层连接",
+    "value": "取消",
+    "rule_desc": "武汉滨江天街项目取消高价值餐饮层的连接走道。",
+    "source_image": "12.png"
+  },
+  {
+    "category": "客流连接",
+    "target": "武汉滨江天街 - 塔楼客梯",
+    "metric": "客梯停靠楼层",
+    "value": "B1层",
+    "rule_desc": "武汉滨江天街项目，塔楼客梯需在B1层停靠，以连接天街B1商业，考虑到周边地块有较多业态。",
+    "source_image": "12.png"
+  },
+  {
+    "category": "商业业态",
+    "target": "武汉滨江天街",
+    "metric": "临街商铺面积",
+    "value": "110㎡",
+    "rule_desc": "武汉滨江天街项目需增加110平方米的临街商铺面积。",
+    "source_image": "12.png"
+  },
+  {
+    "category": "停车",
+    "target": "武汉滨江天街 - 办公塔",
+    "metric": "停车功能",
+    "value": "办公停车",
+    "rule_desc": "武汉滨江天街项目B3层为办公停车。",
+    "source_image": "12.png"
+  },
+  {
+    "category": "停车",
+    "target": "武汉滨江天街 - 类住塔",
+    "metric": "停车功能",
+    "value": "类住停车库",
+    "rule_desc": "武汉滨江天街项目B2层为类住停车库。",
+    "source_image": "12.png"
+  },
+  {
+    "category": "商业价值",
+    "target": "店铺展面",
+    "metric": "遮挡情况",
+    "value": "无遮挡",
+    "rule_desc": "铺展面无遮挡是兑现商铺价值的第一要素，卷帘柱会遮挡店铺展面价值。",
+    "source_image": "13.png"
+  },
+  {
+    "category": "消防策略",
+    "target": "防火模式",
+    "metric": "模式类型",
+    "value": "扩大中庭防火模式",
+    "rule_desc": "消防策略优化应采用扩大中庭防火模式。",
+    "source_image": "13.png"
+  },
+  {
+    "category": "消防策略",
+    "target": "卷帘设计",
+    "metric": "卷帘柱",
+    "value": "取消",
+    "rule_desc": "为提升商业价值和优化消防策略，应取消全部卷帘柱。",
+    "source_image": "13.png"
+  },
+  {
+    "category": "消防策略",
+    "target": "卷帘设计",
+    "metric": "超长卷帘类型",
+    "value": "幕式卷帘",
+    "rule_desc": "超长卷帘应采用幕式卷帘。",
+    "source_image": "13.png"
+  },
+  {
+    "category": "铺位面积",
+    "target": "零售铺位",
+    "metric": "面积",
+    "value": "<= 150 m²",
+    "rule_desc": "零售铺位面积在150m²以下价值最优。",
+    "source_image": "14.png"
+  },
+  {
+    "category": "铺位面积",
+    "target": "餐饮铺位",
+    "metric": "面积",
+    "value": "<= 300 m²",
+    "rule_desc": "餐饮铺位面积在300m²以下价值最优。",
+    "source_image": "14.png"
+  },
+  {
+    "category": "铺位面积",
+    "target": "所有铺位",
+    "metric": "面积",
+    "value": "> 最优面积",
+    "rule_desc": "铺位面积过大将伴随租金的折减。",
+    "source_image": "14.png"
+  },
+  {
+    "category": "铺位面积与布局",
+    "target": "铺位",
+    "metric": "坪效",
+    "value": "高坪效",
+    "rule_desc": "在展面及进深合理的前提下，更多的“高坪效”铺位是租金提升的关键。",
+    "source_image": "14.png"
+  },
+  {
+    "category": "铺型优化",
+    "target": "商铺进深与面宽",
+    "metric": "资源分配",
+    "value": "合理分配",
+    "rule_desc": "解决商铺进深资源与面宽资源合理分配问题，达到有效资源数量的极致提升。",
+    "source_image": "14.png"
+  },
+  {
+    "category": "铺型优化",
+    "target": "大铺",
+    "metric": "切分策略",
+    "value": "“大切小”方式",
+    "rule_desc": "深入研究大铺切分策略，针对不同业态和空间类型采取多种“大切小”方式，去化尽端大铺，提升坪效。",
+    "source_image": "14.png"
+  },
+  {
+    "category": "首层价值",
+    "target": "首层商铺",
+    "metric": "1F上方洞口边线与店铺线距离",
+    "value": "极限压缩",
+    "rule_desc": "极限压缩1F上方洞口边线与店铺线距离，以最大化首层商铺面积并提升收益。",
+    "source_image": "14.png"
+  },
+  {
+    "category": "沿街展面",
+    "target": "疏散楼梯",
+    "metric": "位置",
+    "value": "优化",
+    "rule_desc": "优化疏散楼梯位置，以打开店铺沿街展面。",
+    "source_image": "14.png"
+  },
+  {
+    "category": "沿街展面",
+    "target": "立面中段",
+    "metric": "冷区",
+    "value": "避免",
+    "rule_desc": "打开店铺沿街展面，避免立面中段冷区，拉升商业氛围。",
+    "source_image": "14.png"
+  },
+  {
+    "category": "室外场地策略",
+    "target": "商业盒子增设",
+    "metric": "项目类型",
+    "value": "P1及1+项目",
+    "rule_desc": "对于P1及1+项目且整体经营状况良好的，可以通过增加商业盒子提升项目NPI。",
+    "source_image": "14.png"
+  },
+  {
+    "category": "室外场地策略",
+    "target": "商业盒子增设",
+    "metric": "全场租金",
+    "value": ">= 200~250",
+    "rule_desc": "对于全场租金达到200~250以上的项目，可以通过增加商业盒子提升项目NPI。",
+    "source_image": "14.png"
+  },
+  {
+    "category": "室外场地策略",
+    "target": "商业盒子增设",
+    "metric": "城市展面/景观资源",
+    "value": "较好",
+    "rule_desc": "对于具有较好的城市展面或者景观资源的项目，可以通过增加商业盒子提升项目NPI。",
+    "source_image": "14.png"
+  },
+  {
+    "category": "扶梯动线",
+    "target": "整体策略",
+    "metric": "",
+    "value": "",
+    "rule_desc": "扶梯动线布局应合理分配客流，并有效缓解客流冷区。",
+    "source_image": "15.png"
+  },
+  {
+    "category": "扶梯动线",
+    "target": "扶梯布局",
+    "metric": "",
+    "value": "",
+    "rule_desc": "扶梯应采用游逛式布置，避免叠放形成“扶梯墙”遮挡视线，以增加游逛体验。",
+    "source_image": "15.png"
+  },
+  {
+    "category": "扶梯动线",
+    "target": "环形动线扶梯",
+    "metric": "",
+    "value": "",
+    "rule_desc": "环形动线扶梯应采用游逛式布局。",
+    "source_image": "15.png"
+  },
+  {
+    "category": "扶梯动线",
+    "target": "客流分配",
+    "metric": "",
+    "value": "",
+    "rule_desc": "扶梯布局应注重对角部主力店（如4个角部大店）的人流支持。",
+    "source_image": "15.png"
+  },
+  {
+    "category": "扶梯动线",
+    "target": "环形动线扶梯",
+    "metric": "",
+    "value": "",
+    "rule_desc": "内外圈扶梯应采用勾布（错位）布局，以避免外圈形成客流冷区。",
+    "source_image": "15.png"
+  },
+  {
+    "category": "扶梯动线",
+    "target": "扶梯落位",
+    "metric": "",
+    "value": "",
+    "rule_desc": "扶梯落位应靠近店铺，例如设置在小中庭中。",
+    "source_image": "15.png"
+  },
+  {
+    "category": "扶梯动线",
+    "target": "扶梯落位",
+    "metric": "",
+    "value": "",
+    "rule_desc": "扶梯落位应考虑与主力店的距离，例如通过镜像布局拉近扶梯落点与端头主力店的距离。",
+    "source_image": "15.png"
+  },
+  {
+    "category": "空间利用",
+    "target": "下沉广场",
+    "metric": "经营活动引入",
+    "value": "需加强",
+    "rule_desc": "下沉广场不应仅作为疏散用途，应积极引入经营活动，避免成为负向空间。",
+    "source_image": "16.png"
+  },
+  {
+    "category": "空间利用",
+    "target": "下沉广场",
+    "metric": "经营性功能引入",
+    "value": "需加强",
+    "rule_desc": "下沉广场应充分利用其对外展面，加强经营性功能的引入。",
+    "source_image": "16.png"
+  },
+  {
+    "category": "空间利用",
+    "target": "景观屋面",
+    "metric": "经营支持",
+    "value": "需引入",
+    "rule_desc": "景观屋面不应闲置，应考虑引入经营支持以提升利用率。",
+    "source_image": "16.png"
+  },
+  {
+    "category": "空间利用",
+    "target": "露台空间",
+    "metric": "空间利用策略",
+    "value": "需优化",
+    "rule_desc": "露台空间应被充分利用，不应简单地直接送给租户处理。",
+    "source_image": "16.png"
+  },
+  {
+    "category": "空间利用",
+    "target": "室外广场空间",
+    "metric": "日常功能多样性",
+    "value": "需提升",
+    "rule_desc": "室外广场空间不应仅限于举办活动，应提升其日常功能多样性，减少限制。",
+    "source_image": "16.png"
+  },
+  {
+    "category": "商业动线与互动",
+    "target": "MALL与商铺/街道",
+    "metric": "商业互动性",
+    "value": "需加强",
+    "rule_desc": "MALL与商铺之间应加强互动，减少中间街道的限制，避免各自为政，提升整体商业活力。",
+    "source_image": "16.png"
+  },
+  {
+    "category": "空间利用",
+    "target": "连廊下市政道路空间",
+    "metric": "空间活化",
+    "value": "需实施",
+    "rule_desc": "连廊下市政道路空间不应被动地作为消极空间处理，应积极探索其利用价值，实现空间活化。",
+    "source_image": "16.png"
+  },
+  {
+    "category": "业态布局",
+    "target": "屋顶商铺",
+    "metric": null,
+    "value": null,
+    "rule_desc": "屋顶商铺应采用双面店形式，并进行业态分布规划。",
+    "source_image": "17.png"
+  },
+  {
+    "category": "景观设计",
+    "target": "屋顶露台",
+    "metric": null,
+    "value": null,
+    "rule_desc": "屋顶露台区域可设置垂直绿化墙。",
+    "source_image": "17.png"
+  },
+  {
+    "category": "建筑采光",
+    "target": "屋顶露台",
+    "metric": null,
+    "value": null,
+    "rule_desc": "屋顶露台区域可设置采光天窗。",
+    "source_image": "17.png"
+  },
+  {
+    "category": "空间尺度",
+    "target": "屋顶露台段落及露台间",
+    "metric": "空间高度",
+    "value": "2.9m - 5m",
+    "rule_desc": "屋顶露台区域的段落及露台间空间高度范围为2.9米至5米。",
+    "source_image": "17.png"
+  },
+  {
+    "category": "景观设计",
+    "target": "屋顶绿野区域扶手景观间",
+    "metric": "尺寸",
+    "value": "1.2m",
+    "rule_desc": "屋顶绿野区域的扶手景观间尺寸为1.2米。",
+    "source_image": "17.png"
+  },
+  {
+    "category": "交通规划",
+    "target": "背街道路",
+    "metric": "道路类型",
+    "value": "步行街",
+    "rule_desc": "背街应将车行道改造为步行街。",
+    "source_image": "17.png"
+  },
+  {
+    "category": "建筑立面",
+    "target": "沿街商铺门头",
+    "metric": "门头高度",
+    "value": "通高",
+    "rule_desc": "沿街商铺应打造通高门头形象。",
+    "source_image": "17.png"
+  },
+  {
+    "category": "景观设计",
+    "target": "背街休闲空间",
+    "metric": null,
+    "value": null,
+    "rule_desc": "背街应结合景观设计和租户外摆，塑造品质休闲空间。",
+    "source_image": "17.png"
+  },
+  {
+    "category": "商业广场",
+    "target": "坪效 (特定区域)",
+    "metric": "坪效",
+    "value": "4600",
+    "rule_desc": "成都西宸天街项目中，“沪溪河”区域的坪效达到4600。",
+    "source_image": "18.png"
+  },
+  {
+    "category": "商业广场 - 定制商业盒子",
+    "target": "适用项目等级",
+    "metric": "项目等级",
+    "value": "P2及以上",
+    "rule_desc": "定制商业盒子适用于强P2及以上项目。",
+    "source_image": "18.png"
+  },
+  {
+    "category": "商业广场 - 定制商业盒子",
+    "target": "全场租金",
+    "metric": "租金",
+    "value": ">= 180",
+    "rule_desc": "定制商业盒子项目全场租金需达到180+。",
+    "source_image": "18.png"
+  },
+  {
+    "category": "商业广场 - 定制商业盒子",
+    "target": "城市展面/景观资源",
+    "metric": "资源质量",
+    "value": "较好",
+    "rule_desc": "定制商业盒子需具备较好的城市展面或者景观资源。",
+    "source_image": "18.png"
+  },
+  {
+    "category": "商业广场 - 定制商业盒子",
+    "target": "费用模式",
+    "metric": "费用类型",
+    "value": "设计收费，建造免费",
+    "rule_desc": "定制商业盒子的设计需收费，建造免费。",
+    "source_image": "18.png"
+  },
+  {
+    "category": "商业连廊下空间",
+    "target": "空间利用策略",
+    "metric": "利用方式",
+    "value": "增加内透店铺，结合经营性外摆",
+    "rule_desc": "AB馆连廊下道路等被忽视的负面空间可通过增加内透店铺并结合经营性外摆等手段进行利用，以产生可观收益。",
+    "source_image": "18.png"
+  },
+  {
+    "category": "商业连廊下空间",
+    "target": "空间价值目标",
+    "metric": "价值创造",
+    "value": "记忆点，打卡点，可观收益",
+    "rule_desc": "连廊下空间利用的目标是变废为宝，成为项目的记忆点、打卡点，并产生可观收益。",
+    "source_image": "18.png"
+  },
+  {
+    "category": "商业连廊下空间",
+    "target": "空间用途 (推广活动)",
+    "metric": "具体应用",
+    "value": "推广活动",
+    "rule_desc": "连廊下道路空间可作为推广活动使用，并成为城市记忆点 (例如：重庆时代天街)。",
+    "source_image": "18.png"
+  },
+  {
+    "category": "商业连廊下空间",
+    "target": "空间用途 (经营性外摆)",
+    "metric": "具体应用",
+    "value": "结合内透店铺设置外摆",
+    "rule_desc": "连廊下空间可结合内透店铺设置外摆进行经营使用 (例如：海口昆府天街)。",
+    "source_image": "18.png"
+  },
+  {
+    "category": "商业连廊下空间",
+    "target": "空间改造 (封闭道路)",
+    "metric": "改造方式",
+    "value": "封闭道路",
+    "rule_desc": "连廊下可封闭道路，以消除隔离障碍并增加价值 (例如：苏州胥江天街)。",
+    "source_image": "18.png"
+  },
+  {
+    "category": "铺位规划",
+    "target": "首二层商铺",
+    "metric": "面积",
+    "value": "120-130平米商铺调整到120平米以内",
+    "rule_desc": "首二层背走道应极致挖掘，部分120-130平米商铺应通过铺位调整控制到120平米以内，避免两个疏散门。",
+    "source_image": "19.png"
+  },
+  {
+    "category": "空间设计",
+    "target": "首层租赁线与二层板边距",
+    "metric": "距离",
+    "value": "可按0.6m控制",
+    "rule_desc": "部分主中庭或商业价值较高位置，首层租赁线与二层板边距可按0.6m控制。",
+    "source_image": "19.png"
+  },
+  {
+    "category": "空间设计",
+    "target": "中庭",
+    "metric": "宽度",
+    "value": "减小",
+    "rule_desc": "标准中庭宽度减小 (结合空间效果评估，需一事一议)。",
+    "source_image": "19.png"
+  },
+  {
+    "category": "动线设计",
+    "target": "背走道",
+    "metric": "净宽度",
+    "value": "1.5m",
+    "rule_desc": "在满足消防疏散宽度要求的前提下，背走道应按照净宽1.5m设置。",
+    "source_image": "19.png"
+  },
+  {
+    "category": "后勤动线",
+    "target": "餐饮层后勤通道",
+    "metric": "连通性",
+    "value": "不环通",
+    "rule_desc": "餐饮层后勤通道在保证货梯可达的情况下不环通。",
+    "source_image": "19.png"
+  },
+  {
+    "category": "后勤动线",
+    "target": "零售商铺后勤通道",
+    "metric": "设置",
+    "value": "可不设置 (预留餐饮条件的商铺除外)",
+    "rule_desc": "零售商铺可不设置后勤通道 (预留餐饮条件的商铺除外)。",
+    "source_image": "19.png"
+  },
+  {
+    "category": "业态布局",
+    "target": "儿童业态",
+    "metric": "布置方式",
+    "value": "集中布置",
+    "rule_desc": "儿童业态应尽量集中布置，保证儿童防火分区和独立疏散楼梯的经济性，保证对疏散宽度的最大利用，从而减少楼梯间数量。",
+    "source_image": "19.png"
+  },
+  {
+    "category": "租赁面积计算",
+    "target": "餐饮外摆区",
+    "metric": "计租方式",
+    "value": "计入可租赁建筑面积",
+    "rule_desc": "合法合规的餐饮外摆区计租应计入可租赁建筑面积。",
+    "source_image": "19.png"
+  },
+  {
+    "category": "租赁面积计算",
+    "target": "商铺仓库",
+    "metric": "计租方式",
+    "value": "可计入得铺率",
+    "rule_desc": "供商铺使用的仓库计租，前期明确提资 (位置及面积)，按规范要求设置，可计入得铺率。",
+    "source_image": "19.png"
+  },
+  {
+    "category": "屋顶设备",
+    "target": "屋顶机房",
+    "metric": "面积和高度",
+    "value": "压缩，尽量采用露天设备，争取不计容",
+    "rule_desc": "压缩屋顶机房面积和高度，尽量采用露天设备，争取不计容 (结合属地条件预先征询通过后采用)。",
+    "source_image": "19.png"
+  },
+  {
+    "category": "立面设计",
+    "target": "背立面后勤通道",
+    "metric": "设计形式",
+    "value": "开敞形式，顶层露天，其它层无外墙，计容面积可折减",
+    "rule_desc": "背立面后勤通道可采用开敞形式设计，顶层露天，其它层无外墙，计容面积可折减 (结合属地条件预先征询通过后采用)。",
+    "source_image": "19.png"
+  },
+  {
+    "category": "立面设计",
+    "target": "背立面 (三级立面) 楼梯",
+    "metric": "设计形式",
+    "value": "开敞楼梯，楼梯计容面积可折减",
+    "rule_desc": "背立面 (三级立面) 可采用开敞楼梯设计，楼梯计容面积可折减 (结合属地条件预先征询通过后采用)。",
+    "source_image": "19.png"
+  },
+  {
+    "category": "影院设计",
+    "target": "影厅放映走道/影院夹层/看台下方空间",
+    "metric": "面积",
+    "value": "缩小放映走道面积，最小化影院夹层无效面积，利用看台下方偷赠空间",
+    "rule_desc": "通过影厅的精细化排布缩小放映走道面积，最小化影院夹层无效面积；通过看台下方的偷赠空间利用，提升使用面积。",
+    "source_image": "19.png"
+  },
+  {
+    "category": "空间利用",
+    "target": "非客户通行走道",
+    "metric": "压缩宽度",
+    "value": "100-600MM",
+    "rule_desc": "在满足消防疏散要求的基础上，对所有后勤通道、楼梯间、疏散门等非客户通行走道进行压缩，压缩宽度范围为100-600MM不等，共释放约45m²面积。",
+    "source_image": "20.png"
+  },
+  {
+    "category": "空间利用",
+    "target": "附属功能空间",
+    "metric": "空间用途",
+    "value": "转换为商铺",
+    "rule_desc": "部分附属功能空间，如工具间、背走廊、坡道下空间，可有效转换为商铺使用，共释放约146.5m²面积。",
+    "source_image": "20.png"
+  },
+  {
+    "category": "店铺布局",
+    "target": "1F主中庭铺位线",
+    "metric": "压缩距离",
+    "value": "600MM",
+    "rule_desc": "1F主中庭铺位线按照600MM进行压缩。",
+    "source_image": "20.png"
+  },
+  {
+    "category": "动线",
+    "target": "1F其余卡走道",
+    "metric": "宽度",
+    "value": "1.8M",
+    "rule_desc": "1F其余卡走道宽度为1.8米。",
+    "source_image": "20.png"
+  },
+  {
+    "category": "店铺布局",
+    "target": "2F-5F店铺与中庭",
+    "metric": "净距",
+    "value": "3.1—3.2M",
+    "rule_desc": "2F-5F店铺与中庭的净距控制在3.1—3.2米。",
+    "source_image": "20.png"
+  },
+  {
+    "category": "店铺布局",
+    "target": "局部端铺",
+    "metric": "压缩方向",
+    "value": "往前压缩",
+    "rule_desc": "局部端铺进行往前压缩。",
+    "source_image": "20.png"
+  },
+  {
+    "category": "空间利用",
+    "target": "5F工具间",
+    "metric": "净高",
+    "value": "局部3M",
+    "rule_desc": "5F工具间，局部净高为3M，经与商业运营部门沟通后，可转换为商业用途，释放约23m²。",
+    "source_image": "20.png"
+  },
+  {
+    "category": "空间利用",
+    "target": "-1F汽车坡道地下空间",
+    "metric": "高度",
+    "value": "局部2-3M",
+    "rule_desc": "-1F汽车坡道地下局部2-3M高度空间，经与商业运营部门沟通后，可作为有效商铺使用，释放约63m²。",
+    "source_image": "20.png"
+  },
+  {
+    "category": "空间利用",
+    "target": "4/5F西南角餐饮铺后场疏散通道",
+    "metric": "疏散门方向",
+    "value": "调整",
+    "rule_desc": "4/5F西南角餐饮铺的后场疏散通道，通过调整疏散门方向，可增加约60.5m²的商业面积。",
+    "source_image": "20.png"
+  },
+  {
+    "category": "层高",
+    "target": "P2首层",
+    "metric": "层高",
+    "value": "5.8~6m",
+    "rule_desc": "建议P2首层层高为5.8~6米",
+    "source_image": "21.png"
+  },
+  {
+    "category": "层高",
+    "target": "P2首层",
+    "metric": "净高",
+    "value": "4~4.2m",
+    "rule_desc": "建议P2首层净高为4~4.2米",
+    "source_image": "21.png"
+  },
+  {
+    "category": "层高",
+    "target": "P3首层",
+    "metric": "层高",
+    "value": "5.6m",
+    "rule_desc": "建议P3首层层高为5.6米",
+    "source_image": "21.png"
+  },
+  {
+    "category": "层高",
+    "target": "P3首层",
+    "metric": "净高",
+    "value": "3.8m",
+    "rule_desc": "建议P3首层净高为3.8米",
+    "source_image": "21.png"
+  },
+  {
+    "category": "层高",
+    "target": "标准层",
+    "metric": "层高",
+    "value": "5.4m",
+    "rule_desc": "标准层层高为5.4米",
+    "source_image": "21.png"
+  },
+  {
+    "category": "层高",
+    "target": "标准层",
+    "metric": "净高",
+    "value": "3.6m",
+    "rule_desc": "标准层净高为3.6米",
+    "source_image": "21.png"
+  },
+  {
+    "category": "楼层数量",
+    "target": "P3项目",
+    "metric": "楼层数量",
+    "value": "<= 4层",
+    "rule_desc": "P3项目楼层数量应尽量控制在4层以内",
+    "source_image": "21.png"
+  },
+  {
+    "category": "建筑高度",
+    "target": "P3项目",
+    "metric": "楼层总高度",
+    "value": "<= 24米",
+    "rule_desc": "P3项目楼层总高度应控制在24米以内",
+    "source_image": "21.png"
+  },
+  {
+    "category": "规划指标",
+    "target": "P3项目",
+    "metric": "覆盖率",
+    "value": "最大化",
+    "rule_desc": "P3项目应实现覆盖率最大化",
+    "source_image": "21.png"
+  },
+  {
+    "category": "层高",
+    "target": "L2及以上楼层 - 普通影院",
+    "metric": "层高",
+    "value": "两层通高",
+    "rule_desc": "L2及以上楼层的普通影院层高应为两层通高",
+    "source_image": "21.png"
+  },
+  {
+    "category": "层高",
+    "target": "L2及以上楼层 - IMAX影院",
+    "metric": "层高",
+    "value": "三层通高",
+    "rule_desc": "L2及以上楼层的IMAX影院层高应为三层通高",
+    "source_image": "21.png"
+  },
+  {
+    "category": "层高",
+    "target": "L2及以上楼层 - 儿童业态",
+    "metric": "层高",
+    "value": "局部两层通高",
+    "rule_desc": "L2及以上楼层的儿童业态层高应为局部两层通高",
+    "source_image": "21.png"
+  },
+  {
+    "category": "层高",
+    "target": "L2及以上楼层 - 儿童业态",
+    "metric": "净高",
+    "value": "局部8m",
+    "rule_desc": "L2及以上楼层的儿童业态局部净高应为8米",
+    "source_image": "21.png"
+  },
+  {
+    "category": "层高",
+    "target": "L2及以上楼层 - 零售、餐饮等其他业态",
+    "metric": "层高",
+    "value": "5.4m",
+    "rule_desc": "L2及以上楼层的零售、餐饮等其他业态层高应为5.4米",
+    "source_image": "21.png"
+  },
+  {
+    "category": "层高",
+    "target": "L2及以上楼层 - 零售、餐饮等其他业态",
+    "metric": "净高",
+    "value": "3.6m",
+    "rule_desc": "L2及以上楼层的零售、餐饮等其他业态净高应为3.6米",
+    "source_image": "21.png"
+  },
+  {
+    "category": "层高",
+    "target": "L1楼层 - 零售、餐饮等其他业态",
+    "metric": "层高",
+    "value": "5.8~6.0m",
+    "rule_desc": "L1楼层的零售、餐饮等其他业态层高应为5.8~6.0米",
+    "source_image": "21.png"
+  },
+  {
+    "category": "层高",
+    "target": "L1楼层 - 零售、餐饮等其他业态",
+    "metric": "净高",
+    "value": "4.0~4.2m",
+    "rule_desc": "L1楼层的零售、餐饮等其他业态净高应为4.0~4.2米",
+    "source_image": "21.png"
+  },
+  {
+    "category": "停车指标",
+    "target": "P2/P3项目",
+    "metric": "地库面积和车位配比",
+    "value": "极致压缩",
+    "rule_desc": "根据项目的区位和定位，P2/P3项目应极致压缩地库面积和车位配比，保证车位周转率位于合理区间，从而降低COST。",
+    "source_image": "22.png"
+  },
+  {
+    "category": "停车指标",
+    "target": "集团标准",
+    "metric": "车位配比",
+    "value": "100:1",
+    "rule_desc": "集团标准为100:1建设标准。",
+    "source_image": "22.png"
+  },
+  {
+    "category": "停车指标",
+    "target": "社区级家庭mall (经营状况良好)",
+    "metric": "车位配比率 (按3周转率预测)",
+    "value": "0.9-1.7",
+    "rule_desc": "社区级家庭mall在经营状况良好时，车位配比率应在0.9-1.7之间 (按3周转率预测)。",
+    "source_image": "22.png"
+  },
+  {
+    "category": "停车指标",
+    "target": "社区级家庭mall (经营状况健康)",
+    "metric": "车位配比率 (按3周转率预测)",
+    "value": "0.5-1.4",
+    "rule_desc": "社区级家庭mall在经营状况健康时，车位配比率应在0.5-1.4之间 (按3周转率预测)。",
+    "source_image": "22.png"
+  },
+  {
+    "category": "停车指标",
+    "target": "社区级家庭mall (经营存在问题)",
+    "metric": "车位配比率 (按3周转率预测)",
+    "value": "<=0.5",
+    "rule_desc": "社区级家庭mall在经营存在问题时，车位配比率应低于或等于0.5 (按3周转率预测)。",
+    "source_image": "22.png"
+  },
+  {
+    "category": "停车指标",
+    "target": "区域级购物中心 (经营状况良好)",
+    "metric": "车位配比率 (按3周转率预测)",
+    "value": "1.7-2.4",
+    "rule_desc": "区域级购物中心在经营状况良好时，车位配比率应在1.7-2.4之间 (按3周转率预测)。",
+    "source_image": "22.png"
+  },
+  {
+    "category": "停车指标",
+    "target": "区域级购物中心 (经营状况健康)",
+    "metric": "车位配比率 (按3周转率预测)",
+    "value": "1.1-1.5",
+    "rule_desc": "区域级购物中心在经营状况健康时，车位配比率应在1.1-1.5之间 (按3周转率预测)。",
+    "source_image": "22.png"
+  },
+  {
+    "category": "停车指标",
+    "target": "区域级购物中心 (经营存在问题)",
+    "metric": "车位配比率 (按3周转率预测)",
+    "value": "<=0.5",
+    "rule_desc": "区域级购物中心在经营存在问题时，车位配比率应低于或等于0.5 (按3周转率预测)。",
+    "source_image": "22.png"
+  },
+  {
+    "category": "停车指标",
+    "target": "城市级购物中心 (经营状况良好)",
+    "metric": "车位配比率 (按3周转率预测)",
+    "value": "1.7-2.4",
+    "rule_desc": "城市级购物中心在经营状况良好时，车位配比率应在1.7-2.4之间 (按3周转率预测)。",
+    "source_image": "22.png"
+  },
+  {
+    "category": "停车指标",
+    "target": "城市级购物中心 (经营状况健康)",
+    "metric": "车位配比率 (按3周转率预测)",
+    "value": "1.1-1.5",
+    "rule_desc": "城市级购物中心在经营状况健康时，车位配比率应在1.1-1.5之间 (按3周转率预测)。",
+    "source_image": "22.png"
+  },
+  {
+    "category": "停车指标",
+    "target": "城市级购物中心 (经营存在问题)",
+    "metric": "车位配比率 (按3周转率预测)",
+    "value": "<=0.5",
+    "rule_desc": "城市级购物中心在经营存在问题时，车位配比率应低于或等于0.5 (按3周转率预测)。",
+    "source_image": "22.png"
+  },
+  {
+    "category": "停车指标",
+    "target": "远郊仓储 (经营状况良好)",
+    "metric": "车位配比率 (按3周转率预测)",
+    "value": "1.7-2.4",
+    "rule_desc": "远郊仓储在经营状况良好时，车位配比率应在1.7-2.4之间 (按3周转率预测)。",
+    "source_image": "22.png"
+  },
+  {
+    "category": "停车指标",
+    "target": "远郊仓储 (经营状况健康)",
+    "metric": "车位配比率 (按3周转率预测)",
+    "value": "1.1-1.5",
+    "rule_desc": "远郊仓储在经营状况健康时，车位配比率应在1.1-1.5之间 (按3周转率预测)。",
+    "source_image": "22.png"
+  },
+  {
+    "category": "停车指标",
+    "target": "远郊仓储 (经营存在问题)",
+    "metric": "车位配比率 (按3周转率预测)",
+    "value": "<=0.5",
+    "rule_desc": "远郊仓储在经营存在问题时，车位配比率应低于或等于0.5 (按3周转率预测)。",
+    "source_image": "22.png"
+  },
+  {
+    "category": "停车指标",
+    "target": "车位周转率",
+    "metric": "周转率",
+    "value": "<2.0",
+    "rule_desc": "车位周转率低于2.0时，使用效率较低。",
+    "source_image": "22.png"
+  },
+  {
+    "category": "业态布局优化",
+    "target": "B1层地铁客流",
+    "metric": "转化效率",
+    "value": "高效",
+    "rule_desc": "B1层应实现地铁客流的高效转化。",
+    "source_image": "23.png"
+  },
+  {
+    "category": "业态布局优化",
+    "target": "B1至5F业态组合",
+    "metric": "流量转化",
+    "value": "优化",
+    "rule_desc": "B1至5F的业态组合应优化以提升流量转化。",
+    "source_image": "23.png"
+  },
+  {
+    "category": "业态布局优化",
+    "target": "特殊店铺",
+    "metric": "形式",
+    "value": "优化",
+    "rule_desc": "特殊店铺形式应进行优化。",
+    "source_image": "23.png"
+  },
+  {
+    "category": "低坪效大铺优化",
+    "target": "主力店 (影院、超市)",
+    "metric": "经营效率, 坪效",
+    "value": "高",
+    "rule_desc": "主力店（如影院、超市）应进行优化，以实现高经营和高坪效。",
+    "source_image": "23.png"
+  },
+  {
+    "category": "低坪效大铺优化",
+    "target": "大型店铺",
+    "metric": "经营效率, 坪效",
+    "value": "优化 (目标为高)",
+    "rule_desc": "大型店铺应进行优化，以提升经营效率和坪效。",
+    "source_image": "23.png"
+  },
+  {
+    "category": "低坪效大铺优化",
+    "target": "消极空间",
+    "metric": "空间利用率",
+    "value": "充分利用",
+    "rule_desc": "应充分利用消极空间。",
+    "source_image": "23.png"
+  },
+  {
+    "category": "多经点位优化",
+    "target": "各层多经点位",
+    "metric": "控制原则",
+    "value": "明确",
+    "rule_desc": "应明确各层多经点位的控制原则。",
+    "source_image": "23.png"
+  },
+  {
+    "category": "多经点位优化",
+    "target": "多经点位",
+    "metric": "尺寸",
+    "value": "受控",
+    "rule_desc": "应进行多经点位的尺寸控制。",
+    "source_image": "23.png"
+  },
+  {
+    "category": "多经点位优化",
+    "target": "TDM",
+    "metric": "管控原则",
+    "value": "明确",
+    "rule_desc": "应明确TDM管控原则。",
+    "source_image": "23.png"
+  },
+  {
+    "category": "租客落位 - 业态布局",
+    "target": "商业动线与商铺布局",
+    "metric": null,
+    "value": null,
+    "rule_desc": "商业布局应实现高效动线，极致化切割商铺，并深入挖掘地铁客流的商业价值。",
+    "source_image": "24.png"
+  },
+  {
+    "category": "租客落位 - 业态布局",
+    "target": "小型商铺",
+    "metric": "业态类型",
+    "value": "零售、生活杂品、珠宝等",
+    "rule_desc": "应充分利用主力店带来的客流，超前规划并切割小型商铺，主要布局零售、生活杂品、珠宝等业态。",
+    "source_image": "24.png"
+  },
+  {
+    "category": "租客落位 - 功能区设置",
+    "target": "新能源集合区",
+    "metric": "功能连接",
+    "value": "联通地库",
+    "rule_desc": "应设置新能源集合区，并确保其与地下车库联通，以方便顾客体验和进行产品比选。",
+    "source_image": "24.png"
+  },
+  {
+    "category": "业态布局",
+    "target": "生活方式相关业态",
+    "metric": "业态整合区域",
+    "value": "一个区域内",
+    "rule_desc": "将数码零售、科技生活、宠物、咖啡水吧等与生活方式相关的业态整合在一个区域内，为消费者提供一站式的生活体验。",
+    "source_image": "25.png"
+  },
+  {
+    "category": "商业展面",
+    "target": "主入口两侧定位店铺",
+    "metric": "店铺展面",
+    "value": "合理",
+    "rule_desc": "主入口两侧定位店铺应具备合理的店铺展面，以提升并最大化主入口价值。",
+    "source_image": "25.png"
+  },
+  {
+    "category": "商业展面",
+    "target": "主入口两侧定位店铺",
+    "metric": "Facade类型",
+    "value": "双层",
+    "rule_desc": "主入口两侧定位店铺应采用双层Facade设计，以提升并最大化主入口价值。",
+    "source_image": "25.png"
+  },
+  {
+    "category": "业态布局",
+    "target": "整体布局原则",
+    "metric": "布局策略",
+    "value": "集合化布局, 搭配关联业态, 挖掘流量价值; 搭配端头垂直餐饮, 驱动客流",
+    "rule_desc": "商业建筑应采用集合化布局，搭配关联业态以挖掘流量价值，并通过搭配端头垂直餐饮来驱动客流。",
+    "source_image": "26.png"
+  },
+  {
+    "category": "业态布局",
+    "target": "2F 美学中心主题区",
+    "metric": "业态类型",
+    "value": "女装, 化妆品, 香氛, 眼镜, 杂品, 花店, 黄金配饰",
+    "rule_desc": "2F美学中心主题区（零售类）应集中布置女装、化妆品、香氛、眼镜、杂品、花店等女性相关零售业态，并可搭配黄金配饰业态共同吸引女性顾客。",
+    "source_image": "26.png"
+  },
+  {
+    "category": "业态布局",
+    "target": "2F 珠宝主题区",
+    "metric": "布局方式",
+    "value": "中岛+边铺",
+    "rule_desc": "2F珠宝主题区应将多个珠宝品牌以“中岛+边铺”的方式集中放置，通过营造高端氛围、发挥品牌集聚效应和提供专业化服务来提升价值。",
+    "source_image": "26.png"
+  },
+  {
+    "category": "业态布局",
+    "target": "3F 儿童业态",
+    "metric": "布局原则",
+    "value": "同类聚合, 关联互补, 组团化",
+    "rule_desc": "3F儿童业态布置应遵循同类业态聚合、相关业态关联互补、组团化布局形成合力，以充分挖掘关联性流量价值。",
+    "source_image": "26.png"
+  },
+  {
+    "category": "业态布局",
+    "target": "2F-3F 零售楼层",
+    "metric": "餐饮业态位置",
+    "value": "两端中庭",
+    "rule_desc": "2F-3F零售楼层应在两端中庭布置餐饮业态，通过两侧垂直餐饮驱动客流，以支持中段零售业态。",
+    "source_image": "26.png"
+  },
+  {
+    "category": "业态布局",
+    "target": "同类业态",
+    "metric": "布局方式",
+    "value": "聚合, 关联互补, 组团化",
+    "rule_desc": "同类业态应聚合形成组团，相关业态之间应相互关联和互补，以实现组团化布局。",
+    "source_image": "27.png"
+  },
+  {
+    "category": "业态布局",
+    "target": "零售业态",
+    "metric": "布局策略",
+    "value": "穿插布局",
+    "rule_desc": "零售业态应穿插布局在餐饮楼层中，以利用餐饮层主中庭的展示面和客流价值。",
+    "source_image": "27.png"
+  },
+  {
+    "category": "业态布局",
+    "target": "零售小铺",
+    "metric": "距离主力店（影院大堂）",
+    "value": "30-50M",
+    "rule_desc": "零售小铺应设置在影院大堂前30-50米的两侧区域，以充分利用主力店客流。",
+    "source_image": "27.png"
+  },
+  {
+    "category": "业态优化",
+    "target": "低效次主力店 (KTV)",
+    "metric": "面积",
+    "value": "500m²",
+    "rule_desc": "针对低效的次主力店KTV，其目标面积应控制在500平方米。",
+    "source_image": "27.png"
+  },
+  {
+    "category": "业态优化",
+    "target": "低效次主力店 (健身房)",
+    "metric": "面积",
+    "value": "250~1000m²",
+    "rule_desc": "针对低效的次主力店健身房，其目标面积应控制在250~1000平方米。",
+    "source_image": "27.png"
+  },
+  {
+    "category": "业态示例",
+    "target": "次主力店 (星聚会)",
+    "metric": "面积",
+    "value": "593m²",
+    "rule_desc": "杭州城北万象城中，星聚会次主力店的面积为593平方米。",
+    "source_image": "27.png"
+  },
+  {
+    "category": "业态示例",
+    "target": "次主力店 (刻健身)",
+    "metric": "面积",
+    "value": "3180m²",
+    "rule_desc": "杭州城北万象城中，刻健身次主力店的面积为3180平方米。",
+    "source_image": "27.png"
+  },
+  {
+    "category": "业态布局优化",
+    "target": "船头店铺",
+    "metric": "设计原则",
+    "value": "开敞化设计, 融合业态经营, 塑造空间焦点",
+    "rule_desc": "位于主中庭“船头”位置的店铺，应采用开敞化设计，并通过设置外摆区等方式，实现业态经营的充分融合，以塑造空间焦点。",
+    "source_image": "28.png"
+  },
+  {
+    "category": "空间尺寸标准",
+    "target": "店铺/电梯厅",
+    "metric": "模块尺寸",
+    "value": "4000mm",
+    "rule_desc": "店铺或电梯厅的标准模块尺寸为4000mm（通常指进深或开间）。",
+    "source_image": "28.png"
+  },
+  {
+    "category": "空间尺寸标准",
+    "target": "店铺-厨房",
+    "metric": "模块尺寸",
+    "value": "6800mm",
+    "rule_desc": "店铺-厨房区域的标准模块尺寸为6800mm（通常指进深或开间）。",
+    "source_image": "28.png"
+  },
+  {
+    "category": "空间尺寸标准",
+    "target": "店铺单元深度",
+    "metric": "深度范围",
+    "value": "3700mm - 8300mm",
+    "rule_desc": "店铺单元的深度可设计在3700mm至8300mm之间，以适应不同业态需求。",
+    "source_image": "28.png"
+  },
+  {
+    "category": "业态布局",
+    "target": "电梯厅周边布局",
+    "metric": "布局组合",
+    "value": "店铺 + 电梯厅 + 店铺-厨房",
+    "rule_desc": "电梯厅两侧可配置店铺和店铺-厨房的组合。",
+    "source_image": "28.png"
+  },
+  {
+    "category": "业态布局",
+    "target": "电梯厅周边布局",
+    "metric": "布局组合",
+    "value": "店铺 + 电梯厅 + (店铺-厨房 + 外摆)",
+    "rule_desc": "电梯厅两侧可配置店铺和带外摆区的店铺-厨房组合。",
+    "source_image": "28.png"
+  },
+  {
+    "category": "业态布局",
+    "target": "电梯厅周边布局",
+    "metric": "布局组合",
+    "value": "店铺 + 电梯厅 + 店铺",
+    "rule_desc": "电梯厅两侧可配置两个店铺。",
+    "source_image": "28.png"
+  },
+  {
+    "category": "业态布局",
+    "target": "沿街/通道店铺布局",
+    "metric": "布局组合",
+    "value": "店铺 + 店铺 + 店铺",
+    "rule_desc": "可采用三个店铺并排的布局形式。",
+    "source_image": "28.png"
+  },
+  {
+    "category": "影院规模策略",
+    "target": "影院单体规模",
+    "metric": "厅数",
+    "value": "< 8厅",
+    "rule_desc": "优化影院单体规模，主流选择为厅数小于8厅。",
+    "source_image": "29.png"
+  },
+  {
+    "category": "影院规模策略",
+    "target": "影院单体规模",
+    "metric": "座位数",
+    "value": "< 1000座",
+    "rule_desc": "优化影院单体规模，主流选择为座位数小于1000座。",
+    "source_image": "29.png"
+  },
+  {
+    "category": "影院规模策略",
+    "target": "影院放映厅数量",
+    "metric": "厅数",
+    "value": "5-6个 (趋势)",
+    "rule_desc": "万影业旗下影院放映厅数量趋势为从7-10个缩减至5-6个，未来可能继续缩减。（华润观点）",
+    "source_image": "29.png"
+  },
+  {
+    "category": "影院规模策略",
+    "target": "影院单体规模",
+    "metric": "厅数",
+    "value": "8个",
+    "rule_desc": "比较合适的影院厅数为8个。（博纳观点）",
+    "source_image": "29.png"
+  },
+  {
+    "category": "影院规模策略",
+    "target": "影院单体规模",
+    "metric": "座位数",
+    "value": "< 1000座",
+    "rule_desc": "比较合适的影院座位数在1000以内。（博纳观点）",
+    "source_image": "29.png"
+  },
+  {
+    "category": "影院规模策略",
+    "target": "影院单体规模",
+    "metric": "厅数",
+    "value": "7-8厅",
+    "rule_desc": "考虑排片问题，影院厅数7-8厅比较合适。（上影观点）",
+    "source_image": "29.png"
+  },
+  {
+    "category": "影院规模策略",
+    "target": "影院单体规模",
+    "metric": "座位数",
+    "value": "800-1000座",
+    "rule_desc": "考虑排片问题，影院座位数800-1000比较合适。（上影观点）",
+    "source_image": "29.png"
+  },
+  {
+    "category": "新开影院标准",
+    "target": "22年新开影院",
+    "metric": "主力厅数",
+    "value": "5-10厅",
+    "rule_desc": "22年新开影院的主力厅数应为5-10厅。",
+    "source_image": "29.png"
+  },
+  {
+    "category": "新开影院标准",
+    "target": "22年新开影院",
+    "metric": "主力座位数",
+    "value": "1500-2000座",
+    "rule_desc": "22年新开影院的主力座位数应为1500-2000座。",
+    "source_image": "29.png"
+  },
+  {
+    "category": "新开影院标准",
+    "target": "23年新开影院",
+    "metric": "主力厅数",
+    "value": "5-8厅",
+    "rule_desc": "23年新开影院的主力厅数应为5-8厅。",
+    "source_image": "29.png"
+  },
+  {
+    "category": "新开影院标准",
+    "target": "23年新开影院",
+    "metric": "主力座位数",
+    "value": "800-1200座",
+    "rule_desc": "23年新开影院的主力座位数应为800-1200座。",
+    "source_image": "29.png"
+  },
+  {
+    "category": "新开影院标准",
+    "target": "24年新开影院",
+    "metric": "主力厅数",
+    "value": "4-7厅",
+    "rule_desc": "24年新开影院的主力厅数应为4-7厅。",
+    "source_image": "29.png"
+  },
+  {
+    "category": "新开影院标准",
+    "target": "24年新开影院",
+    "metric": "主力座位数",
+    "value": "500-1000座",
+    "rule_desc": "24年新开影院的主力座位数应为500-1000座。",
+    "source_image": "29.png"
+  },
+  {
+    "category": "影院品质提升",
+    "target": "影院设计",
+    "metric": "是否注重特效厅/特色厅",
+    "value": "是",
+    "rule_desc": "提升影院品质，注重特效厅/特色厅的打造。",
+    "source_image": "29.png"
+  },
+  {
+    "category": "影院设计管控项",
+    "target": "影厅数量",
+    "metric": "影厅数量",
+    "value": "6-8个",
+    "rule_desc": "影厅数量应为6-8个",
+    "source_image": "30.png"
+  },
+  {
+    "category": "影院设计管控项",
+    "target": "影院效率",
+    "metric": "影院效率 (m²/座)",
+    "value": "<= 3.5m²/座",
+    "rule_desc": "影院效率不大于3.5m²/座 (影院效率=影院计租面积/影院座位数)",
+    "source_image": "30.png"
+  },
+  {
+    "category": "影院设计管控项",
+    "target": "影院布局",
+    "metric": "布置方式",
+    "value": "背靠背下沉布置",
+    "rule_desc": "影院布局采用背靠背下沉布置，以释放商业空间，达到最划算效果",
+    "source_image": "30.png"
+  },
+  {
+    "category": "影院设计管控项",
+    "target": "影院大堂",
+    "metric": "面积控制",
+    "value": "120~200m²",
+    "rule_desc": "影院大堂面积应控制在120~200m²之间",
+    "source_image": "30.png"
+  },
+  {
+    "category": "影院设计管控项",
+    "target": "影院大堂",
+    "metric": "展面控制",
+    "value": "10m",
+    "rule_desc": "影院大堂展面控制为10m",
+    "source_image": "30.png"
+  },
+  {
+    "category": "影院设计管控项",
+    "target": "影院大堂面积",
+    "metric": "6厅大堂面积",
+    "value": "<= 150m²",
+    "rule_desc": "6厅影院的大堂面积不大于150m²",
+    "source_image": "30.png"
+  },
+  {
+    "category": "影院设计管控项",
+    "target": "影院大堂面积",
+    "metric": "8厅大堂面积",
+    "value": "<= 200m²",
+    "rule_desc": "8厅影院的大堂面积不大于200m²",
+    "source_image": "30.png"
+  },
+  {
+    "category": "影院设计管控项",
+    "target": "影院大堂展面",
+    "metric": "展面跨度",
+    "value": "1跨, <= 10m",
+    "rule_desc": "影院大堂展面控制1跨，不超10m，其余展面应切小铺，布零售",
+    "source_image": "30.png"
+  },
+  {
+    "category": "影院设计管控项",
+    "target": "影院布局 - 平层布局",
+    "metric": "中庭布置",
+    "value": "避免中庭封板",
+    "rule_desc": "平层布局应尽量避免中庭封板布置，宜沿边布置影厅",
+    "source_image": "30.png"
+  },
+  {
+    "category": "影院设计管控项",
+    "target": "影院布局 - 平层布局",
+    "metric": "观影动线长度",
+    "value": "<= 80m",
+    "rule_desc": "平层布局的观影动线长度不宜大于80m",
+    "source_image": "30.png"
+  },
+  {
+    "category": "影院设计管控项",
+    "target": "影院布局 - 平层布局",
+    "metric": "下沉布置",
+    "value": "考虑下沉",
+    "rule_desc": "平层布局需考虑下沉，以保证下层商业的可利用性，形成连续的商业氛围，避免下层端头无铺",
+    "source_image": "30.png"
+  },
+  {
+    "category": "影院设计管控项",
+    "target": "影院布局 - 托屋面布置",
+    "metric": "公区扶梯设置",
+    "value": "拉动至屋面层大堂",
+    "rule_desc": "托屋面布置时，公区应设置扶梯拉动至屋面层大堂",
+    "source_image": "30.png"
+  },
+  {
+    "category": "影院设计管控项",
+    "target": "影院布局 - 托屋面布置",
+    "metric": "布局方式",
+    "value": "沿建筑轮廓贴边连续布置",
+    "rule_desc": "托屋面布置应沿建筑轮廓贴边连续布置，并需考虑影厅墙体对采光顶的视线影响",
+    "source_image": "30.png"
+  },
+  {
+    "category": "影院设计管控项",
+    "target": "极致面积 - 厅下面积",
+    "metric": "功能布置",
+    "value": "卫生间、消毒间、办公及影院仓库",
+    "rule_desc": "厅下面积可布置卫生间、消毒间、办公及影院仓库，避免独立设置",
+    "source_image": "30.png"
+  },
+  {
+    "category": "影院设计管控项",
+    "target": "极致面积 - 放映夹层",
+    "metric": "面积占比与位置",
+    "value": "严控占比, 抠走道, 厅内上方布置",
+    "rule_desc": "放映夹层应严控面积占比，抠走道，尽可能按厅内上方布置",
+    "source_image": "30.png"
+  },
+  {
+    "category": "影院布局",
+    "target": "影院设置",
+    "metric": "楼层类型",
+    "value": "优先平层",
+    "rule_desc": "在多层商业中，影院应优先设置在平层。",
+    "source_image": "31.png"
+  },
+  {
+    "category": "影院布局",
+    "target": "观影层影厅",
+    "metric": "布置方式",
+    "value": "集中对称布置",
+    "rule_desc": "观影层影厅应集中对称布置。",
+    "source_image": "31.png"
+  },
+  {
+    "category": "影院动线与空间",
+    "target": "通道面积",
+    "metric": "优化目标",
+    "value": "最小化",
+    "rule_desc": "应最小化影院通道面积。",
+    "source_image": "31.png"
+  },
+  {
+    "category": "影院动线与空间",
+    "target": "动线长度",
+    "metric": "优化目标",
+    "value": "最小化",
+    "rule_desc": "应最小化影院动线长度。",
+    "source_image": "31.png"
+  },
+  {
+    "category": "影院空间利用",
+    "target": "影院下沉",
+    "metric": "下沉深度",
+    "value": "3F",
+    "rule_desc": "影院可考虑下沉3层。",
+    "source_image": "31.png"
+  },
+  {
+    "category": "影院空间利用",
+    "target": "影厅下方空间",
+    "metric": "净高",
+    "value": "3m",
+    "rule_desc": "影厅下方应保留3米净高的有效空间。",
+    "source_image": "31.png"
+  },
+  {
+    "category": "影院空间利用",
+    "target": "影厅下方空间",
+    "metric": "利用方式",
+    "value": "设置端头商铺",
+    "rule_desc": "影厅下方保留的有效空间应充分利用，可设置端头商铺。",
+    "source_image": "31.png"
+  },
+  {
+    "category": "影院大堂",
+    "target": "大堂",
+    "metric": "面积",
+    "value": "120m²",
+    "rule_desc": "影院大堂面积应为120平方米。",
+    "source_image": "31.png"
+  },
+  {
+    "category": "影院大堂",
+    "target": "大堂",
+    "metric": "展面",
+    "value": "10.7m",
+    "rule_desc": "影院大堂展面应为10.7米。",
+    "source_image": "31.png"
+  },
+  {
+    "category": "影院大堂",
+    "target": "大堂等候空间",
+    "metric": "宽度",
+    "value": "≥ 6m",
+    "rule_desc": "影院大堂等候空间宽度应不小于6米。",
+    "source_image": "31.png"
+  },
+  {
+    "category": "影院大堂",
+    "target": "大堂工作区域",
+    "metric": "面积",
+    "value": "45m²",
+    "rule_desc": "影院大堂工作区域面积应为45平方米。",
+    "source_image": "31.png"
+  },
+  {
+    "category": "影院大堂",
+    "target": "大堂分区",
+    "metric": "面积",
+    "value": "80m²",
+    "rule_desc": "影院大堂分区面积应为80平方米。",
+    "source_image": "31.png"
+  },
+  {
+    "category": "影院大堂",
+    "target": "大堂通道",
+    "metric": "宽度",
+    "value": "2.7m",
+    "rule_desc": "影院大堂通道宽度为2.7米。",
+    "source_image": "31.png"
+  },
+  {
+    "category": "影院大堂",
+    "target": "大堂通道",
+    "metric": "宽度",
+    "value": "2.2m",
+    "rule_desc": "影院大堂通道宽度为2.2米。",
+    "source_image": "31.png"
+  },
+  {
+    "category": "影院大堂",
+    "target": "大堂深度",
+    "metric": "深度",
+    "value": "8.1m",
+    "rule_desc": "影院大堂深度为8.1米。",
+    "source_image": "31.png"
+  },
+  {
+    "category": "影院厅座数",
+    "target": "5F影厅",
+    "metric": "座数",
+    "value": "109座",
+    "rule_desc": "5层影厅的座数为109座。",
+    "source_image": "31.png"
+  },
+  {
+    "category": "影院厅座数",
+    "target": "3F影厅",
+    "metric": "座数",
+    "value": "227座",
+    "rule_desc": "3层影厅的座数为227座。",
+    "source_image": "31.png"
+  },
+  {
+    "category": "影院厅座数",
+    "target": "1F影厅",
+    "metric": "座数",
+    "value": "195座",
+    "rule_desc": "1层影厅的座数为195座。",
+    "source_image": "31.png"
+  },
+  {
+    "category": "影院厅座数",
+    "target": "4F影厅",
+    "metric": "座数",
+    "value": "285座",
+    "rule_desc": "4层影厅的座数为285座。",
+    "source_image": "31.png"
+  },
+  {
+    "category": "影院厅座数",
+    "target": "2F影厅",
+    "metric": "座数",
+    "value": "275座",
+    "rule_desc": "2层影厅的座数为275座。",
+    "source_image": "31.png"
+  },
+  {
+    "category": "影院层高/空间尺寸",
+    "target": "5F影厅相关空间",
+    "metric": "尺寸",
+    "value": "10060",
+    "rule_desc": "5层影厅相关空间尺寸为10060mm。",
+    "source_image": "31.png"
+  },
+  {
+    "category": "影院层高/空间尺寸",
+    "target": "5F城市客厅",
+    "metric": "尺寸",
+    "value": "8500",
+    "rule_desc": "5层城市客厅空间尺寸为8500mm。",
+    "source_image": "31.png"
+  },
+  {
+    "category": "影院层高/标高",
+    "target": "2F标高",
+    "metric": "标高",
+    "value": "+23.84m",
+    "rule_desc": "2层标高为+23.84米。",
+    "source_image": "31.png"
+  },
+  {
+    "category": "商业业态布局",
+    "target": "影厅",
+    "metric": "位置",
+    "value": "托屋面",
+    "rule_desc": "影厅应设置在托屋面。",
+    "source_image": "32.png"
+  },
+  {
+    "category": "商业业态布局",
+    "target": "影院大厅",
+    "metric": "位置",
+    "value": "标准层",
+    "rule_desc": "影院大厅应设置在标准层。",
+    "source_image": "32.png"
+  },
+  {
+    "category": "商业策略",
+    "target": "影院入口",
+    "metric": "区域价值",
+    "value": "增强",
+    "rule_desc": "设计应增强影院入口的区域价值。",
+    "source_image": "32.png"
+  },
+  {
+    "category": "商业动线",
+    "target": "观影动线",
+    "metric": "动线长度",
+    "value": "短",
+    "rule_desc": "观影动线应设计为短动线。",
+    "source_image": "32.png"
+  },
+  {
+    "category": "空间功能",
+    "target": "影院大厅",
+    "metric": "功能属性",
+    "value": "公区化",
+    "rule_desc": "影院大厅可进行公区化设计。",
+    "source_image": "32.png"
+  },
+  {
+    "category": "空间功能",
+    "target": "影厅",
+    "metric": "功能属性",
+    "value": "公区化",
+    "rule_desc": "影厅可进行公区化设计。",
+    "source_image": "32.png"
+  },
+  {
+    "category": "空间功能",
+    "target": "影厅",
+    "metric": "空间属性",
+    "value": "社交空间",
+    "rule_desc": "影厅设计应打造社交空间。",
+    "source_image": "32.png"
+  },
+  {
+    "category": "商业动线",
+    "target": "影院交通",
+    "metric": "交通方式",
+    "value": "直达扶梯",
+    "rule_desc": "应设置直达影院的直达扶梯。",
+    "source_image": "32.png"
+  },
+  {
+    "category": "商业业态布局",
+    "target": "影院周边",
+    "metric": "业态类型",
+    "value": "高价值小铺+点位",
+    "rule_desc": "影院周边应布局高价值小铺和点位。",
+    "source_image": "32.png"
+  },
+  {
+    "category": "超市落位",
+    "target": "超市位置",
+    "metric": null,
+    "value": null,
+    "rule_desc": "超市应布置在地面人流到达较少的口部下方。",
+    "source_image": "33.png"
+  },
+  {
+    "category": "超市落位",
+    "target": "业态落位",
+    "metric": null,
+    "value": null,
+    "rule_desc": "超市周边业态落位应以零售、珠宝为主，餐饮区应布置在TOD端部。",
+    "source_image": "33.png"
+  },
+  {
+    "category": "超市连接",
+    "target": "一字型超市布局",
+    "metric": null,
+    "value": null,
+    "rule_desc": "一字型超市应设置于非TOD的端头。",
+    "source_image": "33.png"
+  },
+  {
+    "category": "超市连接",
+    "target": "L型超市布局",
+    "metric": null,
+    "value": null,
+    "rule_desc": "L型超市应设置于中部进深较厚处，以解决转角铺深问题。",
+    "source_image": "33.png"
+  },
+  {
+    "category": "超市连接",
+    "target": "口部展面",
+    "metric": "展面控制",
+    "value": "2跨",
+    "rule_desc": "超市口部展面应控制在2跨。",
+    "source_image": "33.png"
+  },
+  {
+    "category": "超市连接",
+    "target": "口部设计",
+    "metric": null,
+    "value": null,
+    "rule_desc": "超市口部设计应避免卷帘柱遮挡，可通过调整防火分区或采用异性卷帘解决。",
+    "source_image": "33.png"
+  },
+  {
+    "category": "超市连接",
+    "target": "一字型超市出口",
+    "metric": null,
+    "value": null,
+    "rule_desc": "一字型超市的出口应设置在动线尽端，以拉通次动线。",
+    "source_image": "33.png"
+  },
+  {
+    "category": "超市连接",
+    "target": "L型超市口部",
+    "metric": null,
+    "value": null,
+    "rule_desc": "L型超市的口部应侧置，以保证商业动线连续，并避开人流聚集点。",
+    "source_image": "33.png"
+  },
+  {
+    "category": "超市连接",
+    "target": "上行扶梯位置",
+    "metric": "距离入口",
+    "value": "1~2跨",
+    "rule_desc": "上行扶梯应设置在距离入口1~2跨的范围内。",
+    "source_image": "33.png"
+  },
+  {
+    "category": "超市连接",
+    "target": "扶梯设置",
+    "metric": null,
+    "value": null,
+    "rule_desc": "扶梯应结合下行车库扶梯统一设置，以提高效率。",
+    "source_image": "33.png"
+  },
+  {
+    "category": "超市连接",
+    "target": "扶梯到达方向",
+    "metric": null,
+    "value": null,
+    "rule_desc": "扶梯到达本层的方向应正对超市。",
+    "source_image": "33.png"
+  },
+  {
+    "category": "经营考虑",
+    "target": "下沉广场功能",
+    "metric": null,
+    "value": null,
+    "rule_desc": "下沉广场应提供早市到达路径，并解决部分疏散宽度问题。",
+    "source_image": "33.png"
+  },
+  {
+    "category": "经营考虑",
+    "target": "超市净高 (非商业投影范围区域)",
+    "metric": "净高",
+    "value": "最低3.6m，宜3.8m~4.2m",
+    "rule_desc": "非商业投影范围区域的超市净高最低应为3.6米，建议在3.8米至4.2米之间。",
+    "source_image": "33.png"
+  },
+  {
+    "category": "超市商业动线",
+    "target": "一字型动线",
+    "metric": "超市位置类型",
+    "value": "非TOD的端头",
+    "rule_desc": "一字型动线的超市应设置于非TOD项目的端头位置。",
+    "source_image": "35.png"
+  },
+  {
+    "category": "超市商业动线",
+    "target": "L型动线",
+    "metric": "超市位置类型",
+    "value": "中部进深较厚处",
+    "rule_desc": "L型动线的超市应设置于中部进深较厚的位置。",
+    "source_image": "35.png"
+  },
+  {
+    "category": "超市商业动线",
+    "target": "超市布置",
+    "metric": "人流带动策略",
+    "value": "地面客流密度较低入口下方，上下公区扶梯串联",
+    "rule_desc": "超市应布置在地面客流密度较低的入口下方，并通过上下公区扶梯与地面串联，以实现对地面的人流带动。",
+    "source_image": "35.png"
+  },
+  {
+    "category": "超市位置",
+    "target": "超市在端头",
+    "metric": "扶梯与入口距离",
+    "value": "1~2跨",
+    "rule_desc": "超市在端头位置时，应在距离入口1~2跨处设置正对的上行扶梯，并临近客梯厅结合下行车库扶梯统一设置。",
+    "source_image": "35.png"
+  },
+  {
+    "category": "超市位置",
+    "target": "超市在非端头",
+    "metric": "扶梯设置位置",
+    "value": "临靠口部",
+    "rule_desc": "超市在非端头位置时，应临靠口部设置上下行扶梯及客梯，以方便人流到达。",
+    "source_image": "35.png"
+  },
+  {
+    "category": "超市位置",
+    "target": "下沉广场",
+    "metric": "功能",
+    "value": "提供早市到达路径，解决部分疏散宽度",
+    "rule_desc": "如果项目设有下沉广场，应利用其提供早市到达路径，并解决部分疏散宽度问题。",
+    "source_image": "35.png"
+  },
+  {
+    "category": "租客落位",
+    "target": "冰场",
+    "metric": "坪效",
+    "value": "<= 182元/月/m²",
+    "rule_desc": "当冰场坪效低于或等于182元/月/m²时（以狮山项目为例），应将其视为低坪效区域，需要进行改造优化，以避免影响整体楼层坪效。",
+    "source_image": "36.png"
+  },
+  {
+    "category": "租客落位",
+    "target": "低坪效大铺",
+    "metric": "改造措施",
+    "value": "切分小铺, 调整业态, 改造场景",
+    "rule_desc": "针对低坪效的大型空间（如冰场），核心改造措施应包括将其切分为小铺，调整业态类型，并改造场景，以提升整体效益和客流吸引力。",
+    "source_image": "36.png"
+  },
+  {
+    "category": "商业空间布局",
+    "target": "主中庭洞口形态及两侧大铺进深",
+    "metric": "",
+    "value": "",
+    "rule_desc": "新建项目应通过调整骨架来优化主中庭洞口形态，以消化两侧大铺的进深，从而提升沿主中庭的商业展面价值。",
+    "source_image": "37.png"
+  },
+  {
+    "category": "店铺规划/空间优化",
+    "target": "店铺进深",
+    "metric": "优化方式",
+    "value": "扩大低区中庭洞口、设置高区边庭、高区露台等组合方式",
+    "rule_desc": "在店铺规划中，可采用扩大低区中庭洞口、设置高区边庭和高区露台等组合方式，以削减店铺进深，优化空间利用。",
+    "source_image": "37.png"
+  },
+  {
+    "category": "商业策略/店铺规划",
+    "target": "低坪效大铺",
+    "metric": "优化目标",
+    "value": "消灭",
+    "rule_desc": "筹开项目应通过策略刷新和骨架优化，在开业前消除低坪效大铺，以提升整体商业效益。",
+    "source_image": "37.png"
+  },
+  {
+    "category": "商业策略/店铺规划",
+    "target": "主力店面积",
+    "metric": "面积控制",
+    "value": "精准预控",
+    "rule_desc": "筹开项目应对主力店面积进行精准预控，以确保商业布局的合理性和效益。",
+    "source_image": "37.png"
+  },
+  {
+    "category": "租客落位",
+    "target": "尽端大铺",
+    "metric": "面积及品牌数量",
+    "value": "850㎡，6个品牌",
+    "rule_desc": "北京长楹天街B1层850㎡尽端大铺，规划切分为6个品牌的新能源展区。",
+    "source_image": "38.png"
+  },
+  {
+    "category": "动线规划",
+    "target": "塔楼核心筒周边",
+    "metric": "动线形式",
+    "value": "环形动线",
+    "rule_desc": "成都西宸天街3F塔楼核心筒周边设环形动线。",
+    "source_image": "38.png"
+  },
+  {
+    "category": "空间功能",
+    "target": "入口处",
+    "metric": "功能设置",
+    "value": "集中接待区",
+    "rule_desc": "成都西宸天街3F入口处集中设接待区。",
+    "source_image": "38.png"
+  },
+  {
+    "category": "租客落位",
+    "target": "小铺",
+    "metric": "位置",
+    "value": "内切",
+    "rule_desc": "成都西宸天街3F设置内切小铺。",
+    "source_image": "38.png"
+  },
+  {
+    "category": "业态规划",
+    "target": "集合区",
+    "metric": "业态类型",
+    "value": "教培",
+    "rule_desc": "成都西宸天街3F设置教培集合区。",
+    "source_image": "38.png"
+  },
+  {
+    "category": "业态规划",
+    "target": "尽端大铺",
+    "metric": "业态类型",
+    "value": "儿童零售",
+    "rule_desc": "杭州滨江天街3F尽端大铺合并后集中规划设置儿童业态集合区。",
+    "source_image": "38.png"
+  },
+  {
+    "category": "空间功能",
+    "target": "尽端",
+    "metric": "功能设置",
+    "value": "景观活动区",
+    "rule_desc": "杭州滨江天街3F尽端设置景观活动区，以吸引儿童停留。",
+    "source_image": "38.png"
+  },
+  {
+    "category": "空间优化策略",
+    "target": "转角/尽端大铺-类百货",
+    "metric": "空间处理方式",
+    "value": "边线内退, 类百货空间, 空间通透, 无需结构改造",
+    "rule_desc": "针对转角/尽端大铺，优化策略应采用边线内退结合特定主题业态，设置类百货空间，在有效切分的同时保证空间通透，且无需进行结构改造。",
+    "source_image": "39.png"
+  },
+  {
+    "category": "动线与铺位布局",
+    "target": "塔楼核心筒长边区域 (珠宝区)",
+    "metric": "核心筒处理, 动线形式, 铺位类型",
+    "value": "极致切小, \"U\"形动线, 低遮挡岛铺",
+    "rule_desc": "在塔楼核心筒长边区域，应极致切小核心筒，并结合进深较大一侧设置“U”形动线，放置低遮挡岛铺，以打造精装珠宝区集合店。",
+    "source_image": "39.png"
+  },
+  {
+    "category": "动线与铺位布局",
+    "target": "4F转角大进深位置 (家电区)",
+    "metric": "动线形式, 铺位类型",
+    "value": "\"U\"形动线, 低遮挡岛铺",
+    "rule_desc": "在4F转角大进深位置，应设置“U”形动线，中央放置低遮挡岛铺，以打造精装家电集合店。",
+    "source_image": "39.png"
+  },
+  {
+    "category": "动线与铺位布局",
+    "target": "2F转角大进深位置 (女性主题区)",
+    "metric": "动线形式, 铺位类型",
+    "value": "\"U\"形动线, 低遮挡岛铺",
+    "rule_desc": "在2F转角大进深位置，应设置“U”形动线，中央放置低遮挡岛铺，以打造精装女性主题区。",
+    "source_image": "39.png"
+  },
+  {
+    "category": "多经点位控制",
+    "target": "多经点位",
+    "metric": null,
+    "value": null,
+    "rule_desc": "多经点位的存活依附于成熟商场的高客流密度，并应具备面积小、坪效高的特点。",
+    "source_image": "41.png"
+  },
+  {
+    "category": "多经点位控制",
+    "target": "多经点位",
+    "metric": null,
+    "value": null,
+    "rule_desc": "平面精细化管控和TDM管控是保证多经点位高品质呈现的关键控制点。",
+    "source_image": "41.png"
+  },
+  {
+    "category": "平面精细化管控",
+    "target": "多经点位",
+    "metric": null,
+    "value": null,
+    "rule_desc": "平面精细化管控需关注多经尺寸、点位原则、连桥宽度以及点位之间的距离。",
+    "source_image": "41.png"
+  },
+  {
+    "category": "TDM管控",
+    "target": "多经点位",
+    "metric": null,
+    "value": null,
+    "rule_desc": "TDM管控需关注多经点位的形制、材料、色彩和灯光设计。",
+    "source_image": "41.png"
+  },
+  {
+    "category": "多经点位经营指标",
+    "target": "上海宝山多经点位",
+    "metric": "铺位得率占比",
+    "value": "0.46%",
+    "rule_desc": "上海宝山多经点位的铺位得率占比为0.46%。",
+    "source_image": "41.png"
+  },
+  {
+    "category": "多经点位经营指标",
+    "target": "上海宝山多经点位",
+    "metric": "店铺坪效平均值",
+    "value": "9244元/㎡",
+    "rule_desc": "上海宝山多经点位的店铺坪效平均值为9244元/㎡。",
+    "source_image": "41.png"
+  },
+  {
+    "category": "多经点位经营指标",
+    "target": "上海宝山多经点位",
+    "metric": "租赁面积占比",
+    "value": "0.79%",
+    "rule_desc": "上海宝山多经点位的租赁面积占比为0.79%。",
+    "source_image": "41.png"
+  },
+  {
+    "category": "多经点位经营指标",
+    "target": "上海宝山多经点位",
+    "metric": "销售额占比",
+    "value": "2.94%",
+    "rule_desc": "上海宝山多经点位的销售额占比为2.94%。",
+    "source_image": "41.png"
+  },
+  {
+    "category": "多经点位经营指标",
+    "target": "成都锦宸多经点位",
+    "metric": "铺位得率占比",
+    "value": "0.51%",
+    "rule_desc": "成都锦宸多经点位的铺位得率占比为0.51%。",
+    "source_image": "41.png"
+  },
+  {
+    "category": "多经点位经营指标",
+    "target": "成都锦宸多经点位",
+    "metric": "店铺坪效平均值",
+    "value": "6485元/㎡",
+    "rule_desc": "成都锦宸多经点位的店铺坪效平均值为6485元/㎡。",
+    "source_image": "41.png"
+  },
+  {
+    "category": "多经点位经营指标",
+    "target": "成都锦宸多经点位",
+    "metric": "租赁面积占比",
+    "value": "0.85%",
+    "rule_desc": "成都锦宸多经点位的租赁面积占比为0.85%。",
+    "source_image": "41.png"
+  },
+  {
+    "category": "多经点位经营指标",
+    "target": "成都锦宸多经点位",
+    "metric": "销售额占比",
+    "value": "3.74%",
+    "rule_desc": "成都锦宸多经点位的销售额占比为3.74%。",
+    "source_image": "41.png"
+  },
+  {
+    "category": "平面精细化管控",
+    "target": "多经点位尺度",
+    "metric": "尺度",
+    "value": "适中",
+    "rule_desc": "多经点位尺度应适中，避免过窄影响通行或过宽造成坪效浪费。",
+    "source_image": "41.png"
+  },
+  {
+    "category": "TDM管控",
+    "target": "多经点位灯光",
+    "metric": "颜色品质",
+    "value": "受控",
+    "rule_desc": "多经点位灯光颜色品质应受控，避免失控。",
+    "source_image": "41.png"
+  },
+  {
+    "category": "TDM管控",
+    "target": "多经点位空间",
+    "metric": "视线遮挡程度",
+    "value": "无遮挡",
+    "rule_desc": "多经点位应避免空间视线遮挡。",
+    "source_image": "41.png"
+  },
+  {
+    "category": "租客落位-多经点位",
+    "target": "地下商业层-零售多经",
+    "metric": "岛柜类型",
+    "value": "无遮挡",
+    "rule_desc": "地下商业层零售多经应采用无遮挡岛柜。",
+    "source_image": "42.png"
+  },
+  {
+    "category": "租客落位-多经点位",
+    "target": "地下商业层-零售多经",
+    "metric": "铺边距离",
+    "value": "3.2-3.5m",
+    "rule_desc": "地下商业层零售多经与铺边距离应为3.2-3.5米。",
+    "source_image": "42.png"
+  },
+  {
+    "category": "租客落位-多经点位",
+    "target": "地下商业层-零售多经",
+    "metric": "岛柜之间距离",
+    "value": ">= 2.6m",
+    "rule_desc": "地下商业层零售多经岛柜之间距离应不小于2.6米。",
+    "source_image": "42.png"
+  },
+  {
+    "category": "租客落位-多经点位",
+    "target": "地下商业层-餐饮多经",
+    "metric": "排烟方式",
+    "value": "地排烟",
+    "rule_desc": "地下商业层餐饮多经宜采用地排烟，避免遮挡店铺。",
+    "source_image": "42.png"
+  },
+  {
+    "category": "租客落位-多经点位",
+    "target": "地下商业层-餐饮多经",
+    "metric": "空间利用方式",
+    "value": "内推外摆",
+    "rule_desc": "地下商业层餐饮多经边铺可结合多经做内推外摆，以增加空间可视性及商业氛围。",
+    "source_image": "42.png"
+  },
+  {
+    "category": "租客落位-多经点位",
+    "target": "地下商业层-餐饮多经",
+    "metric": "集中就餐区",
+    "value": "预留",
+    "rule_desc": "地下商业层餐饮多经中岛密度较大时，应预留集中就餐区。",
+    "source_image": "42.png"
+  },
+  {
+    "category": "租客落位-多经点位",
+    "target": "地下商业层-零售多经",
+    "metric": "面积",
+    "value": "8-12m²",
+    "rule_desc": "地下零售多经面积为8-12平方米。",
+    "source_image": "42.png"
+  },
+  {
+    "category": "租客落位-多经点位",
+    "target": "地下商业层-零售多经",
+    "metric": "尺寸",
+    "value": "2.4m x 4.2m",
+    "rule_desc": "地下零售多经尺寸为2.4米x4.2米。",
+    "source_image": "42.png"
+  },
+  {
+    "category": "租客落位-多经点位",
+    "target": "地下商业层-餐饮多经",
+    "metric": "面积",
+    "value": "16-20m²",
+    "rule_desc": "地下餐饮多经面积为16-20平方米。",
+    "source_image": "42.png"
+  },
+  {
+    "category": "租客落位-多经点位",
+    "target": "地下商业层-餐饮多经",
+    "metric": "尺寸",
+    "value": "4.2m x 4.2m",
+    "rule_desc": "地下餐饮多经尺寸为4.2米x4.2米。",
+    "source_image": "42.png"
+  },
+  {
+    "category": "租客落位-多经点位",
+    "target": "首层-多经点位",
+    "metric": "位置",
+    "value": "靠近入口",
+    "rule_desc": "首层多经点位宜靠近入口。",
+    "source_image": "42.png"
+  },
+  {
+    "category": "租客落位-多经点位",
+    "target": "首层-多经点位",
+    "metric": "位置",
+    "value": "正对扶梯到达点",
+    "rule_desc": "首层多经点位宜正对扶梯到达点。",
+    "source_image": "42.png"
+  },
+  {
+    "category": "租客落位-多经点位",
+    "target": "首层-多经点位",
+    "metric": "位置",
+    "value": "扶梯下方",
+    "rule_desc": "首层多经点位宜位于扶梯下方。",
+    "source_image": "42.png"
+  },
+  {
+    "category": "租客落位-多经点位",
+    "target": "首层-次中庭集中闸板区",
+    "metric": "排布方式",
+    "value": "阵列式",
+    "rule_desc": "首层次中庭集中闸板区可阵列式排布多经点位。",
+    "source_image": "42.png"
+  },
+  {
+    "category": "租客落位-多经点位",
+    "target": "首层-多经点位",
+    "metric": "数量",
+    "value": "不宜过多",
+    "rule_desc": "为保证首层公共区域品质，多经点位数量不宜过多。",
+    "source_image": "42.png"
+  },
+  {
+    "category": "租客落位-多经点位",
+    "target": "首层-零售多经",
+    "metric": "面积",
+    "value": "16-20m²",
+    "rule_desc": "首层零售多经面积为16-20平方米。",
+    "source_image": "42.png"
+  },
+  {
+    "category": "租客落位-多经点位",
+    "target": "首层-零售多经",
+    "metric": "尺寸",
+    "value": "5m x 4m",
+    "rule_desc": "首层零售多经尺寸可为5米x4米。",
+    "source_image": "42.png"
+  },
+  {
+    "category": "租客落位-多经点位",
+    "target": "首层-零售多经",
+    "metric": "尺寸",
+    "value": "4m x 4m",
+    "rule_desc": "首层零售多经尺寸可为4米x4米。",
+    "source_image": "42.png"
+  },
+  {
+    "category": "租客落位-多经点位",
+    "target": "首层-零售多经",
+    "metric": "尺寸",
+    "value": "6.6m x 1.8m",
+    "rule_desc": "首层零售多经尺寸可为6.6米x1.8米。",
+    "source_image": "42.png"
+  },
+  {
+    "category": "租客落位-多经点位",
+    "target": "标准零售层 (2F及以上)-多经点位",
+    "metric": "位置",
+    "value": "正对扶梯",
+    "rule_desc": "标准零售层（2F及以上）多经点位宜位于正对扶梯。",
+    "source_image": "42.png"
+  },
+  {
+    "category": "租客落位-多经点位",
+    "target": "标准零售层 (2F及以上)-多经点位",
+    "metric": "位置",
+    "value": "客梯厅到达",
+    "rule_desc": "标准零售层（2F及以上）多经点位宜位于客梯厅到达处。",
+    "source_image": "42.png"
+  },
+  {
+    "category": "租客落位-多经点位",
+    "target": "标准零售层 (2F及以上)-多经点位",
+    "metric": "位置",
+    "value": "靠近主中庭的连桥",
+    "rule_desc": "标准零售层（2F及以上）多经点位宜位于靠近主中庭的连桥。",
+    "source_image": "42.png"
+  },
+  {
+    "category": "租客落位-多经点位",
+    "target": "标准零售层 (2F及以上)-多经点位",
+    "metric": "位置",
+    "value": "集中闸板区",
+    "rule_desc": "标准零售层（2F及以上）多经点位宜位于集中闸板区。",
+    "source_image": "42.png"
+  },
+  {
+    "category": "租客落位-多经点位",
+    "target": "标准零售层 (2F及以上)-多经点位",
+    "metric": "标准中庭连桥宽度",
+    "value": "6米",
+    "rule_desc": "标准零售层（2F及以上）多经点位预留的标准中庭连桥宽度为6米。",
+    "source_image": "42.png"
+  },
+  {
+    "category": "租客落位-多经点位",
+    "target": "标准零售层 (2F及以上)-多经点位",
+    "metric": "靠近主中庭位置连桥宽度",
+    "value": "6-8米",
+    "rule_desc": "标准零售层（2F及以上）多经点位预留的靠近主中庭位置连桥宽度为6-8米。",
+    "source_image": "42.png"
+  },
+  {
+    "category": "租客落位-多经点位",
+    "target": "标准零售层 (2F及以上)-多经点位",
+    "metric": "位置",
+    "value": "避免贴临主中庭一侧",
+    "rule_desc": "标准零售层（2F及以上）多经点位应尽量避免贴临主中庭一侧。",
+    "source_image": "42.png"
+  },
+  {
+    "category": "租客落位-多经点位",
+    "target": "L2标准零售层-零售多经",
+    "metric": "面积",
+    "value": "16-20m²",
+    "rule_desc": "L2标准零售层零售多经面积为16-20平方米。",
+    "source_image": "42.png"
+  },
+  {
+    "category": "租客落位-多经点位",
+    "target": "L2标准零售层-零售多经",
+    "metric": "尺寸",
+    "value": "5m x 4m",
+    "rule_desc": "L2标准零售层零售多经尺寸可为5米x4米。",
+    "source_image": "42.png"
+  },
+  {
+    "category": "租客落位-多经点位",
+    "target": "L2标准零售层-零售多经",
+    "metric": "尺寸",
+    "value": "4m x 4m",
+    "rule_desc": "L2标准零售层零售多经尺寸可为4米x4米。",
+    "source_image": "42.png"
+  },
+  {
+    "category": "租客落位-多经点位",
+    "target": "L2标准零售层-零售多经",
+    "metric": "尺寸",
+    "value": "6.6m x 1.8m",
+    "rule_desc": "L2标准零售层零售多经尺寸可为6.6米x1.8米。",
+    "source_image": "42.png"
+  },
+  {
+    "category": "租客落位-多经点位",
+    "target": "L3标准零售层-零售数码多经",
+    "metric": "面积",
+    "value": "10-25m²",
+    "rule_desc": "L3标准零售层零售数码多经面积为10-25平方米。",
+    "source_image": "42.png"
+  },
+  {
+    "category": "租客落位-多经点位",
+    "target": "L3标准零售层-零售数码多经",
+    "metric": "尺寸",
+    "value": "1.8m x 5.4m",
+    "rule_desc": "L3标准零售层零售数码多经尺寸可为1.8米x5.4米。",
+    "source_image": "42.png"
+  },
+  {
+    "category": "租客落位-多经点位",
+    "target": "L3标准零售层-零售数码多经",
+    "metric": "尺寸",
+    "value": "3m x 7m",
+    "rule_desc": "L3标准零售层零售数码多经尺寸可为3米x7米。",
+    "source_image": "42.png"
+  },
+  {
+    "category": "租客落位-多经点位",
+    "target": "餐饮及影院大厅层-多经点位",
+    "metric": "位置",
+    "value": "餐饮流量门口",
+    "rule_desc": "餐饮及影院大厅层多经点位建议位于餐饮流量门口。",
+    "source_image": "42.png"
+  },
+  {
+    "category": "租客落位-多经点位",
+    "target": "餐饮及影院大厅层-多经点位",
+    "metric": "位置",
+    "value": "影院门口",
+    "rule_desc": "餐饮及影院大厅层多经点位建议位于影院门口。",
+    "source_image": "42.png"
+  },
+  {
+    "category": "租客落位-多经点位",
+    "target": "L4及以上餐饮及影院大厅层-零售餐饮多经",
+    "metric": "面积",
+    "value": "16-20m²",
+    "rule_desc": "L4及以上餐饮及影院大厅层零售餐饮多经面积为16-20平方米。",
+    "source_image": "42.png"
+  },
+  {
+    "category": "租客落位-多经点位",
+    "target": "L4及以上餐饮及影院大厅层-零售餐饮多经",
+    "metric": "尺寸",
+    "value": "2.4m x 4.2m",
+    "rule_desc": "L4及以上餐饮及影院大厅层零售餐饮多经尺寸可为2.4米x4.2米。",
+    "source_image": "42.png"
+  },
+  {
+    "category": "租客落位-多经点位",
+    "target": "L4及以上餐饮及影院大厅层-零售餐饮多经",
+    "metric": "尺寸",
+    "value": "2.4m x 7m",
+    "rule_desc": "L4及以上餐饮及影院大厅层零售餐饮多经尺寸可为2.4米x7米。",
+    "source_image": "42.png"
+  },
+  {
+    "category": "客流分发 - 洞口与扶梯",
+    "target": "中庭洞口长度",
+    "metric": "长度跨度",
+    "value": "2-4跨",
+    "rule_desc": "标准中庭洞口长度宜为2-4跨。",
+    "source_image": "44.png"
+  },
+  {
+    "category": "客流分发 - 洞口与扶梯",
+    "target": "店招字体",
+    "metric": "字体高度与视距比",
+    "value": "1.52cm/m",
+    "rule_desc": "为确保清晰识别店招字体，每1米视距需1.52厘米字体高度。",
+    "source_image": "44.png"
+  },
+  {
+    "category": "客流分发 - 洞口与扶梯",
+    "target": "店招字体",
+    "metric": "最佳视距 (基于36cm字体)",
+    "value": "23.7m",
+    "rule_desc": "基于36cm字体高度，店招字体最佳视距为23.7米。",
+    "source_image": "44.png"
+  },
+  {
+    "category": "客流分发 - 洞口与扶梯",
+    "target": "店招高度",
+    "metric": "最佳视距 (基于60cm字体)",
+    "value": "39.47m",
+    "rule_desc": "基于60cm字体高度，店招高度最佳视距为39.47米。",
+    "source_image": "44.png"
+  },
+  {
+    "category": "客流分发 - 洞口与扶梯",
+    "target": "店招",
+    "metric": "最佳视线距离",
+    "value": "24-40m",
+    "rule_desc": "店招最佳视线距离为24-40米。",
+    "source_image": "44.png"
+  },
+  {
+    "category": "客流分发 - 洞口与扶梯",
+    "target": "中庭洞口长度",
+    "metric": "长度跨度",
+    "value": "2-4跨",
+    "rule_desc": "为满足店招最佳视距24-40米，中庭洞口长度需满足2-4跨。",
+    "source_image": "44.png"
+  },
+  {
+    "category": "客流分发 - 洞口与扶梯",
+    "target": "中庭洞口长度",
+    "metric": "长度跨度",
+    "value": "2-4跨",
+    "rule_desc": "为确保步行可达性小于50秒，中庭洞口长度需满足2-4跨。",
+    "source_image": "44.png"
+  },
+  {
+    "category": "业态布局",
+    "target": "餐饮层",
+    "metric": "业态密度",
+    "value": "适当降低",
+    "rule_desc": "餐饮层业态密度应适当降低，以形成视觉放大效果。",
+    "source_image": "44.png"
+  },
+  {
+    "category": "客流分发 - 洞口与扶梯",
+    "target": "中庭洞口宽度",
+    "metric": "宽度",
+    "value": "7-8米",
+    "rule_desc": "综合经济性和可视效果（针对三个楼层铺面），中庭洞口宽度宜为7-8米。",
+    "source_image": "44.png"
+  },
+  {
+    "category": "客流分发 - 洞口与扶梯",
+    "target": "中庭洞口宽度",
+    "metric": "宽度",
+    "value": "10米",
+    "rule_desc": "10米中庭洞口可保证3个楼层店面80%可视，且两个楼层店招可视。",
+    "source_image": "44.png"
+  },
+  {
+    "category": "客流分发 - 洞口与扶梯",
+    "target": "中庭洞口宽度",
+    "metric": "宽度",
+    "value": "8米",
+    "rule_desc": "8米中庭洞口可保证3个楼层店面60%可视，且两个楼层店招可视。",
+    "source_image": "44.png"
+  },
+  {
+    "category": "客流分发 - 洞口与扶梯",
+    "target": "中庭洞口宽度",
+    "metric": "宽度",
+    "value": "7米",
+    "rule_desc": "7米中庭洞口可保证3个楼层店面50%可视，且两个楼层店招可视。",
+    "source_image": "44.png"
+  },
+  {
+    "category": "客流分发 - 洞口与扶梯",
+    "target": "中庭洞口宽度",
+    "metric": "宽度",
+    "value": "6米",
+    "rule_desc": "6米中庭洞口可保证2个楼层店面30%可视，且一个楼层店招可视。",
+    "source_image": "44.png"
+  },
+  {
+    "category": "客流分发 - 洞口与扶梯",
+    "target": "中段中庭扶梯",
+    "metric": "与连桥关系",
+    "value": "宜直搭",
+    "rule_desc": "中段中庭扶梯宜与连桥直接连接，以减少扶梯平台对洞口视线的遮挡。",
+    "source_image": "45.png"
+  },
+  {
+    "category": "客流分发 - 洞口与扶梯",
+    "target": "中段中庭扶梯",
+    "metric": "布局形式",
+    "value": "宜游逛式，避免垂直叠放",
+    "rule_desc": "中段中庭扶梯宜采用游逛式布局，避免标准中庭扶梯垂直叠放。",
+    "source_image": "45.png"
+  },
+  {
+    "category": "客流分发 - 洞口与扶梯",
+    "target": "端头中庭扶梯",
+    "metric": "到达点方向",
+    "value": "朝向动线末端",
+    "rule_desc": "端头中庭扶梯的到达点应朝向动线末端。",
+    "source_image": "45.png"
+  },
+  {
+    "category": "客流分发 - 洞口与扶梯",
+    "target": "端头中庭扶梯",
+    "metric": "布局形式",
+    "value": "分游逛式、不对称叠放、斜拉错位",
+    "rule_desc": "端头中庭扶梯应根据项目洞口形状，采用分游逛式、不对称叠放或斜拉错位布局。",
+    "source_image": "45.png"
+  },
+  {
+    "category": "客流分发 - 洞口与扶梯",
+    "target": "侧扶梯 (车库-地下商业)",
+    "metric": "位置与客梯厅关系",
+    "value": "后置并与客梯厅结合",
+    "rule_desc": "从车库到地下商业层的侧扶梯应后置并与客梯厅结合。",
+    "source_image": "45.png"
+  },
+  {
+    "category": "客流分发 - 洞口与扶梯",
+    "target": "侧扶梯 (地下商业-首层)",
+    "metric": "位置",
+    "value": "宜放置在主动线中间",
+    "rule_desc": "从地下商业层到首层的侧扶梯宜放置在主动线中间。",
+    "source_image": "45.png"
+  },
+  {
+    "category": "客流分发 - 洞口与扶梯",
+    "target": "侧扶梯",
+    "metric": "布局条件与首层到达点连接",
+    "value": "主动线宽度不够或需避免遮挡时采用侧置，首层到达点与主动线勾连",
+    "rule_desc": "当主动线宽度不足或需要避免遮挡时，应采用侧置扶梯，且首层到达点应与主动线勾连。",
+    "source_image": "45.png"
+  },
+  {
+    "category": "动线",
+    "target": "TOD连接动线",
+    "metric": "顺畅性",
+    "value": "直接顺畅",
+    "rule_desc": "优化TOD连接，确保动线直接顺畅，实现无感顺畅。",
+    "source_image": "46.png"
+  },
+  {
+    "category": "商业界面",
+    "target": "商业界面",
+    "metric": "范围",
+    "value": "外延",
+    "rule_desc": "商业界面应向外延伸，实现无感顺畅。",
+    "source_image": "46.png"
+  },
+  {
+    "category": "空间",
+    "target": "商业空间",
+    "metric": "空间感",
+    "value": "挑高放大",
+    "rule_desc": "商业空间应挑高放大，提升空间感，实现无感顺畅。",
+    "source_image": "46.png"
+  },
+  {
+    "category": "中庭",
+    "target": "开洞",
+    "metric": "数量",
+    "value": "增加",
+    "rule_desc": "中庭应增加开洞数量，以促进全场交互。",
+    "source_image": "46.png"
+  },
+  {
+    "category": "中庭",
+    "target": "开洞",
+    "metric": "尺度",
+    "value": "扩大",
+    "rule_desc": "中庭开洞尺度应扩大，以促进全场交互。",
+    "source_image": "46.png"
+  },
+  {
+    "category": "中庭",
+    "target": "上下洞口",
+    "metric": "连通性",
+    "value": "贯通",
+    "rule_desc": "中庭上下洞口应贯通，以促进全场交互。",
+    "source_image": "46.png"
+  },
+  {
+    "category": "地下动线",
+    "target": "动线布局",
+    "metric": "规模",
+    "value": "集中",
+    "rule_desc": "地下动线应形成集中规模，实现全域可达。",
+    "source_image": "46.png"
+  },
+  {
+    "category": "铺位",
+    "target": "铺位类型",
+    "metric": "兼顾性",
+    "value": "大小兼顾",
+    "rule_desc": "地下动线规划应兼顾大铺位和小铺位，实现全域可达。",
+    "source_image": "46.png"
+  },
+  {
+    "category": "空间",
+    "target": "地下商业空间",
+    "metric": "辨识度",
+    "value": "提升",
+    "rule_desc": "提升地下商业空间辨识度，实现全域可达。",
+    "source_image": "46.png"
+  },
+  {
+    "category": "视线",
+    "target": "地下空间",
+    "metric": "遮挡物",
+    "value": "无卷帘柱",
+    "rule_desc": "地下空间应避免设置卷帘柱，以保证视线无遮挡，实现通透干净。",
+    "source_image": "46.png"
+  },
+  {
+    "category": "视线",
+    "target": "餐饮岛铺",
+    "metric": "遮挡程度",
+    "value": "弱遮挡",
+    "rule_desc": "餐饮岛铺应采用弱遮挡设计，以保证视线通透，实现通透干净。",
+    "source_image": "46.png"
+  },
+  {
+    "category": "TOD连接/动线",
+    "target": "TOD连接",
+    "metric": null,
+    "value": null,
+    "rule_desc": "TOD连接应优化，实现动线直接顺畅，商业界面外延，并进行空间挑高放大。",
+    "source_image": "47.png"
+  },
+  {
+    "category": "入口设计/地下商业",
+    "target": "地下2层商业入口",
+    "metric": "层数",
+    "value": "B2",
+    "rule_desc": "地下2层应打造通高商业入口，塑造标签接驳空间。",
+    "source_image": "47.png"
+  },
+  {
+    "category": "动线连接",
+    "target": "美食区与扶梯",
+    "metric": "连接层",
+    "value": "B1",
+    "rule_desc": "美食区及超前扶梯应勾连B1层。",
+    "source_image": "47.png"
+  },
+  {
+    "category": "客流导入/轨道交通",
+    "target": "轨道交通接口",
+    "metric": "接口数量",
+    "value": "5",
+    "rule_desc": "双轨交5接口应实现极致客流导入，口部动线直接顺畅，商业界面外延。",
+    "source_image": "47.png"
+  },
+  {
+    "category": "中庭设计",
+    "target": "中庭整体",
+    "metric": null,
+    "value": null,
+    "rule_desc": "中庭设计应向下扩展，增加开洞数量，扩大开洞尺度，并确保上下洞口贯通。",
+    "source_image": "47.png"
+  },
+  {
+    "category": "中庭设计/开洞",
+    "target": "首层中庭开洞",
+    "metric": "开洞数量",
+    "value": "增加",
+    "rule_desc": "首层应增加向下开洞数量，并针对高品质业态或场景扩大开洞面积，以实现上下贯通的最大化可视效果。",
+    "source_image": "47.png"
+  },
+  {
+    "category": "中庭设计/开洞面积",
+    "target": "L1层中庭开洞",
+    "metric": "开洞面积",
+    "value": "200m²",
+    "rule_desc": "L1层中庭开洞面积示例为200m²。",
+    "source_image": "47.png"
+  },
+  {
+    "category": "中庭设计/开洞面积",
+    "target": "L1层中庭开洞",
+    "metric": "开洞面积",
+    "value": "250m²",
+    "rule_desc": "L1层中庭开洞面积示例为250m²。",
+    "source_image": "47.png"
+  },
+  {
+    "category": "中庭设计/开洞面积",
+    "target": "B1层中庭开洞",
+    "metric": "开洞面积",
+    "value": "300m²",
+    "rule_desc": "B1层中庭开洞面积示例为300m²。",
+    "source_image": "47.png"
+  },
+  {
+    "category": "中庭设计/开洞面积",
+    "target": "B1层中庭开洞",
+    "metric": "开洞面积",
+    "value": "200m²",
+    "rule_desc": "B1层中庭开洞面积示例为200m²。",
+    "source_image": "47.png"
+  },
+  {
+    "category": "中庭设计/开洞面积",
+    "target": "B2层中庭开洞",
+    "metric": "开洞面积",
+    "value": "130m²",
+    "rule_desc": "B2层中庭开洞面积示例为130m²。",
+    "source_image": "47.png"
+  },
+  {
+    "category": "中庭设计/开洞面积",
+    "target": "B2层中庭开洞",
+    "metric": "开洞面积",
+    "value": "150m²",
+    "rule_desc": "B2层中庭开洞面积示例为150m²。",
+    "source_image": "47.png"
+  },
+  {
+    "category": "中庭设计/功能",
+    "target": "L1层中庭封板",
+    "metric": null,
+    "value": null,
+    "rule_desc": "L1层中庭封板可布置各类推广活动和装置。",
+    "source_image": "47.png"
+  },
+  {
+    "category": "商业动线",
+    "target": "地下动线",
+    "metric": "动线形态",
+    "value": "室内成环",
+    "rule_desc": "地下商业动线应在室内形成环路。",
+    "source_image": "48.png"
+  },
+  {
+    "category": "商业动线",
+    "target": "地下动线",
+    "metric": "规模",
+    "value": "集中",
+    "rule_desc": "地下商业动线应具备集中规模。",
+    "source_image": "48.png"
+  },
+  {
+    "category": "商业动线",
+    "target": "地下动线铺位",
+    "metric": "铺位切割",
+    "value": "大小兼顾",
+    "rule_desc": "地下商业动线设计应兼顾大铺和小铺的切割需求。",
+    "source_image": "48.png"
+  },
+  {
+    "category": "商业动线",
+    "target": "地下动线空间",
+    "metric": "辨识度",
+    "value": "提升",
+    "rule_desc": "地下商业动线设计应提升空间辨识度。",
+    "source_image": "48.png"
+  },
+  {
+    "category": "商业动线",
+    "target": "地下商业游逛体验",
+    "metric": "气候影响",
+    "value": "无",
+    "rule_desc": "地下商业动线设计应确保游逛体验不受气候影响。",
+    "source_image": "48.png"
+  },
+  {
+    "category": "商业动线",
+    "target": "地下商业联通",
+    "metric": "联通效率",
+    "value": "高",
+    "rule_desc": "地下商业动线设计应提高联通效率。",
+    "source_image": "48.png"
+  },
+  {
+    "category": "商业动线",
+    "target": "地下商业动线",
+    "metric": "死角",
+    "value": "无",
+    "rule_desc": "地下商业动线设计应避免动线死角。",
+    "source_image": "48.png"
+  },
+  {
+    "category": "商业运营",
+    "target": "地下商业",
+    "metric": "坪效",
+    "value": "提升",
+    "rule_desc": "地下商业动线设计应有助于提升坪效。",
+    "source_image": "48.png"
+  },
+  {
+    "category": "空间布局",
+    "target": "下沉广场",
+    "metric": "位置",
+    "value": "外挂",
+    "rule_desc": "下沉广场宜采用外挂形式。",
+    "source_image": "48.png"
+  },
+  {
+    "category": "商业动线",
+    "target": "地下商业动线",
+    "metric": "动线形态",
+    "value": "宜“8”字形",
+    "rule_desc": "地下商业动线宜采用“8”字形。",
+    "source_image": "48.png"
+  },
+  {
+    "category": "业态规划",
+    "target": "地下商业",
+    "metric": "业态丰富度",
+    "value": "足够丰富",
+    "rule_desc": "地下商业应确保业态足够丰富。",
+    "source_image": "48.png"
+  },
+  {
+    "category": "空间设计",
+    "target": "地下商业视线",
+    "metric": "遮挡",
+    "value": "无",
+    "rule_desc": "地下商业应专项提升地视线无遮挡。",
+    "source_image": "48.png"
+  },
+  {
+    "category": "结构优化",
+    "target": "地下商业空间",
+    "metric": "卷帘柱",
+    "value": "无",
+    "rule_desc": "地下商业空间应取消卷帘柱。",
+    "source_image": "48.png"
+  },
+  {
+    "category": "空间设计",
+    "target": "餐饮岛铺",
+    "metric": "遮挡程度",
+    "value": "弱遮挡",
+    "rule_desc": "餐饮岛铺应设计为弱遮挡。",
+    "source_image": "48.png"
+  },
+  {
+    "category": "结构优化",
+    "target": "地下商业空间",
+    "metric": "取消卷帘柱数量",
+    "value": "15个",
+    "rule_desc": "通过幕式卷帘等方式，取消地下商业空间内的卷帘柱，例如取消15个。",
+    "source_image": "48.png"
+  },
+  {
+    "category": "餐饮设施",
+    "target": "地下餐饮",
+    "metric": "排油方式",
+    "value": "地排油",
+    "rule_desc": "地下餐饮应采用地排油方式。",
+    "source_image": "48.png"
+  },
+  {
+    "category": "空间设计",
+    "target": "店招",
+    "metric": "通透性",
+    "value": "提升",
+    "rule_desc": "地下餐饮采用地排油等方式，以提升店招的通透性。",
+    "source_image": "48.png"
+  },
+  {
+    "category": "客流分发",
+    "target": "扶梯洞口落位",
+    "metric": null,
+    "value": null,
+    "rule_desc": "对于大体量地下商业，开洞应优先考虑客流分发设扶梯洞口，再结合业态及场景考虑洞口的可视性；尽量避免纯可视洞口。",
+    "source_image": "49.png"
+  },
+  {
+    "category": "客流分发",
+    "target": "中庭洞口",
+    "metric": null,
+    "value": null,
+    "rule_desc": "中庭洞口应上下可视，垂直贯通，并保证零售楼层至少有一组活动中庭。",
+    "source_image": "49.png"
+  },
+  {
+    "category": "客流分发",
+    "target": "首层洞口面积",
+    "metric": null,
+    "value": null,
+    "rule_desc": "如首层具有高价值点位的经营条件，应当避免或减小开洞面积。",
+    "source_image": "49.png"
+  },
+  {
+    "category": "客流分发",
+    "target": "首层洞口尺度",
+    "metric": null,
+    "value": null,
+    "rule_desc": "控制首层洞口尺度，避免影响洞口两侧商户的交互可达。",
+    "source_image": "49.png"
+  },
+  {
+    "category": "客流分发",
+    "target": "地铁口附近洞口",
+    "metric": null,
+    "value": null,
+    "rule_desc": "有地铁时，在地铁口附近设置含扶梯中庭洞口或可视扶梯洞口，快速向上分发客流。",
+    "source_image": "49.png"
+  },
+  {
+    "category": "客流分发",
+    "target": "L1人流主入口洞口",
+    "metric": null,
+    "value": null,
+    "rule_desc": "无地铁时，在L1人流主入口向下设置扶梯洞口，向地下引导客流。",
+    "source_image": "49.png"
+  },
+  {
+    "category": "地下开洞策略",
+    "target": "扶梯布局位置",
+    "metric": "服务半径",
+    "value": "30-50m",
+    "rule_desc": "扶梯布局位置应依据30-50m服务半径布置。",
+    "source_image": "49.png"
+  },
+  {
+    "category": "地下开洞策略",
+    "target": "扶梯布局方向",
+    "metric": null,
+    "value": null,
+    "rule_desc": "扶梯布局方向应朝向主要人流方向，或吸纳分发到上层冷区或尽端。",
+    "source_image": "49.png"
+  },
+  {
+    "category": "地下开洞策略/洞口尺度",
+    "target": "不可视扶梯洞口",
+    "metric": "洞口面积",
+    "value": "60-80m²",
+    "rule_desc": "当判断下层餐饮包含中岛餐饮时，应选择不可视扶梯洞口，洞口面积为60-80m²。",
+    "source_image": "49.png"
+  },
+  {
+    "category": "地下开洞策略/洞口尺度",
+    "target": "可视扶梯洞口",
+    "metric": "洞口面积",
+    "value": "120-180m²",
+    "rule_desc": "当判断下层餐饮不包含中岛餐饮时，应选择可视扶梯洞口，洞口面积为120-180m²。",
+    "source_image": "49.png"
+  },
+  {
+    "category": "地下开洞策略/洞口尺度",
+    "target": "节点中庭洞口",
+    "metric": "洞口面积",
+    "value": ">=240m²",
+    "rule_desc": "当判断下层零售业态级次或精装场景质量较低时，应选择节点中庭洞口（至少选择一组活动中庭下沉），洞口面积不小于240m²。",
+    "source_image": "49.png"
+  },
+  {
+    "category": "地下开洞策略/洞口尺度",
+    "target": "纯可视洞口",
+    "metric": "洞口面积",
+    "value": "60-200m²",
+    "rule_desc": "当判断下层零售业态级次或精装场景质量较高时，可选择纯可视洞口（尽可能避免，一事一议），洞口面积为60-200m²。",
+    "source_image": "49.png"
+  },
+  {
+    "category": "地下空间尺寸原则 - 零售动线",
+    "target": "边铺与岛铺间走道",
+    "metric": "宽度",
+    "value": "3m",
+    "rule_desc": "零售动线中，边铺与岛铺之间的主要走道宽度为3米。",
+    "source_image": "50.png"
+  },
+  {
+    "category": "地下空间尺寸原则 - 零售动线",
+    "target": "岛铺",
+    "metric": "宽度",
+    "value": "2-5m",
+    "rule_desc": "零售动线中，岛铺的宽度范围为2-5米。",
+    "source_image": "50.png"
+  },
+  {
+    "category": "地下空间尺寸原则 - 餐饮区域",
+    "target": "外摆",
+    "metric": "宽度",
+    "value": "1.5-3m",
+    "rule_desc": "餐饮区域外摆的宽度范围为1.5-3米。",
+    "source_image": "50.png"
+  },
+  {
+    "category": "地下空间尺寸原则 - 餐饮区域",
+    "target": "主走道",
+    "metric": "宽度",
+    "value": "±4.5m",
+    "rule_desc": "餐饮区域主走道宽度为±4.5米。",
+    "source_image": "50.png"
+  },
+  {
+    "category": "地下空间尺寸原则 - 餐饮区域",
+    "target": "次走道",
+    "metric": "宽度",
+    "value": "3m",
+    "rule_desc": "餐饮区域次走道宽度为3米。",
+    "source_image": "50.png"
+  },
+  {
+    "category": "地下空间尺寸原则 - 宽骨架下复合空间组合",
+    "target": "外摆",
+    "metric": "宽度",
+    "value": "1.5-3m",
+    "rule_desc": "宽骨架下复合空间组合中，外摆的宽度范围为1.5-3米。",
+    "source_image": "50.png"
+  },
+  {
+    "category": "地下空间尺寸原则 - 宽骨架下复合空间组合",
+    "target": "岛铺",
+    "metric": "单个宽度",
+    "value": "3m",
+    "rule_desc": "宽骨架下复合空间组合中，单个岛铺的宽度为3米。",
+    "source_image": "50.png"
+  },
+  {
+    "category": "地下空间尺寸原则 - 宽骨架下复合空间组合",
+    "target": "岛铺组合",
+    "metric": "双岛铺总宽度",
+    "value": "8m",
+    "rule_desc": "宽骨架下复合空间组合中，双岛铺组合的总宽度为8米。",
+    "source_image": "50.png"
+  },
+  {
+    "category": "地下空间尺寸原则 - 宽骨架下复合空间组合",
+    "target": "岛铺与外摆间走道",
+    "metric": "宽度",
+    "value": "3m",
+    "rule_desc": "宽骨架下复合空间组合中，岛铺与外摆之间的走道宽度为3米。",
+    "source_image": "50.png"
+  },
+  {
+    "category": "TOD接驳",
+    "target": "核心定义",
+    "metric": null,
+    "value": null,
+    "rule_desc": "TOD接驳的核心定义是围绕公共交通站点周边进行开发。",
+    "source_image": "51.png"
+  },
+  {
+    "category": "TOD接驳",
+    "target": "核心定义",
+    "metric": null,
+    "value": null,
+    "rule_desc": "TOD接驳的核心定义是鼓励混合土地使用。",
+    "source_image": "51.png"
+  },
+  {
+    "category": "TOD接驳",
+    "target": "目标与原则",
+    "metric": null,
+    "value": null,
+    "rule_desc": "TOD接驳的目标与原则是缓解交通压力、促进经济。",
+    "source_image": "51.png"
+  },
+  {
+    "category": "TOD接驳",
+    "target": "接驳策略",
+    "metric": "连接方式",
+    "value": "紧密链接、清晰标识、开放通透",
+    "rule_desc": "接驳策略应做到紧密链接、清晰标识和开放通透。",
+    "source_image": "51.png"
+  },
+  {
+    "category": "TOD接驳",
+    "target": "接驳策略",
+    "metric": "业态与功能组合",
+    "value": "前置商业、体验式零售、广告信息",
+    "rule_desc": "接驳策略的业态与功能组合应包含前置商业、体验式零售和广告信息。",
+    "source_image": "51.png"
+  },
+  {
+    "category": "TOD接驳",
+    "target": "接驳策略",
+    "metric": "主题与氛围营造",
+    "value": "差异化主题、节日氛围",
+    "rule_desc": "接驳策略的主题与氛围营造应包含差异化主题和节日氛围。",
+    "source_image": "51.png"
+  },
+  {
+    "category": "客流分发-TOD接驳",
+    "target": "“无缝”连接型",
+    "metric": "连接条件",
+    "value": "地铁站厅层或转换通道进入天街红线内",
+    "rule_desc": "“无缝”连接型TOD接驳，采用条件为地铁站厅层或转换通道进入天街红线内，并优先采用。",
+    "source_image": "52.png"
+  },
+  {
+    "category": "客流分发-TOD接驳",
+    "target": "“无缝”连接型",
+    "metric": "连通口宽度",
+    "value": "尽量做宽",
+    "rule_desc": "“无缝”连接型TOD接驳，连通口设计应尽量做宽。",
+    "source_image": "52.png"
+  },
+  {
+    "category": "客流分发-TOD接驳",
+    "target": "“无缝”连接型",
+    "metric": "物理高差",
+    "value": "消除",
+    "rule_desc": "“无缝”连接型TOD接驳，应消除物理高差。",
+    "source_image": "52.png"
+  },
+  {
+    "category": "客流分发-TOD接驳",
+    "target": "“无缝”连接型",
+    "metric": "商业入口显著性",
+    "value": "凸显",
+    "rule_desc": "“无缝”连接型TOD接驳，应凸显商业入口。",
+    "source_image": "52.png"
+  },
+  {
+    "category": "客流分发-TOD接驳",
+    "target": "室外下沉广场连接型",
+    "metric": "连接条件",
+    "value": "地铁口临近天街转角广场入口或与公共绿地贴临",
+    "rule_desc": "室外下沉广场连接型TOD接驳，采用条件为地铁口临近天街转角广场入口或与公共绿地贴临。",
+    "source_image": "52.png"
+  },
+  {
+    "category": "客流分发-TOD接驳",
+    "target": "室外下沉广场连接型",
+    "metric": "空间与流线整合度",
+    "value": "整合",
+    "rule_desc": "室外下沉广场连接型TOD接驳，设计要点为空间与流线整合。",
+    "source_image": "52.png"
+  },
+  {
+    "category": "客流分发-TOD接驳",
+    "target": "室外下沉广场连接型",
+    "metric": "环境与氛围营造效果",
+    "value": "良好",
+    "rule_desc": "室外下沉广场连接型TOD接驳，设计要点为环境与氛围营造。",
+    "source_image": "52.png"
+  },
+  {
+    "category": "客流分发-TOD接驳",
+    "target": "室外下沉广场连接型",
+    "metric": "标识系统清晰度",
+    "value": "清晰",
+    "rule_desc": "室外下沉广场连接型TOD接驳，设计要点为清晰的标识系统。",
+    "source_image": "52.png"
+  },
+  {
+    "category": "客流分发-TOD接驳",
+    "target": "通道连接型",
+    "metric": "连接条件",
+    "value": "地铁与天街分别退道路红线，连接通道宽度受严格限制",
+    "rule_desc": "通道连接型TOD接驳，采用条件为地铁与天街分别退道路红线，且连接通道宽度受严格限制。",
+    "source_image": "52.png"
+  },
+  {
+    "category": "客流分发-TOD接驳",
+    "target": "通道连接型",
+    "metric": "视线通透性",
+    "value": "通透直接",
+    "rule_desc": "通道连接型TOD接驳，设计要点为视线通透直接。",
+    "source_image": "52.png"
+  },
+  {
+    "category": "客流分发-TOD接驳",
+    "target": "通道连接型",
+    "metric": "标识与商业氛围营造效果",
+    "value": "良好",
+    "rule_desc": "通道连接型TOD接驳，设计要点为标识与商业氛围营造。",
+    "source_image": "52.png"
+  },
+  {
+    "category": "客流分发-TOD接驳",
+    "target": "通道连接型",
+    "metric": "业态匹配度",
+    "value": "匹配客流特点",
+    "rule_desc": "通道连接型TOD接驳，设计要点为业态匹配客流特点。",
+    "source_image": "52.png"
+  },
+  {
+    "category": "客流分发-TOD接驳",
+    "target": "主动接驳型",
+    "metric": "连接条件",
+    "value": "地铁距离天街较远，但有其他因素可争取加建地下通道相连",
+    "rule_desc": "主动接驳型TOD接驳，采用条件为地铁距离天街较远，但有其他因素可争取加建地下通道相连。",
+    "source_image": "52.png"
+  },
+  {
+    "category": "客流分发-TOD接驳",
+    "target": "主动接驳型",
+    "metric": "通道内商业点位数量",
+    "value": "适当增加",
+    "rule_desc": "主动接驳型TOD接驳，设计要点为通道内适当增加商业点位。",
+    "source_image": "52.png"
+  },
+  {
+    "category": "客流分发-TOD接驳",
+    "target": "主动接驳型",
+    "metric": "关键节点标识效果",
+    "value": "突出引导人流",
+    "rule_desc": "主动接驳型TOD接驳，设计要点为关键节点突出标识引导人流。",
+    "source_image": "52.png"
+  },
+  {
+    "category": "客流分发-TOD接驳",
+    "target": "主动接驳型",
+    "metric": "墙面广告位/LED屏覆盖范围",
+    "value": "全覆盖",
+    "rule_desc": "主动接驳型TOD接驳，设计要点为全覆盖墙面广告位/LED屏。",
+    "source_image": "52.png"
+  },
+  {
+    "category": "TOD接驳",
+    "target": "地铁与商业连接",
+    "metric": "连接方式",
+    "value": "直接连通",
+    "rule_desc": "“无缝”连接型：地铁非付费区与商业入口应直接连通。",
+    "source_image": "53.png"
+  },
+  {
+    "category": "TOD接驳",
+    "target": "地铁站厅",
+    "metric": "功能转化",
+    "value": "商业前场",
+    "rule_desc": "“无缝”连接型：协同地铁方，将站厅转化为商业前场。",
+    "source_image": "53.png"
+  },
+  {
+    "category": "TOD接驳",
+    "target": "商场入口与站厅",
+    "metric": "风格",
+    "value": "融合",
+    "rule_desc": "“无缝”连接型：商场入口与站厅风格应融合。",
+    "source_image": "53.png"
+  },
+  {
+    "category": "TOD接驳",
+    "target": "入口",
+    "metric": "空间感受",
+    "value": "宽敞明亮",
+    "rule_desc": "“无缝”连接型：入口应宽敞明亮。",
+    "source_image": "53.png"
+  },
+  {
+    "category": "TOD接驳",
+    "target": "商场标识",
+    "metric": "视觉呈现",
+    "value": "突出",
+    "rule_desc": "“无缝”连接型：应突出商场标识。",
+    "source_image": "53.png"
+  },
+  {
+    "category": "TOD接驳",
+    "target": "地铁与商业连接",
+    "metric": "连接方式",
+    "value": "室外下沉广场",
+    "rule_desc": "室外下沉广场连接：地铁应通过室外下沉广场与商业连接。",
+    "source_image": "53.png"
+  },
+  {
+    "category": "TOD接驳",
+    "target": "出入口",
+    "metric": "设计",
+    "value": "合建",
+    "rule_desc": "室外下沉广场连接：出入口应合建。",
+    "source_image": "53.png"
+  },
+  {
+    "category": "TOD接驳",
+    "target": "连接区域",
+    "metric": "景观",
+    "value": "庭院场景化",
+    "rule_desc": "室外下沉广场连接：连接区域应进行庭院场景化设计。",
+    "source_image": "53.png"
+  },
+  {
+    "category": "TOD接驳",
+    "target": "连接路径",
+    "metric": "防雨",
+    "value": "无雨衔接",
+    "rule_desc": "室外下沉广场连接：连接路径应实现无雨衔接。",
+    "source_image": "53.png"
+  },
+  {
+    "category": "产品策略",
+    "target": "楼层设计",
+    "metric": "首层数量",
+    "value": "多首层",
+    "rule_desc": "室外下沉广场连接：应采用多首层设计。",
+    "source_image": "53.png"
+  },
+  {
+    "category": "产品策略",
+    "target": "场景",
+    "metric": "元素融合",
+    "value": "生态场景",
+    "rule_desc": "室外下沉广场连接：应融合生态场景。",
+    "source_image": "53.png"
+  },
+  {
+    "category": "产品策略",
+    "target": "餐饮布局",
+    "metric": "形式",
+    "value": "围合式",
+    "rule_desc": "室外下沉广场连接：餐饮布局应为围合式。",
+    "source_image": "53.png"
+  },
+  {
+    "category": "商业权属",
+    "target": "地铁通道联通型TOD",
+    "metric": null,
+    "value": null,
+    "rule_desc": "地铁运营商与连接商业互不归属。",
+    "source_image": "56.png"
+  },
+  {
+    "category": "运营特色",
+    "target": "地铁通道联通型TOD",
+    "metric": null,
+    "value": null,
+    "rule_desc": "地铁运营仅强调交通联系，无商业或有少量运营。",
+    "source_image": "56.png"
+  },
+  {
+    "category": "接驳需求",
+    "target": "地铁通道联通型TOD",
+    "metric": null,
+    "value": null,
+    "rule_desc": "商业运营方应根据需求在地铁通道设置接驳口。",
+    "source_image": "56.png"
+  },
+  {
+    "category": "商业权属",
+    "target": "地铁捆绑商业型TOD",
+    "metric": null,
+    "value": null,
+    "rule_desc": "地铁捆绑商业归属地铁运营商。",
+    "source_image": "56.png"
+  },
+  {
+    "category": "运营特色",
+    "target": "地铁捆绑商业型TOD",
+    "metric": null,
+    "value": null,
+    "rule_desc": "地铁商业与周边商业形成竞争。",
+    "source_image": "56.png"
+  },
+  {
+    "category": "接驳需求",
+    "target": "地铁捆绑商业型TOD",
+    "metric": null,
+    "value": null,
+    "rule_desc": "需规模化创造商圈效应，业态需统筹设置。",
+    "source_image": "56.png"
+  },
+  {
+    "category": "商业权属",
+    "target": "交通枢纽换乘型TOD",
+    "metric": null,
+    "value": null,
+    "rule_desc": "交通枢纽运营商与连接商业互不归属。",
+    "source_image": "56.png"
+  },
+  {
+    "category": "运营特色",
+    "target": "交通枢纽换乘型TOD",
+    "metric": null,
+    "value": null,
+    "rule_desc": "枢纽换乘带来人流效应。",
+    "source_image": "56.png"
+  },
+  {
+    "category": "接驳需求",
+    "target": "交通枢纽换乘型TOD",
+    "metric": null,
+    "value": null,
+    "rule_desc": "交通枢纽之间应相互串联，与商业紧密衔接。",
+    "source_image": "56.png"
+  },
+  {
+    "category": "商业权属",
+    "target": "地铁合建连接型TOD",
+    "metric": null,
+    "value": null,
+    "rule_desc": "交通枢纽设置在商业中，与连接商业互不归属。",
+    "source_image": "56.png"
+  },
+  {
+    "category": "运营特色",
+    "target": "地铁合建连接型TOD",
+    "metric": null,
+    "value": null,
+    "rule_desc": "以合建商业为中心，人流向外部商业辐射。",
+    "source_image": "56.png"
+  },
+  {
+    "category": "接驳需求",
+    "target": "地铁合建连接型TOD",
+    "metric": null,
+    "value": null,
+    "rule_desc": "商业动线与站点内部交通应紧密衔接。",
+    "source_image": "56.png"
+  },
+  {
+    "category": "商业权属",
+    "target": "交通枢纽复合型TOD",
+    "metric": null,
+    "value": null,
+    "rule_desc": "交通枢纽与枢纽内商业互不归属。",
+    "source_image": "56.png"
+  },
+  {
+    "category": "运营特色",
+    "target": "交通枢纽复合型TOD",
+    "metric": null,
+    "value": null,
+    "rule_desc": "交通流线应呈网状辐射周边业态。",
+    "source_image": "56.png"
+  },
+  {
+    "category": "接驳需求",
+    "target": "交通枢纽复合型TOD",
+    "metric": null,
+    "value": null,
+    "rule_desc": "商业应根据叠合换乘特点，分层设置连接。",
+    "source_image": "56.png"
+  },
+  {
+    "category": "总体要求",
+    "target": "超级TOD",
+    "metric": null,
+    "value": null,
+    "rule_desc": "超级TOD为高能级成熟商圈，拥有多个商办地块竞争激烈。",
+    "source_image": "56.png"
+  },
+  {
+    "category": "总体要求",
+    "target": "天街 (Longfor Commercial Brand)",
+    "metric": null,
+    "value": null,
+    "rule_desc": "若开发天街，需精准定位并做出差异化。",
+    "source_image": "56.png"
+  },
+  {
+    "category": "总体要求",
+    "target": "天街 (Longfor Commercial Brand)",
+    "metric": null,
+    "value": null,
+    "rule_desc": "避免将天街设置在人流冷区。",
+    "source_image": "56.png"
+  },
+  {
+    "category": "总体要求",
+    "target": "天街 (Longfor Commercial Brand)",
+    "metric": null,
+    "value": null,
+    "rule_desc": "对各类人流的多层导入需进行精细设计。",
+    "source_image": "56.png"
+  }
+]

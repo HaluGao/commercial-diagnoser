@@ -1,0 +1,37 @@
+{
+  "review_id": "review-huishan-v0",
+  "source_report_id": "huishan_tod_draft_v0",
+  "review_status": "needs_revision",
+  "accepted_items": [
+    "issue-001",
+    "opt-002",
+    "opt-003"
+  ],
+  "downgraded_items": [
+    {
+      "item_id": "issue-002",
+      "reason": "Current evidence is qualitative only and lacks measurement support.",
+      "suggested_change": "Downgrade from error to high-priority optimization until scale check is completed."
+    }
+  ],
+  "rejected_items": [],
+  "missing_candidates": [
+    {
+      "title": "入口体系专项复核",
+      "reason": "TOD project with strong east arrival edge should explicitly review entrance hierarchy.",
+      "suggested_rule_refs": [
+        "LF-STD-ENTRY-0001"
+      ]
+    }
+  ],
+  "tone_rewrites": [
+    {
+      "item_id": "issue-001",
+      "rewritten_summary": "高层东端复杂区域存在经营效率偏弱的风险，建议专题复核。"
+    }
+  ],
+  "review_notes": [
+    "The current draft is directionally useful, but several conclusions should stay at consultant-review tone until measurement and label recognition are stronger.",
+    "Checker stage should prioritize suppressing overconfident findings."
+  ]
+}

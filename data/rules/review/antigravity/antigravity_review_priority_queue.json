@@ -1,0 +1,5692 @@
+[
+  {
+    "priority_rank": 1,
+    "rule_id": "LF-AGR-REVIEW-AGR-0001",
+    "title": "商业产品生意逻辑的核心财务指标是Y/C，目标是提升NPI并降低COST。",
+    "category_l1": "总纲与价值逻辑",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 2,
+    "rule_id": "LF-AGR-REVIEW-AGR-0002",
+    "title": "净物业收入（NPI）应增加。",
+    "category_l1": "总纲与价值逻辑",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 3,
+    "rule_id": "LF-AGR-REVIEW-AGR-0003",
+    "title": "净物业收入（NPI）的计算方式为收入减去成本和费用。",
+    "category_l1": "总纲与价值逻辑",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 4,
+    "rule_id": "LF-AGR-REVIEW-AGR-0004",
+    "title": "成本（COST）应减少。",
+    "category_l1": "总纲与价值逻辑",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 5,
+    "rule_id": "LF-AGR-REVIEW-AGR-0005",
+    "title": "成本（COST）包含土地成本和土地外开发成本。",
+    "category_l1": "总纲与价值逻辑",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 6,
+    "rule_id": "LF-AGR-REVIEW-AGR-0008",
+    "title": "商业开发维度应最小化非租赁面积。",
+    "category_l1": "总纲与价值逻辑",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 7,
+    "rule_id": "LF-AGR-REVIEW-AGR-0009",
+    "title": "商业开发维度应压降隐性成本。",
+    "category_l1": "总纲与价值逻辑",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 8,
+    "rule_id": "LF-AGR-REVIEW-AGR-0010",
+    "title": "产品策略应通过体验提升来驱动商业运营目标的实现（坪效提升、客流增加）。",
+    "category_l1": "整体定位与规划逻辑",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 9,
+    "rule_id": "LF-AGR-REVIEW-AGR-0011",
+    "title": "产品策略应通过显性成本适配来驱动商业开发目标的实现（非租赁面积最小化、隐性成本压",
+    "category_l1": "整体定位与规划逻辑",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 10,
+    "rule_id": "LF-AGR-REVIEW-AGR-0018",
+    "title": "制定整体规划策略，以回应toB客户视角和生意逻辑",
+    "category_l1": "整体定位与规划逻辑",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 11,
+    "rule_id": "LF-AGR-REVIEW-AGR-0019",
+    "title": "制定连接策略",
+    "category_l1": "整体定位与规划逻辑",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 12,
+    "rule_id": "LF-AGR-REVIEW-AGR-0020",
+    "title": "优化消防疏散设计",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 13,
+    "rule_id": "LF-AGR-REVIEW-AGR-0021",
+    "title": "实现铺位有效化",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 14,
+    "rule_id": "LF-AGR-REVIEW-AGR-0022",
+    "title": "优化扶梯动线设计",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 15,
+    "rule_id": "LF-AGR-REVIEW-AGR-0023",
+    "title": "利用被忽略空间",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 16,
+    "rule_id": "LF-AGR-REVIEW-AGR-0024",
+    "title": "实现极致隐性成本和显性成本的适配",
+    "category_l1": "整体定位与规划逻辑",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 17,
+    "rule_id": "LF-AGR-REVIEW-AGR-0025",
+    "title": "实现层高适配",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 18,
+    "rule_id": "LF-AGR-REVIEW-AGR-0026",
+    "title": "实现车位适配",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 19,
+    "rule_id": "LF-AGR-REVIEW-AGR-0027",
+    "title": "遵循全专业建造标准",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 20,
+    "rule_id": "LF-AGR-REVIEW-AGR-0032",
+    "title": "优化中庭洞口布局以引导客流",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 21,
+    "rule_id": "LF-AGR-REVIEW-AGR-0033",
+    "title": "优化扶梯布局以引导客流",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 22,
+    "rule_id": "LF-AGR-REVIEW-AGR-0034",
+    "title": "实现地下商业与轨道交通的导入",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 23,
+    "rule_id": "LF-AGR-REVIEW-AGR-0035",
+    "title": "通过超级TOD模式提升坪效",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 24,
+    "rule_id": "LF-AGR-REVIEW-AGR-0036",
+    "title": "优化场地到达体验",
+    "category_l1": "到达与交通组织",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 25,
+    "rule_id": "LF-AGR-REVIEW-AGR-0037",
+    "title": "优化地库交通体验",
+    "category_l1": "到达与交通组织",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 26,
+    "rule_id": "LF-AGR-REVIEW-AGR-0038",
+    "title": "优化主次入口立面设计",
+    "category_l1": "产品表达与建筑形象",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 27,
+    "rule_id": "LF-AGR-REVIEW-AGR-0039",
+    "title": "优化低区立面设计",
+    "category_l1": "产品表达与建筑形象",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 28,
+    "rule_id": "LF-AGR-REVIEW-AGR-0040",
+    "title": "优化高区立面设计",
+    "category_l1": "产品表达与建筑形象",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 29,
+    "rule_id": "LF-AGR-REVIEW-AGR-0041",
+    "title": "优化推广区立面设计",
+    "category_l1": "产品表达与建筑形象",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 30,
+    "rule_id": "LF-AGR-REVIEW-AGR-0042",
+    "title": "优化背街立面设计",
+    "category_l1": "产品表达与建筑形象",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 31,
+    "rule_id": "LF-AGR-REVIEW-AGR-0043",
+    "title": "设计特色幕墙",
+    "category_l1": "产品表达与建筑形象",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 32,
+    "rule_id": "LF-AGR-REVIEW-AGR-0044",
+    "title": "优化大场景空间精装设计",
+    "category_l1": "产品表达与建筑形象",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 33,
+    "rule_id": "LF-AGR-REVIEW-AGR-0045",
+    "title": "优化功能空间精装设计",
+    "category_l1": "产品表达与建筑形象",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 34,
+    "rule_id": "LF-AGR-REVIEW-AGR-0046",
+    "title": "优化定性空间精装设计",
+    "category_l1": "产品表达与建筑形象",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 35,
+    "rule_id": "LF-AGR-REVIEW-AGR-0047",
+    "title": "优化租户管理相关精装设计",
+    "category_l1": "产品表达与建筑形象",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 36,
+    "rule_id": "LF-AGR-REVIEW-AGR-0048",
+    "title": "设计特色场地景观",
+    "category_l1": "产品表达与建筑形象",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 37,
+    "rule_id": "LF-AGR-REVIEW-AGR-0049",
+    "title": "优化外街景观设计",
+    "category_l1": "产品表达与建筑形象",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 38,
+    "rule_id": "LF-AGR-REVIEW-AGR-0050",
+    "title": "优化内街景观设计",
+    "category_l1": "产品表达与建筑形象",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 39,
+    "rule_id": "LF-AGR-REVIEW-AGR-0051",
+    "title": "优化街区景观设计",
+    "category_l1": "产品表达与建筑形象",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 40,
+    "rule_id": "LF-AGR-REVIEW-AGR-0052",
+    "title": "设计屋顶露台景观",
+    "category_l1": "产品表达与建筑形象",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 41,
+    "rule_id": "LF-AGR-REVIEW-AGR-0053",
+    "title": "设计下沉庭院景观",
+    "category_l1": "产品表达与建筑形象",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 42,
+    "rule_id": "LF-AGR-REVIEW-AGR-0055",
+    "title": "充分挖掘客流价值，实现客流资源的充分引导以及合理分配，以提升客流和收入。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 43,
+    "rule_id": "LF-AGR-REVIEW-AGR-0056",
+    "title": "通过优化消防策略及新型消防产品，取消卷帘柱，可有效提升空间品质并减少展面遮挡。",
+    "category_l1": "到达与交通组织",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 44,
+    "rule_id": "LF-AGR-REVIEW-AGR-0057",
+    "title": "采用合理的铺型（展面+进深）和面积段，以实现更高的租金坪效。",
+    "category_l1": "产品表达与建筑形象",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 45,
+    "rule_id": "LF-AGR-REVIEW-AGR-0058",
+    "title": "合理布局扶梯动线，以有效缓解客流冷区并影响客流分配。",
+    "category_l1": "精装场景",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 46,
+    "rule_id": "LF-AGR-REVIEW-AGR-0062",
+    "title": "实现B1层LG化。",
+    "category_l1": "整体定位与规划逻辑",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 47,
+    "rule_id": "LF-AGR-REVIEW-AGR-0064",
+    "title": "顶停车往高区楼层导入人流，提升高区楼层价值。",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 48,
+    "rule_id": "LF-AGR-REVIEW-AGR-0065",
+    "title": "通过规范灰色地带，实现广州首例商业地下通道免计容，增加可租赁面积1402平米。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 49,
+    "rule_id": "LF-AGR-REVIEW-AGR-0066",
+    "title": "破例享有商业车位折减20%政策，节约成本约1857万元。",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 50,
+    "rule_id": "LF-AGR-REVIEW-AGR-0067",
+    "title": "巧妙利用天街屋面设置车位87个，节约成本约857万元。",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 51,
+    "rule_id": "LF-AGR-REVIEW-AGR-0068",
+    "title": "增加地铁口接驳地下商业。",
+    "category_l1": "TOD与地下商业",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 52,
+    "rule_id": "LF-AGR-REVIEW-AGR-0070",
+    "title": "地下24H通道认定不计容，增加约2400m²商业面积。",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 53,
+    "rule_id": "LF-AGR-REVIEW-AGR-0071",
+    "title": "人流极致导入，通过轨道2个口+交通核3个口+住宅4层口+学校车位引流。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 54,
+    "rule_id": "LF-AGR-REVIEW-AGR-0076",
+    "title": "设置首二层通行路径，打通公交枢纽与商业之间的游逛路径，将人流直接导入商业内部。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 55,
+    "rule_id": "LF-AGR-REVIEW-AGR-0079",
+    "title": "主要商业空间压至4层提升租金坪效。",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 56,
+    "rule_id": "LF-AGR-REVIEW-AGR-0080",
+    "title": "建筑为多层，采用封闭楼梯间，无需设消防栓，无需设消防扑救面，减少设备数量提高得铺",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 57,
+    "rule_id": "LF-AGR-REVIEW-AGR-0082",
+    "title": "499辆机动车放置屋顶。",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 58,
+    "rule_id": "LF-AGR-REVIEW-AGR-0084",
+    "title": "屋顶停车节约成本约6600万元。",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 59,
+    "rule_id": "LF-AGR-REVIEW-AGR-0085",
+    "title": "首层放置687辆非机动车。",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 60,
+    "rule_id": "LF-AGR-REVIEW-AGR-0087",
+    "title": "非机动车停车节约成本约300万元。",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 61,
+    "rule_id": "LF-AGR-REVIEW-AGR-0091",
+    "title": "社会停车场放置在人防区域。",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 62,
+    "rule_id": "LF-AGR-REVIEW-AGR-0093",
+    "title": "商业少做人防车库面积15400m²，节约成本600万元。",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 63,
+    "rule_id": "LF-AGR-REVIEW-AGR-0097",
+    "title": "大渡口天街采用多首层策略，充分利用场地高差，打造多首层天街，以激活全场客流，并优",
+    "category_l1": "整体定位与规划逻辑",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 64,
+    "rule_id": "LF-AGR-REVIEW-AGR-0098",
+    "title": "武汉光谷天街利用场地现状高差，实现LG和L1双首层规划。",
+    "category_l1": "整体定位与规划逻辑",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 65,
+    "rule_id": "LF-AGR-REVIEW-AGR-0099",
+    "title": "大渡口天街L4层规划为养老业态。",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 66,
+    "rule_id": "LF-AGR-REVIEW-AGR-0101",
+    "title": "大渡口天街L3层规划为冠寓业态。",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 67,
+    "rule_id": "LF-AGR-REVIEW-AGR-0103",
+    "title": "大渡口天街L2层规划为商业业态。",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 68,
+    "rule_id": "LF-AGR-REVIEW-AGR-0105",
+    "title": "大渡口天街L1层规划为商业业态。",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 69,
+    "rule_id": "LF-AGR-REVIEW-AGR-0107",
+    "title": "大渡口天街LG层规划为地库。",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 70,
+    "rule_id": "LF-AGR-REVIEW-AGR-0110",
+    "title": "大渡口天街屋顶停车位数量为300辆。",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 71,
+    "rule_id": "LF-AGR-REVIEW-AGR-0122",
+    "title": "大渡口天街L2层通过1%缓坡与外部连接。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 72,
+    "rule_id": "LF-AGR-REVIEW-AGR-0123",
+    "title": "大渡口天街L2层通过3%坡与外部连接。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 73,
+    "rule_id": "LF-AGR-REVIEW-AGR-0124",
+    "title": "大渡口天街L1层通过下接方式与外部连接。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 74,
+    "rule_id": "LF-AGR-REVIEW-AGR-0125",
+    "title": "大渡口天街屋顶停车通过上接方式与外部连接。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 75,
+    "rule_id": "LF-AGR-REVIEW-AGR-0126",
+    "title": "大渡口天街楼层间通过楼梯和扶梯连接。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 76,
+    "rule_id": "LF-AGR-REVIEW-AGR-0133",
+    "title": "城市公共交通（地铁、轻轨、公交等）应尽可能多地连接，以实现极致客流导入。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 77,
+    "rule_id": "LF-AGR-REVIEW-AGR-0137",
+    "title": "从公共交通出站闸机到商业天街入口的动线应进行研究，确保直接顺畅，以实现极致客流导",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 78,
+    "rule_id": "LF-AGR-REVIEW-AGR-0140",
+    "title": "杭州云城天街的办公A塔大堂首层右侧需增加通道（给小水井），以实现与天街商业的室内",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 79,
+    "rule_id": "LF-AGR-REVIEW-AGR-0142",
+    "title": "武汉滨江天街项目，塔楼的B1、L1、L4（零售层）之间进行连接。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 80,
+    "rule_id": "LF-AGR-REVIEW-AGR-0143",
+    "title": "武汉滨江天街项目取消高价值餐饮层的连接走道。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 81,
+    "rule_id": "LF-AGR-REVIEW-AGR-0144",
+    "title": "武汉滨江天街项目，塔楼客梯需在B1层停靠，以连接天街B1商业，考虑到周边地块有较",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 82,
+    "rule_id": "LF-AGR-REVIEW-AGR-0146",
+    "title": "武汉滨江天街项目B3层为办公停车。",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 83,
+    "rule_id": "LF-AGR-REVIEW-AGR-0147",
+    "title": "武汉滨江天街项目B2层为类住停车库。",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 84,
+    "rule_id": "LF-AGR-REVIEW-AGR-0149",
+    "title": "消防策略优化应采用扩大中庭防火模式。",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 85,
+    "rule_id": "LF-AGR-REVIEW-AGR-0150",
+    "title": "为提升商业价值和优化消防策略，应取消全部卷帘柱。",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 86,
+    "rule_id": "LF-AGR-REVIEW-AGR-0151",
+    "title": "超长卷帘应采用幕式卷帘。",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 87,
+    "rule_id": "LF-AGR-REVIEW-AGR-0154",
+    "title": "铺位面积过大将伴随租金的折减。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 88,
+    "rule_id": "LF-AGR-REVIEW-AGR-0155",
+    "title": "在展面及进深合理的前提下，更多的“高坪效”铺位是租金提升的关键。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 89,
+    "rule_id": "LF-AGR-REVIEW-AGR-0161",
+    "title": "对于P1及1+项目且整体经营状况良好的，可以通过增加商业盒子提升项目NPI。",
+    "category_l1": "整体定位与规划逻辑",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 90,
+    "rule_id": "LF-AGR-REVIEW-AGR-0162",
+    "title": "对于全场租金达到200~250以上的项目，可以通过增加商业盒子提升项目NPI。",
+    "category_l1": "整体定位与规划逻辑",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 91,
+    "rule_id": "LF-AGR-REVIEW-AGR-0163",
+    "title": "对于具有较好的城市展面或者景观资源的项目，可以通过增加商业盒子提升项目NPI。",
+    "category_l1": "整体定位与规划逻辑",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 92,
+    "rule_id": "LF-AGR-REVIEW-AGR-0164",
+    "title": "扶梯动线布局应合理分配客流，并有效缓解客流冷区。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 93,
+    "rule_id": "LF-AGR-REVIEW-AGR-0165",
+    "title": "扶梯应采用游逛式布置，避免叠放形成“扶梯墙”遮挡视线，以增加游逛体验。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 94,
+    "rule_id": "LF-AGR-REVIEW-AGR-0166",
+    "title": "环形动线扶梯应采用游逛式布局。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 95,
+    "rule_id": "LF-AGR-REVIEW-AGR-0167",
+    "title": "扶梯布局应注重对角部主力店（如4个角部大店）的人流支持。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 96,
+    "rule_id": "LF-AGR-REVIEW-AGR-0168",
+    "title": "内外圈扶梯应采用勾布（错位）布局，以避免外圈形成客流冷区。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 97,
+    "rule_id": "LF-AGR-REVIEW-AGR-0169",
+    "title": "扶梯落位应靠近店铺，例如设置在小中庭中。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 98,
+    "rule_id": "LF-AGR-REVIEW-AGR-0170",
+    "title": "扶梯落位应考虑与主力店的距离，例如通过镜像布局拉近扶梯落点与端头主力店的距离。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 99,
+    "rule_id": "LF-AGR-REVIEW-AGR-0173",
+    "title": "景观屋面不应闲置，应考虑引入经营支持以提升利用率。",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 100,
+    "rule_id": "LF-AGR-REVIEW-AGR-0174",
+    "title": "露台空间应被充分利用，不应简单地直接送给租户处理。",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 101,
+    "rule_id": "LF-AGR-REVIEW-AGR-0176",
+    "title": "MALL与商铺之间应加强互动，减少中间街道的限制，避免各自为政，提升整体商业活力",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 102,
+    "rule_id": "LF-AGR-REVIEW-AGR-0177",
+    "title": "连廊下市政道路空间不应被动地作为消极空间处理，应积极探索其利用价值，实现空间活化",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 103,
+    "rule_id": "LF-AGR-REVIEW-AGR-0178",
+    "title": "屋顶商铺应采用双面店形式，并进行业态分布规划。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 104,
+    "rule_id": "LF-AGR-REVIEW-AGR-0179",
+    "title": "屋顶露台区域可设置垂直绿化墙。",
+    "category_l1": "景观场景与铺前界面",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 105,
+    "rule_id": "LF-AGR-REVIEW-AGR-0181",
+    "title": "屋顶露台区域的段落及露台间空间高度范围为2.9米至5米。",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 106,
+    "rule_id": "LF-AGR-REVIEW-AGR-0182",
+    "title": "屋顶绿野区域的扶手景观间尺寸为1.2米。",
+    "category_l1": "景观场景与铺前界面",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 107,
+    "rule_id": "LF-AGR-REVIEW-AGR-0183",
+    "title": "背街应将车行道改造为步行街。",
+    "category_l1": "整体定位与规划逻辑",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 108,
+    "rule_id": "LF-AGR-REVIEW-AGR-0184",
+    "title": "沿街商铺应打造通高门头形象。",
+    "category_l1": "产品表达与建筑形象",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 109,
+    "rule_id": "LF-AGR-REVIEW-AGR-0185",
+    "title": "背街应结合景观设计和租户外摆，塑造品质休闲空间。",
+    "category_l1": "景观场景与铺前界面",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 110,
+    "rule_id": "LF-AGR-REVIEW-AGR-0191",
+    "title": "AB馆连廊下道路等被忽视的负面空间可通过增加内透店铺并结合经营性外摆等手段进行利",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 111,
+    "rule_id": "LF-AGR-REVIEW-AGR-0194",
+    "title": "连廊下空间可结合内透店铺设置外摆进行经营使用 (例如：海口昆府天街)。",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 112,
+    "rule_id": "LF-AGR-REVIEW-AGR-0195",
+    "title": "连廊下可封闭道路，以消除隔离障碍并增加价值 (例如：苏州胥江天街)。",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 113,
+    "rule_id": "LF-AGR-REVIEW-AGR-0197",
+    "title": "部分主中庭或商业价值较高位置，首层租赁线与二层板边距可按0.6m控制。",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 114,
+    "rule_id": "LF-AGR-REVIEW-AGR-0198",
+    "title": "标准中庭宽度减小 (结合空间效果评估，需一事一议)。",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 115,
+    "rule_id": "LF-AGR-REVIEW-AGR-0200",
+    "title": "餐饮层后勤通道在保证货梯可达的情况下不环通。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 116,
+    "rule_id": "LF-AGR-REVIEW-AGR-0201",
+    "title": "零售商铺可不设置后勤通道 (预留餐饮条件的商铺除外)。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 117,
+    "rule_id": "LF-AGR-REVIEW-AGR-0202",
+    "title": "儿童业态应尽量集中布置，保证儿童防火分区和独立疏散楼梯的经济性，保证对疏散宽度的",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 118,
+    "rule_id": "LF-AGR-REVIEW-AGR-0203",
+    "title": "合法合规的餐饮外摆区计租应计入可租赁建筑面积。",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 119,
+    "rule_id": "LF-AGR-REVIEW-AGR-0204",
+    "title": "供商铺使用的仓库计租，前期明确提资 (位置及面积)，按规范要求设置，可计入得铺率",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 120,
+    "rule_id": "LF-AGR-REVIEW-AGR-0205",
+    "title": "压缩屋顶机房面积和高度，尽量采用露天设备，争取不计容 (结合属地条件预先征询通过",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 121,
+    "rule_id": "LF-AGR-REVIEW-AGR-0206",
+    "title": "背立面后勤通道可采用开敞形式设计，顶层露天，其它层无外墙，计容面积可折减 (结合",
+    "category_l1": "产品表达与建筑形象",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 122,
+    "rule_id": "LF-AGR-REVIEW-AGR-0207",
+    "title": "背立面 (三级立面) 可采用开敞楼梯设计，楼梯计容面积可折减 (结合属地条件预先",
+    "category_l1": "产品表达与建筑形象",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 123,
+    "rule_id": "LF-AGR-REVIEW-AGR-0208",
+    "title": "通过影厅的精细化排布缩小放映走道面积，最小化影院夹层无效面积；通过看台下方的偷赠",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 124,
+    "rule_id": "LF-AGR-REVIEW-AGR-0215",
+    "title": "5F工具间，局部净高为3M，经与商业运营部门沟通后，可转换为商业用途，释放约23",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 125,
+    "rule_id": "LF-AGR-REVIEW-AGR-0216",
+    "title": "-1F汽车坡道地下局部2-3M高度空间，经与商业运营部门沟通后，可作为有效商铺使",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 126,
+    "rule_id": "LF-AGR-REVIEW-AGR-0217",
+    "title": "4/5F西南角餐饮铺的后场疏散通道，通过调整疏散门方向，可增加约60.5m²的商",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 127,
+    "rule_id": "LF-AGR-REVIEW-AGR-0218",
+    "title": "建议P2首层层高为5.8~6米",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 128,
+    "rule_id": "LF-AGR-REVIEW-AGR-0219",
+    "title": "建议P2首层净高为4~4.2米",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 129,
+    "rule_id": "LF-AGR-REVIEW-AGR-0220",
+    "title": "建议P3首层层高为5.6米",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 130,
+    "rule_id": "LF-AGR-REVIEW-AGR-0221",
+    "title": "建议P3首层净高为3.8米",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 131,
+    "rule_id": "LF-AGR-REVIEW-AGR-0222",
+    "title": "标准层层高为5.4米",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 132,
+    "rule_id": "LF-AGR-REVIEW-AGR-0223",
+    "title": "标准层净高为3.6米",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 133,
+    "rule_id": "LF-AGR-REVIEW-AGR-0227",
+    "title": "L2及以上楼层的普通影院层高应为两层通高",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 134,
+    "rule_id": "LF-AGR-REVIEW-AGR-0228",
+    "title": "L2及以上楼层的IMAX影院层高应为三层通高",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 135,
+    "rule_id": "LF-AGR-REVIEW-AGR-0229",
+    "title": "L2及以上楼层的儿童业态层高应为局部两层通高",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 136,
+    "rule_id": "LF-AGR-REVIEW-AGR-0230",
+    "title": "L2及以上楼层的儿童业态局部净高应为8米",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 137,
+    "rule_id": "LF-AGR-REVIEW-AGR-0231",
+    "title": "L2及以上楼层的零售、餐饮等其他业态层高应为5.4米",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 138,
+    "rule_id": "LF-AGR-REVIEW-AGR-0232",
+    "title": "L2及以上楼层的零售、餐饮等其他业态净高应为3.6米",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 139,
+    "rule_id": "LF-AGR-REVIEW-AGR-0233",
+    "title": "L1楼层的零售、餐饮等其他业态层高应为5.8~6.0米",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 140,
+    "rule_id": "LF-AGR-REVIEW-AGR-0234",
+    "title": "L1楼层的零售、餐饮等其他业态净高应为4.0~4.2米",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 141,
+    "rule_id": "LF-AGR-REVIEW-AGR-0236",
+    "title": "集团标准为100:1建设标准。",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 142,
+    "rule_id": "LF-AGR-REVIEW-AGR-0237",
+    "title": "社区级家庭mall在经营状况良好时，车位配比率应在0.9-1.7之间 (按3周转",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 143,
+    "rule_id": "LF-AGR-REVIEW-AGR-0238",
+    "title": "社区级家庭mall在经营状况健康时，车位配比率应在0.5-1.4之间 (按3周转",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 144,
+    "rule_id": "LF-AGR-REVIEW-AGR-0239",
+    "title": "社区级家庭mall在经营存在问题时，车位配比率应低于或等于0.5 (按3周转率预",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 145,
+    "rule_id": "LF-AGR-REVIEW-AGR-0240",
+    "title": "区域级购物中心在经营状况良好时，车位配比率应在1.7-2.4之间 (按3周转率预",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 146,
+    "rule_id": "LF-AGR-REVIEW-AGR-0241",
+    "title": "区域级购物中心在经营状况健康时，车位配比率应在1.1-1.5之间 (按3周转率预",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 147,
+    "rule_id": "LF-AGR-REVIEW-AGR-0242",
+    "title": "区域级购物中心在经营存在问题时，车位配比率应低于或等于0.5 (按3周转率预测)",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 148,
+    "rule_id": "LF-AGR-REVIEW-AGR-0243",
+    "title": "城市级购物中心在经营状况良好时，车位配比率应在1.7-2.4之间 (按3周转率预",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 149,
+    "rule_id": "LF-AGR-REVIEW-AGR-0244",
+    "title": "城市级购物中心在经营状况健康时，车位配比率应在1.1-1.5之间 (按3周转率预",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 150,
+    "rule_id": "LF-AGR-REVIEW-AGR-0245",
+    "title": "城市级购物中心在经营存在问题时，车位配比率应低于或等于0.5 (按3周转率预测)",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 151,
+    "rule_id": "LF-AGR-REVIEW-AGR-0246",
+    "title": "远郊仓储在经营状况良好时，车位配比率应在1.7-2.4之间 (按3周转率预测)。",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 152,
+    "rule_id": "LF-AGR-REVIEW-AGR-0247",
+    "title": "远郊仓储在经营状况健康时，车位配比率应在1.1-1.5之间 (按3周转率预测)。",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 153,
+    "rule_id": "LF-AGR-REVIEW-AGR-0248",
+    "title": "远郊仓储在经营存在问题时，车位配比率应低于或等于0.5 (按3周转率预测)。",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 154,
+    "rule_id": "LF-AGR-REVIEW-AGR-0249",
+    "title": "车位周转率低于2.0时，使用效率较低。",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 155,
+    "rule_id": "LF-AGR-REVIEW-AGR-0250",
+    "title": "B1层应实现地铁客流的高效转化。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 156,
+    "rule_id": "LF-AGR-REVIEW-AGR-0251",
+    "title": "B1至5F的业态组合应优化以提升流量转化。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 157,
+    "rule_id": "LF-AGR-REVIEW-AGR-0252",
+    "title": "特殊店铺形式应进行优化。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 158,
+    "rule_id": "LF-AGR-REVIEW-AGR-0253",
+    "title": "主力店（如影院、超市）应进行优化，以实现高经营和高坪效。",
+    "category_l1": "总纲与价值逻辑",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 159,
+    "rule_id": "LF-AGR-REVIEW-AGR-0254",
+    "title": "大型店铺应进行优化，以提升经营效率和坪效。",
+    "category_l1": "总纲与价值逻辑",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 160,
+    "rule_id": "LF-AGR-REVIEW-AGR-0255",
+    "title": "应充分利用消极空间。",
+    "category_l1": "总纲与价值逻辑",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 161,
+    "rule_id": "LF-AGR-REVIEW-AGR-0256",
+    "title": "应明确各层多经点位的控制原则。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 162,
+    "rule_id": "LF-AGR-REVIEW-AGR-0257",
+    "title": "应进行多经点位的尺寸控制。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 163,
+    "rule_id": "LF-AGR-REVIEW-AGR-0258",
+    "title": "应明确TDM管控原则。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 164,
+    "rule_id": "LF-AGR-REVIEW-AGR-0259",
+    "title": "商业布局应实现高效动线，极致化切割商铺，并深入挖掘地铁客流的商业价值。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 165,
+    "rule_id": "LF-AGR-REVIEW-AGR-0261",
+    "title": "应设置新能源集合区，并确保其与地下车库联通，以方便顾客体验和进行产品比选。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 166,
+    "rule_id": "LF-AGR-REVIEW-AGR-0265",
+    "title": "商业建筑应采用集合化布局，搭配关联业态以挖掘流量价值，并通过搭配端头垂直餐饮来驱",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 167,
+    "rule_id": "LF-AGR-REVIEW-AGR-0267",
+    "title": "2F珠宝主题区应将多个珠宝品牌以“中岛+边铺”的方式集中放置，通过营造高端氛围、",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 168,
+    "rule_id": "LF-AGR-REVIEW-AGR-0269",
+    "title": "2F-3F零售楼层应在两端中庭布置餐饮业态，通过两侧垂直餐饮驱动客流，以支持中段",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 169,
+    "rule_id": "LF-AGR-REVIEW-AGR-0270",
+    "title": "同类业态应聚合形成组团，相关业态之间应相互关联和互补，以实现组团化布局。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 170,
+    "rule_id": "LF-AGR-REVIEW-AGR-0271",
+    "title": "零售业态应穿插布局在餐饮楼层中，以利用餐饮层主中庭的展示面和客流价值。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 171,
+    "rule_id": "LF-AGR-REVIEW-AGR-0272",
+    "title": "零售小铺应设置在影院大堂前30-50米的两侧区域，以充分利用主力店客流。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 172,
+    "rule_id": "LF-AGR-REVIEW-AGR-0277",
+    "title": "位于主中庭“船头”位置的店铺，应采用开敞化设计，并通过设置外摆区等方式，实现业态",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 173,
+    "rule_id": "LF-AGR-REVIEW-AGR-0278",
+    "title": "店铺或电梯厅的标准模块尺寸为4000mm（通常指进深或开间）。",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 174,
+    "rule_id": "LF-AGR-REVIEW-AGR-0279",
+    "title": "店铺-厨房区域的标准模块尺寸为6800mm（通常指进深或开间）。",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 175,
+    "rule_id": "LF-AGR-REVIEW-AGR-0280",
+    "title": "店铺单元的深度可设计在3700mm至8300mm之间，以适应不同业态需求。",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 176,
+    "rule_id": "LF-AGR-REVIEW-AGR-0281",
+    "title": "电梯厅两侧可配置店铺和店铺-厨房的组合。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 177,
+    "rule_id": "LF-AGR-REVIEW-AGR-0282",
+    "title": "电梯厅两侧可配置店铺和带外摆区的店铺-厨房组合。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 178,
+    "rule_id": "LF-AGR-REVIEW-AGR-0283",
+    "title": "电梯厅两侧可配置两个店铺。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 179,
+    "rule_id": "LF-AGR-REVIEW-AGR-0284",
+    "title": "可采用三个店铺并排的布局形式。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 180,
+    "rule_id": "LF-AGR-REVIEW-AGR-0285",
+    "title": "优化影院单体规模，主流选择为厅数小于8厅。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 181,
+    "rule_id": "LF-AGR-REVIEW-AGR-0286",
+    "title": "优化影院单体规模，主流选择为座位数小于1000座。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 182,
+    "rule_id": "LF-AGR-REVIEW-AGR-0287",
+    "title": "万影业旗下影院放映厅数量趋势为从7-10个缩减至5-6个，未来可能继续缩减。（华",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 183,
+    "rule_id": "LF-AGR-REVIEW-AGR-0288",
+    "title": "比较合适的影院厅数为8个。（博纳观点）",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 184,
+    "rule_id": "LF-AGR-REVIEW-AGR-0289",
+    "title": "比较合适的影院座位数在1000以内。（博纳观点）",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 185,
+    "rule_id": "LF-AGR-REVIEW-AGR-0290",
+    "title": "考虑排片问题，影院厅数7-8厅比较合适。（上影观点）",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 186,
+    "rule_id": "LF-AGR-REVIEW-AGR-0291",
+    "title": "考虑排片问题，影院座位数800-1000比较合适。（上影观点）",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 187,
+    "rule_id": "LF-AGR-REVIEW-AGR-0292",
+    "title": "22年新开影院的主力厅数应为5-10厅。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 188,
+    "rule_id": "LF-AGR-REVIEW-AGR-0293",
+    "title": "22年新开影院的主力座位数应为1500-2000座。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 189,
+    "rule_id": "LF-AGR-REVIEW-AGR-0294",
+    "title": "23年新开影院的主力厅数应为5-8厅。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 190,
+    "rule_id": "LF-AGR-REVIEW-AGR-0295",
+    "title": "23年新开影院的主力座位数应为800-1200座。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 191,
+    "rule_id": "LF-AGR-REVIEW-AGR-0296",
+    "title": "24年新开影院的主力厅数应为4-7厅。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 192,
+    "rule_id": "LF-AGR-REVIEW-AGR-0297",
+    "title": "24年新开影院的主力座位数应为500-1000座。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 193,
+    "rule_id": "LF-AGR-REVIEW-AGR-0298",
+    "title": "提升影院品质，注重特效厅/特色厅的打造。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 194,
+    "rule_id": "LF-AGR-REVIEW-AGR-0299",
+    "title": "影厅数量应为6-8个",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 195,
+    "rule_id": "LF-AGR-REVIEW-AGR-0300",
+    "title": "影院效率不大于3.5m²/座 (影院效率=影院计租面积/影院座位数)",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 196,
+    "rule_id": "LF-AGR-REVIEW-AGR-0301",
+    "title": "影院布局采用背靠背下沉布置，以释放商业空间，达到最划算效果",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 197,
+    "rule_id": "LF-AGR-REVIEW-AGR-0303",
+    "title": "影院大堂展面控制为10m",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 198,
+    "rule_id": "LF-AGR-REVIEW-AGR-0306",
+    "title": "影院大堂展面控制1跨，不超10m，其余展面应切小铺，布零售",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 199,
+    "rule_id": "LF-AGR-REVIEW-AGR-0307",
+    "title": "平层布局应尽量避免中庭封板布置，宜沿边布置影厅",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 200,
+    "rule_id": "LF-AGR-REVIEW-AGR-0308",
+    "title": "平层布局的观影动线长度不宜大于80m",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 201,
+    "rule_id": "LF-AGR-REVIEW-AGR-0309",
+    "title": "平层布局需考虑下沉，以保证下层商业的可利用性，形成连续的商业氛围，避免下层端头无",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 202,
+    "rule_id": "LF-AGR-REVIEW-AGR-0310",
+    "title": "托屋面布置时，公区应设置扶梯拉动至屋面层大堂",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 203,
+    "rule_id": "LF-AGR-REVIEW-AGR-0311",
+    "title": "托屋面布置应沿建筑轮廓贴边连续布置，并需考虑影厅墙体对采光顶的视线影响",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 204,
+    "rule_id": "LF-AGR-REVIEW-AGR-0312",
+    "title": "厅下面积可布置卫生间、消毒间、办公及影院仓库，避免独立设置",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 205,
+    "rule_id": "LF-AGR-REVIEW-AGR-0313",
+    "title": "放映夹层应严控面积占比，抠走道，尽可能按厅内上方布置",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 206,
+    "rule_id": "LF-AGR-REVIEW-AGR-0314",
+    "title": "在多层商业中，影院应优先设置在平层。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 207,
+    "rule_id": "LF-AGR-REVIEW-AGR-0315",
+    "title": "观影层影厅应集中对称布置。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 208,
+    "rule_id": "LF-AGR-REVIEW-AGR-0316",
+    "title": "应最小化影院通道面积。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 209,
+    "rule_id": "LF-AGR-REVIEW-AGR-0317",
+    "title": "应最小化影院动线长度。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 210,
+    "rule_id": "LF-AGR-REVIEW-AGR-0318",
+    "title": "影院可考虑下沉3层。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 211,
+    "rule_id": "LF-AGR-REVIEW-AGR-0319",
+    "title": "影厅下方应保留3米净高的有效空间。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 212,
+    "rule_id": "LF-AGR-REVIEW-AGR-0320",
+    "title": "影厅下方保留的有效空间应充分利用，可设置端头商铺。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 213,
+    "rule_id": "LF-AGR-REVIEW-AGR-0322",
+    "title": "影院大堂展面应为10.7米。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 214,
+    "rule_id": "LF-AGR-REVIEW-AGR-0328",
+    "title": "影院大堂深度为8.1米。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 215,
+    "rule_id": "LF-AGR-REVIEW-AGR-0329",
+    "title": "5层影厅的座数为109座。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 216,
+    "rule_id": "LF-AGR-REVIEW-AGR-0330",
+    "title": "3层影厅的座数为227座。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 217,
+    "rule_id": "LF-AGR-REVIEW-AGR-0331",
+    "title": "1层影厅的座数为195座。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 218,
+    "rule_id": "LF-AGR-REVIEW-AGR-0332",
+    "title": "4层影厅的座数为285座。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 219,
+    "rule_id": "LF-AGR-REVIEW-AGR-0333",
+    "title": "2层影厅的座数为275座。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 220,
+    "rule_id": "LF-AGR-REVIEW-AGR-0334",
+    "title": "5层影厅相关空间尺寸为10060mm。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 221,
+    "rule_id": "LF-AGR-REVIEW-AGR-0335",
+    "title": "5层城市客厅空间尺寸为8500mm。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 222,
+    "rule_id": "LF-AGR-REVIEW-AGR-0336",
+    "title": "2层标高为+23.84米。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 223,
+    "rule_id": "LF-AGR-REVIEW-AGR-0337",
+    "title": "影厅应设置在托屋面。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 224,
+    "rule_id": "LF-AGR-REVIEW-AGR-0338",
+    "title": "影院大厅应设置在标准层。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 225,
+    "rule_id": "LF-AGR-REVIEW-AGR-0339",
+    "title": "设计应增强影院入口的区域价值。",
+    "category_l1": "整体定位与规划逻辑",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 226,
+    "rule_id": "LF-AGR-REVIEW-AGR-0340",
+    "title": "观影动线应设计为短动线。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 227,
+    "rule_id": "LF-AGR-REVIEW-AGR-0341",
+    "title": "影院大厅可进行公区化设计。",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 228,
+    "rule_id": "LF-AGR-REVIEW-AGR-0342",
+    "title": "影厅可进行公区化设计。",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 229,
+    "rule_id": "LF-AGR-REVIEW-AGR-0343",
+    "title": "影厅设计应打造社交空间。",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 230,
+    "rule_id": "LF-AGR-REVIEW-AGR-0344",
+    "title": "应设置直达影院的直达扶梯。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 231,
+    "rule_id": "LF-AGR-REVIEW-AGR-0345",
+    "title": "影院周边应布局高价值小铺和点位。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 232,
+    "rule_id": "LF-AGR-REVIEW-AGR-0346",
+    "title": "超市应布置在地面人流到达较少的口部下方。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 233,
+    "rule_id": "LF-AGR-REVIEW-AGR-0347",
+    "title": "超市周边业态落位应以零售、珠宝为主，餐饮区应布置在TOD端部。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 234,
+    "rule_id": "LF-AGR-REVIEW-AGR-0348",
+    "title": "一字型超市应设置于非TOD的端头。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 235,
+    "rule_id": "LF-AGR-REVIEW-AGR-0349",
+    "title": "L型超市应设置于中部进深较厚处，以解决转角铺深问题。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 236,
+    "rule_id": "LF-AGR-REVIEW-AGR-0350",
+    "title": "超市口部展面应控制在2跨。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 237,
+    "rule_id": "LF-AGR-REVIEW-AGR-0351",
+    "title": "超市口部设计应避免卷帘柱遮挡，可通过调整防火分区或采用异性卷帘解决。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 238,
+    "rule_id": "LF-AGR-REVIEW-AGR-0352",
+    "title": "一字型超市的出口应设置在动线尽端，以拉通次动线。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 239,
+    "rule_id": "LF-AGR-REVIEW-AGR-0353",
+    "title": "L型超市的口部应侧置，以保证商业动线连续，并避开人流聚集点。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 240,
+    "rule_id": "LF-AGR-REVIEW-AGR-0354",
+    "title": "上行扶梯应设置在距离入口1~2跨的范围内。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 241,
+    "rule_id": "LF-AGR-REVIEW-AGR-0355",
+    "title": "扶梯应结合下行车库扶梯统一设置，以提高效率。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 242,
+    "rule_id": "LF-AGR-REVIEW-AGR-0356",
+    "title": "扶梯到达本层的方向应正对超市。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 243,
+    "rule_id": "LF-AGR-REVIEW-AGR-0360",
+    "title": "L型动线的超市应设置于中部进深较厚的位置。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 244,
+    "rule_id": "LF-AGR-REVIEW-AGR-0361",
+    "title": "超市应布置在地面客流密度较低的入口下方，并通过上下公区扶梯与地面串联，以实现对地",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 245,
+    "rule_id": "LF-AGR-REVIEW-AGR-0362",
+    "title": "超市在端头位置时，应在距离入口1~2跨处设置正对的上行扶梯，并临近客梯厅结合下行",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 246,
+    "rule_id": "LF-AGR-REVIEW-AGR-0363",
+    "title": "超市在非端头位置时，应临靠口部设置上下行扶梯及客梯，以方便人流到达。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 247,
+    "rule_id": "LF-AGR-REVIEW-AGR-0366",
+    "title": "针对低坪效的大型空间（如冰场），核心改造措施应包括将其切分为小铺，调整业态类型，",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 248,
+    "rule_id": "LF-AGR-REVIEW-AGR-0368",
+    "title": "在店铺规划中，可采用扩大低区中庭洞口、设置高区边庭和高区露台等组合方式，以削减店",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 249,
+    "rule_id": "LF-AGR-REVIEW-AGR-0378",
+    "title": "针对转角/尽端大铺，优化策略应采用边线内退结合特定主题业态，设置类百货空间，在有",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 250,
+    "rule_id": "LF-AGR-REVIEW-AGR-0379",
+    "title": "在塔楼核心筒长边区域，应极致切小核心筒，并结合进深较大一侧设置“U”形动线，放置",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 251,
+    "rule_id": "LF-AGR-REVIEW-AGR-0380",
+    "title": "在4F转角大进深位置，应设置“U”形动线，中央放置低遮挡岛铺，以打造精装家电集合",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 252,
+    "rule_id": "LF-AGR-REVIEW-AGR-0381",
+    "title": "在2F转角大进深位置，应设置“U”形动线，中央放置低遮挡岛铺，以打造精装女性主题",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 253,
+    "rule_id": "LF-AGR-REVIEW-AGR-0382",
+    "title": "多经点位的存活依附于成熟商场的高客流密度，并应具备面积小、坪效高的特点。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 254,
+    "rule_id": "LF-AGR-REVIEW-AGR-0383",
+    "title": "平面精细化管控和TDM管控是保证多经点位高品质呈现的关键控制点。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 255,
+    "rule_id": "LF-AGR-REVIEW-AGR-0397",
+    "title": "地下商业层零售多经应采用无遮挡岛柜。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 256,
+    "rule_id": "LF-AGR-REVIEW-AGR-0398",
+    "title": "地下商业层零售多经与铺边距离应为3.2-3.5米。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 257,
+    "rule_id": "LF-AGR-REVIEW-AGR-0399",
+    "title": "地下商业层零售多经岛柜之间距离应不小于2.6米。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 258,
+    "rule_id": "LF-AGR-REVIEW-AGR-0400",
+    "title": "地下商业层餐饮多经宜采用地排烟，避免遮挡店铺。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 259,
+    "rule_id": "LF-AGR-REVIEW-AGR-0401",
+    "title": "地下商业层餐饮多经边铺可结合多经做内推外摆，以增加空间可视性及商业氛围。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 260,
+    "rule_id": "LF-AGR-REVIEW-AGR-0402",
+    "title": "地下商业层餐饮多经中岛密度较大时，应预留集中就餐区。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 261,
+    "rule_id": "LF-AGR-REVIEW-AGR-0404",
+    "title": "地下零售多经尺寸为2.4米x4.2米。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 262,
+    "rule_id": "LF-AGR-REVIEW-AGR-0406",
+    "title": "地下餐饮多经尺寸为4.2米x4.2米。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 263,
+    "rule_id": "LF-AGR-REVIEW-AGR-0407",
+    "title": "首层多经点位宜靠近入口。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 264,
+    "rule_id": "LF-AGR-REVIEW-AGR-0408",
+    "title": "首层多经点位宜正对扶梯到达点。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 265,
+    "rule_id": "LF-AGR-REVIEW-AGR-0409",
+    "title": "首层多经点位宜位于扶梯下方。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 266,
+    "rule_id": "LF-AGR-REVIEW-AGR-0410",
+    "title": "首层次中庭集中闸板区可阵列式排布多经点位。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 267,
+    "rule_id": "LF-AGR-REVIEW-AGR-0411",
+    "title": "为保证首层公共区域品质，多经点位数量不宜过多。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 268,
+    "rule_id": "LF-AGR-REVIEW-AGR-0413",
+    "title": "首层零售多经尺寸可为5米x4米。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 269,
+    "rule_id": "LF-AGR-REVIEW-AGR-0414",
+    "title": "首层零售多经尺寸可为4米x4米。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 270,
+    "rule_id": "LF-AGR-REVIEW-AGR-0415",
+    "title": "首层零售多经尺寸可为6.6米x1.8米。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 271,
+    "rule_id": "LF-AGR-REVIEW-AGR-0416",
+    "title": "标准零售层（2F及以上）多经点位宜位于正对扶梯。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 272,
+    "rule_id": "LF-AGR-REVIEW-AGR-0417",
+    "title": "标准零售层（2F及以上）多经点位宜位于客梯厅到达处。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 273,
+    "rule_id": "LF-AGR-REVIEW-AGR-0418",
+    "title": "标准零售层（2F及以上）多经点位宜位于靠近主中庭的连桥。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 274,
+    "rule_id": "LF-AGR-REVIEW-AGR-0419",
+    "title": "标准零售层（2F及以上）多经点位宜位于集中闸板区。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 275,
+    "rule_id": "LF-AGR-REVIEW-AGR-0422",
+    "title": "标准零售层（2F及以上）多经点位应尽量避免贴临主中庭一侧。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 276,
+    "rule_id": "LF-AGR-REVIEW-AGR-0424",
+    "title": "L2标准零售层零售多经尺寸可为5米x4米。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 277,
+    "rule_id": "LF-AGR-REVIEW-AGR-0425",
+    "title": "L2标准零售层零售多经尺寸可为4米x4米。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 278,
+    "rule_id": "LF-AGR-REVIEW-AGR-0426",
+    "title": "L2标准零售层零售多经尺寸可为6.6米x1.8米。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 279,
+    "rule_id": "LF-AGR-REVIEW-AGR-0428",
+    "title": "L3标准零售层零售数码多经尺寸可为1.8米x5.4米。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 280,
+    "rule_id": "LF-AGR-REVIEW-AGR-0429",
+    "title": "L3标准零售层零售数码多经尺寸可为3米x7米。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 281,
+    "rule_id": "LF-AGR-REVIEW-AGR-0430",
+    "title": "餐饮及影院大厅层多经点位建议位于餐饮流量门口。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 282,
+    "rule_id": "LF-AGR-REVIEW-AGR-0431",
+    "title": "餐饮及影院大厅层多经点位建议位于影院门口。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 283,
+    "rule_id": "LF-AGR-REVIEW-AGR-0433",
+    "title": "L4及以上餐饮及影院大厅层零售餐饮多经尺寸可为2.4米x4.2米。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 284,
+    "rule_id": "LF-AGR-REVIEW-AGR-0434",
+    "title": "L4及以上餐饮及影院大厅层零售餐饮多经尺寸可为2.4米x7米。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 285,
+    "rule_id": "LF-AGR-REVIEW-AGR-0435",
+    "title": "标准中庭洞口长度宜为2-4跨。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 286,
+    "rule_id": "LF-AGR-REVIEW-AGR-0436",
+    "title": "为确保清晰识别店招字体，每1米视距需1.52厘米字体高度。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 287,
+    "rule_id": "LF-AGR-REVIEW-AGR-0437",
+    "title": "基于36cm字体高度，店招字体最佳视距为23.7米。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 288,
+    "rule_id": "LF-AGR-REVIEW-AGR-0438",
+    "title": "基于60cm字体高度，店招高度最佳视距为39.47米。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 289,
+    "rule_id": "LF-AGR-REVIEW-AGR-0439",
+    "title": "店招最佳视线距离为24-40米。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 290,
+    "rule_id": "LF-AGR-REVIEW-AGR-0440",
+    "title": "为满足店招最佳视距24-40米，中庭洞口长度需满足2-4跨。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 291,
+    "rule_id": "LF-AGR-REVIEW-AGR-0441",
+    "title": "为确保步行可达性小于50秒，中庭洞口长度需满足2-4跨。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 292,
+    "rule_id": "LF-AGR-REVIEW-AGR-0442",
+    "title": "餐饮层业态密度应适当降低，以形成视觉放大效果。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 293,
+    "rule_id": "LF-AGR-REVIEW-AGR-0448",
+    "title": "中段中庭扶梯宜与连桥直接连接，以减少扶梯平台对洞口视线的遮挡。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 294,
+    "rule_id": "LF-AGR-REVIEW-AGR-0449",
+    "title": "中段中庭扶梯宜采用游逛式布局，避免标准中庭扶梯垂直叠放。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 295,
+    "rule_id": "LF-AGR-REVIEW-AGR-0450",
+    "title": "端头中庭扶梯的到达点应朝向动线末端。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 296,
+    "rule_id": "LF-AGR-REVIEW-AGR-0452",
+    "title": "从车库到地下商业层的侧扶梯应后置并与客梯厅结合。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 297,
+    "rule_id": "LF-AGR-REVIEW-AGR-0453",
+    "title": "从地下商业层到首层的侧扶梯宜放置在主动线中间。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 298,
+    "rule_id": "LF-AGR-REVIEW-AGR-0454",
+    "title": "当主动线宽度不足或需要避免遮挡时，应采用侧置扶梯，且首层到达点应与主动线勾连。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 299,
+    "rule_id": "LF-AGR-REVIEW-AGR-0455",
+    "title": "优化TOD连接，确保动线直接顺畅，实现无感顺畅。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 300,
+    "rule_id": "LF-AGR-REVIEW-AGR-0457",
+    "title": "商业空间应挑高放大，提升空间感，实现无感顺畅。",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 301,
+    "rule_id": "LF-AGR-REVIEW-AGR-0458",
+    "title": "中庭应增加开洞数量，以促进全场交互。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 302,
+    "rule_id": "LF-AGR-REVIEW-AGR-0459",
+    "title": "中庭开洞尺度应扩大，以促进全场交互。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 303,
+    "rule_id": "LF-AGR-REVIEW-AGR-0460",
+    "title": "中庭上下洞口应贯通，以促进全场交互。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 304,
+    "rule_id": "LF-AGR-REVIEW-AGR-0461",
+    "title": "地下动线应形成集中规模，实现全域可达。",
+    "category_l1": "TOD与地下商业",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 305,
+    "rule_id": "LF-AGR-REVIEW-AGR-0462",
+    "title": "地下动线规划应兼顾大铺位和小铺位，实现全域可达。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 306,
+    "rule_id": "LF-AGR-REVIEW-AGR-0463",
+    "title": "提升地下商业空间辨识度，实现全域可达。",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 307,
+    "rule_id": "LF-AGR-REVIEW-AGR-0466",
+    "title": "TOD连接应优化，实现动线直接顺畅，商业界面外延，并进行空间挑高放大。",
+    "category_l1": "TOD与地下商业",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 308,
+    "rule_id": "LF-AGR-REVIEW-AGR-0467",
+    "title": "地下2层应打造通高商业入口，塑造标签接驳空间。",
+    "category_l1": "TOD与地下商业",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 309,
+    "rule_id": "LF-AGR-REVIEW-AGR-0468",
+    "title": "美食区及超前扶梯应勾连B1层。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 310,
+    "rule_id": "LF-AGR-REVIEW-AGR-0469",
+    "title": "双轨交5接口应实现极致客流导入，口部动线直接顺畅，商业界面外延。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 311,
+    "rule_id": "LF-AGR-REVIEW-AGR-0470",
+    "title": "中庭设计应向下扩展，增加开洞数量，扩大开洞尺度，并确保上下洞口贯通。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 312,
+    "rule_id": "LF-AGR-REVIEW-AGR-0471",
+    "title": "首层应增加向下开洞数量，并针对高品质业态或场景扩大开洞面积，以实现上下贯通的最大",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 313,
+    "rule_id": "LF-AGR-REVIEW-AGR-0478",
+    "title": "L1层中庭封板可布置各类推广活动和装置。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 314,
+    "rule_id": "LF-AGR-REVIEW-AGR-0479",
+    "title": "地下商业动线应在室内形成环路。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 315,
+    "rule_id": "LF-AGR-REVIEW-AGR-0480",
+    "title": "地下商业动线应具备集中规模。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 316,
+    "rule_id": "LF-AGR-REVIEW-AGR-0481",
+    "title": "地下商业动线设计应兼顾大铺和小铺的切割需求。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 317,
+    "rule_id": "LF-AGR-REVIEW-AGR-0482",
+    "title": "地下商业动线设计应提升空间辨识度。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 318,
+    "rule_id": "LF-AGR-REVIEW-AGR-0483",
+    "title": "地下商业动线设计应确保游逛体验不受气候影响。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 319,
+    "rule_id": "LF-AGR-REVIEW-AGR-0484",
+    "title": "地下商业动线设计应提高联通效率。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 320,
+    "rule_id": "LF-AGR-REVIEW-AGR-0485",
+    "title": "地下商业动线设计应避免动线死角。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 321,
+    "rule_id": "LF-AGR-REVIEW-AGR-0488",
+    "title": "地下商业动线宜采用“8”字形。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 322,
+    "rule_id": "LF-AGR-REVIEW-AGR-0489",
+    "title": "地下商业应确保业态足够丰富。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 323,
+    "rule_id": "LF-AGR-REVIEW-AGR-0490",
+    "title": "地下商业应专项提升地视线无遮挡。",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 324,
+    "rule_id": "LF-AGR-REVIEW-AGR-0492",
+    "title": "餐饮岛铺应设计为弱遮挡。",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 325,
+    "rule_id": "LF-AGR-REVIEW-AGR-0495",
+    "title": "地下餐饮采用地排油等方式，以提升店招的通透性。",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 326,
+    "rule_id": "LF-AGR-REVIEW-AGR-0496",
+    "title": "对于大体量地下商业，开洞应优先考虑客流分发设扶梯洞口，再结合业态及场景考虑洞口的",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 327,
+    "rule_id": "LF-AGR-REVIEW-AGR-0497",
+    "title": "中庭洞口应上下可视，垂直贯通，并保证零售楼层至少有一组活动中庭。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 328,
+    "rule_id": "LF-AGR-REVIEW-AGR-0498",
+    "title": "如首层具有高价值点位的经营条件，应当避免或减小开洞面积。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 329,
+    "rule_id": "LF-AGR-REVIEW-AGR-0499",
+    "title": "控制首层洞口尺度，避免影响洞口两侧商户的交互可达。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 330,
+    "rule_id": "LF-AGR-REVIEW-AGR-0500",
+    "title": "有地铁时，在地铁口附近设置含扶梯中庭洞口或可视扶梯洞口，快速向上分发客流。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 331,
+    "rule_id": "LF-AGR-REVIEW-AGR-0501",
+    "title": "无地铁时，在L1人流主入口向下设置扶梯洞口，向地下引导客流。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 332,
+    "rule_id": "LF-AGR-REVIEW-AGR-0502",
+    "title": "扶梯布局位置应依据30-50m服务半径布置。",
+    "category_l1": "TOD与地下商业",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 333,
+    "rule_id": "LF-AGR-REVIEW-AGR-0503",
+    "title": "扶梯布局方向应朝向主要人流方向，或吸纳分发到上层冷区或尽端。",
+    "category_l1": "TOD与地下商业",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 334,
+    "rule_id": "LF-AGR-REVIEW-AGR-0517",
+    "title": "TOD接驳的核心定义是围绕公共交通站点周边进行开发。",
+    "category_l1": "TOD与地下商业",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 335,
+    "rule_id": "LF-AGR-REVIEW-AGR-0518",
+    "title": "TOD接驳的核心定义是鼓励混合土地使用。",
+    "category_l1": "TOD与地下商业",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 336,
+    "rule_id": "LF-AGR-REVIEW-AGR-0519",
+    "title": "TOD接驳的目标与原则是缓解交通压力、促进经济。",
+    "category_l1": "TOD与地下商业",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 337,
+    "rule_id": "LF-AGR-REVIEW-AGR-0520",
+    "title": "接驳策略应做到紧密链接、清晰标识和开放通透。",
+    "category_l1": "TOD与地下商业",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 338,
+    "rule_id": "LF-AGR-REVIEW-AGR-0521",
+    "title": "接驳策略的业态与功能组合应包含前置商业、体验式零售和广告信息。",
+    "category_l1": "TOD与地下商业",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 339,
+    "rule_id": "LF-AGR-REVIEW-AGR-0522",
+    "title": "接驳策略的主题与氛围营造应包含差异化主题和节日氛围。",
+    "category_l1": "TOD与地下商业",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 340,
+    "rule_id": "LF-AGR-REVIEW-AGR-0523",
+    "title": "“无缝”连接型TOD接驳，采用条件为地铁站厅层或转换通道进入天街红线内，并优先采",
+    "category_l1": "TOD与地下商业",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 341,
+    "rule_id": "LF-AGR-REVIEW-AGR-0524",
+    "title": "“无缝”连接型TOD接驳，连通口设计应尽量做宽。",
+    "category_l1": "TOD与地下商业",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 342,
+    "rule_id": "LF-AGR-REVIEW-AGR-0525",
+    "title": "“无缝”连接型TOD接驳，应消除物理高差。",
+    "category_l1": "TOD与地下商业",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 343,
+    "rule_id": "LF-AGR-REVIEW-AGR-0526",
+    "title": "“无缝”连接型TOD接驳，应凸显商业入口。",
+    "category_l1": "TOD与地下商业",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 344,
+    "rule_id": "LF-AGR-REVIEW-AGR-0531",
+    "title": "通道连接型TOD接驳，采用条件为地铁与天街分别退道路红线，且连接通道宽度受严格限",
+    "category_l1": "TOD与地下商业",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 345,
+    "rule_id": "LF-AGR-REVIEW-AGR-0532",
+    "title": "通道连接型TOD接驳，设计要点为视线通透直接。",
+    "category_l1": "TOD与地下商业",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 346,
+    "rule_id": "LF-AGR-REVIEW-AGR-0533",
+    "title": "通道连接型TOD接驳，设计要点为标识与商业氛围营造。",
+    "category_l1": "TOD与地下商业",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 347,
+    "rule_id": "LF-AGR-REVIEW-AGR-0534",
+    "title": "通道连接型TOD接驳，设计要点为业态匹配客流特点。",
+    "category_l1": "TOD与地下商业",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 348,
+    "rule_id": "LF-AGR-REVIEW-AGR-0535",
+    "title": "主动接驳型TOD接驳，采用条件为地铁距离天街较远，但有其他因素可争取加建地下通道",
+    "category_l1": "TOD与地下商业",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 349,
+    "rule_id": "LF-AGR-REVIEW-AGR-0536",
+    "title": "主动接驳型TOD接驳，设计要点为通道内适当增加商业点位。",
+    "category_l1": "TOD与地下商业",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 350,
+    "rule_id": "LF-AGR-REVIEW-AGR-0537",
+    "title": "主动接驳型TOD接驳，设计要点为关键节点突出标识引导人流。",
+    "category_l1": "TOD与地下商业",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 351,
+    "rule_id": "LF-AGR-REVIEW-AGR-0538",
+    "title": "主动接驳型TOD接驳，设计要点为全覆盖墙面广告位/LED屏。",
+    "category_l1": "TOD与地下商业",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 352,
+    "rule_id": "LF-AGR-REVIEW-AGR-0539",
+    "title": "“无缝”连接型：地铁非付费区与商业入口应直接连通。",
+    "category_l1": "TOD与地下商业",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 353,
+    "rule_id": "LF-AGR-REVIEW-AGR-0540",
+    "title": "“无缝”连接型：协同地铁方，将站厅转化为商业前场。",
+    "category_l1": "TOD与地下商业",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 354,
+    "rule_id": "LF-AGR-REVIEW-AGR-0541",
+    "title": "“无缝”连接型：商场入口与站厅风格应融合。",
+    "category_l1": "TOD与地下商业",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 355,
+    "rule_id": "LF-AGR-REVIEW-AGR-0542",
+    "title": "“无缝”连接型：入口应宽敞明亮。",
+    "category_l1": "TOD与地下商业",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 356,
+    "rule_id": "LF-AGR-REVIEW-AGR-0543",
+    "title": "“无缝”连接型：应突出商场标识。",
+    "category_l1": "TOD与地下商业",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 357,
+    "rule_id": "LF-AGR-REVIEW-AGR-0544",
+    "title": "室外下沉广场连接：地铁应通过室外下沉广场与商业连接。",
+    "category_l1": "TOD与地下商业",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 358,
+    "rule_id": "LF-AGR-REVIEW-AGR-0553",
+    "title": "商业运营方应根据需求在地铁通道设置接驳口。",
+    "category_l1": "TOD与地下商业",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 359,
+    "rule_id": "LF-AGR-REVIEW-AGR-0556",
+    "title": "需规模化创造商圈效应，业态需统筹设置。",
+    "category_l1": "TOD与地下商业",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 360,
+    "rule_id": "LF-AGR-REVIEW-AGR-0559",
+    "title": "交通枢纽之间应相互串联，与商业紧密衔接。",
+    "category_l1": "TOD与地下商业",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 361,
+    "rule_id": "LF-AGR-REVIEW-AGR-0562",
+    "title": "商业动线与站点内部交通应紧密衔接。",
+    "category_l1": "TOD与地下商业",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 362,
+    "rule_id": "LF-AGR-REVIEW-AGR-0565",
+    "title": "商业应根据叠合换乘特点，分层设置连接。",
+    "category_l1": "TOD与地下商业",
+    "review_bucket": "candidate_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.72,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 363,
+    "rule_id": "LF-AGR-REVIEW-AGR-0006",
+    "title": "商业运营维度应提升坪效。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 364,
+    "rule_id": "LF-AGR-REVIEW-AGR-0007",
+    "title": "商业运营维度应增加客流。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 365,
+    "rule_id": "LF-AGR-REVIEW-AGR-0014",
+    "title": "从艺术装置、文化元素、活动策划等出发，结合空间骨架打造艺术融合空间",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 366,
+    "rule_id": "LF-AGR-REVIEW-AGR-0015",
+    "title": "用户互动、活动频次、转化效果",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 367,
+    "rule_id": "LF-AGR-REVIEW-AGR-0016",
+    "title": "情感共鸣、身份认同、价值认可、心里代偿",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 368,
+    "rule_id": "LF-AGR-REVIEW-AGR-0017",
+    "title": "根据地区及项目自评情况，对5个维度做评价，最低0颗星，最高5颗星",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 369,
+    "rule_id": "LF-AGR-REVIEW-AGR-0028",
+    "title": "执行安全必审清单",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 370,
+    "rule_id": "LF-AGR-REVIEW-AGR-0029",
+    "title": "优化业态布局",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 371,
+    "rule_id": "LF-AGR-REVIEW-AGR-0030",
+    "title": "优化主力店落位",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 372,
+    "rule_id": "LF-AGR-REVIEW-AGR-0031",
+    "title": "优化多经点位",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 373,
+    "rule_id": "LF-AGR-REVIEW-AGR-0063",
+    "title": "Y/C比由3.5%提升至3.8%。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 374,
+    "rule_id": "LF-AGR-REVIEW-AGR-0069",
+    "title": "原五层商业放置B2层，并通过增加D口接驳提升地下商业租金。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 375,
+    "rule_id": "LF-AGR-REVIEW-AGR-0072",
+    "title": "商业车位打8折，减少93个车位，节约约3720m²车库面积。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 376,
+    "rule_id": "LF-AGR-REVIEW-AGR-0073",
+    "title": "100辆机动车放置屋顶，节约约4000m²车库面积。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 377,
+    "rule_id": "LF-AGR-REVIEW-AGR-0074",
+    "title": "首层解决450辆非机动车，节约约850m²地库面积。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 378,
+    "rule_id": "LF-AGR-REVIEW-AGR-0075",
+    "title": "通过设置屋面停车楼，减少地下开挖等措施，压降成本超1亿元。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 379,
+    "rule_id": "LF-AGR-REVIEW-AGR-0088",
+    "title": "地下室无地库区域人防面积按地上面积3%计算。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 380,
+    "rule_id": "LF-AGR-REVIEW-AGR-0090",
+    "title": "人防面积减少3000m²，节约成本约120万元。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 381,
+    "rule_id": "LF-AGR-REVIEW-AGR-0094",
+    "title": "匝道由双向3000m²改为单向4车道。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 382,
+    "rule_id": "LF-AGR-REVIEW-AGR-0096",
+    "title": "匝道面积减少1500m²，节约成本1000万元。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 383,
+    "rule_id": "LF-AGR-REVIEW-AGR-0118",
+    "title": "大渡口天街部分道路坡度为2%，连接至261高程。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 384,
+    "rule_id": "LF-AGR-REVIEW-AGR-0120",
+    "title": "大渡口天街部分道路坡度为3%，连接至246.7高程。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 385,
+    "rule_id": "LF-AGR-REVIEW-AGR-0138",
+    "title": "商业界面应向外延展，以更好地承接导入的客流。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 386,
+    "rule_id": "LF-AGR-REVIEW-AGR-0148",
+    "title": "铺展面无遮挡是兑现商铺价值的第一要素，卷帘柱会遮挡店铺展面价值。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 387,
+    "rule_id": "LF-AGR-REVIEW-AGR-0156",
+    "title": "解决商铺进深资源与面宽资源合理分配问题，达到有效资源数量的极致提升。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 388,
+    "rule_id": "LF-AGR-REVIEW-AGR-0157",
+    "title": "深入研究大铺切分策略，针对不同业态和空间类型采取多种“大切小”方式，去化尽端大铺",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 389,
+    "rule_id": "LF-AGR-REVIEW-AGR-0158",
+    "title": "极限压缩1F上方洞口边线与店铺线距离，以最大化首层商铺面积并提升收益。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 390,
+    "rule_id": "LF-AGR-REVIEW-AGR-0159",
+    "title": "优化疏散楼梯位置，以打开店铺沿街展面。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 391,
+    "rule_id": "LF-AGR-REVIEW-AGR-0160",
+    "title": "打开店铺沿街展面，避免立面中段冷区，拉升商业氛围。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 392,
+    "rule_id": "LF-AGR-REVIEW-AGR-0180",
+    "title": "屋顶露台区域可设置采光天窗。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 393,
+    "rule_id": "LF-AGR-REVIEW-AGR-0189",
+    "title": "定制商业盒子需具备较好的城市展面或者景观资源。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 394,
+    "rule_id": "LF-AGR-REVIEW-AGR-0190",
+    "title": "定制商业盒子的设计需收费，建造免费。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 395,
+    "rule_id": "LF-AGR-REVIEW-AGR-0211",
+    "title": "1F主中庭铺位线按照600MM进行压缩。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 396,
+    "rule_id": "LF-AGR-REVIEW-AGR-0213",
+    "title": "2F-5F店铺与中庭的净距控制在3.1—3.2米。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 397,
+    "rule_id": "LF-AGR-REVIEW-AGR-0214",
+    "title": "局部端铺进行往前压缩。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 398,
+    "rule_id": "LF-AGR-REVIEW-AGR-0263",
+    "title": "主入口两侧定位店铺应具备合理的店铺展面，以提升并最大化主入口价值。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 399,
+    "rule_id": "LF-AGR-REVIEW-AGR-0264",
+    "title": "主入口两侧定位店铺应采用双层Facade设计，以提升并最大化主入口价值。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 400,
+    "rule_id": "LF-AGR-REVIEW-AGR-0358",
+    "title": "非商业投影范围区域的超市净高最低应为3.6米，建议在3.8米至4.2米之间。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 401,
+    "rule_id": "LF-AGR-REVIEW-AGR-0384",
+    "title": "平面精细化管控需关注多经尺寸、点位原则、连桥宽度以及点位之间的距离。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 402,
+    "rule_id": "LF-AGR-REVIEW-AGR-0385",
+    "title": "TDM管控需关注多经点位的形制、材料、色彩和灯光设计。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 403,
+    "rule_id": "LF-AGR-REVIEW-AGR-0394",
+    "title": "多经点位尺度应适中，避免过窄影响通行或过宽造成坪效浪费。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 404,
+    "rule_id": "LF-AGR-REVIEW-AGR-0395",
+    "title": "多经点位灯光颜色品质应受控，避免失控。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 405,
+    "rule_id": "LF-AGR-REVIEW-AGR-0396",
+    "title": "多经点位应避免空间视线遮挡。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 406,
+    "rule_id": "LF-AGR-REVIEW-AGR-0456",
+    "title": "商业界面应向外延伸，实现无感顺畅。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 407,
+    "rule_id": "LF-AGR-REVIEW-AGR-0464",
+    "title": "地下空间应避免设置卷帘柱，以保证视线无遮挡，实现通透干净。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 408,
+    "rule_id": "LF-AGR-REVIEW-AGR-0465",
+    "title": "餐饮岛铺应采用弱遮挡设计，以保证视线通透，实现通透干净。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 409,
+    "rule_id": "LF-AGR-REVIEW-AGR-0486",
+    "title": "地下商业动线设计应有助于提升坪效。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 410,
+    "rule_id": "LF-AGR-REVIEW-AGR-0491",
+    "title": "地下商业空间应取消卷帘柱。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 411,
+    "rule_id": "LF-AGR-REVIEW-AGR-0493",
+    "title": "通过幕式卷帘等方式，取消地下商业空间内的卷帘柱，例如取消15个。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 412,
+    "rule_id": "LF-AGR-REVIEW-AGR-0494",
+    "title": "地下餐饮应采用地排油方式。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 413,
+    "rule_id": "LF-AGR-REVIEW-AGR-0551",
+    "title": "地铁运营商与连接商业互不归属。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 414,
+    "rule_id": "LF-AGR-REVIEW-AGR-0552",
+    "title": "地铁运营仅强调交通联系，无商业或有少量运营。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 415,
+    "rule_id": "LF-AGR-REVIEW-AGR-0554",
+    "title": "地铁捆绑商业归属地铁运营商。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 416,
+    "rule_id": "LF-AGR-REVIEW-AGR-0555",
+    "title": "地铁商业与周边商业形成竞争。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 417,
+    "rule_id": "LF-AGR-REVIEW-AGR-0557",
+    "title": "交通枢纽运营商与连接商业互不归属。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 418,
+    "rule_id": "LF-AGR-REVIEW-AGR-0558",
+    "title": "枢纽换乘带来人流效应。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 419,
+    "rule_id": "LF-AGR-REVIEW-AGR-0560",
+    "title": "交通枢纽设置在商业中，与连接商业互不归属。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 420,
+    "rule_id": "LF-AGR-REVIEW-AGR-0561",
+    "title": "以合建商业为中心，人流向外部商业辐射。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 421,
+    "rule_id": "LF-AGR-REVIEW-AGR-0563",
+    "title": "交通枢纽与枢纽内商业互不归属。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 422,
+    "rule_id": "LF-AGR-REVIEW-AGR-0564",
+    "title": "交通流线应呈网状辐射周边业态。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 423,
+    "rule_id": "LF-AGR-REVIEW-AGR-0566",
+    "title": "超级TOD为高能级成熟商圈，拥有多个商办地块竞争激烈。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 424,
+    "rule_id": "LF-AGR-REVIEW-AGR-0567",
+    "title": "若开发天街，需精准定位并做出差异化。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 425,
+    "rule_id": "LF-AGR-REVIEW-AGR-0568",
+    "title": "避免将天街设置在人流冷区。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 426,
+    "rule_id": "LF-AGR-REVIEW-AGR-0569",
+    "title": "对各类人流的多层导入需进行精细设计。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 427,
+    "rule_id": "LF-AGR-REVIEW-AGR-0139",
+    "title": "杭州云城天街项目，塔楼的B1、B2、L1、L4（零售层）与办公首层之间通过扶梯连",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "needs_manual_split",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.5,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 428,
+    "rule_id": "LF-AGR-REVIEW-AGR-0210",
+    "title": "部分附属功能空间，如工具间、背走廊、坡道下空间，可有效转换为商铺使用，共释放约1",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "needs_manual_split",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.5,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 429,
+    "rule_id": "LF-AGR-REVIEW-AGR-0260",
+    "title": "应充分利用主力店带来的客流，超前规划并切割小型商铺，主要布局零售、生活杂品、珠宝",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "needs_manual_split",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.5,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 430,
+    "rule_id": "LF-AGR-REVIEW-AGR-0262",
+    "title": "将数码零售、科技生活、宠物、咖啡水吧等与生活方式相关的业态整合在一个区域内，为消",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "needs_manual_split",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.5,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 431,
+    "rule_id": "LF-AGR-REVIEW-AGR-0266",
+    "title": "2F美学中心主题区（零售类）应集中布置女装、化妆品、香氛、眼镜、杂品、花店等女性",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "needs_manual_split",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.5,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 432,
+    "rule_id": "LF-AGR-REVIEW-AGR-0268",
+    "title": "3F儿童业态布置应遵循同类业态聚合、相关业态关联互补、组团化布局形成合力，以充分",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "needs_manual_split",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.5,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 433,
+    "rule_id": "LF-AGR-REVIEW-AGR-0012",
+    "title": "建筑、精装、景观场景基底简约高级，打造视觉焦点，并打造审美高级且经久的空间",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_manual_split",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 434,
+    "rule_id": "LF-AGR-REVIEW-AGR-0013",
+    "title": "从自然景观的借力、生态技术、绿化覆盖等出发，打造重点户外场景空间、室外游逛空间；",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_manual_split",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.45,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 435,
+    "rule_id": "LF-AGR-REVIEW-AGR-0059",
+    "title": "挖掘项目“习惯性遗忘”和“长期闲置”等价值挖掘不足的空间，包括下沉广场、连廊、屋",
+    "category_l1": "景观场景与铺前界面",
+    "review_bucket": "needs_manual_split",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 436,
+    "rule_id": "LF-AGR-REVIEW-AGR-0060",
+    "title": "对于P2/P3级项目，有效的成本控制是提升YC的关键，具体包括提升得铺率、优化停",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "needs_manual_split",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 437,
+    "rule_id": "LF-AGR-REVIEW-AGR-0209",
+    "title": "在满足消防疏散要求的基础上，对所有后勤通道、楼梯间、疏散门等非客户通行走道进行压",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "needs_manual_split",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 438,
+    "rule_id": "LF-AGR-REVIEW-AGR-0054",
+    "title": "合理的整体规划策略是项目YC达成基础。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 439,
+    "rule_id": "LF-AGR-REVIEW-AGR-0061",
+    "title": "将高区3F低价值约1.2万方商业置换至地下轨交接驳层高价值区域。",
+    "category_l1": "整体定位与规划逻辑",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 440,
+    "rule_id": "LF-AGR-REVIEW-AGR-0077",
+    "title": "广场首层1700m²的街铺商业。",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 441,
+    "rule_id": "LF-AGR-REVIEW-AGR-0078",
+    "title": "MALL于广场首二层设有对外通铺4000m²。",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 442,
+    "rule_id": "LF-AGR-REVIEW-AGR-0081",
+    "title": "增设多经点位1300m²，增加商铺对外拓展空间。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 443,
+    "rule_id": "LF-AGR-REVIEW-AGR-0083",
+    "title": "屋顶停车节省约18900m²车库面积。",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 444,
+    "rule_id": "LF-AGR-REVIEW-AGR-0086",
+    "title": "非机动车停车节省约1030m²地库面积。",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 445,
+    "rule_id": "LF-AGR-REVIEW-AGR-0089",
+    "title": "人防面积减少3000m²。",
+    "category_l1": "待人工归类",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 446,
+    "rule_id": "LF-AGR-REVIEW-AGR-0092",
+    "title": "商业少做人防车库面积15400m²。",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 447,
+    "rule_id": "LF-AGR-REVIEW-AGR-0095",
+    "title": "匝道面积减少1500m²。",
+    "category_l1": "待人工归类",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 448,
+    "rule_id": "LF-AGR-REVIEW-AGR-0100",
+    "title": "大渡口天街L4层养老业态面积为16000m²。",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 449,
+    "rule_id": "LF-AGR-REVIEW-AGR-0102",
+    "title": "大渡口天街L3层冠寓业态面积为18000m²。",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 450,
+    "rule_id": "LF-AGR-REVIEW-AGR-0104",
+    "title": "大渡口天街L2层商业业态面积为19000m²。",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 451,
+    "rule_id": "LF-AGR-REVIEW-AGR-0106",
+    "title": "大渡口天街L1层商业业态面积为22000m²。",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 452,
+    "rule_id": "LF-AGR-REVIEW-AGR-0108",
+    "title": "大渡口天街LG层地库面积为21000m²。",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 453,
+    "rule_id": "LF-AGR-REVIEW-AGR-0109",
+    "title": "大渡口天街LG层另有3000m²地库面积。",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 454,
+    "rule_id": "LF-AGR-REVIEW-AGR-0111",
+    "title": "大渡口天街屋顶停车高程为278.5米。",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 455,
+    "rule_id": "LF-AGR-REVIEW-AGR-0112",
+    "title": "大渡口天街L4层高程为273.1米。",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 456,
+    "rule_id": "LF-AGR-REVIEW-AGR-0113",
+    "title": "大渡口天街L3层高程为267.7米。",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 457,
+    "rule_id": "LF-AGR-REVIEW-AGR-0114",
+    "title": "大渡口天街L2层高程为262.0米。",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 458,
+    "rule_id": "LF-AGR-REVIEW-AGR-0115",
+    "title": "大渡口天街L1层高程为256.0米。",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 459,
+    "rule_id": "LF-AGR-REVIEW-AGR-0116",
+    "title": "大渡口天街LG层高程为249米。",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 460,
+    "rule_id": "LF-AGR-REVIEW-AGR-0117",
+    "title": "大渡口天街部分道路高程为261米。",
+    "category_l1": "待人工归类",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 461,
+    "rule_id": "LF-AGR-REVIEW-AGR-0119",
+    "title": "大渡口天街部分道路高程为246.7米。",
+    "category_l1": "待人工归类",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 462,
+    "rule_id": "LF-AGR-REVIEW-AGR-0121",
+    "title": "大渡口天街公园高程为272米。",
+    "category_l1": "待人工归类",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 463,
+    "rule_id": "LF-AGR-REVIEW-AGR-0127",
+    "title": "武汉光谷天街LG层小米品牌面积为210m²。",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 464,
+    "rule_id": "LF-AGR-REVIEW-AGR-0128",
+    "title": "武汉光谷天街LG层华为品牌面积为190m²。",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 465,
+    "rule_id": "LF-AGR-REVIEW-AGR-0129",
+    "title": "武汉光谷天街LG层迪卡侬品牌面积为1150m²。",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 466,
+    "rule_id": "LF-AGR-REVIEW-AGR-0130",
+    "title": "武汉光谷天街L1层小米品牌面积为460m²。",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 467,
+    "rule_id": "LF-AGR-REVIEW-AGR-0131",
+    "title": "武汉光谷天街L1层华为品牌面积为400m²。",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 468,
+    "rule_id": "LF-AGR-REVIEW-AGR-0132",
+    "title": "武汉光谷天街L1层迪卡侬品牌面积为340m²。",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 469,
+    "rule_id": "LF-AGR-REVIEW-AGR-0134",
+    "title": "（以重庆南坪天街为例）项目应连接3条轨道线路。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 470,
+    "rule_id": "LF-AGR-REVIEW-AGR-0135",
+    "title": "（以重庆南坪天街为例）项目应设置5个地铁连接口。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 471,
+    "rule_id": "LF-AGR-REVIEW-AGR-0136",
+    "title": "（以重庆南坪天街为例）项目应设置3个公交接驳口。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 472,
+    "rule_id": "LF-AGR-REVIEW-AGR-0141",
+    "title": "杭州云城天街项目需增加85平方米的临街商铺。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 473,
+    "rule_id": "LF-AGR-REVIEW-AGR-0145",
+    "title": "武汉滨江天街项目需增加110平方米的临街商铺面积。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 474,
+    "rule_id": "LF-AGR-REVIEW-AGR-0152",
+    "title": "零售铺位面积在150m²以下价值最优。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 475,
+    "rule_id": "LF-AGR-REVIEW-AGR-0153",
+    "title": "餐饮铺位面积在300m²以下价值最优。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 476,
+    "rule_id": "LF-AGR-REVIEW-AGR-0171",
+    "title": "下沉广场不应仅作为疏散用途，应积极引入经营活动，避免成为负向空间。",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 477,
+    "rule_id": "LF-AGR-REVIEW-AGR-0172",
+    "title": "下沉广场应充分利用其对外展面，加强经营性功能的引入。",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 478,
+    "rule_id": "LF-AGR-REVIEW-AGR-0175",
+    "title": "室外广场空间不应仅限于举办活动，应提升其日常功能多样性，减少限制。",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 479,
+    "rule_id": "LF-AGR-REVIEW-AGR-0186",
+    "title": "成都西宸天街项目中，“沪溪河”区域的坪效达到4600。",
+    "category_l1": "待人工归类",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 480,
+    "rule_id": "LF-AGR-REVIEW-AGR-0187",
+    "title": "定制商业盒子适用于强P2及以上项目。",
+    "category_l1": "待人工归类",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 481,
+    "rule_id": "LF-AGR-REVIEW-AGR-0188",
+    "title": "定制商业盒子项目全场租金需达到180+。",
+    "category_l1": "待人工归类",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 482,
+    "rule_id": "LF-AGR-REVIEW-AGR-0192",
+    "title": "连廊下空间利用的目标是变废为宝，成为项目的记忆点、打卡点，并产生可观收益。",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 483,
+    "rule_id": "LF-AGR-REVIEW-AGR-0193",
+    "title": "连廊下道路空间可作为推广活动使用，并成为城市记忆点 (例如：重庆时代天街)。",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 484,
+    "rule_id": "LF-AGR-REVIEW-AGR-0196",
+    "title": "首二层背走道应极致挖掘，部分120-130平米商铺应通过铺位调整控制到120平米",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 485,
+    "rule_id": "LF-AGR-REVIEW-AGR-0199",
+    "title": "在满足消防疏散宽度要求的前提下，背走道应按照净宽1.5m设置。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 486,
+    "rule_id": "LF-AGR-REVIEW-AGR-0212",
+    "title": "1F其余卡走道宽度为1.8米。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 487,
+    "rule_id": "LF-AGR-REVIEW-AGR-0224",
+    "title": "P3项目楼层数量应尽量控制在4层以内",
+    "category_l1": "待人工归类",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 488,
+    "rule_id": "LF-AGR-REVIEW-AGR-0225",
+    "title": "P3项目楼层总高度应控制在24米以内",
+    "category_l1": "待人工归类",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 489,
+    "rule_id": "LF-AGR-REVIEW-AGR-0226",
+    "title": "P3项目应实现覆盖率最大化",
+    "category_l1": "整体定位与规划逻辑",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 490,
+    "rule_id": "LF-AGR-REVIEW-AGR-0235",
+    "title": "根据项目的区位和定位，P2/P3项目应极致压缩地库面积和车位配比，保证车位周转率",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 491,
+    "rule_id": "LF-AGR-REVIEW-AGR-0273",
+    "title": "针对低效的次主力店KTV，其目标面积应控制在500平方米。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 492,
+    "rule_id": "LF-AGR-REVIEW-AGR-0274",
+    "title": "针对低效的次主力店健身房，其目标面积应控制在250~1000平方米。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 493,
+    "rule_id": "LF-AGR-REVIEW-AGR-0275",
+    "title": "杭州城北万象城中，星聚会次主力店的面积为593平方米。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 494,
+    "rule_id": "LF-AGR-REVIEW-AGR-0276",
+    "title": "杭州城北万象城中，刻健身次主力店的面积为3180平方米。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 495,
+    "rule_id": "LF-AGR-REVIEW-AGR-0302",
+    "title": "影院大堂面积应控制在120~200m²之间",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 496,
+    "rule_id": "LF-AGR-REVIEW-AGR-0304",
+    "title": "6厅影院的大堂面积不大于150m²",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 497,
+    "rule_id": "LF-AGR-REVIEW-AGR-0305",
+    "title": "8厅影院的大堂面积不大于200m²",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 498,
+    "rule_id": "LF-AGR-REVIEW-AGR-0321",
+    "title": "影院大堂面积应为120平方米。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 499,
+    "rule_id": "LF-AGR-REVIEW-AGR-0323",
+    "title": "影院大堂等候空间宽度应不小于6米。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 500,
+    "rule_id": "LF-AGR-REVIEW-AGR-0324",
+    "title": "影院大堂工作区域面积应为45平方米。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 501,
+    "rule_id": "LF-AGR-REVIEW-AGR-0325",
+    "title": "影院大堂分区面积应为80平方米。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 502,
+    "rule_id": "LF-AGR-REVIEW-AGR-0326",
+    "title": "影院大堂通道宽度为2.7米。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 503,
+    "rule_id": "LF-AGR-REVIEW-AGR-0327",
+    "title": "影院大堂通道宽度为2.2米。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 504,
+    "rule_id": "LF-AGR-REVIEW-AGR-0357",
+    "title": "下沉广场应提供早市到达路径，并解决部分疏散宽度问题。",
+    "category_l1": "待人工归类",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 505,
+    "rule_id": "LF-AGR-REVIEW-AGR-0359",
+    "title": "一字型动线的超市应设置于非TOD项目的端头位置。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 506,
+    "rule_id": "LF-AGR-REVIEW-AGR-0364",
+    "title": "如果项目设有下沉广场，应利用其提供早市到达路径，并解决部分疏散宽度问题。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 507,
+    "rule_id": "LF-AGR-REVIEW-AGR-0365",
+    "title": "当冰场坪效低于或等于182元/月/m²时（以狮山项目为例），应将其视为低坪效区域",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 508,
+    "rule_id": "LF-AGR-REVIEW-AGR-0367",
+    "title": "新建项目应通过调整骨架来优化主中庭洞口形态，以消化两侧大铺的进深，从而提升沿主中",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 509,
+    "rule_id": "LF-AGR-REVIEW-AGR-0369",
+    "title": "筹开项目应通过策略刷新和骨架优化，在开业前消除低坪效大铺，以提升整体商业效益。",
+    "category_l1": "整体定位与规划逻辑",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 510,
+    "rule_id": "LF-AGR-REVIEW-AGR-0370",
+    "title": "筹开项目应对主力店面积进行精准预控，以确保商业布局的合理性和效益。",
+    "category_l1": "整体定位与规划逻辑",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 511,
+    "rule_id": "LF-AGR-REVIEW-AGR-0371",
+    "title": "北京长楹天街B1层850㎡尽端大铺，规划切分为6个品牌的新能源展区。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 512,
+    "rule_id": "LF-AGR-REVIEW-AGR-0372",
+    "title": "成都西宸天街3F塔楼核心筒周边设环形动线。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 513,
+    "rule_id": "LF-AGR-REVIEW-AGR-0373",
+    "title": "成都西宸天街3F入口处集中设接待区。",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 514,
+    "rule_id": "LF-AGR-REVIEW-AGR-0374",
+    "title": "成都西宸天街3F设置内切小铺。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 515,
+    "rule_id": "LF-AGR-REVIEW-AGR-0375",
+    "title": "成都西宸天街3F设置教培集合区。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 516,
+    "rule_id": "LF-AGR-REVIEW-AGR-0376",
+    "title": "杭州滨江天街3F尽端大铺合并后集中规划设置儿童业态集合区。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 517,
+    "rule_id": "LF-AGR-REVIEW-AGR-0377",
+    "title": "杭州滨江天街3F尽端设置景观活动区，以吸引儿童停留。",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 518,
+    "rule_id": "LF-AGR-REVIEW-AGR-0386",
+    "title": "上海宝山多经点位的铺位得率占比为0.46%。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 519,
+    "rule_id": "LF-AGR-REVIEW-AGR-0387",
+    "title": "上海宝山多经点位的店铺坪效平均值为9244元/㎡。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 520,
+    "rule_id": "LF-AGR-REVIEW-AGR-0388",
+    "title": "上海宝山多经点位的租赁面积占比为0.79%。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 521,
+    "rule_id": "LF-AGR-REVIEW-AGR-0389",
+    "title": "上海宝山多经点位的销售额占比为2.94%。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 522,
+    "rule_id": "LF-AGR-REVIEW-AGR-0390",
+    "title": "成都锦宸多经点位的铺位得率占比为0.51%。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 523,
+    "rule_id": "LF-AGR-REVIEW-AGR-0391",
+    "title": "成都锦宸多经点位的店铺坪效平均值为6485元/㎡。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 524,
+    "rule_id": "LF-AGR-REVIEW-AGR-0392",
+    "title": "成都锦宸多经点位的租赁面积占比为0.85%。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 525,
+    "rule_id": "LF-AGR-REVIEW-AGR-0393",
+    "title": "成都锦宸多经点位的销售额占比为3.74%。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 526,
+    "rule_id": "LF-AGR-REVIEW-AGR-0403",
+    "title": "地下零售多经面积为8-12平方米。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 527,
+    "rule_id": "LF-AGR-REVIEW-AGR-0405",
+    "title": "地下餐饮多经面积为16-20平方米。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 528,
+    "rule_id": "LF-AGR-REVIEW-AGR-0412",
+    "title": "首层零售多经面积为16-20平方米。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 529,
+    "rule_id": "LF-AGR-REVIEW-AGR-0420",
+    "title": "标准零售层（2F及以上）多经点位预留的标准中庭连桥宽度为6米。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 530,
+    "rule_id": "LF-AGR-REVIEW-AGR-0421",
+    "title": "标准零售层（2F及以上）多经点位预留的靠近主中庭位置连桥宽度为6-8米。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 531,
+    "rule_id": "LF-AGR-REVIEW-AGR-0423",
+    "title": "L2标准零售层零售多经面积为16-20平方米。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 532,
+    "rule_id": "LF-AGR-REVIEW-AGR-0427",
+    "title": "L3标准零售层零售数码多经面积为10-25平方米。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 533,
+    "rule_id": "LF-AGR-REVIEW-AGR-0432",
+    "title": "L4及以上餐饮及影院大厅层零售餐饮多经面积为16-20平方米。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 534,
+    "rule_id": "LF-AGR-REVIEW-AGR-0443",
+    "title": "综合经济性和可视效果（针对三个楼层铺面），中庭洞口宽度宜为7-8米。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 535,
+    "rule_id": "LF-AGR-REVIEW-AGR-0444",
+    "title": "10米中庭洞口可保证3个楼层店面80%可视，且两个楼层店招可视。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 536,
+    "rule_id": "LF-AGR-REVIEW-AGR-0445",
+    "title": "8米中庭洞口可保证3个楼层店面60%可视，且两个楼层店招可视。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 537,
+    "rule_id": "LF-AGR-REVIEW-AGR-0446",
+    "title": "7米中庭洞口可保证3个楼层店面50%可视，且两个楼层店招可视。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 538,
+    "rule_id": "LF-AGR-REVIEW-AGR-0447",
+    "title": "6米中庭洞口可保证2个楼层店面30%可视，且一个楼层店招可视。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 539,
+    "rule_id": "LF-AGR-REVIEW-AGR-0451",
+    "title": "端头中庭扶梯应根据项目洞口形状，采用分游逛式、不对称叠放或斜拉错位布局。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 540,
+    "rule_id": "LF-AGR-REVIEW-AGR-0472",
+    "title": "L1层中庭开洞面积示例为200m²。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 541,
+    "rule_id": "LF-AGR-REVIEW-AGR-0473",
+    "title": "L1层中庭开洞面积示例为250m²。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 542,
+    "rule_id": "LF-AGR-REVIEW-AGR-0474",
+    "title": "B1层中庭开洞面积示例为300m²。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 543,
+    "rule_id": "LF-AGR-REVIEW-AGR-0475",
+    "title": "B1层中庭开洞面积示例为200m²。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 544,
+    "rule_id": "LF-AGR-REVIEW-AGR-0476",
+    "title": "B2层中庭开洞面积示例为130m²。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 545,
+    "rule_id": "LF-AGR-REVIEW-AGR-0477",
+    "title": "B2层中庭开洞面积示例为150m²。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 546,
+    "rule_id": "LF-AGR-REVIEW-AGR-0487",
+    "title": "下沉广场宜采用外挂形式。",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 547,
+    "rule_id": "LF-AGR-REVIEW-AGR-0504",
+    "title": "当判断下层餐饮包含中岛餐饮时，应选择不可视扶梯洞口，洞口面积为60-80m²。",
+    "category_l1": "TOD与地下商业",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 548,
+    "rule_id": "LF-AGR-REVIEW-AGR-0505",
+    "title": "当判断下层餐饮不包含中岛餐饮时，应选择可视扶梯洞口，洞口面积为120-180m²",
+    "category_l1": "TOD与地下商业",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 549,
+    "rule_id": "LF-AGR-REVIEW-AGR-0506",
+    "title": "当判断下层零售业态级次或精装场景质量较低时，应选择节点中庭洞口（至少选择一组活动",
+    "category_l1": "TOD与地下商业",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 550,
+    "rule_id": "LF-AGR-REVIEW-AGR-0507",
+    "title": "当判断下层零售业态级次或精装场景质量较高时，可选择纯可视洞口（尽可能避免，一事一",
+    "category_l1": "TOD与地下商业",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 551,
+    "rule_id": "LF-AGR-REVIEW-AGR-0508",
+    "title": "零售动线中，边铺与岛铺之间的主要走道宽度为3米。",
+    "category_l1": "TOD与地下商业",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 552,
+    "rule_id": "LF-AGR-REVIEW-AGR-0509",
+    "title": "零售动线中，岛铺的宽度范围为2-5米。",
+    "category_l1": "TOD与地下商业",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 553,
+    "rule_id": "LF-AGR-REVIEW-AGR-0510",
+    "title": "餐饮区域外摆的宽度范围为1.5-3米。",
+    "category_l1": "TOD与地下商业",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 554,
+    "rule_id": "LF-AGR-REVIEW-AGR-0511",
+    "title": "餐饮区域主走道宽度为±4.5米。",
+    "category_l1": "TOD与地下商业",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 555,
+    "rule_id": "LF-AGR-REVIEW-AGR-0512",
+    "title": "餐饮区域次走道宽度为3米。",
+    "category_l1": "TOD与地下商业",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 556,
+    "rule_id": "LF-AGR-REVIEW-AGR-0513",
+    "title": "宽骨架下复合空间组合中，外摆的宽度范围为1.5-3米。",
+    "category_l1": "TOD与地下商业",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 557,
+    "rule_id": "LF-AGR-REVIEW-AGR-0514",
+    "title": "宽骨架下复合空间组合中，单个岛铺的宽度为3米。",
+    "category_l1": "TOD与地下商业",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 558,
+    "rule_id": "LF-AGR-REVIEW-AGR-0515",
+    "title": "宽骨架下复合空间组合中，双岛铺组合的总宽度为8米。",
+    "category_l1": "TOD与地下商业",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 559,
+    "rule_id": "LF-AGR-REVIEW-AGR-0516",
+    "title": "宽骨架下复合空间组合中，岛铺与外摆之间的走道宽度为3米。",
+    "category_l1": "TOD与地下商业",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 560,
+    "rule_id": "LF-AGR-REVIEW-AGR-0527",
+    "title": "室外下沉广场连接型TOD接驳，采用条件为地铁口临近天街转角广场入口或与公共绿地贴",
+    "category_l1": "TOD与地下商业",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 561,
+    "rule_id": "LF-AGR-REVIEW-AGR-0528",
+    "title": "室外下沉广场连接型TOD接驳，设计要点为空间与流线整合。",
+    "category_l1": "TOD与地下商业",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 562,
+    "rule_id": "LF-AGR-REVIEW-AGR-0529",
+    "title": "室外下沉广场连接型TOD接驳，设计要点为环境与氛围营造。",
+    "category_l1": "TOD与地下商业",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 563,
+    "rule_id": "LF-AGR-REVIEW-AGR-0530",
+    "title": "室外下沉广场连接型TOD接驳，设计要点为清晰的标识系统。",
+    "category_l1": "TOD与地下商业",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 564,
+    "rule_id": "LF-AGR-REVIEW-AGR-0545",
+    "title": "室外下沉广场连接：出入口应合建。",
+    "category_l1": "TOD与地下商业",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 565,
+    "rule_id": "LF-AGR-REVIEW-AGR-0546",
+    "title": "室外下沉广场连接：连接区域应进行庭院场景化设计。",
+    "category_l1": "TOD与地下商业",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 566,
+    "rule_id": "LF-AGR-REVIEW-AGR-0547",
+    "title": "室外下沉广场连接：连接路径应实现无雨衔接。",
+    "category_l1": "TOD与地下商业",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 567,
+    "rule_id": "LF-AGR-REVIEW-AGR-0548",
+    "title": "室外下沉广场连接：应采用多首层设计。",
+    "category_l1": "整体定位与规划逻辑",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 568,
+    "rule_id": "LF-AGR-REVIEW-AGR-0549",
+    "title": "室外下沉广场连接：应融合生态场景。",
+    "category_l1": "整体定位与规划逻辑",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  },
+  {
+    "priority_rank": 569,
+    "rule_id": "LF-AGR-REVIEW-AGR-0550",
+    "title": "室外下沉广场连接：餐饮布局应为围合式。",
+    "category_l1": "整体定位与规划逻辑",
+    "review_bucket": "case_specific_example",
+    "merge_recommendation": "hold_as_reference_only",
+    "confidence_score": 0.42,
+    "duplicate_of_rule_id": null
+  }
+]

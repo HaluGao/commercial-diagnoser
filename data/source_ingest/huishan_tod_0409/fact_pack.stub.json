@@ -1,0 +1,154 @@
+{
+  "document_id": "huishan_tod_0409",
+  "project_name": "惠山TOD项目",
+  "input_files": [
+    {
+      "path": "/Users/halu/Library/Mobile Documents/com~apple~CloudDocs/Work/2026 work/02 AI Projects/01 平面诊断（基于集团标准）/资料/项目平面参考/惠山TOD平面汇总-0409.pdf",
+      "file_type": "pdf",
+      "page_count": 11
+    }
+  ],
+  "pages": [
+    {
+      "page_index": 0,
+      "page_label": "惠山TOD项目",
+      "text_blocks": [
+        {
+          "text": "惠山TOD项目",
+          "confidence": 1.0,
+          "bbox": null
+        }
+      ],
+      "visual_regions": []
+    },
+    {
+      "page_index": 1,
+      "page_label": "总平面图",
+      "text_blocks": [
+        {
+          "text": "总平面图",
+          "confidence": 1.0,
+          "bbox": null
+        }
+      ],
+      "visual_regions": []
+    },
+    {
+      "page_index": 2,
+      "page_label": "B2F平面图",
+      "text_blocks": [
+        {
+          "text": "B2F平面图",
+          "confidence": 1.0,
+          "bbox": null
+        }
+      ],
+      "visual_regions": []
+    },
+    {
+      "page_index": 3,
+      "page_label": "B1F平面图",
+      "text_blocks": [
+        {
+          "text": "B1F平面图",
+          "confidence": 1.0,
+          "bbox": null
+        }
+      ],
+      "visual_regions": []
+    },
+    {
+      "page_index": 4,
+      "page_label": "1F平面图",
+      "text_blocks": [
+        {
+          "text": "1F平面图",
+          "confidence": 1.0,
+          "bbox": null
+        }
+      ],
+      "visual_regions": []
+    },
+    {
+      "page_index": 5,
+      "page_label": "2F平面图",
+      "text_blocks": [
+        {
+          "text": "2F平面图",
+          "confidence": 1.0,
+          "bbox": null
+        }
+      ],
+      "visual_regions": []
+    },
+    {
+      "page_index": 6,
+      "page_label": "3F平面图",
+      "text_blocks": [
+        {
+          "text": "3F平面图",
+          "confidence": 1.0,
+          "bbox": null
+        }
+      ],
+      "visual_regions": []
+    },
+    {
+      "page_index": 7,
+      "page_label": "4F平面图",
+      "text_blocks": [
+        {
+          "text": "4F平面图",
+          "confidence": 1.0,
+          "bbox": null
+        }
+      ],
+      "visual_regions": []
+    },
+    {
+      "page_index": 8,
+      "page_label": "5F平面图",
+      "text_blocks": [
+        {
+          "text": "5F平面图",
+          "confidence": 1.0,
+          "bbox": null
+        }
+      ],
+      "visual_regions": []
+    },
+    {
+      "page_index": 9,
+      "page_label": "6F平面图",
+      "text_blocks": [
+        {
+          "text": "6F平面图",
+          "confidence": 1.0,
+          "bbox": null
+        }
+      ],
+      "visual_regions": []
+    },
+    {
+      "page_index": 10,
+      "page_label": "6F夹层平面图",
+      "text_blocks": [
+        {
+          "text": "6F夹层平面图",
+          "confidence": 1.0,
+          "bbox": null
+        }
+      ],
+      "visual_regions": []
+    }
+  ],
+  "recognized_elements": [],
+  "derived_facts": [],
+  "uncertainties": [
+    {
+      "topic": "visual_region_detection",
+      "reason": "Visual regions have not been annotated yet.",
+      "recommended_followup": "Run the next-stage page region parser and element recognizer."
+    }
+  ]
+}

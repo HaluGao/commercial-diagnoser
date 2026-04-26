@@ -1,0 +1,359 @@
+{
+  "report_id": "huishan_tod_draft_v0",
+  "project_info": {
+    "project_name": "惠山TOD项目",
+    "input_types": [
+      "pdf"
+    ],
+    "asset_mix": [
+      "mall",
+      "mixed_use"
+    ]
+  },
+  "executive_summary": {
+    "overall_view": "惠山TOD项目的商业骨架较完整，线性主流线与节点串联关系清晰，具备较强的首轮可读性。当前最值得优先关注的不是骨架是否成立，而是TOD主到达界面价值是否被充分转化、长动线是否存在中后段疲劳风险，以及高层东端复杂转折区的端头效率问题。",
+    "key_strengths": [
+      "一字型主流线清晰，西中东节点串联关系明确。",
+      "二层形成连续的中庭与扶梯节点，竖向组织基础较好。",
+      "南侧滨水界面具备被转化为体验价值的潜力。"
+    ],
+    "key_risks": [
+      "东侧TOD主界面与主入口导流逻辑在当前图面中尚不够明确。",
+      "高层东端复杂转折区可能存在低效端头和异形铺位风险。",
+      "主流线长度与节奏是否满足建标控制区间仍需进一步校核。"
+    ]
+  },
+  "issues": [
+    {
+      "item_id": "issue-001",
+      "title": "高层东端复杂转折区存在低效端头空间风险",
+      "category_l1": "租户落位与铺位效率",
+      "category_l2": "低坪效大铺优化",
+      "finding_type": "error",
+      "basis_type": "group_standard",
+      "severity": "medium",
+      "summary": "从三层和四层平面看，东端转折区的空间边界更复杂，支路与端头增多，存在形成低效尽端或异形低坪效铺位的风险。",
+      "detailed_analysis": "项目的中段骨架较顺，但高层东端开始出现更强的转折和支路空间。若这些位置未通过主力功能、体验节点或边界重组得到有效消化，后续容易出现价值释放不足、客流覆盖弱和经营效率偏低的问题。",
+      "evidence_refs": [
+        {
+          "page_index": 6,
+          "region_id": "htod-p6-east-complex",
+          "description": "三层东端复合节点与支路空间。"
+        },
+        {
+          "page_index": 7,
+          "region_id": "htod-p7-east-branches",
+          "description": "四层东端更复杂的端头与支路组织。"
+        }
+      ],
+      "rule_refs": [
+        "LF-C2-LOW-EFFICIENCY-END-0001"
+      ],
+      "recommendation": "建议把东端高层区域作为重点专题复核，检查端头、异形铺位和支路末端是否能通过边界重组、体验功能补入或主力节点强化来释放价值。",
+      "confidence": 0.78
+    },
+    {
+      "item_id": "issue-002",
+      "title": "主流线长度与节奏需要对照建标进一步校核",
+      "category_l1": "动线与客流分发",
+      "category_l2": "主流线尺度",
+      "finding_type": "error",
+      "basis_type": "group_standard",
+      "severity": "medium",
+      "summary": "项目的一字型骨架非常明确，但从图面形态判断，主流线长度较长，需重点复核其是否落在建标建议区间，并防止中后段出现客流疲劳。",
+      "detailed_analysis": "一字型骨架是项目的主要优势，但长条形商业同样最容易出现节奏稀释和中后段吸附力减弱的问题。当前二层已通过节点和中庭强化节奏，这是积极信号，但仍建议补充尺度级校核，避免骨架成立而节奏失衡。",
+      "evidence_refs": [
+        {
+          "page_index": 4,
+          "region_id": "htod-p4-main-spine",
+          "description": "首层线性主流线从西侧贯通至东端。"
+        },
+        {
+          "page_index": 5,
+          "region_id": "htod-p5-central-atrium",
+          "description": "二层沿主流线布置多个节点，但整体长度仍较大。"
+        }
+      ],
+      "rule_refs": [
+        "LF-STD-CIRCULATION-0001"
+      ],
+      "recommendation": "建议在下一轮中补充主流线长度和平均进深的定量校核，并同步评估节点间距是否足以支撑一字型骨架的连续逛游体验。",
+      "confidence": 0.63
+    }
+  ],
+  "optimizations": [
+    {
+      "item_id": "opt-001",
+      "title": "东侧TOD主界面可进一步强化为更明确的主到达与展示界面",
+      "category_l1": "整体定位与规划逻辑",
+      "category_l2": "到达与交通组织",
+      "finding_type": "optimization",
+      "basis_type": "group_standard",
+      "severity": "high",
+      "summary": "总平显示东侧城市界面和TOD接驳价值较高，建议进一步强化其作为主到达面和项目识别面的角色。",
+      "detailed_analysis": "对于TOD属性较强的项目，高价值界面不宜仅承担通行功能，更需要兼顾到达识别、导流效率和展示性。如果东侧界面能够更明确地导入一二层主流线，项目整体的首到达体验会更完整。",
+      "evidence_refs": [
+        {
+          "page_index": 1,
+          "region_id": "htod-p1-east-arrival",
+          "description": "东侧城市主界面与TOD接驳关系区域。"
+        },
+        {
+          "page_index": 4,
+          "region_id": "htod-p4-east-turn",
+          "description": "首层主流线在东端发生转折并与外部界面连接。"
+        }
+      ],
+      "rule_refs": [
+        "LF-C2-SUPERMARKET-0001"
+      ],
+      "recommendation": "建议进一步明确东侧主入口位置、视线引导和到达后的第一段导流路径，避免高价值界面被弱展示性功能或模糊入口关系削弱。",
+      "confidence": 0.73
+    },
+    {
+      "item_id": "opt-002",
+      "title": "B1层可进一步承担TOD和停车客流的主动转化功能",
+      "category_l1": "整体定位与规划逻辑",
+      "category_l2": "到达与交通组织",
+      "finding_type": "optimization",
+      "basis_type": "group_standard",
+      "severity": "medium",
+      "summary": "B1层已具备连续商业带和节点空间基础，但仍可更主动地承担TOD和地库客流向商业价值的转化。",
+      "detailed_analysis": "B1层在TOD型项目中不应只是过渡层，而更应成为客流再分配和业态承接的重要层级。当前惠山TOD的B1已经呈现出较强的商业连续性，后续可以进一步检查其与交通接驳、通勤业态和停车导流的协同效率。",
+      "evidence_refs": [
+        {
+          "page_index": 3,
+          "region_id": "htod-p3-west-anchor",
+          "description": "B1层商业与停车混合布局，西侧有大面积主力功能区。"
+        },
+        {
+          "page_index": 3,
+          "region_id": "htod-p3-east-node",
+          "description": "B1东端节点空间具备导流与转化潜力。"
+        }
+      ],
+      "rule_refs": [
+        "LF-C2-B1-METRO-0001"
+      ],
+      "recommendation": "建议把B1层作为专项复核对象，重点判断交通导入、通勤型业态和地库联通效率是否已形成清晰策略。",
+      "confidence": 0.77
+    },
+    {
+      "item_id": "opt-003",
+      "title": "西侧主力店锚点可进一步强化与中段骨架的协同牵引",
+      "category_l1": "租户落位与铺位效率",
+      "category_l2": "主力店落位",
+      "finding_type": "optimization",
+      "basis_type": "group_standard",
+      "severity": "medium",
+      "summary": "西侧大面积主力功能区已具备较强锚点属性，下一步更值得关注其前场空间、导流界面和对中段客流的持续牵引能力。",
+      "detailed_analysis": "从B1和1F平面看，西端承担了较大体量的功能锚点。若前场空间表达不足，或主力店与主流线衔接只是物理邻接而非运营协同，锚点价值可能难以最大化。",
+      "evidence_refs": [
+        {
+          "page_index": 3,
+          "region_id": "htod-p3-west-anchor",
+          "description": "B1西侧大面积主力功能区。"
+        },
+        {
+          "page_index": 4,
+          "region_id": "htod-p4-west-anchor",
+          "description": "1F西侧大铺/主力店区。"
+        }
+      ],
+      "rule_refs": [
+        "LF-C2-MAIN-ANCHOR-0001"
+      ],
+      "recommendation": "建议后续重点复核西侧主力店前场尺度、停留价值和视线组织，确保其能够有效牵引中段及上层客流。",
+      "confidence": 0.75
+    },
+    {
+      "item_id": "opt-004",
+      "title": "二层节点与扶梯系统已具备良好基础，可进一步优化换层动力",
+      "category_l1": "动线与客流分发",
+      "category_l2": "竖向动线",
+      "finding_type": "optimization",
+      "basis_type": "group_standard",
+      "severity": "medium",
+      "summary": "二层中庭和扶梯的耦合关系较好，是项目的明显优势，但仍可继续优化节点间的节奏和换层吸附力。",
+      "detailed_analysis": "从二层平面看，扶梯沿主要节点连续设置，说明项目已经有较成熟的竖向导流意识。下一步的优化重点不在是否设置扶梯，而在于节点之间的体验差异化、视线连续性和中后段换层动力是否足够强。",
+      "evidence_refs": [
+        {
+          "page_index": 5,
+          "region_id": "htod-p5-central-atrium",
+          "description": "二层连续的中庭和节点节奏。"
+        },
+        {
+          "page_index": 5,
+          "region_id": "htod-p5-west-node",
+          "description": "二层扶梯沿主流线连续排布。"
+        }
+      ],
+      "rule_refs": [
+        "LF-C2-MULTI-KIOSK-0001"
+      ],
+      "recommendation": "建议在后续深化中把扶梯节点与中庭界面的展示、休憩和多经控制一并考虑，避免节点空间被平均化处理。",
+      "confidence": 0.8
+    },
+    {
+      "item_id": "opt-005",
+      "title": "商业主次入口体系需要结合建标做专项复核",
+      "category_l1": "到达与交通组织",
+      "category_l2": "商业出入口",
+      "finding_type": "optimization",
+      "basis_type": "group_standard",
+      "severity": "high",
+      "summary": "从总平和首层图面看，项目已具备较强的东侧高价值界面，但主次入口数量、层级和入口联系通道是否满足建标仍需专项校核。",
+      "detailed_analysis": "TOD项目的高价值通常体现在到达界面的清晰性和入口导流效率上。当前方案已能判断东侧为高优先级到达界面，但入口位置、数量和宽度尚未通过图例与精细切图进一步确认，因此建议将入口体系列为下一轮硬性复核项。",
+      "evidence_refs": [
+        {
+          "page_index": 1,
+          "region_id": "htod-p1-east-arrival",
+          "description": "东侧城市主界面与TOD接驳关系区域。"
+        },
+        {
+          "page_index": 4,
+          "region_id": "htod-p4-east-turn",
+          "description": "首层主流线在东端发生转折并与外部界面连接。"
+        }
+      ],
+      "rule_refs": [
+        "LF-STD-ENTRY-0001"
+      ],
+      "recommendation": "建议补充主入口、次入口和入口联系通道的专项校核，重点确认入口数量、主次层级、通道净宽和入口到主流线的衔接效率。",
+      "confidence": 0.7
+    },
+    {
+      "item_id": "opt-006",
+      "title": "中庭、公区走道和扶梯组团关系建议进入同一轮尺度复核",
+      "category_l1": "空间布局与体验场景",
+      "category_l2": "中庭与公区界面",
+      "finding_type": "optimization",
+      "basis_type": "group_standard",
+      "severity": "high",
+      "summary": "二层节点组织是项目的明显优势，但中庭尺度、公区走道净宽和扶梯组团关系仍建议放在同一轮做尺度级复核，以确保体验优势能真正转化为经营效率。",
+      "detailed_analysis": "从当前图面看，二层具备连续中庭和扶梯节点，这是非常积极的基础条件。但中庭宽度是否满足建标、公区主动线和次动线是否存在局部压缩、扶梯与中庭是否存在过近或交叉遮挡等问题，仍需通过更细的量化复核来确认。",
+      "evidence_refs": [
+        {
+          "page_index": 5,
+          "region_id": "htod-p5-central-atrium",
+          "description": "二层连续的中庭和节点节奏。"
+        },
+        {
+          "page_index": 5,
+          "region_id": "htod-p5-west-node",
+          "description": "二层扶梯沿主流线连续排布。"
+        }
+      ],
+      "rule_refs": [
+        "LF-STD-ATRIUM-0001",
+        "LF-STD-WALKWAY-0001",
+        "LF-STD-ESCALATOR-0001"
+      ],
+      "recommendation": "建议将二层中庭、主次走道和扶梯组团纳入同一张专项复核图，集中验证中庭宽度、走道净宽、扶梯间距与交叉关系。",
+      "confidence": 0.82
+    },
+    {
+      "item_id": "opt-007",
+      "title": "滨水界面具备形成差异化体验场景的潜力",
+      "category_l1": "空间布局与体验场景",
+      "category_l2": "外部界面与场景",
+      "finding_type": "optimization",
+      "basis_type": "general_principle",
+      "severity": "medium",
+      "summary": "总平南侧的滨水界面是项目的重要差异化资源，后续值得重点检查其与商业界面的打开关系和场景转化能力。",
+      "detailed_analysis": "惠山TOD并不只是一个纯骨架型项目，南侧滨水资源为其提供了转化为体验型商业的可能性。如果后续界面、外摆、步行路径和首层动线能更好协同，这一界面有机会成为项目记忆点。",
+      "evidence_refs": [
+        {
+          "page_index": 1,
+          "region_id": "p1-r1",
+          "description": "总平南侧滨水景观界面。"
+        }
+      ],
+      "rule_refs": [
+        "LF-C2-LOW-EFFICIENCY-END-0001"
+      ],
+      "recommendation": "建议把滨水界面纳入专项场景策划，重点评估外摆、临水展示和慢行停留系统与商业界面的协同。",
+      "confidence": 0.72
+    }
+  ],
+  "citations": [
+    {
+      "citation_id": "cite-001",
+      "source_type": "longfor_c2",
+      "source_file": "40.png",
+      "source_locator": "案例平面对比和热力图区",
+      "quoted_or_paraphrased_text": "转角与尽端空间应通过补板、边界重组等方式转化为有效经营面积。"
+    },
+    {
+      "citation_id": "cite-002",
+      "source_type": "longfor_standard",
+      "source_file": "2024天街建标.pdf",
+      "source_locator": "第6页 动线类型条目",
+      "quoted_or_paraphrased_text": "一字动线、环形动线的平均进深和整体长度应控制在建标建议区间。"
+    },
+    {
+      "citation_id": "cite-003",
+      "source_type": "longfor_c2",
+      "source_file": "24.png",
+      "source_locator": "B1地铁客流转化说明",
+      "quoted_or_paraphrased_text": "B1层应通过高效动线和匹配业态深挖交通客流价值。"
+    },
+    {
+      "citation_id": "cite-004",
+      "source_type": "longfor_c2",
+      "source_file": "31.png",
+      "source_locator": "主力店平层影院说明",
+      "quoted_or_paraphrased_text": "主力店前场动线与端头空间应兼顾效率和价值释放。"
+    },
+    {
+      "citation_id": "cite-005",
+      "source_type": "longfor_c2",
+      "source_file": "35.png",
+      "source_locator": "超市动线与位置说明",
+      "quoted_or_paraphrased_text": "高价值TOD端头和大铺落位需要与入口及扶梯导流关系一起校准。"
+    },
+    {
+      "citation_id": "cite-006",
+      "source_type": "longfor_standard",
+      "source_file": "2024天街建标.pdf",
+      "source_locator": "第8页 商业出入口条目",
+      "quoted_or_paraphrased_text": "商业出入口的数量、宽度和与主流线的关系应满足建标基本控制要求。"
+    },
+    {
+      "citation_id": "cite-007",
+      "source_type": "longfor_standard",
+      "source_file": "2024天街建标.pdf",
+      "source_locator": "第8至10页 中庭、公区走道、自动扶梯条目",
+      "quoted_or_paraphrased_text": "中庭、走道和扶梯组团关系需要从尺度和视线两个层面共同复核。"
+    }
+  ],
+  "appendix": {
+    "evidence_images": [
+        {
+          "image_id": "img-001",
+          "caption": "东侧TOD到达与主界面局部证据图",
+          "path": "/Users/halu/Desktop/codex/commercial_diagnoser/data/source_ingest/huishan_tod_0409/evidence_regions/htod-p1-east-arrival.png"
+        },
+        {
+          "image_id": "img-002",
+          "caption": "1F东端转折与节点局部证据图",
+          "path": "/Users/halu/Desktop/codex/commercial_diagnoser/data/source_ingest/huishan_tod_0409/evidence_regions/htod-p4-east-turn.png"
+        },
+        {
+          "image_id": "img-003",
+          "caption": "2F中部中庭与连桥局部证据图",
+          "path": "/Users/halu/Desktop/codex/commercial_diagnoser/data/source_ingest/huishan_tod_0409/evidence_regions/htod-p5-central-atrium.png"
+        },
+        {
+          "image_id": "img-004",
+          "caption": "3F东端复合节点局部证据图",
+          "path": "/Users/halu/Desktop/codex/commercial_diagnoser/data/source_ingest/huishan_tod_0409/evidence_regions/htod-p6-east-complex.png"
+        },
+        {
+          "image_id": "img-005",
+          "caption": "4F东端支路与端头局部证据图",
+          "path": "/Users/halu/Desktop/codex/commercial_diagnoser/data/source_ingest/huishan_tod_0409/evidence_regions/htod-p7-east-branches.png"
+        }
+      ]
+    }
+  }

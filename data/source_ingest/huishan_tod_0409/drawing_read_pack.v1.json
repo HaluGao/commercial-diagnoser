@@ -1,0 +1,222 @@
+{
+  "document_id": "huishan_tod_0409",
+  "project_name": "惠山TOD项目",
+  "page_reads": [
+    {
+      "page_index": 1,
+      "page_label": "总平面图",
+      "page_type": "site_plan",
+      "read_summary": "项目主体沿北侧和东侧展开，东侧面向高价值城市界面，南侧则形成较完整的滨水景观空间。",
+      "key_objects": [
+        "东侧主界面",
+        "南侧滨水界面",
+        "主体商业体量"
+      ],
+      "key_relations": [
+        "东侧城市界面与项目到达关系强",
+        "南侧滨水界面具备场景转化潜力"
+      ],
+      "confidence": 0.82
+    },
+    {
+      "page_index": 3,
+      "page_label": "B1F平面图",
+      "page_type": "basement_plan",
+      "read_summary": "B1层并非单纯地库过渡层，而是具备连续商业带、主力功能区和节点空间的交通转化层。",
+      "key_objects": [
+        "B1连续商业带",
+        "西侧主力功能区",
+        "东端节点口部"
+      ],
+      "key_relations": [
+        "西侧主力功能区与中段商业带形成牵引关系",
+        "东端节点具备承接外部流量的潜力"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "page_index": 4,
+      "page_label": "1F平面图",
+      "page_type": "floor_plan",
+      "read_summary": "首层形成较清晰的一字型主流线，西侧主力店锚点、中部节点和东端转折共同构成首层主骨架。",
+      "key_objects": [
+        "西侧主力店",
+        "中段主流线",
+        "东端转折节点"
+      ],
+      "key_relations": [
+        "西侧主力店承担端部牵引作用",
+        "东端转折与外部到达界面关系密切"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "page_index": 5,
+      "page_label": "2F平面图",
+      "page_type": "floor_plan",
+      "read_summary": "二层在一字型骨架上叠加了多个中庭、连桥和扶梯节点，形成更完整的换层与聚客节奏。",
+      "key_objects": [
+        "西端环形节点",
+        "中部中庭",
+        "东端椭圆节点",
+        "连续扶梯"
+      ],
+      "key_relations": [
+        "多个节点沿主流线有节奏地布置",
+        "扶梯与节点空间耦合度较高"
+      ],
+      "confidence": 0.91
+    },
+    {
+      "page_index": 6,
+      "page_label": "3F平面图",
+      "page_type": "floor_plan",
+      "read_summary": "三层维持主骨架连续性，但东端开始出现更复合的节点和异形边界，具备体验强化潜力，也带来端头效率风险。",
+      "key_objects": [
+        "东端复合节点",
+        "异形端头",
+        "体验型功能区"
+      ],
+      "key_relations": [
+        "东端复杂节点与主流线末端强相关",
+        "高层端头效率与空间体验并存"
+      ],
+      "confidence": 0.76
+    },
+    {
+      "page_index": 7,
+      "page_label": "4F平面图",
+      "page_type": "floor_plan",
+      "read_summary": "四层整体铺位更完整，但东端支路和端头关系进一步复杂化，是高层经营效率最需要复核的部位。",
+      "key_objects": [
+        "东端支路",
+        "端头空间",
+        "复合节点"
+      ],
+      "key_relations": [
+        "东端支路与端头关系比中段复杂",
+        "高层复杂区可能形成低效尽端"
+      ],
+      "confidence": 0.79
+    },
+    {
+      "page_index": 8,
+      "page_label": "5F平面图",
+      "page_type": "floor_plan",
+      "read_summary": "五层整体仍保持主要商业骨架和中庭关系，说明高层并未完全脱离标准商业逻辑，但东端复杂区仍需重点复核。",
+      "key_objects": [
+        "高层主骨架",
+        "中部中庭",
+        "东端复杂区"
+      ],
+      "key_relations": [
+        "高层骨架延续低层逻辑",
+        "东端复杂区在高层持续存在"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "page_index": 9,
+      "page_label": "6F平面图",
+      "page_type": "floor_plan",
+      "read_summary": "六层不再是典型标准零售层，而更像大空间或复合功能层，中部开敞空间与两侧独立功能区关系明显。",
+      "key_objects": [
+        "中部开敞空间",
+        "东侧独立功能区",
+        "西侧独立功能区"
+      ],
+      "key_relations": [
+        "六层空间组织已明显区别于标准零售层",
+        "高层功能开始向复合大空间转化"
+      ],
+      "confidence": 0.72
+    },
+    {
+      "page_index": 10,
+      "page_label": "6F夹层平面图",
+      "page_type": "floor_plan",
+      "read_summary": "6F夹层进一步说明高层空间具有复合运营属性，多个夹层区域叠加在六层主空间之上，显示其并非单一标准商业层。",
+      "key_objects": [
+        "夹层区域",
+        "高层复合空间",
+        "局部运营界面"
+      ],
+      "key_relations": [
+        "夹层与六层主空间构成复合运营关系",
+        "高层空间需要与标准零售层分开理解"
+      ],
+      "confidence": 0.71
+    }
+  ],
+  "cross_page_understanding": [
+    {
+      "topic": "整体商业骨架",
+      "statement": "项目以一字型骨架为主，西中东节点串联清晰，是一个骨架先行型商业平面。",
+      "supporting_pages": [
+        4,
+        5
+      ],
+      "confidence": 0.92
+    },
+    {
+      "topic": "TOD到达与导流",
+      "statement": "项目东侧面向高价值城市界面和TOD到达方向，首轮应重点复核东侧主到达界面是否被充分转化。",
+      "supporting_pages": [
+        1,
+        4
+      ],
+      "confidence": 0.73
+    },
+    {
+      "topic": "B1交通转化",
+      "statement": "B1层具备连续商业带和节点空间，不应被理解为纯交通层，而更应被视作TOD和停车客流转化层。",
+      "supporting_pages": [
+        3,
+        4
+      ],
+      "confidence": 0.81
+    },
+    {
+      "topic": "高层东端风险",
+      "statement": "三层和四层的东端复杂区是当前图纸中最可能出现经营效率偏弱和低效端头风险的部位。",
+      "supporting_pages": [
+        6,
+        7
+      ],
+      "confidence": 0.8
+    },
+    {
+      "topic": "高层功能转化",
+      "statement": "从五层到六层、六层夹层，项目开始由标准零售层逐步转向复合功能与大空间运营逻辑，高层解读不宜完全套用低层零售层的判断方法。",
+      "supporting_pages": [
+        8,
+        9,
+        10
+      ],
+      "confidence": 0.76
+    }
+  ],
+  "confirmed_points": [
+    "1F和2F都存在明确的一字型主流线。",
+    "2F存在多个中庭/空洞型节点。",
+    "西侧存在大面积主力功能区。",
+    "高层东端复杂度明显高于中段。",
+    "5F、6F和6F夹层已经显现出高层功能转化特征。"
+  ],
+  "inferred_points": [
+    {
+      "statement": "东侧大概率承担主到达界面角色。",
+      "reason": "总平和首层转折关系支持这一判断，但缺少精确入口标注识别。"
+    },
+    {
+      "statement": "三层东端复合区可能承载体验型或社交型业态。",
+      "reason": "节点形态和空间组织显示其区别于标准零售段，但未读到清晰业态文字。"
+    }
+  ],
+  "open_questions": [
+    "主入口和次入口的精确位置分别在哪里？",
+    "东侧高价值界面最终承接的是何种主力业态或展示界面？",
+    "2F中庭和走道宽度是否满足建标下限？",
+    "主流线长度与平均进深是否落在建标建议区间？"
+  ]
+}

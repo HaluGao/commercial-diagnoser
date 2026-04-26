@@ -1,0 +1,81 @@
+{
+  "manifest_id": "project-plane-reference-2026-04-09",
+  "source_dir": "/Users/halu/Library/Mobile Documents/com~apple~CloudDocs/Work/2026 work/02 AI Projects/01 平面诊断（基于集团标准）/资料/项目平面参考",
+  "created_at": "2026-04-09",
+  "notes": [
+    "Three project sample PDFs were provided by the user for the first diagnosis pass.",
+    "The first page of each PDF is a cover page.",
+    "The second page of each PDF is a site plan page suitable for initial visual parsing.",
+    "Text extraction from the first two pages is minimal, so these files should be treated as drawing-heavy PDFs and parsed with visual understanding first, OCR second."
+  ],
+  "samples": [
+    {
+      "sample_id": "ningbo_xiaogang_0409",
+      "project_name": "宁波小岗项目",
+      "file_path": "/Users/halu/Library/Mobile Documents/com~apple~CloudDocs/Work/2026 work/02 AI Projects/01 平面诊断（基于集团标准）/资料/项目平面参考/宁波小岗平面汇总-0409.pdf",
+      "file_name": "宁波小岗平面汇总-0409.pdf",
+      "page_count": 9,
+      "size_mb": 24.22,
+      "text_chars_first_two_pages": 10,
+      "content_profile": "drawing_heavy_pdf",
+      "page_1_label": "项目封面",
+      "page_2_label": "总平面图",
+      "cover_preview_path": "/Users/halu/Desktop/codex/tmp/pdfs/project_samples_previews/宁波小岗平面汇总-0409.pdf.png",
+      "page_2_preview_path": "/Users/halu/Desktop/codex/tmp/pdfs/page2_previews/ningbo_xiaogang_p2.png",
+      "initial_observations": [
+        "地块近似不规则多边形，外围城市道路关系较完整。",
+        "总平面中商业主体较居中，中央空间特征明显。",
+        "适合作为复杂场地边界和围合商业体量的初始样本。"
+      ],
+      "recommended_use": "second_batch",
+      "reason_for_priority": "Geometry and road interface look useful, but the plan appears denser and may be better after the first parser pass is stable."
+    },
+    {
+      "sample_id": "huishan_tod_0409",
+      "project_name": "惠山TOD项目",
+      "file_path": "/Users/halu/Library/Mobile Documents/com~apple~CloudDocs/Work/2026 work/02 AI Projects/01 平面诊断（基于集团标准）/资料/项目平面参考/惠山TOD平面汇总-0409.pdf",
+      "file_name": "惠山TOD平面汇总-0409.pdf",
+      "page_count": 11,
+      "size_mb": 13.31,
+      "text_chars_first_two_pages": 11,
+      "content_profile": "drawing_heavy_pdf",
+      "page_1_label": "项目封面",
+      "page_2_label": "总平面图",
+      "cover_preview_path": "/Users/halu/Desktop/codex/tmp/pdfs/project_samples_previews/惠山TOD平面汇总-0409.pdf.png",
+      "page_2_preview_path": "/Users/halu/Desktop/codex/tmp/pdfs/page2_previews/huishan_tod_p2.png",
+      "initial_observations": [
+        "总平关系清晰，建筑主体较长条，外部河道和城市界面特征明显。",
+        "版面相对干净，首批更适合做页面切块、区域识别和证据定位。",
+        "对到达关系、沿街界面和场地边界解析较友好。"
+      ],
+      "recommended_use": "first_batch",
+      "reason_for_priority": "This file looks like the cleanest starting point for the first diagnosis pipeline because the site plan is visually readable and less crowded."
+    },
+    {
+      "sample_id": "changsha_yuye_0409",
+      "project_name": "长沙渔业路项目",
+      "file_path": "/Users/halu/Library/Mobile Documents/com~apple~CloudDocs/Work/2026 work/02 AI Projects/01 平面诊断（基于集团标准）/资料/项目平面参考/长沙渔业路平面汇总-0409.pdf",
+      "file_name": "长沙渔业路平面汇总-0409.pdf",
+      "page_count": 8,
+      "size_mb": 19.90,
+      "text_chars_first_two_pages": 11,
+      "content_profile": "drawing_heavy_pdf",
+      "page_1_label": "项目封面",
+      "page_2_label": "总平面图",
+      "cover_preview_path": "/Users/halu/Desktop/codex/tmp/pdfs/project_samples_previews/长沙渔业路平面汇总-0409.pdf.png",
+      "page_2_preview_path": "/Users/halu/Desktop/codex/tmp/pdfs/page2_previews/changsha_yuye_p2.png",
+      "initial_observations": [
+        "混合功能布局较明显，上部住宅组团和下部商业体量关系清楚。",
+        "商业与住宅复合界面较强，适合后续验证 mixed-use 识别能力。",
+        "图纸信息量较大，但首轮可用于检验业态混合判断。"
+      ],
+      "recommended_use": "second_batch",
+      "reason_for_priority": "It is valuable for mixed-use recognition, but it may be better after the first rule-matching loop is running on a simpler plan."
+    }
+  ],
+  "recommended_execution_order": [
+    "huishan_tod_0409",
+    "ningbo_xiaogang_0409",
+    "changsha_yuye_0409"
+  ]
+}

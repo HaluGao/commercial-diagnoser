@@ -1,0 +1,45 @@
+{
+  "rule_id": "LF-C2-RETAIL-SPACE-0001",
+  "title": "转角或尽端大铺应优先消化为有效租赁面积",
+  "source_type": "longfor_c2",
+  "source_file": "40.png",
+  "source_locator": {
+    "page": null,
+    "image_name": "40.png",
+    "region_hint": "页面中部案例说明区"
+  },
+  "category_l1": "租户落位与铺位效率",
+  "category_l2": "低坪效大铺优化",
+  "tags": [
+    "大铺",
+    "转角空间",
+    "尽端空间",
+    "租赁效率"
+  ],
+  "applicable_asset_types": [
+    "mall"
+  ],
+  "judgement_type": "heuristic",
+  "severity_default": "medium",
+  "rule_text": "当影院挑空空间或塔楼端头空间造成价值浪费时，应优先通过补板、调整边界或重组界面，转化为可经营的有效面积，并延续商业氛围。",
+  "interpretation": "这类规则不是硬性法规，但对于商业价值和租赁效率影响较大，适合输出为优化建议。如果方案中出现明显的消极端头或低效大铺，应提示价值释放机会。",
+  "evidence_requirement": "需在平面或空间示意中定位到消极端头、低效边角或未被利用的挑空边界。",
+  "diagnosis_targets": [
+    "void_space",
+    "anchor_store",
+    "feature_space"
+  ],
+  "trigger_clues": [
+    "端头空间面积大但无明确经营功能",
+    "挑空边缘与主流线脱节",
+    "大铺边界可调整但未释放租赁面积"
+  ],
+  "output_template": {
+    "issue_title_hint": "低效端头空间未充分转化为有效租赁面积",
+    "issue_body_hint": "当前方案在关键端头或转角位置存在空间价值未释放的情况，可能削弱经营坪效与商业氛围连续性。",
+    "recommendation_hint": "建议结合结构与消防约束，评估通过补板、边界重组或业态调整释放有效经营面积。"
+  },
+  "source_excerpt": "原影院挑空空间与塔楼端头空间价值浪费，通过补板增加租赁面积，提升坪效，延续商业氛围。",
+  "notes": "来源于 C2 工具案例页，适合作为启发式规则。"
+}
+

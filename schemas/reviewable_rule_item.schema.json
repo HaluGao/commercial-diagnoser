@@ -1,0 +1,212 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "commercial_diagnoser/reviewable_rule_item.schema.json",
+  "title": "Commercial Diagnoser Reviewable Rule Item",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "rule_id",
+    "title",
+    "source_type",
+    "source_file",
+    "source_locator",
+    "category_l1",
+    "category_l2",
+    "applicable_asset_types",
+    "judgement_type",
+    "severity_default",
+    "rule_text",
+    "interpretation",
+    "review_status",
+    "review_bucket",
+    "merge_recommendation",
+    "review_notes"
+  ],
+  "properties": {
+    "rule_id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "source_type": {
+      "type": "string",
+      "enum": [
+        "longfor_c2",
+        "longfor_standard",
+        "public_web",
+        "manual_note",
+        "case_summary",
+        "imported_antigravity"
+      ]
+    },
+    "source_file": {
+      "type": "string"
+    },
+    "source_locator": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "page",
+        "image_name",
+        "region_hint"
+      ],
+      "properties": {
+        "page": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "image_name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "region_hint": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "category_l1": {
+      "type": "string"
+    },
+    "category_l2": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "applicable_asset_types": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "judgement_type": {
+      "type": "string",
+      "enum": [
+        "hard_rule",
+        "heuristic",
+        "case_pattern"
+      ]
+    },
+    "severity_default": {
+      "type": "string",
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ]
+    },
+    "rule_text": {
+      "type": "string"
+    },
+    "interpretation": {
+      "type": "string"
+    },
+    "evidence_requirement": {
+      "type": "string"
+    },
+    "diagnosis_targets": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "trigger_clues": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "output_template": {
+      "type": "object"
+    },
+    "source_excerpt": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "review_status": {
+      "type": "string",
+      "enum": [
+        "auto_screened",
+        "needs_human_review",
+        "reviewed",
+        "promoted",
+        "rejected"
+      ]
+    },
+    "review_bucket": {
+      "type": "string",
+      "enum": [
+        "candidate_rule",
+        "near_duplicate_formal",
+        "case_specific_example",
+        "needs_category_refine",
+        "needs_manual_split"
+      ]
+    },
+    "merge_recommendation": {
+      "type": "string",
+      "enum": [
+        "candidate_for_foundation_merge",
+        "keep_in_review_base",
+        "hold_as_reference_only",
+        "reject_from_library"
+      ]
+    },
+    "confidence_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "duplicate_of_rule_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "lineage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "import_id",
+        "source_system",
+        "candidate_status"
+      ],
+      "properties": {
+        "import_id": {
+          "type": "string"
+        },
+        "source_system": {
+          "type": "string"
+        },
+        "candidate_status": {
+          "type": "string"
+        }
+      }
+    },
+    "review_notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

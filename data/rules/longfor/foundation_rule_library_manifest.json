@@ -1,0 +1,86 @@
+{
+  "library_id": "longfor-foundation-rule-library-v1",
+  "library_name": "龙湖商业建筑方案AI诊断基础规则库",
+  "version": "v1",
+  "scope_note": "本基础规则库当前只由《C2工具》和《2024天街建标》构成。惠山TOD等项目样本仅用于测试诊断链路，不属于基础规则库来源。",
+  "rule_source_boundary": {
+    "included_sources": [
+      "longfor_c2",
+      "longfor_standard_2024"
+    ],
+    "excluded_sources": [
+      "project_test_cases",
+      "huishan_tod_0409"
+    ]
+  },
+  "sources": [
+    {
+      "source_id": "longfor_c2",
+      "label": "C2工具",
+      "path": "/Users/halu/Library/Mobile Documents/com~apple~CloudDocs/Work/2026 work/02 AI Projects/01 平面诊断（基于集团标准）/资料/C2工具",
+      "role": "提供方法论、策略逻辑、案例型经验规则、产品表达和场景经营原则",
+      "source_status": "active"
+    },
+    {
+      "source_id": "longfor_standard_2024",
+      "label": "2024天街建标",
+      "path": "/Users/halu/Library/Mobile Documents/com~apple~CloudDocs/Work/2026 work/02 AI Projects/01 平面诊断（基于集团标准）/资料/2024天街建标.pdf",
+      "role": "提供硬约束、基础尺寸、技术底线和建造控制要求",
+      "source_status": "active"
+    }
+  ],
+  "rule_files": [
+    {
+      "path": "/Users/halu/Desktop/codex/commercial_diagnoser/data/rules/longfor/longfor_first_batch_rules.json",
+      "source_mix": [
+        "longfor_c2",
+        "longfor_standard_2024"
+      ],
+      "batch": 1,
+      "rule_count": 8
+    },
+    {
+      "path": "/Users/halu/Desktop/codex/commercial_diagnoser/data/rules/longfor/longfor_second_batch_rules.json",
+      "source_mix": [
+        "longfor_standard_2024"
+      ],
+      "batch": 2,
+      "rule_count": 4
+    },
+    {
+      "path": "/Users/halu/Desktop/codex/commercial_diagnoser/data/rules/longfor/longfor_third_batch_rules.json",
+      "source_mix": [
+        "longfor_c2",
+        "longfor_standard_2024"
+      ],
+      "batch": 3,
+      "rule_count": 7
+    },
+    {
+      "path": "/Users/halu/Desktop/codex/commercial_diagnoser/data/rules/longfor/longfor_fourth_batch_rules.json",
+      "source_mix": [
+        "longfor_c2"
+      ],
+      "batch": 4,
+      "rule_count": 9
+    }
+  ],
+  "supporting_indexes": [
+    {
+      "path": "/Users/halu/Desktop/codex/commercial_diagnoser/data/rules/longfor/c2_tool_full_page_index.json",
+      "purpose": "C2工具全量页序和章节覆盖索引"
+    },
+    {
+      "path": "/Users/halu/Desktop/codex/commercial_diagnoser/data/rules/longfor/foundation_rule_extraction_coverage.json",
+      "purpose": "基础规则库的章节级条目覆盖情况"
+    }
+  ],
+  "rule_count_summary": {
+    "total_rules": 28,
+    "c2_rules": 20,
+    "standard_rules": 8
+  },
+  "test_cases_excluded_from_foundation": [
+    "/Users/halu/Desktop/codex/commercial_diagnoser/data/source_ingest/huishan_tod_0409"
+  ]
+}

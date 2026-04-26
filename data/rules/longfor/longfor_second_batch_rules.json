@@ -1,0 +1,177 @@
+[
+  {
+    "rule_id": "LF-STD-ENTRY-0001",
+    "title": "商业主次入口数量、宽度与净高应满足建标控制要求",
+    "source_type": "longfor_standard",
+    "source_file": "2024天街建标.pdf",
+    "source_locator": {
+      "page": 8,
+      "image_name": null,
+      "region_hint": "商业出入口条目"
+    },
+    "category_l1": "到达与交通组织",
+    "category_l2": "商业出入口",
+    "tags": [
+      "入口数量",
+      "入口宽度",
+      "入口净高",
+      "主次入口"
+    ],
+    "applicable_asset_types": [
+      "mall"
+    ],
+    "judgement_type": "hard_rule",
+    "severity_default": "high",
+    "rule_text": "商业出入口应面向城市主要道路或广场方向，数量一般不少于3个；动线长度超过200m时宜布置3个。L1/L1+1主入口宽度宜为10-12m，次要出入口宽度宜为8-10m；与销售商业连接通道入口宽度单侧铺设不小于4m、双边铺设不小于6m；L1/L1+1项目门高宜与室内一致，L2/L3项目门高度不宜大于3600mm，宜与室内吊顶标高齐平。",
+    "interpretation": "适合用于首轮入口体系校核。若图面暂时无法精确量尺，也应至少判断入口数量、位置与层级是否清晰。",
+    "evidence_requirement": "需要识别主次入口位置、入口数量、入口连接的主流线关系及必要的尺寸信息。",
+    "diagnosis_targets": [
+      "main_entry",
+      "secondary_entry",
+      "circulation"
+    ],
+    "trigger_clues": [
+      "主入口数量不足",
+      "主次入口层级不清晰",
+      "入口联系通道尺度偏紧"
+    ],
+    "output_template": {
+      "issue_title_hint": "商业入口体系需要对照建标进一步校核",
+      "issue_body_hint": "当前方案的主次入口层级和入口联系通道可能尚未完全满足建标控制要求。",
+      "recommendation_hint": "建议补充入口数量、宽度、净高及其与主流线关系的专项校核。"
+    },
+    "source_excerpt": "商业出入口面向城市主要道路或广场方向，数量一般不少于3个；L1/L1+1主要出入口宽度宜10-12m，次要出入口宽度宜8-10m。",
+    "notes": "来源于 2024 天街建标第 8 页。"
+  },
+  {
+    "rule_id": "LF-STD-ATRIUM-0001",
+    "title": "中庭尺度、净宽与扶梯距离应满足基本控制",
+    "source_type": "longfor_standard",
+    "source_file": "2024天街建标.pdf",
+    "source_locator": {
+      "page": 8,
+      "image_name": null,
+      "region_hint": "中庭条目"
+    },
+    "category_l1": "空间布局与体验场景",
+    "category_l2": "中庭",
+    "tags": [
+      "中庭",
+      "净宽",
+      "扶梯距离",
+      "尺度"
+    ],
+    "applicable_asset_types": [
+      "mall"
+    ],
+    "judgement_type": "hard_rule",
+    "severity_default": "high",
+    "rule_text": "中庭吊挂点位距中庭护栏和扶梯不宜小于2.5m；主中庭面积宜不超过550平方米；L1/L1+1项目标准中庭宽度宜不小于8m，L2/L3项目标准中庭宽度宜不小于6m；中庭整体应避免形成把型或不利于经营的空间形态。",
+    "interpretation": "中庭是项目核心体验节点，首轮可先校核中庭数量、形态和主次层级，后续再叠加尺寸复核。",
+    "evidence_requirement": "需要识别中庭位置、扶梯位置和主要节点层级。",
+    "diagnosis_targets": [
+      "atrium",
+      "escalator",
+      "feature_space"
+    ],
+    "trigger_clues": [
+      "中庭净宽疑似不足",
+      "中庭与扶梯距离过近",
+      "中庭形态不利于经营"
+    ],
+    "output_template": {
+      "issue_title_hint": "中庭尺度与经营形态需要重点校核",
+      "issue_body_hint": "当前中庭虽已形成节点作用，但其尺度和与扶梯关系仍需对照建标进一步复核。",
+      "recommendation_hint": "建议补充主次中庭宽度、面积和扶梯距离校核，避免中庭空间成为体验弱点。"
+    },
+    "source_excerpt": "L1/L1+1项目标准中庭宽度应≥8米；L2/L3项目标准中庭宽度应≥6米；主中庭面积≤550平方米。",
+    "notes": "来源于 2024 天街建标第 8 页。"
+  },
+  {
+    "rule_id": "LF-STD-WALKWAY-0001",
+    "title": "公区走道主次动线宽度应满足建标底线",
+    "source_type": "longfor_standard",
+    "source_file": "2024天街建标.pdf",
+    "source_locator": {
+      "page": 9,
+      "image_name": null,
+      "region_hint": "公区走道条目"
+    },
+    "category_l1": "动线与客流分发",
+    "category_l2": "公区走道",
+    "tags": [
+      "走道",
+      "主动线",
+      "次动线",
+      "净宽"
+    ],
+    "applicable_asset_types": [
+      "mall"
+    ],
+    "judgement_type": "hard_rule",
+    "severity_default": "high",
+    "rule_text": "集中岛铺区域主动线宽度宜不小于3m，次动线宽度宜不小于2m；首层及标准层公区主通道宽度需结合防火卷帘、板边线距离及有无防火卷帘柱综合控制，通常需保证营业期内公区走道的连续和基本舒适度。",
+    "interpretation": "首轮若无法精确量化，也应先识别是否存在明显过窄、被岛铺压缩或被端头占压的通行段。",
+    "evidence_requirement": "需要识别主要走道、次要走道和岛铺/节点空间关系。",
+    "diagnosis_targets": [
+      "circulation",
+      "feature_space"
+    ],
+    "trigger_clues": [
+      "走道局部明显收窄",
+      "节点被岛铺或设施压缩",
+      "主次动线宽度失衡"
+    ],
+    "output_template": {
+      "issue_title_hint": "公区主次动线宽度需进一步校核",
+      "issue_body_hint": "当前公区走道虽然已形成完整骨架，但局部通行宽度是否满足建标底线仍需重点复核。",
+      "recommendation_hint": "建议对主通道、次通道和岛铺压缩点进行专项宽度校核。"
+    },
+    "source_excerpt": "集中岛铺区域：主动线宽度≥3m，次动线宽度≥2m。",
+    "notes": "来源于 2024 天街建标第 9 页。"
+  },
+  {
+    "rule_id": "LF-STD-ESCALATOR-0001",
+    "title": "自动扶梯应形成有效组团并尽量避免过强遮挡",
+    "source_type": "longfor_standard",
+    "source_file": "2024天街建标.pdf",
+    "source_locator": {
+      "page": 10,
+      "image_name": null,
+      "region_hint": "自动扶/坡梯条目"
+    },
+    "category_l1": "动线与客流分发",
+    "category_l2": "自动扶梯",
+    "tags": [
+      "自动扶梯",
+      "组团",
+      "遮挡",
+      "换层"
+    ],
+    "applicable_asset_types": [
+      "mall"
+    ],
+    "judgement_type": "hard_rule",
+    "severity_default": "high",
+    "rule_text": "服务半径在20m至50m时，各层商业空间宜设置自动扶梯相联通，并要求双向或组团布置；至少有一组自动扶梯到达各层。自动扶梯应避免遮挡主视线为主要原则，标准中庭宜避免上下层扶梯交叉布置以减少对采光和视线的影响；为形成强导流，也可优先采用端头式扶梯或成组组织。",
+    "interpretation": "适合用来检视扶梯是否真的服务于主节点和主流线，而不是仅满足形式上的设置。",
+    "evidence_requirement": "需要识别各层扶梯位置、中庭关系和主要客流方向。",
+    "diagnosis_targets": [
+      "escalator",
+      "atrium",
+      "circulation"
+    ],
+    "trigger_clues": [
+      "扶梯孤立布置",
+      "扶梯交叉过强造成视线遮挡",
+      "扶梯未形成连续换层动力"
+    ],
+    "output_template": {
+      "issue_title_hint": "自动扶梯的组团方式和导流效率需进一步校核",
+      "issue_body_hint": "当前扶梯系统已形成基本联系，但其是否满足建标所要求的组团性和视线友好性仍需核实。",
+      "recommendation_hint": "建议复核扶梯组团、上下层对应关系及其对主节点视线的影响。"
+    },
+    "source_excerpt": "各层商业空间应均应有自动扶梯相联通，要实现双向或组团布置；标准中庭应避免上下层扶梯交叉布置。",
+    "notes": "来源于 2024 天街建标第 10 页。"
+  }
+]

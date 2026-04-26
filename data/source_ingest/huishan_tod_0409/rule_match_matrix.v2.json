@@ -1,0 +1,700 @@
+{
+  "sample_id": "huishan_tod_0409",
+  "project_name": "惠山TOD项目",
+  "rule_library_path": "/Users/halu/Desktop/codex/commercial_diagnoser/data/rules/longfor/longfor_foundation_rules_all.json",
+  "source_floor_map_path": "/Users/halu/Desktop/codex/commercial_diagnoser/data/source_ingest/huishan_tod_0409/rule_match_by_floor.v1.json",
+  "matches": [
+    {
+      "rule_id": "LF-C2-MAIN-ANCHOR-0001",
+      "title": "多层商业中的影院宜优先平层设置并压缩无效通道长度",
+      "source_type": "longfor_c2",
+      "category_l1": "租户落位与铺位效率",
+      "category_l2": "主力店落位",
+      "status": "matched",
+      "related_pages": [
+        3,
+        4
+      ],
+      "by_floor": [
+        {
+          "page_index": 3,
+          "page_label": "B1F平面图",
+          "status": "partially_matched",
+          "reason": "西侧主力区明显，但具体主力类型和前场效率还需跨B1和1F联合判断。"
+        },
+        {
+          "page_index": 4,
+          "page_label": "1F平面图",
+          "status": "matched",
+          "reason": "西侧大面积主力功能区与首层前场关系清楚，是直接的锚点效率场景。"
+        }
+      ]
+    },
+    {
+      "rule_id": "LF-C2-SUPERMARKET-0001",
+      "title": "一字型商业中超市宜位于非TOD端头并与竖向交通耦合",
+      "source_type": "longfor_c2",
+      "category_l1": "租户落位与铺位效率",
+      "category_l2": "主力店落位",
+      "status": "needs_refined_detection",
+      "related_pages": [
+        3
+      ],
+      "by_floor": [
+        {
+          "page_index": 3,
+          "page_label": "B1F平面图",
+          "status": "needs_refined_detection",
+          "reason": "尚未确认超市或同等级大铺是否占据TOD敏感端头。"
+        }
+      ]
+    },
+    {
+      "rule_id": "LF-C2-B1-METRO-0001",
+      "title": "B1层应高效转化地铁客流价值并布局匹配的零售与体验业态",
+      "source_type": "longfor_c2",
+      "category_l1": "整体定位与规划逻辑",
+      "category_l2": "到达与交通组织",
+      "status": "matched",
+      "related_pages": [
+        3
+      ],
+      "by_floor": [
+        {
+          "page_index": 3,
+          "page_label": "B1F平面图",
+          "status": "matched",
+          "reason": "B1连续商业带和节点组织非常符合交通客流转化层的判断场景。"
+        }
+      ]
+    },
+    {
+      "rule_id": "LF-C2-LOW-EFFICIENCY-END-0001",
+      "title": "转角与尽端低效空间应优先转化为有效经营面积",
+      "source_type": "longfor_c2",
+      "category_l1": "租户落位与铺位效率",
+      "category_l2": "低坪效大铺优化",
+      "status": "matched",
+      "related_pages": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "by_floor": [
+        {
+          "page_index": 6,
+          "page_label": "3F平面图",
+          "status": "matched",
+          "reason": "三层东端复合节点和异形端头与低效空间优化规则高度相关。"
+        },
+        {
+          "page_index": 7,
+          "page_label": "4F平面图",
+          "status": "matched",
+          "reason": "四层东端支路与端头空间是当前最强的低效空间风险区。"
+        },
+        {
+          "page_index": 8,
+          "page_label": "5F平面图",
+          "status": "partially_matched",
+          "reason": "五层东端复杂区仍在，但风险强度略低于三四层，需要结合真实功能判断。"
+        },
+        {
+          "page_index": 9,
+          "page_label": "6F平面图",
+          "status": "not_primary",
+          "reason": "六层端头不是当前最核心矛盾，功能转换逻辑更重要。"
+        }
+      ]
+    },
+    {
+      "rule_id": "LF-C2-MULTI-KIOSK-0001",
+      "title": "多经点位应根据楼层、位置与业态控制数量和尺度",
+      "source_type": "longfor_c2",
+      "category_l1": "空间布局与体验场景",
+      "category_l2": "多经点位",
+      "status": "unseen",
+      "related_pages": [],
+      "by_floor": []
+    },
+    {
+      "rule_id": "LF-C2-PARKING-EFFICIENCY-0001",
+      "title": "停车位配比应与周转率协同优化，避免无效地下成本",
+      "source_type": "longfor_c2",
+      "category_l1": "建造标准与安全底线",
+      "category_l2": "停车与成本",
+      "status": "matched",
+      "related_pages": [
+        2
+      ],
+      "by_floor": [
+        {
+          "page_index": 2,
+          "page_label": "B2F平面图",
+          "status": "matched",
+          "reason": "B2层大面积停车布局与停车配比和周转效率规则直接相关。"
+        }
+      ]
+    },
+    {
+      "rule_id": "LF-STD-CIRCULATION-0001",
+      "title": "一字动线与环形动线应控制在合理进深与长度区间",
+      "source_type": "longfor_standard",
+      "category_l1": "动线与客流分发",
+      "category_l2": "主流线尺度",
+      "status": "needs_measurement",
+      "related_pages": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "by_floor": [
+        {
+          "page_index": 4,
+          "page_label": "1F平面图",
+          "status": "needs_measurement",
+          "reason": "一字型主流线识别清楚，但长度和平均进深没有量化。"
+        },
+        {
+          "page_index": 5,
+          "page_label": "2F平面图",
+          "status": "needs_measurement",
+          "reason": "二层是标准层骨架最清晰的一层，适合作为动线尺度复核基准层。"
+        },
+        {
+          "page_index": 6,
+          "page_label": "3F平面图",
+          "status": "needs_measurement",
+          "reason": "骨架延续明显，但高层末端复杂度可能导致有效动线长度和效率波动。"
+        },
+        {
+          "page_index": 7,
+          "page_label": "4F平面图",
+          "status": "needs_measurement",
+          "reason": "高层支路和端头组织可能影响有效动线效率。"
+        },
+        {
+          "page_index": 8,
+          "page_label": "5F平面图",
+          "status": "needs_measurement",
+          "reason": "骨架仍连续，适合继续沿用动线尺度复核逻辑。"
+        },
+        {
+          "page_index": 9,
+          "page_label": "6F平面图",
+          "status": "not_primary",
+          "reason": "该层已明显偏离标准零售层，不宜直接沿用低层动线指标做主判断。"
+        }
+      ]
+    },
+    {
+      "rule_id": "LF-STD-CONCOURSE-0001",
+      "title": "公共连廊应具备围合感，且室内连廊净宽和净高满足下限",
+      "source_type": "longfor_standard",
+      "category_l1": "空间布局与体验场景",
+      "category_l2": "公共连廊",
+      "status": "unseen",
+      "related_pages": [],
+      "by_floor": []
+    },
+    {
+      "rule_id": "LF-STD-ENTRY-0001",
+      "title": "商业主次入口数量、宽度与净高应满足建标控制要求",
+      "source_type": "longfor_standard",
+      "category_l1": "到达与交通组织",
+      "category_l2": "商业出入口",
+      "status": "needs_refined_detection",
+      "related_pages": [
+        4
+      ],
+      "by_floor": [
+        {
+          "page_index": 4,
+          "page_label": "1F平面图",
+          "status": "needs_refined_detection",
+          "reason": "入口数量、精确宽度和主次层级仍需更细识别。"
+        }
+      ]
+    },
+    {
+      "rule_id": "LF-STD-ATRIUM-0001",
+      "title": "中庭尺度、净宽与扶梯距离应满足基本控制",
+      "source_type": "longfor_standard",
+      "category_l1": "空间布局与体验场景",
+      "category_l2": "中庭",
+      "status": "matched",
+      "related_pages": [
+        5,
+        10
+      ],
+      "by_floor": [
+        {
+          "page_index": 5,
+          "page_label": "2F平面图",
+          "status": "matched",
+          "reason": "二层中庭和节点识别性很强，已具备进入中庭专项复核的条件。"
+        },
+        {
+          "page_index": 10,
+          "page_label": "6F夹层平面图",
+          "status": "not_primary",
+          "reason": "夹层页不再是中庭尺度校核主界面。"
+        }
+      ]
+    },
+    {
+      "rule_id": "LF-STD-WALKWAY-0001",
+      "title": "公区走道主次动线宽度应满足建标底线",
+      "source_type": "longfor_standard",
+      "category_l1": "动线与客流分发",
+      "category_l2": "公区走道",
+      "status": "needs_measurement",
+      "related_pages": [
+        4,
+        5,
+        7,
+        10
+      ],
+      "by_floor": [
+        {
+          "page_index": 4,
+          "page_label": "1F平面图",
+          "status": "needs_measurement",
+          "reason": "主动线和次动线结构能看出，但净宽尚未量化。"
+        },
+        {
+          "page_index": 5,
+          "page_label": "2F平面图",
+          "status": "needs_measurement",
+          "reason": "二层主次走道能看出层级，但净宽仍需量尺。"
+        },
+        {
+          "page_index": 7,
+          "page_label": "4F平面图",
+          "status": "needs_measurement",
+          "reason": "复杂支路有可能造成局部净宽收窄，需要专项量尺。"
+        },
+        {
+          "page_index": 10,
+          "page_label": "6F夹层平面图",
+          "status": "not_primary",
+          "reason": "夹层空间逻辑已明显区别于标准公区走道判断。"
+        }
+      ]
+    },
+    {
+      "rule_id": "LF-STD-ESCALATOR-0001",
+      "title": "自动扶梯应形成有效组团并尽量避免过强遮挡",
+      "source_type": "longfor_standard",
+      "category_l1": "动线与客流分发",
+      "category_l2": "自动扶梯",
+      "status": "matched",
+      "related_pages": [
+        5
+      ],
+      "by_floor": [
+        {
+          "page_index": 5,
+          "page_label": "2F平面图",
+          "status": "matched",
+          "reason": "二层扶梯与节点沿主流线连续布置，最适合做组团和遮挡判断。"
+        }
+      ]
+    },
+    {
+      "rule_id": "LF-C2-UG-COMMERCIAL-0001",
+      "title": "地下商业应形成清晰的经营策略而非被动附属空间",
+      "source_type": "longfor_c2",
+      "category_l1": "TOD与地下商业",
+      "category_l2": "地下商业策略",
+      "status": "matched",
+      "related_pages": [
+        2,
+        3
+      ],
+      "by_floor": [
+        {
+          "page_index": 2,
+          "page_label": "B2F平面图",
+          "status": "partially_matched",
+          "reason": "B2层可作为地下策略背景页，但其本身并非经营层，更多是支撑信息。"
+        },
+        {
+          "page_index": 3,
+          "page_label": "B1F平面图",
+          "status": "matched",
+          "reason": "B1已经显示出地下经营层属性，不是纯附属交通层。"
+        }
+      ]
+    },
+    {
+      "rule_id": "LF-C2-TOD-INTEGRATION-0001",
+      "title": "TOD项目应把接驳、交通组织与商业骨架一体化设计",
+      "source_type": "longfor_c2",
+      "category_l1": "TOD与地下商业",
+      "category_l2": "TOD一体化",
+      "status": "matched",
+      "related_pages": [
+        1,
+        3
+      ],
+      "by_floor": [
+        {
+          "page_index": 1,
+          "page_label": "总平面图",
+          "status": "matched",
+          "reason": "总平已显示TOD与商业主界面高度相关，适合直接进入一体化复核。"
+        },
+        {
+          "page_index": 3,
+          "page_label": "B1F平面图",
+          "status": "matched",
+          "reason": "B1是TOD接驳与主商业骨架一体化的关键承接层。"
+        }
+      ]
+    },
+    {
+      "rule_id": "LF-C2-ARRIVAL-EXPERIENCE-0001",
+      "title": "到达体验应把车行、步行、落客、停车和入口识别作为一体系统",
+      "source_type": "longfor_c2",
+      "category_l1": "到达与交通组织",
+      "category_l2": "到达体验",
+      "status": "matched",
+      "related_pages": [
+        1
+      ],
+      "by_floor": [
+        {
+          "page_index": 1,
+          "page_label": "总平面图",
+          "status": "matched",
+          "reason": "总平是判断车行、步行、落客和主入口序列关系的起点。"
+        }
+      ]
+    },
+    {
+      "rule_id": "LF-C2-FACADE-ENTRY-0001",
+      "title": "主入口界面应成为建筑识别性与到达感最强的界面之一",
+      "source_type": "longfor_c2",
+      "category_l1": "产品表达与建筑形象",
+      "category_l2": "主入口设计",
+      "status": "needs_refined_detection",
+      "related_pages": [
+        1,
+        4
+      ],
+      "by_floor": [
+        {
+          "page_index": 1,
+          "page_label": "总平面图",
+          "status": "needs_refined_detection",
+          "reason": "总平能看出主界面方向，但主入口表达强度仍需结合立面或效果图判断。"
+        },
+        {
+          "page_index": 4,
+          "page_label": "1F平面图",
+          "status": "partially_matched",
+          "reason": "首层已显示东端主界面的潜在重要性，但入口识别强度仍需结合立面。"
+        }
+      ]
+    },
+    {
+      "rule_id": "LF-C2-SCENE-PLAZA-0001",
+      "title": "下沉广场与主题场景应服务于停留和经营，而非仅作为景观节点",
+      "source_type": "longfor_c2",
+      "category_l1": "景观场景与铺前界面",
+      "category_l2": "下沉广场与场景",
+      "status": "partially_matched",
+      "related_pages": [
+        1,
+        6
+      ],
+      "by_floor": [
+        {
+          "page_index": 1,
+          "page_label": "总平面图",
+          "status": "partially_matched",
+          "reason": "南侧滨水和外部场景资源明显，但经营化方式尚不能仅凭总平确认。"
+        },
+        {
+          "page_index": 6,
+          "page_label": "3F平面图",
+          "status": "not_primary",
+          "reason": "本页更偏平面效率问题，不是景观场景主判断面。"
+        }
+      ]
+    },
+    {
+      "rule_id": "LF-STD-OUTDOOR-PLAZA-0001",
+      "title": "室外场地与入口广场坡度应控制在建标范围内",
+      "source_type": "longfor_standard",
+      "category_l1": "到达与交通组织",
+      "category_l2": "室外场地与入口广场",
+      "status": "needs_measurement",
+      "related_pages": [
+        1
+      ],
+      "by_floor": [
+        {
+          "page_index": 1,
+          "page_label": "总平面图",
+          "status": "needs_measurement",
+          "reason": "入口广场与室外场地关系清楚，但坡度和高差尚未量化。"
+        }
+      ]
+    },
+    {
+      "rule_id": "LF-STD-RESTROOM-0001",
+      "title": "卫生间服务半径与单个卫生间服务面积应满足建标要求",
+      "source_type": "longfor_standard",
+      "category_l1": "建造标准与安全底线",
+      "category_l2": "卫生间",
+      "status": "needs_refined_detection",
+      "related_pages": [
+        2,
+        8
+      ],
+      "by_floor": [
+        {
+          "page_index": 2,
+          "page_label": "B2F平面图",
+          "status": "not_applicable",
+          "reason": "当前页主要承担停车功能，非首轮重点校核对象。"
+        },
+        {
+          "page_index": 8,
+          "page_label": "5F平面图",
+          "status": "needs_refined_detection",
+          "reason": "高层服务配套是否足够目前仍缺少明确识别。"
+        }
+      ]
+    },
+    {
+      "rule_id": "LF-C2-VALUE-LOGIC-0001",
+      "title": "方案诊断应同时校核生意逻辑、客户体验与成本效率",
+      "source_type": "longfor_c2",
+      "category_l1": "总纲与价值逻辑",
+      "category_l2": "综合评价框架",
+      "status": "matched",
+      "related_pages": [
+        0,
+        2,
+        9,
+        10
+      ],
+      "by_floor": [
+        {
+          "page_index": 0,
+          "page_label": "惠山TOD项目",
+          "status": "not_primary",
+          "reason": "封面页不承载空间信息，仅作为文档身份信息。"
+        },
+        {
+          "page_index": 2,
+          "page_label": "B2F平面图",
+          "status": "partially_matched",
+          "reason": "地库规模是否过度配置属于综合价值和成本效率判断的一部分。"
+        },
+        {
+          "page_index": 9,
+          "page_label": "6F平面图",
+          "status": "matched",
+          "reason": "六层最需要用综合价值逻辑而不是单一零售条款来判断。"
+        },
+        {
+          "page_index": 10,
+          "page_label": "6F夹层平面图",
+          "status": "matched",
+          "reason": "夹层更适合按综合价值和运营模式判断，而非单一条款判断。"
+        }
+      ]
+    },
+    {
+      "rule_id": "LF-C2-HIGH-VALUE-FRONTAGE-0001",
+      "title": "高价值城市界面应优先承接高价值商业功能与主到达界面",
+      "source_type": "longfor_c2",
+      "category_l1": "整体定位与规划逻辑",
+      "category_l2": "高价值界面分配",
+      "status": "matched",
+      "related_pages": [
+        1,
+        4
+      ],
+      "by_floor": [
+        {
+          "page_index": 1,
+          "page_label": "总平面图",
+          "status": "matched",
+          "reason": "总平明确显示东侧城市主界面和高价值到达面，是最典型的主界面资源分配问题。 "
+        },
+        {
+          "page_index": 4,
+          "page_label": "1F平面图",
+          "status": "matched",
+          "reason": "首层与总平一起构成高价值界面资源分配的核心判断面。"
+        }
+      ]
+    },
+    {
+      "rule_id": "LF-C2-SCENE-IN-SKELETON-0001",
+      "title": "广场、下沉、街巷与景观场景应嵌入商业骨架而非孤立设置",
+      "source_type": "longfor_c2",
+      "category_l1": "整体定位与规划逻辑",
+      "category_l2": "场景嵌入式规划",
+      "status": "partially_matched",
+      "related_pages": [
+        1
+      ],
+      "by_floor": [
+        {
+          "page_index": 1,
+          "page_label": "总平面图",
+          "status": "partially_matched",
+          "reason": "总平已经显示滨水、外部界面和主体商业骨架的耦合潜力，但场景是否真正嵌入主流线仍需结合首层进一步确认。"
+        }
+      ]
+    },
+    {
+      "rule_id": "LF-C2-DISTRIBUTION-NODES-0001",
+      "title": "入口、节点、中庭与扶梯应形成连续客流分发系统",
+      "source_type": "longfor_c2",
+      "category_l1": "动线与客流分发",
+      "category_l2": "节点系统",
+      "status": "matched",
+      "related_pages": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "by_floor": [
+        {
+          "page_index": 4,
+          "page_label": "1F平面图",
+          "status": "matched",
+          "reason": "首层主入口、主流线和东端节点是客流分发系统的核心组成。"
+        },
+        {
+          "page_index": 5,
+          "page_label": "2F平面图",
+          "status": "matched",
+          "reason": "多个节点与扶梯系统共同构成了完整的客流分发节奏。"
+        },
+        {
+          "page_index": 6,
+          "page_label": "3F平面图",
+          "status": "partially_matched",
+          "reason": "主流线仍连续，但东端节点开始偏离标准节点节奏。"
+        },
+        {
+          "page_index": 7,
+          "page_label": "4F平面图",
+          "status": "partially_matched",
+          "reason": "主骨架仍在，但节点连续性弱于低层和二层。"
+        },
+        {
+          "page_index": 8,
+          "page_label": "5F平面图",
+          "status": "partially_matched",
+          "reason": "主节点系统延续存在，但高层节点强度和低层已出现差异。"
+        }
+      ]
+    },
+    {
+      "rule_id": "LF-C2-SUNKEN-CONVERSION-0001",
+      "title": "下沉空间应兼顾换层、识别与经营转化，不宜只做通行节点",
+      "source_type": "longfor_c2",
+      "category_l1": "TOD与地下商业",
+      "category_l2": "下沉空间转化",
+      "status": "partially_matched",
+      "related_pages": [
+        3
+      ],
+      "by_floor": [
+        {
+          "page_index": 3,
+          "page_label": "B1F平面图",
+          "status": "partially_matched",
+          "reason": "可读到节点和口部潜力，但下沉界面和经营边界仍需联合总平判断。"
+        }
+      ]
+    },
+    {
+      "rule_id": "LF-C2-PODIUM-CORNER-0001",
+      "title": "低区基座与转角界面应承担城市识别和商业展示双重任务",
+      "source_type": "longfor_c2",
+      "category_l1": "产品表达与建筑形象",
+      "category_l2": "基座与转角界面",
+      "status": "unseen",
+      "related_pages": [],
+      "by_floor": []
+    },
+    {
+      "rule_id": "LF-C2-MATERIAL-HIERARCHY-0001",
+      "title": "立面材质与构件系统应形成清晰层级，避免碎片化拼贴",
+      "source_type": "longfor_c2",
+      "category_l1": "产品表达与建筑形象",
+      "category_l2": "材质与构件系统",
+      "status": "unseen",
+      "related_pages": [],
+      "by_floor": []
+    },
+    {
+      "rule_id": "LF-C2-INTERIOR-CONSISTENCY-0001",
+      "title": "公区、中庭与高频接触空间应形成统一的精装语言与场景气质",
+      "source_type": "longfor_c2",
+      "category_l1": "精装场景",
+      "category_l2": "公区与高频空间",
+      "status": "partially_matched",
+      "related_pages": [
+        5,
+        9,
+        10
+      ],
+      "by_floor": [
+        {
+          "page_index": 5,
+          "page_label": "2F平面图",
+          "status": "partially_matched",
+          "reason": "二层节点与空间气质较强，但目前缺少室内表达材料判断精装统一性。"
+        },
+        {
+          "page_index": 9,
+          "page_label": "6F平面图",
+          "status": "partially_matched",
+          "reason": "若六层为大空间或特色功能层，后续应关注其空间气质与整体产品语言的一致性。"
+        },
+        {
+          "page_index": 10,
+          "page_label": "6F夹层平面图",
+          "status": "partially_matched",
+          "reason": "若夹层承担特色运营空间，其精装和场景一致性仍需要后续关注。"
+        }
+      ]
+    },
+    {
+      "rule_id": "LF-C2-STOREFRONT-FORECOURT-0001",
+      "title": "铺前界面、外摆与主题场景应共同支撑停留、展示与经营外溢",
+      "source_type": "longfor_c2",
+      "category_l1": "景观场景与铺前界面",
+      "category_l2": "铺前群落与外摆",
+      "status": "partially_matched",
+      "related_pages": [
+        1
+      ],
+      "by_floor": [
+        {
+          "page_index": 1,
+          "page_label": "总平面图",
+          "status": "partially_matched",
+          "reason": "可见铺前与外部空间潜力，但尚缺更明确的铺前界面和外摆信息。"
+        }
+      ]
+    }
+  ]
+}

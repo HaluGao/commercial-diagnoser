@@ -1,0 +1,237 @@
+{
+  "sample_id": "huishan_tod_0409",
+  "image_size": {
+    "width": 960,
+    "height": 540
+  },
+  "regions": [
+    {
+      "region_id": "htod-p1-east-arrival",
+      "page_index": 1,
+      "page_label": "总平面图",
+      "label": "东侧TOD到达与主界面",
+      "image_path": "/Users/halu/Desktop/codex/commercial_diagnoser/data/source_ingest/huishan_tod_0409/page_previews/page_002.png",
+      "bbox": [
+        650,
+        40,
+        940,
+        500
+      ],
+      "topic_tags": [
+        "TOD主到达界面",
+        "东侧主界面",
+        "入口潜力"
+      ],
+      "diagnostic_notes": "用于观察东侧主界面是否具备承载主入口和导流界面的条件。"
+    },
+    {
+      "region_id": "htod-p1-south-waterfront",
+      "page_index": 1,
+      "page_label": "总平面图",
+      "label": "南侧滨水界面",
+      "image_path": "/Users/halu/Desktop/codex/commercial_diagnoser/data/source_ingest/huishan_tod_0409/page_previews/page_002.png",
+      "bbox": [
+        230,
+        180,
+        760,
+        500
+      ],
+      "topic_tags": [
+        "滨水界面",
+        "外部场景",
+        "体验价值"
+      ],
+      "diagnostic_notes": "用于观察商业主体与南侧滨水空间的打开关系。"
+    },
+    {
+      "region_id": "htod-p3-west-anchor",
+      "page_index": 3,
+      "page_label": "B1F平面图",
+      "label": "B1西侧主力功能区",
+      "image_path": "/Users/halu/Desktop/codex/commercial_diagnoser/data/source_ingest/huishan_tod_0409/page_previews/page_004.png",
+      "bbox": [
+        80,
+        105,
+        420,
+        350
+      ],
+      "topic_tags": [
+        "B1主力功能区",
+        "锚点",
+        "导流"
+      ],
+      "diagnostic_notes": "用于观察B1西侧主力区的规模和前场关系。"
+    },
+    {
+      "region_id": "htod-p3-east-node",
+      "page_index": 3,
+      "page_label": "B1F平面图",
+      "label": "B1东端节点与口部",
+      "image_path": "/Users/halu/Desktop/codex/commercial_diagnoser/data/source_ingest/huishan_tod_0409/page_previews/page_004.png",
+      "bbox": [
+        620,
+        120,
+        900,
+        360
+      ],
+      "topic_tags": [
+        "B1节点",
+        "口部",
+        "客流转化"
+      ],
+      "diagnostic_notes": "用于观察B1层东端节点是否具备客流转化条件。"
+    },
+    {
+      "region_id": "htod-p4-west-anchor",
+      "page_index": 4,
+      "page_label": "1F平面图",
+      "label": "1F西侧主力店与前场",
+      "image_path": "/Users/halu/Desktop/codex/commercial_diagnoser/data/source_ingest/huishan_tod_0409/page_previews/page_005.png",
+      "bbox": [
+        95,
+        110,
+        340,
+        370
+      ],
+      "topic_tags": [
+        "主力店",
+        "前场",
+        "西侧锚点"
+      ],
+      "diagnostic_notes": "用于观察首层西侧大铺/主力店与前场关系。"
+    },
+    {
+      "region_id": "htod-p4-main-spine",
+      "page_index": 4,
+      "page_label": "1F平面图",
+      "label": "1F主流线中段",
+      "image_path": "/Users/halu/Desktop/codex/commercial_diagnoser/data/source_ingest/huishan_tod_0409/page_previews/page_005.png",
+      "bbox": [
+        220,
+        110,
+        760,
+        310
+      ],
+      "topic_tags": [
+        "一字型主流线",
+        "中段节奏",
+        "节点组织"
+      ],
+      "diagnostic_notes": "用于观察首层主流线是否存在节奏变化和中段疲劳风险。"
+    },
+    {
+      "region_id": "htod-p4-east-turn",
+      "page_index": 4,
+      "page_label": "1F平面图",
+      "label": "1F东端转折与节点",
+      "image_path": "/Users/halu/Desktop/codex/commercial_diagnoser/data/source_ingest/huishan_tod_0409/page_previews/page_005.png",
+      "bbox": [
+        640,
+        100,
+        925,
+        460
+      ],
+      "topic_tags": [
+        "东端转折",
+        "节点",
+        "高价值界面"
+      ],
+      "diagnostic_notes": "用于观察首层东端转折及其与外部界面的连接关系。"
+    },
+    {
+      "region_id": "htod-p5-west-node",
+      "page_index": 5,
+      "page_label": "2F平面图",
+      "label": "2F西端环形节点",
+      "image_path": "/Users/halu/Desktop/codex/commercial_diagnoser/data/source_ingest/huishan_tod_0409/page_previews/page_006.png",
+      "bbox": [
+        105,
+        110,
+        320,
+        300
+      ],
+      "topic_tags": [
+        "西端节点",
+        "扶梯",
+        "换层"
+      ],
+      "diagnostic_notes": "用于观察西端扶梯与节点的一体化组织。"
+    },
+    {
+      "region_id": "htod-p5-central-atrium",
+      "page_index": 5,
+      "page_label": "2F平面图",
+      "label": "2F中部中庭与连桥",
+      "image_path": "/Users/halu/Desktop/codex/commercial_diagnoser/data/source_ingest/huishan_tod_0409/page_previews/page_006.png",
+      "bbox": [
+        300,
+        105,
+        650,
+        290
+      ],
+      "topic_tags": [
+        "中庭",
+        "连桥",
+        "节点节奏"
+      ],
+      "diagnostic_notes": "用于观察二层中庭净宽、节奏和扶梯联系。"
+    },
+    {
+      "region_id": "htod-p5-east-oval",
+      "page_index": 5,
+      "page_label": "2F平面图",
+      "label": "2F东端椭圆节点",
+      "image_path": "/Users/halu/Desktop/codex/commercial_diagnoser/data/source_ingest/huishan_tod_0409/page_previews/page_006.png",
+      "bbox": [
+        620,
+        95,
+        920,
+        380
+      ],
+      "topic_tags": [
+        "东端椭圆节点",
+        "扶梯",
+        "高价值空间"
+      ],
+      "diagnostic_notes": "用于观察东端大尺度节点的界面和动线转换效率。"
+    },
+    {
+      "region_id": "htod-p6-east-complex",
+      "page_index": 6,
+      "page_label": "3F平面图",
+      "label": "3F东端复合节点",
+      "image_path": "/Users/halu/Desktop/codex/commercial_diagnoser/data/source_ingest/huishan_tod_0409/page_previews/page_007.png",
+      "bbox": [
+        650,
+        90,
+        925,
+        430
+      ],
+      "topic_tags": [
+        "东端复合节点",
+        "异形空间",
+        "体验业态"
+      ],
+      "diagnostic_notes": "用于观察三层东端功能复合和端头风险。"
+    },
+    {
+      "region_id": "htod-p7-east-branches",
+      "page_index": 7,
+      "page_label": "4F平面图",
+      "label": "4F东端支路与端头",
+      "image_path": "/Users/halu/Desktop/codex/commercial_diagnoser/data/source_ingest/huishan_tod_0409/page_previews/page_008.png",
+      "bbox": [
+        620,
+        95,
+        920,
+        430
+      ],
+      "topic_tags": [
+        "支路空间",
+        "端头低效",
+        "高层复杂区"
+      ],
+      "diagnostic_notes": "用于观察四层东端支路、端头和异形空间是否存在价值释放不足。"
+    }
+  ]
+}

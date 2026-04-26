@@ -1,0 +1,1258 @@
+[
+  {
+    "rule_id": "LF-C2-MAIN-ANCHOR-0001",
+    "title": "多层商业中的影院宜优先平层设置并压缩无效通道长度",
+    "source_type": "longfor_c2",
+    "source_file": "31.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "31.png",
+      "region_hint": "页面主体说明和案例图区"
+    },
+    "category_l1": "租户落位与铺位效率",
+    "category_l2": "主力店落位",
+    "tags": [
+      "主力店",
+      "影院",
+      "平层设置",
+      "通道效率"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "medium",
+    "rule_text": "多层商业中的影院等主力店宜优先采用平层设置，观影层与厅集中对称布置，并尽量缩短无效通道面积和动线长度；若考虑下沉层，应充分利用下沉高净高与端头空间设置端头铺或高价值功能。",
+    "interpretation": "这条规则关注主力店效率和空间价值释放。若主力店占据大量面积却拉长低效通道，或端头空间未被利用，通常可输出优化建议。",
+    "evidence_requirement": "需要在楼层平面中识别主力店位置、主力店前场动线和端头/下沉空间关系。",
+    "diagnosis_targets": [
+      "anchor_store",
+      "circulation",
+      "void_space"
+    ],
+    "trigger_clues": [
+      "主力店前场通道过长",
+      "端头空间邻接主力店但未被有效使用",
+      "下沉层空间与主力店未形成协同"
+    ],
+    "output_template": {
+      "issue_title_hint": "主力店落位与前场通道效率仍有优化空间",
+      "issue_body_hint": "当前主力店与前场动线的组织尚未充分兼顾运营效率和空间价值释放。",
+      "recommendation_hint": "建议结合主力店边界、端头空间和竖向关系，优化前场效率并释放高价值空间。"
+    },
+    "source_excerpt": "多层商业，影院优先平层设置，最小化通道面积及动线长度；可考虑下沉3F，保留厅下3m净高的有效空间，设置端头铺。",
+    "notes": "来源于 C2 工具主力店案例页。"
+  },
+  {
+    "rule_id": "LF-C2-SUPERMARKET-0001",
+    "title": "一字型商业中超市宜位于非TOD端头并与竖向交通耦合",
+    "source_type": "longfor_c2",
+    "source_file": "35.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "35.png",
+      "region_hint": "左侧商业动线说明和右侧位置说明"
+    },
+    "category_l1": "租户落位与铺位效率",
+    "category_l2": "主力店落位",
+    "tags": [
+      "超市",
+      "TOD",
+      "端头",
+      "扶梯"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "medium",
+    "rule_text": "一字型商业动线中，超市宜设置于非TOD端头；若为L型商业，宜位于中部进深较厚处。超市应布置在地面客流密度较低入口下方，并通过上下分区扶梯串联地面与地下流线。端头位置宜在距离入口1至2跨范围内正对上行扶梯，非端头口部宜贴口部布置上下行扶梯及客梯。",
+    "interpretation": "这条规则把超市位置、端头策略和竖向交通关系绑在一起。若项目是TOD界面，应避免把超市直接吃掉最高价值界面，同时要检查超市到达效率。",
+    "evidence_requirement": "需要识别TOD主界面、超市/大铺位置、扶梯位置和入口关系。",
+    "diagnosis_targets": [
+      "anchor_store",
+      "escalator",
+      "main_entry",
+      "circulation"
+    ],
+    "trigger_clues": [
+      "TOD高价值端头被低展示性大铺占用",
+      "超市入口与扶梯脱节",
+      "地面与地下导流关系不连续"
+    ],
+    "output_template": {
+      "issue_title_hint": "超市位置与竖向导流关系需要再校准",
+      "issue_body_hint": "当前超市或大铺的落位方式可能未充分兼顾高价值界面使用和地下客流转化效率。",
+      "recommendation_hint": "建议结合TOD端头价值、入口位置和扶梯系统，优化超市或同等级大铺的落位。"
+    },
+    "source_excerpt": "一字型动线-超市于非TOD的端头；超市在端头-距离入口1~2跨设置正对上行扶梯；非端头-临靠口部设置上下行扶梯及客梯。",
+    "notes": "适合用于审视TOD项目的高价值界面分配。"
+  },
+  {
+    "rule_id": "LF-C2-B1-METRO-0001",
+    "title": "B1层应高效转化地铁客流价值并布局匹配的零售与体验业态",
+    "source_type": "longfor_c2",
+    "source_file": "24.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "24.png",
+      "region_hint": "页面右侧B1地铁客流转化说明"
+    },
+    "category_l1": "整体定位与规划逻辑",
+    "category_l2": "到达与交通组织",
+    "tags": [
+      "B1",
+      "地铁客流",
+      "高效动线",
+      "业态布局"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "medium",
+    "rule_text": "B1层应通过高效动线实现地铁客流的高效转化，优先深挖地铁流量价值；同时可布局超前切小铺、零售生活杂品、珠宝等适配通勤客群的业态，并结合新能源集合区、地库联通等方式增强体验和比选效率。",
+    "interpretation": "这条规则强调B1不是被动承接层，而是主动转化交通流量的经营层。对TOD项目尤其关键。",
+    "evidence_requirement": "需要识别B1层动线、外部交通接驳关系及B1主力业态位置。",
+    "diagnosis_targets": [
+      "circulation",
+      "anchor_store",
+      "parking",
+      "feature_space"
+    ],
+    "trigger_clues": [
+      "B1流线割裂",
+      "B1未承担有效客流转化",
+      "B1与地铁/停车导入关系弱"
+    ],
+    "output_template": {
+      "issue_title_hint": "B1层的交通流量转化价值尚未充分释放",
+      "issue_body_hint": "当前B1层在交通客流承接和商业转化上的主动性偏弱，可能影响整体运营效率。",
+      "recommendation_hint": "建议围绕通勤导流和B1经营逻辑，补强高效动线及匹配业态。"
+    },
+    "source_excerpt": "B1-地铁客流的高效转化：高效动线，极致切铺，深挖地铁流量价值；深挖主力店流量，超前切小铺。",
+    "notes": "适用于TOD或强交通导入项目。"
+  },
+  {
+    "rule_id": "LF-C2-LOW-EFFICIENCY-END-0001",
+    "title": "转角与尽端低效空间应优先转化为有效经营面积",
+    "source_type": "longfor_c2",
+    "source_file": "40.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "40.png",
+      "region_hint": "案例平面对比和热力图区"
+    },
+    "category_l1": "租户落位与铺位效率",
+    "category_l2": "低坪效大铺优化",
+    "tags": [
+      "转角",
+      "尽端",
+      "低效空间",
+      "坪效"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "medium",
+    "rule_text": "当影院挑空空间、塔楼端头空间或其他转角/尽端空间产生价值浪费时，应优先通过补板、边界重组、功能补入等方式转化为可经营的有效面积，提升坪效并延续商业氛围。",
+    "interpretation": "这是非常适合做AI诊断的规则类型，因为它对形态和经营效率都有直接影响，也容易在图面上观察到。",
+    "evidence_requirement": "需要定位转角/尽端空间、主力店边界和相邻流线强弱。",
+    "diagnosis_targets": [
+      "void_space",
+      "anchor_store",
+      "circulation"
+    ],
+    "trigger_clues": [
+      "端头面积较大但无经营功能",
+      "转角空间与主流线脱节",
+      "热力或主流线无法有效覆盖端头"
+    ],
+    "output_template": {
+      "issue_title_hint": "端头或转角空间存在价值未充分释放的问题",
+      "issue_body_hint": "当前方案在关键端头或转角位置仍有低效空间迹象，影响租赁效率和商业氛围延续。",
+      "recommendation_hint": "建议结合结构与消防约束，通过补板、边界重组或业态调整释放有效经营面积。"
+    },
+    "source_excerpt": "原影院挑空空间与塔楼端头空间价值浪费，通过补板增加租赁面积，提升坪效，延续商业氛围。",
+    "notes": "适合作为端头和异形空间优化诊断规则。"
+  },
+  {
+    "rule_id": "LF-C2-MULTI-KIOSK-0001",
+    "title": "多经点位应根据楼层、位置与业态控制数量和尺度",
+    "source_type": "longfor_c2",
+    "source_file": "42.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "42.png",
+      "region_hint": "各楼层多经点位控制原则表"
+    },
+    "category_l1": "空间布局与体验场景",
+    "category_l2": "多经点位",
+    "tags": [
+      "多经",
+      "点位",
+      "通道宽度",
+      "临中庭"
+    ],
+    "applicable_asset_types": [
+      "mall"
+    ],
+    "judgement_type": "hard_rule",
+    "severity_default": "medium",
+    "rule_text": "多经点位的设置应依据所在楼层、位置和业态最终确定控制原则与面积尺寸。地下商业层零售多经宜无遮挡岛柜并控制与墙边距离；首层宜靠近入口、正对扶梯到达点或扶梯下方，次中庭集中区可相对允许；标准零售层宜位于正对扶梯、靠近中庭或连桥位置，并严格控制点位连续度与临中庭过近问题；餐饮及影院大厅层建议位于餐饮流量门口或影院前口。",
+    "interpretation": "虽然具体尺寸还需要更细的条文校核，但点位位置原则已经足以形成首轮错误指出或优化建议。",
+    "evidence_requirement": "需要识别扶梯、中庭、入口、连桥和大厅口位置，以及疑似多经点位位置。",
+    "diagnosis_targets": [
+      "escalator",
+      "atrium",
+      "main_entry",
+      "feature_space"
+    ],
+    "trigger_clues": [
+      "多经连续设置过多",
+      "多经贴近中庭主界面",
+      "点位阻断主要客流或压缩通行宽度"
+    ],
+    "output_template": {
+      "issue_title_hint": "多经点位与主要空间节点的关系需要优化",
+      "issue_body_hint": "当前多经点位设置可能对通行、展示或节点体验产生干扰。",
+      "recommendation_hint": "建议根据楼层属性、扶梯节点和中庭界面重新校准点位位置和数量。"
+    },
+    "source_excerpt": "多经点位的研究基于所在楼层、位置、业态最终确定其控制原则和面积尺寸。",
+    "notes": "可先用于原则性判断，后续再补充更精细尺寸规则。"
+  },
+  {
+    "rule_id": "LF-C2-PARKING-EFFICIENCY-0001",
+    "title": "停车位配比应与周转率协同优化，避免无效地下成本",
+    "source_type": "longfor_c2",
+    "source_file": "22.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "22.png",
+      "region_hint": "停车指标压降分析区"
+    },
+    "category_l1": "建造标准与安全底线",
+    "category_l2": "停车与成本",
+    "tags": [
+      "停车",
+      "周转率",
+      "地下成本",
+      "配比"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "low",
+    "rule_text": "停车位配置应结合项目区位、定位和实际周转率综合判断，避免机械追求高配比导致地下车库面积和成本过大。若车位周转率偏低，应优先优化配比和组织效率，以降低隐性成本。",
+    "interpretation": "这类规则更适合作为顾问式提示，不一定直接出硬错误，但对TOD项目和城市中心项目有较强参考价值。",
+    "evidence_requirement": "需要停车层平面、车位规模和项目区位定位信息支持。",
+    "diagnosis_targets": [
+      "parking"
+    ],
+    "trigger_clues": [
+      "地下停车面积明显偏大",
+      "TOD项目仍采用郊区型配比逻辑",
+      "停车层与上部经营价值不匹配"
+    ],
+    "output_template": {
+      "issue_title_hint": "地下停车规模与项目实际需求的匹配度值得复核",
+      "issue_body_hint": "当前地下停车配置可能存在与项目区位和周转效率不完全匹配的情况。",
+      "recommendation_hint": "建议结合周转率、TOD属性和运营需求复核地下停车规模与配比。"
+    },
+    "source_excerpt": "P2/P3项目应极致压缩地库面积和车位配比，保证车位周转率位于合理区间。",
+    "notes": "适用于首轮总体评估，不依赖精细建模。"
+  },
+  {
+    "rule_id": "LF-STD-CIRCULATION-0001",
+    "title": "一字动线与环形动线应控制在合理进深与长度区间",
+    "source_type": "longfor_standard",
+    "source_file": "2024天街建标.pdf",
+    "source_locator": {
+      "page": 6,
+      "image_name": null,
+      "region_hint": "动线类型条目"
+    },
+    "category_l1": "动线与客流分发",
+    "category_l2": "主流线尺度",
+    "tags": [
+      "一字动线",
+      "环形动线",
+      "进深",
+      "长度"
+    ],
+    "applicable_asset_types": [
+      "mall"
+    ],
+    "judgement_type": "hard_rule",
+    "severity_default": "high",
+    "rule_text": "当天街采用一字动线时，宜控制平均进深在62m至70m；采用环形动线时，宜控制平均进深在110m至140m；动线长度宜控制在280m至400m之间。",
+    "interpretation": "这是可直接进入尺度校核的规则。首轮如果无法精确量化，也可先作为需要重点复核的硬约束提示。",
+    "evidence_requirement": "需要总平或楼层平面的主流线形态和基本尺度信息。",
+    "diagnosis_targets": [
+      "circulation"
+    ],
+    "trigger_clues": [
+      "一字动线过长",
+      "一字动线进深明显偏薄或偏厚",
+      "环形动线尺度失衡"
+    ],
+    "output_template": {
+      "issue_title_hint": "主流线尺度需要与建标区间进一步校核",
+      "issue_body_hint": "当前主流线组织已经较明确，但其进深与长度是否落在适宜区间仍需重点复核。",
+      "recommendation_hint": "建议补充平面尺度校核，验证主流线长度和平均进深是否满足建标控制要求。"
+    },
+    "source_excerpt": "当单一动线时，宜平均进深62m-70m；当环形动线时，宜平均进深110m-140m；动线长度宜控制在280-400m之间。",
+    "notes": "来源于 2024 天街建标第 6 页。"
+  },
+  {
+    "rule_id": "LF-STD-CONCOURSE-0001",
+    "title": "公共连廊应具备围合感，且室内连廊净宽和净高满足下限",
+    "source_type": "longfor_standard",
+    "source_file": "2024天街建标.pdf",
+    "source_locator": {
+      "page": 6,
+      "image_name": null,
+      "region_hint": "公共连廊条目"
+    },
+    "category_l1": "空间布局与体验场景",
+    "category_l2": "公共连廊",
+    "tags": [
+      "连廊",
+      "净宽",
+      "净高",
+      "围合感"
+    ],
+    "applicable_asset_types": [
+      "mall"
+    ],
+    "judgement_type": "hard_rule",
+    "severity_default": "high",
+    "rule_text": "两端均为商业室内空间的公共连廊应为具有封闭围护结构的室内空间；大商业MALL之间的连廊净宽宜不小于12m；大小MALL之间的地下连廊经营区净高应不小于2.7m，经营区面积范围净高宜不小于3.2m。",
+    "interpretation": "该条适合用于检查跨体量连廊、连桥和地下经营连通空间的基本尺度与体验底线。",
+    "evidence_requirement": "需要识别是否存在连廊/连桥，以及其经营属性和基础尺度。",
+    "diagnosis_targets": [
+      "circulation",
+      "feature_space"
+    ],
+    "trigger_clues": [
+      "连廊尺度狭窄",
+      "连廊缺乏围合感",
+      "地下连廊净高疑似不足"
+    ],
+    "output_template": {
+      "issue_title_hint": "公共连廊的空间品质和基础尺度需要重点校核",
+      "issue_body_hint": "当前方案中的连廊或连通空间若尺度不足，可能影响客流舒适度和经营界面价值。",
+      "recommendation_hint": "建议复核连廊净宽、净高和围合方式，并避免将其做成低品质过道空间。"
+    },
+    "source_excerpt": "大MALL之间的连廊宽度应≥12m；大小MALL之间的地下连廊经营区净高应≥2.7m，经营区面积范围净高≥3.2m。",
+    "notes": "来源于 2024 天街建标第 6 页。"
+  },
+  {
+    "rule_id": "LF-STD-ENTRY-0001",
+    "title": "商业主次入口数量、宽度与净高应满足建标控制要求",
+    "source_type": "longfor_standard",
+    "source_file": "2024天街建标.pdf",
+    "source_locator": {
+      "page": 8,
+      "image_name": null,
+      "region_hint": "商业出入口条目"
+    },
+    "category_l1": "到达与交通组织",
+    "category_l2": "商业出入口",
+    "tags": [
+      "入口数量",
+      "入口宽度",
+      "入口净高",
+      "主次入口"
+    ],
+    "applicable_asset_types": [
+      "mall"
+    ],
+    "judgement_type": "hard_rule",
+    "severity_default": "high",
+    "rule_text": "商业出入口应面向城市主要道路或广场方向，数量一般不少于3个；动线长度超过200m时宜布置3个。L1/L1+1主入口宽度宜为10-12m，次要出入口宽度宜为8-10m；与销售商业连接通道入口宽度单侧铺设不小于4m、双边铺设不小于6m；L1/L1+1项目门高宜与室内一致，L2/L3项目门高度不宜大于3600mm，宜与室内吊顶标高齐平。",
+    "interpretation": "适合用于首轮入口体系校核。若图面暂时无法精确量尺，也应至少判断入口数量、位置与层级是否清晰。",
+    "evidence_requirement": "需要识别主次入口位置、入口数量、入口连接的主流线关系及必要的尺寸信息。",
+    "diagnosis_targets": [
+      "main_entry",
+      "secondary_entry",
+      "circulation"
+    ],
+    "trigger_clues": [
+      "主入口数量不足",
+      "主次入口层级不清晰",
+      "入口联系通道尺度偏紧"
+    ],
+    "output_template": {
+      "issue_title_hint": "商业入口体系需要对照建标进一步校核",
+      "issue_body_hint": "当前方案的主次入口层级和入口联系通道可能尚未完全满足建标控制要求。",
+      "recommendation_hint": "建议补充入口数量、宽度、净高及其与主流线关系的专项校核。"
+    },
+    "source_excerpt": "商业出入口面向城市主要道路或广场方向，数量一般不少于3个；L1/L1+1主要出入口宽度宜10-12m，次要出入口宽度宜8-10m。",
+    "notes": "来源于 2024 天街建标第 8 页。"
+  },
+  {
+    "rule_id": "LF-STD-ATRIUM-0001",
+    "title": "中庭尺度、净宽与扶梯距离应满足基本控制",
+    "source_type": "longfor_standard",
+    "source_file": "2024天街建标.pdf",
+    "source_locator": {
+      "page": 8,
+      "image_name": null,
+      "region_hint": "中庭条目"
+    },
+    "category_l1": "空间布局与体验场景",
+    "category_l2": "中庭",
+    "tags": [
+      "中庭",
+      "净宽",
+      "扶梯距离",
+      "尺度"
+    ],
+    "applicable_asset_types": [
+      "mall"
+    ],
+    "judgement_type": "hard_rule",
+    "severity_default": "high",
+    "rule_text": "中庭吊挂点位距中庭护栏和扶梯不宜小于2.5m；主中庭面积宜不超过550平方米；L1/L1+1项目标准中庭宽度宜不小于8m，L2/L3项目标准中庭宽度宜不小于6m；中庭整体应避免形成把型或不利于经营的空间形态。",
+    "interpretation": "中庭是项目核心体验节点，首轮可先校核中庭数量、形态和主次层级，后续再叠加尺寸复核。",
+    "evidence_requirement": "需要识别中庭位置、扶梯位置和主要节点层级。",
+    "diagnosis_targets": [
+      "atrium",
+      "escalator",
+      "feature_space"
+    ],
+    "trigger_clues": [
+      "中庭净宽疑似不足",
+      "中庭与扶梯距离过近",
+      "中庭形态不利于经营"
+    ],
+    "output_template": {
+      "issue_title_hint": "中庭尺度与经营形态需要重点校核",
+      "issue_body_hint": "当前中庭虽已形成节点作用，但其尺度和与扶梯关系仍需对照建标进一步复核。",
+      "recommendation_hint": "建议补充主次中庭宽度、面积和扶梯距离校核，避免中庭空间成为体验弱点。"
+    },
+    "source_excerpt": "L1/L1+1项目标准中庭宽度应≥8米；L2/L3项目标准中庭宽度应≥6米；主中庭面积≤550平方米。",
+    "notes": "来源于 2024 天街建标第 8 页。"
+  },
+  {
+    "rule_id": "LF-STD-WALKWAY-0001",
+    "title": "公区走道主次动线宽度应满足建标底线",
+    "source_type": "longfor_standard",
+    "source_file": "2024天街建标.pdf",
+    "source_locator": {
+      "page": 9,
+      "image_name": null,
+      "region_hint": "公区走道条目"
+    },
+    "category_l1": "动线与客流分发",
+    "category_l2": "公区走道",
+    "tags": [
+      "走道",
+      "主动线",
+      "次动线",
+      "净宽"
+    ],
+    "applicable_asset_types": [
+      "mall"
+    ],
+    "judgement_type": "hard_rule",
+    "severity_default": "high",
+    "rule_text": "集中岛铺区域主动线宽度宜不小于3m，次动线宽度宜不小于2m；首层及标准层公区主通道宽度需结合防火卷帘、板边线距离及有无防火卷帘柱综合控制，通常需保证营业期内公区走道的连续和基本舒适度。",
+    "interpretation": "首轮若无法精确量化，也应先识别是否存在明显过窄、被岛铺压缩或被端头占压的通行段。",
+    "evidence_requirement": "需要识别主要走道、次要走道和岛铺/节点空间关系。",
+    "diagnosis_targets": [
+      "circulation",
+      "feature_space"
+    ],
+    "trigger_clues": [
+      "走道局部明显收窄",
+      "节点被岛铺或设施压缩",
+      "主次动线宽度失衡"
+    ],
+    "output_template": {
+      "issue_title_hint": "公区主次动线宽度需进一步校核",
+      "issue_body_hint": "当前公区走道虽然已形成完整骨架，但局部通行宽度是否满足建标底线仍需重点复核。",
+      "recommendation_hint": "建议对主通道、次通道和岛铺压缩点进行专项宽度校核。"
+    },
+    "source_excerpt": "集中岛铺区域：主动线宽度≥3m，次动线宽度≥2m。",
+    "notes": "来源于 2024 天街建标第 9 页。"
+  },
+  {
+    "rule_id": "LF-STD-ESCALATOR-0001",
+    "title": "自动扶梯应形成有效组团并尽量避免过强遮挡",
+    "source_type": "longfor_standard",
+    "source_file": "2024天街建标.pdf",
+    "source_locator": {
+      "page": 10,
+      "image_name": null,
+      "region_hint": "自动扶/坡梯条目"
+    },
+    "category_l1": "动线与客流分发",
+    "category_l2": "自动扶梯",
+    "tags": [
+      "自动扶梯",
+      "组团",
+      "遮挡",
+      "换层"
+    ],
+    "applicable_asset_types": [
+      "mall"
+    ],
+    "judgement_type": "hard_rule",
+    "severity_default": "high",
+    "rule_text": "服务半径在20m至50m时，各层商业空间宜设置自动扶梯相联通，并要求双向或组团布置；至少有一组自动扶梯到达各层。自动扶梯应避免遮挡主视线为主要原则，标准中庭宜避免上下层扶梯交叉布置以减少对采光和视线的影响；为形成强导流，也可优先采用端头式扶梯或成组组织。",
+    "interpretation": "适合用来检视扶梯是否真的服务于主节点和主流线，而不是仅满足形式上的设置。",
+    "evidence_requirement": "需要识别各层扶梯位置、中庭关系和主要客流方向。",
+    "diagnosis_targets": [
+      "escalator",
+      "atrium",
+      "circulation"
+    ],
+    "trigger_clues": [
+      "扶梯孤立布置",
+      "扶梯交叉过强造成视线遮挡",
+      "扶梯未形成连续换层动力"
+    ],
+    "output_template": {
+      "issue_title_hint": "自动扶梯的组团方式和导流效率需进一步校核",
+      "issue_body_hint": "当前扶梯系统已形成基本联系，但其是否满足建标所要求的组团性和视线友好性仍需核实。",
+      "recommendation_hint": "建议复核扶梯组团、上下层对应关系及其对主节点视线的影响。"
+    },
+    "source_excerpt": "各层商业空间应均应有自动扶梯相联通，要实现双向或组团布置；标准中庭应避免上下层扶梯交叉布置。",
+    "notes": "来源于 2024 天街建标第 10 页。"
+  },
+  {
+    "rule_id": "LF-C2-UG-COMMERCIAL-0001",
+    "title": "地下商业应形成清晰的经营策略而非被动附属空间",
+    "source_type": "longfor_c2",
+    "source_file": "46.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "46.png",
+      "region_hint": "地下商业策略总纲"
+    },
+    "category_l1": "TOD与地下商业",
+    "category_l2": "地下商业策略",
+    "tags": [
+      "地下商业",
+      "经营策略",
+      "TOD",
+      "转化"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "high",
+    "rule_text": "地下商业不应仅承担交通导流或配套附属功能，而应依据项目区位、接驳方式、地面商业强弱和运营主题形成明确经营策略，优先判断其是通勤转化型、目的消费型、场景体验型还是复合导流型。",
+    "interpretation": "这条规则用于先判断地下商业是否有明确定位，再进入业态和流线诊断。",
+    "evidence_requirement": "需要识别地下层与地铁、停车、下沉空间和地面主入口的关系。",
+    "diagnosis_targets": [
+      "circulation",
+      "feature_space",
+      "parking",
+      "main_entry"
+    ],
+    "trigger_clues": [
+      "地下层只有交通功能没有经营逻辑",
+      "地下商业与地面商业脱节",
+      "地下商业无法解释其客流来源"
+    ],
+    "output_template": {
+      "issue_title_hint": "地下商业层的经营策略需要进一步明确",
+      "issue_body_hint": "当前地下商业更像交通附属层，尚未形成清晰的经营定位与转换逻辑。",
+      "recommendation_hint": "建议先明确地下商业的角色，再反推其入口、动线和业态配置。"
+    },
+    "source_excerpt": "地下商业操盘策略应基于项目特征、地理位置、接驳方式与运营目标综合判断。",
+    "notes": "来源于 C2 工具地下商业策略章节。"
+  },
+  {
+    "rule_id": "LF-C2-TOD-INTEGRATION-0001",
+    "title": "TOD项目应把接驳、交通组织与商业骨架一体化设计",
+    "source_type": "longfor_c2",
+    "source_file": "57.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "57.png",
+      "region_hint": "接驳TOD专题与分类型说明"
+    },
+    "category_l1": "TOD与地下商业",
+    "category_l2": "TOD一体化",
+    "tags": [
+      "TOD",
+      "接驳",
+      "交通组织",
+      "商业骨架"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "hard_rule",
+    "severity_default": "high",
+    "rule_text": "TOD项目应把轨道接驳、地铁出入口、地面到达、下沉空间、地下商业和主商业骨架作为同一套客流转换系统设计，不宜分别独立解决后再拼接。",
+    "interpretation": "这是TOD项目首轮诊断的总控规则，优先级非常高。",
+    "evidence_requirement": "需要识别TOD接驳位置、地面到达线、地下商业关系和主入口体系。",
+    "diagnosis_targets": [
+      "main_entry",
+      "secondary_entry",
+      "circulation",
+      "feature_space"
+    ],
+    "trigger_clues": [
+      "TOD接驳与主商业骨架断裂",
+      "地下和地上换层关系弱",
+      "高价值界面未被有效转化为主入口或主节点"
+    ],
+    "output_template": {
+      "issue_title_hint": "TOD接驳与商业骨架的一体化程度需要提升",
+      "issue_body_hint": "当前方案可能仍在分散处理TOD接驳、入口组织和商业导流，尚未形成连续系统。",
+      "recommendation_hint": "建议把TOD接驳、主入口、扶梯节点、地下商业与主流线放在同一张图中一体校核。"
+    },
+    "source_excerpt": "接驳TOD章节强调交通组织、接驳体系与商业经营策略的一体化处理。",
+    "notes": "来源于 C2 工具接驳TOD专题。"
+  },
+  {
+    "rule_id": "LF-C2-ARRIVAL-EXPERIENCE-0001",
+    "title": "到达体验应把车行、步行、落客、停车和入口识别作为一体系统",
+    "source_type": "longfor_c2",
+    "source_file": "59.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "59.png",
+      "region_hint": "到达体验章节总纲"
+    },
+    "category_l1": "到达与交通组织",
+    "category_l2": "到达体验",
+    "tags": [
+      "到达体验",
+      "步行",
+      "车行",
+      "落客"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "hard_rule",
+    "severity_default": "high",
+    "rule_text": "到达体验不应只看某一个入口节点，而应同时校核车行路径、步行路径、落客组织、停车导入、主次入口识别和客流转换效率，形成统一的到达系统。",
+    "interpretation": "适合作为总平和首层联合诊断的基础框架。",
+    "evidence_requirement": "需要总平、首层和必要的地下交通关系共同支撑。",
+    "diagnosis_targets": [
+      "main_entry",
+      "secondary_entry",
+      "circulation",
+      "parking"
+    ],
+    "trigger_clues": [
+      "步车冲突明显",
+      "落客与主入口关系弱",
+      "主次入口识别性不足",
+      "停车导入不能有效转换为商业客流"
+    ],
+    "output_template": {
+      "issue_title_hint": "项目到达系统的整体性需要进一步加强",
+      "issue_body_hint": "当前方案可能分别处理车行、步行和主入口，尚未形成一体化到达体验。",
+      "recommendation_hint": "建议将车行、步行、落客、停车和主入口识别放在统一框架内联动优化。"
+    },
+    "source_excerpt": "到达体验章节围绕步行系统、落客系统、停车系统和序列化空间展开。",
+    "notes": "来源于 C2 工具到达体验章节。"
+  },
+  {
+    "rule_id": "LF-C2-FACADE-ENTRY-0001",
+    "title": "主入口界面应成为建筑识别性与到达感最强的界面之一",
+    "source_type": "longfor_c2",
+    "source_file": "69.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "69.png",
+      "region_hint": "入口设计专题"
+    },
+    "category_l1": "产品表达与建筑形象",
+    "category_l2": "主入口设计",
+    "tags": [
+      "入口设计",
+      "识别性",
+      "到达感",
+      "立面"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "medium",
+    "rule_text": "主入口应在体量、挑空、照明、材质、界面开口和序列化空间上形成最强识别性之一，并与客户主要到达方向保持一致，不宜出现高价值界面到达感不足或入口表达弱化的问题。",
+    "interpretation": "适用于总平、立面和首层联合判断，尤其适合评价TOD主界面。",
+    "evidence_requirement": "需要结合总平到达关系、首层主入口和立面/效果图共同判断。",
+    "diagnosis_targets": [
+      "main_entry",
+      "facade",
+      "feature_space"
+    ],
+    "trigger_clues": [
+      "主入口表达偏弱",
+      "高价值界面缺少识别性",
+      "入口与主要到达方向不一致"
+    ],
+    "output_template": {
+      "issue_title_hint": "主入口界面的识别性和到达感仍有提升空间",
+      "issue_body_hint": "当前主入口或高价值界面的空间表达尚不足以形成最强到达识别。",
+      "recommendation_hint": "建议从体量、开口、照明和前场序列共同强化主入口界面。"
+    },
+    "source_excerpt": "入口设计专题强调入口体量感、标识性、空间层次和到达体验的一体表达。",
+    "notes": "来源于 C2 工具产品表达章节。"
+  },
+  {
+    "rule_id": "LF-C2-SCENE-PLAZA-0001",
+    "title": "下沉广场与主题场景应服务于停留和经营，而非仅作为景观节点",
+    "source_type": "longfor_c2",
+    "source_file": "95.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "95.png",
+      "region_hint": "下沉广场集合区专题"
+    },
+    "category_l1": "景观场景与铺前界面",
+    "category_l2": "下沉广场与场景",
+    "tags": [
+      "下沉广场",
+      "场景",
+      "停留",
+      "经营"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "medium",
+    "rule_text": "下沉广场、内院、主题场景和铺前外摆不应只承担景观展示功能，而应同步支持停留、导流、活动、展示与经营外溢，形成可运营的场景空间。",
+    "interpretation": "适合从总平、景观图、效果图和首层界面共同判断。",
+    "evidence_requirement": "需要识别外摆界面、广场关系、主入口和主题场景位置。",
+    "diagnosis_targets": [
+      "feature_space",
+      "main_entry",
+      "circulation"
+    ],
+    "trigger_clues": [
+      "景观空间可看不可用",
+      "下沉广场与商业界面脱节",
+      "主题场景不能带来停留或经营价值"
+    ],
+    "output_template": {
+      "issue_title_hint": "场景空间的运营性和停留价值需要进一步强化",
+      "issue_body_hint": "当前场景空间更像景观展示节点，经营和停留价值尚未完全建立。",
+      "recommendation_hint": "建议同步检视外摆、活动、展示和步行动线，让场景空间真正服务经营。"
+    },
+    "source_excerpt": "下沉广场和集合区专题均强调经营性场景和主题运营能力。",
+    "notes": "来源于 C2 工具景观场景章节。"
+  },
+  {
+    "rule_id": "LF-STD-OUTDOOR-PLAZA-0001",
+    "title": "室外场地与入口广场坡度应控制在建标范围内",
+    "source_type": "longfor_standard",
+    "source_file": "2024天街建标.pdf",
+    "source_locator": {
+      "page": 7,
+      "image_name": null,
+      "region_hint": "室外场地条目"
+    },
+    "category_l1": "到达与交通组织",
+    "category_l2": "室外场地与入口广场",
+    "tags": [
+      "室外场地",
+      "入口广场",
+      "坡度",
+      "无障碍"
+    ],
+    "applicable_asset_types": [
+      "mall"
+    ],
+    "judgement_type": "hard_rule",
+    "severity_default": "high",
+    "rule_text": "室外广场坡度宜不大于2%，如坡度超过2%至3%应设置台阶解决；入口及其地位广场坡度不宜大于5%，如超过应采用台阶等方式解决，并优先保障商业主流线与铺前界面的连续性。",
+    "interpretation": "适合用于总平、入口和景观场地联合校核。",
+    "evidence_requirement": "需要入口广场、外部场地与主流线关系的图纸支撑。",
+    "diagnosis_targets": [
+      "main_entry",
+      "feature_space",
+      "circulation"
+    ],
+    "trigger_clues": [
+      "入口前场存在明显高差处理问题",
+      "坡度影响无障碍与主流线连续性",
+      "室外场地处理与入口体验冲突"
+    ],
+    "output_template": {
+      "issue_title_hint": "入口广场与室外场地坡度需进一步校核",
+      "issue_body_hint": "当前室外场地处理若高差组织不当，可能削弱主入口体验和通行连续性。",
+      "recommendation_hint": "建议结合主入口、主流线和无障碍策略专项复核广场坡度与高差处理。"
+    },
+    "source_excerpt": "室外广场坡度最大不超过2%；入口及其地位广场坡度最大不超过5%。",
+    "notes": "来源于 2024 天街建标第 7 页。"
+  },
+  {
+    "rule_id": "LF-STD-RESTROOM-0001",
+    "title": "卫生间服务半径与单个卫生间服务面积应满足建标要求",
+    "source_type": "longfor_standard",
+    "source_file": "2024天街建标.pdf",
+    "source_locator": {
+      "page": 10,
+      "image_name": null,
+      "region_hint": "卫生间条目"
+    },
+    "category_l1": "建造标准与安全底线",
+    "category_l2": "卫生间",
+    "tags": [
+      "卫生间",
+      "服务半径",
+      "服务面积",
+      "运营配套"
+    ],
+    "applicable_asset_types": [
+      "mall"
+    ],
+    "judgement_type": "hard_rule",
+    "severity_default": "medium",
+    "rule_text": "卫生间服务半径宜不大于80m，单个卫生间服务面积宜控制在7000至10000平方米范围内；不同楼层卫生间上下对应宜优先考虑设备铺设与后期维护效率。",
+    "interpretation": "这条规则更多用于配套完整性校核，适合在全楼层解析时加入基础检查。",
+    "evidence_requirement": "需要识别卫生间位置和基本楼层服务范围。",
+    "diagnosis_targets": [
+      "feature_space"
+    ],
+    "trigger_clues": [
+      "配套服务半径过大",
+      "高客流层卫生间配置不足",
+      "上下层卫生间布置完全脱节"
+    ],
+    "output_template": {
+      "issue_title_hint": "卫生间服务范围和配置完整性需要复核",
+      "issue_body_hint": "当前配套体系若服务半径过大，可能影响高客流层的使用体验。",
+      "recommendation_hint": "建议在全楼层平面上叠加卫生间服务半径，检查高客流区的配套覆盖。"
+    },
+    "source_excerpt": "卫生间服务半径≤80m；单个卫生间服务面积7000-10000㎡。",
+    "notes": "来源于 2024 天街建标第 10 页。"
+  },
+  {
+    "rule_id": "LF-C2-VALUE-LOGIC-0001",
+    "title": "方案诊断应同时校核生意逻辑、客户体验与成本效率",
+    "source_type": "longfor_c2",
+    "source_file": "1.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "1.png",
+      "region_hint": "总纲首页与价值框架说明"
+    },
+    "category_l1": "总纲与价值逻辑",
+    "category_l2": "综合评价框架",
+    "tags": [
+      "生意逻辑",
+      "客户体验",
+      "成本效率",
+      "综合判断"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "medium",
+    "rule_text": "商业方案诊断不应只看平面完整性或单项技术指标，而应同时校核生意逻辑、客户体验、产品表达、技术实现与成本效率的协同性，避免出现单一维度优化却损伤整体价值的情况。",
+    "interpretation": "这是基础总控规则，用于约束后续诊断口径，避免只按审图式条款输出结论。",
+    "evidence_requirement": "需要总平、平面、效果图和必要的指标说明共同支撑综合判断。",
+    "diagnosis_targets": [
+      "circulation",
+      "main_entry",
+      "anchor_store",
+      "feature_space",
+      "facade",
+      "parking"
+    ],
+    "trigger_clues": [
+      "只满足技术底线但经营逻辑不清",
+      "单点体验强化却破坏整体客流组织",
+      "高成本投入未形成对应经营价值"
+    ],
+    "output_template": {
+      "issue_title_hint": "方案的综合价值框架仍需进一步校准",
+      "issue_body_hint": "当前方案在局部技术或表达上已有基础，但生意逻辑、客户体验与成本效率之间的协同关系还不够稳。",
+      "recommendation_hint": "建议回到项目核心价值目标，统一校核经营逻辑、空间体验和建造效率。"
+    },
+    "source_excerpt": "从建造标准走向生意逻辑与客户视角，形成产品、客户、成本和增量价值的一体判断框架。",
+    "notes": "来源于 C2 工具总纲章节。"
+  },
+  {
+    "rule_id": "LF-C2-HIGH-VALUE-FRONTAGE-0001",
+    "title": "高价值城市界面应优先承接高价值商业功能与主到达界面",
+    "source_type": "longfor_c2",
+    "source_file": "10.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "10.png",
+      "region_hint": "整体规划与主界面策略页"
+    },
+    "category_l1": "整体定位与规划逻辑",
+    "category_l2": "高价值界面分配",
+    "tags": [
+      "主界面",
+      "高价值界面",
+      "入口",
+      "功能分配"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "high",
+    "rule_text": "面向城市主干道、轨道接驳、广场或滨水等高价值界面，应优先布置主入口、主节点、展示性业态或高识别界面，不宜被后勤面、弱展示性功能或无效侧界面占用。",
+    "interpretation": "这是整体规划阶段非常关键的规则，适合总平与首层联合诊断。",
+    "evidence_requirement": "需要识别城市主界面、主要到达方向、首层主入口和沿街界面的功能分配。",
+    "diagnosis_targets": [
+      "main_entry",
+      "secondary_entry",
+      "circulation",
+      "facade",
+      "anchor_store"
+    ],
+    "trigger_clues": [
+      "高价值界面没有形成主入口",
+      "主界面被弱展示性功能占用",
+      "城市主界面与项目主流线脱节"
+    ],
+    "output_template": {
+      "issue_title_hint": "高价值界面的资源配置仍需优化",
+      "issue_body_hint": "当前方案对主界面和高价值到达面的利用还不够充分，未完全转化为商业识别与导流优势。",
+      "recommendation_hint": "建议重新梳理主界面资源，把主入口、主节点与高展示价值功能优先落在高价值界面上。"
+    },
+    "source_excerpt": "整体规划阶段需先判断项目主界面、主入口与主客流方向，再组织商业骨架和功能分配。",
+    "notes": "来源于 C2 工具整体规划章节。"
+  },
+  {
+    "rule_id": "LF-C2-SCENE-IN-SKELETON-0001",
+    "title": "广场、下沉、街巷与景观场景应嵌入商业骨架而非孤立设置",
+    "source_type": "longfor_c2",
+    "source_file": "15.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "15.png",
+      "region_hint": "场景与骨架协同示意"
+    },
+    "category_l1": "整体定位与规划逻辑",
+    "category_l2": "场景嵌入式规划",
+    "tags": [
+      "广场",
+      "下沉",
+      "街巷",
+      "场景空间"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use",
+      "street_commerce"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "medium",
+    "rule_text": "广场、下沉庭院、街巷、景观内院和主题场景应在整体规划阶段与商业主流线、主入口和节点系统一体设计，不宜作为方案后期附加的孤立景观构件。",
+    "interpretation": "这条规则用于判断场景空间是否真正服务经营与导流，而非停留在形式层面。",
+    "evidence_requirement": "需要总平、首层平面和场景效果图共同判断。",
+    "diagnosis_targets": [
+      "circulation",
+      "feature_space",
+      "main_entry"
+    ],
+    "trigger_clues": [
+      "场景空间与主流线脱节",
+      "下沉或广场不可达或不可停留",
+      "主题空间只承担展示功能没有经营联系"
+    ],
+    "output_template": {
+      "issue_title_hint": "场景空间与商业骨架的耦合度需要增强",
+      "issue_body_hint": "当前场景节点已具备一定形象表达，但与主流线和经营界面的联动还不够强。",
+      "recommendation_hint": "建议把广场、下沉和主题场景重新放回商业骨架中，强化导流、停留和经营联动。"
+    },
+    "source_excerpt": "下沉、广场、街巷和景观模块应前置进入总图，并服务于经营价值与客流组织。",
+    "notes": "来源于 C2 工具整体规划与场景组织章节。"
+  },
+  {
+    "rule_id": "LF-C2-DISTRIBUTION-NODES-0001",
+    "title": "入口、节点、中庭与扶梯应形成连续客流分发系统",
+    "source_type": "longfor_c2",
+    "source_file": "43.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "43.png",
+      "region_hint": "客流分发章节总纲"
+    },
+    "category_l1": "动线与客流分发",
+    "category_l2": "节点系统",
+    "tags": [
+      "客流分发",
+      "入口",
+      "中庭",
+      "扶梯"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "hard_rule",
+    "severity_default": "high",
+    "rule_text": "商业主入口、次入口、核心节点、中庭和自动扶梯不应各自孤立设置，而应形成连续的客流分发系统，使进入、识别、停留和换层在体验上保持顺畅递进。",
+    "interpretation": "该条适合跨总平、首层和标准层联合诊断，是主流线和换层系统的总控规则。",
+    "evidence_requirement": "需要至少两层以上平面和主入口体系共同支撑判断。",
+    "diagnosis_targets": [
+      "main_entry",
+      "secondary_entry",
+      "atrium",
+      "escalator",
+      "circulation"
+    ],
+    "trigger_clues": [
+      "入口进入后无法快速识别核心节点",
+      "扶梯未接入主节点节奏",
+      "中庭节点和换层节点彼此脱节"
+    ],
+    "output_template": {
+      "issue_title_hint": "项目客流分发系统的连续性有待加强",
+      "issue_body_hint": "当前入口、节点和换层系统虽然都有设置，但尚未形成顺畅的连续分发链条。",
+      "recommendation_hint": "建议把主入口、节点、中庭和扶梯放到同一客流系统中联动优化。"
+    },
+    "source_excerpt": "客流分发的核心不是单看扶梯，而是看入口、节点、扶梯与经营界面是否构成连续系统。",
+    "notes": "来源于 C2 工具客流分发章节。"
+  },
+  {
+    "rule_id": "LF-C2-SUNKEN-CONVERSION-0001",
+    "title": "下沉空间应兼顾换层、识别与经营转化，不宜只做通行节点",
+    "source_type": "longfor_c2",
+    "source_file": "52.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "52.png",
+      "region_hint": "下沉空间与地下导流专题"
+    },
+    "category_l1": "TOD与地下商业",
+    "category_l2": "下沉空间转化",
+    "tags": [
+      "下沉空间",
+      "地下商业",
+      "换层",
+      "经营转化"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "medium",
+    "rule_text": "下沉空间既应承担地上地下换层与到达识别功能，也应具备停留、展示、活动或经营转化能力，不宜只作为单纯通行节点或被消极空间包围。",
+    "interpretation": "适合TOD和地下商业较强项目，也适合总平和B1联合判断。",
+    "evidence_requirement": "需要总平、B1平面和下沉场景图共同支撑。",
+    "diagnosis_targets": [
+      "feature_space",
+      "circulation",
+      "main_entry",
+      "atrium"
+    ],
+    "trigger_clues": [
+      "下沉空间只有交通功能",
+      "下沉周边界面缺乏经营性",
+      "下沉节点不能形成有效停留"
+    ],
+    "output_template": {
+      "issue_title_hint": "下沉空间的经营转化能力仍需加强",
+      "issue_body_hint": "当前下沉空间更多承担换层或到达作用，但停留和经营转化价值尚未完全建立。",
+      "recommendation_hint": "建议同步检视下沉空间的经营界面、活动承载和换层识别关系。"
+    },
+    "source_excerpt": "TOD与地下商业章节强调下沉空间需要同时服务导流、识别和经营转化。",
+    "notes": "来源于 C2 工具地下商业与下沉空间专题。"
+  },
+  {
+    "rule_id": "LF-C2-PODIUM-CORNER-0001",
+    "title": "低区基座与转角界面应承担城市识别和商业展示双重任务",
+    "source_type": "longfor_c2",
+    "source_file": "73.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "73.png",
+      "region_hint": "低区基座与转角表达专题"
+    },
+    "category_l1": "产品表达与建筑形象",
+    "category_l2": "基座与转角界面",
+    "tags": [
+      "基座",
+      "转角",
+      "城市识别",
+      "商业展示"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "medium",
+    "rule_text": "低区基座和转角界面不应仅满足围护和造型需要，而应承担城市识别、品牌展示、入口导向和连续商业界面的双重任务，避免转角被弱化成普通侧立面。",
+    "interpretation": "适合立面、总平和首层联合判断，尤其适合城市展示面和沿街转角评价。",
+    "evidence_requirement": "需要立面图、首层沿街界面和主要到达方向信息。",
+    "diagnosis_targets": [
+      "facade",
+      "main_entry",
+      "feature_space"
+    ],
+    "trigger_clues": [
+      "转角界面识别性偏弱",
+      "基座表达与首层经营界面脱节",
+      "重要转角未形成有效展示和导向"
+    ],
+    "output_template": {
+      "issue_title_hint": "基座与转角界面的城市展示价值仍有提升空间",
+      "issue_body_hint": "当前低区基座或转角界面的表达尚不足以形成强识别和强展示效果。",
+      "recommendation_hint": "建议强化转角和基座的导向、展示和品牌表达，使其与首层经营界面协同。"
+    },
+    "source_excerpt": "低区基座、转角和檐口均应服务于入口识别、城市界面和商业表情。",
+    "notes": "来源于 C2 工具产品表达章节。"
+  },
+  {
+    "rule_id": "LF-C2-MATERIAL-HIERARCHY-0001",
+    "title": "立面材质与构件系统应形成清晰层级，避免碎片化拼贴",
+    "source_type": "longfor_c2",
+    "source_file": "77.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "77.png",
+      "region_hint": "材质与构件系统专题"
+    },
+    "category_l1": "产品表达与建筑形象",
+    "category_l2": "材质与构件系统",
+    "tags": [
+      "材质",
+      "构件",
+      "立面系统",
+      "层级"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "low",
+    "rule_text": "商业立面的材质、分缝、幕墙模块、构件尺度和夜景表达应形成清晰主次层级，既要保证品牌感和城市性，也应避免零散拼贴、主次不清或实施难度过高的问题。",
+    "interpretation": "这是立面评价中的顾问式规则，更适合优化建议而非硬错误。",
+    "evidence_requirement": "需要立面图、效果图或材质分析图支撑判断。",
+    "diagnosis_targets": [
+      "facade"
+    ],
+    "trigger_clues": [
+      "材质系统过于碎片化",
+      "构件和分缝逻辑不统一",
+      "主次界面表达混乱"
+    ],
+    "output_template": {
+      "issue_title_hint": "立面材质和构件系统的层级关系需要进一步梳理",
+      "issue_body_hint": "当前立面表达已有一定意图，但材质、构件和主次界面的关系还不够清晰。",
+      "recommendation_hint": "建议统一材质、构件和分缝逻辑，建立更清楚的界面层级和实施策略。"
+    },
+    "source_excerpt": "材质、幕墙模块和构件系统应服务品牌感、城市性与可实施性的统一。",
+    "notes": "来源于 C2 工具立面材质与构件专题。"
+  },
+  {
+    "rule_id": "LF-C2-INTERIOR-CONSISTENCY-0001",
+    "title": "公区、中庭与高频接触空间应形成统一的精装语言与场景气质",
+    "source_type": "longfor_c2",
+    "source_file": "82.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "82.png",
+      "region_hint": "精装场景章节与中庭、公区示例"
+    },
+    "category_l1": "精装场景",
+    "category_l2": "公区与高频空间",
+    "tags": [
+      "精装",
+      "公区",
+      "中庭",
+      "卫生间"
+    ],
+    "applicable_asset_types": [
+      "mall"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "medium",
+    "rule_text": "中庭、公区走道、卫生间和其他高频接触空间应形成统一的精装语言、材料策略与照明气质，并与整体产品定位和商业场景保持一致，不宜出现空间分裂或气质断档。",
+    "interpretation": "适合效果图和室内专项表达诊断，也能用于支撑顾问式建议。",
+    "evidence_requirement": "需要室内效果图、精装示意或相关专项图支撑。",
+    "diagnosis_targets": [
+      "feature_space",
+      "atrium"
+    ],
+    "trigger_clues": [
+      "中庭和走道气质割裂",
+      "高频空间缺乏统一语言",
+      "精装表达与项目定位不一致"
+    ],
+    "output_template": {
+      "issue_title_hint": "公区与高频空间的精装语言仍需统一",
+      "issue_body_hint": "当前室内场景已具备部分表达基础，但整体精装语言和空间气质还不够连贯。",
+      "recommendation_hint": "建议围绕项目定位统一中庭、公区和高频空间的材料、照明与细部策略。"
+    },
+    "source_excerpt": "精装不是装饰收尾，而是商业气质和停留价值的重要组成部分。",
+    "notes": "来源于 C2 工具精装场景章节。"
+  },
+  {
+    "rule_id": "LF-C2-STOREFRONT-FORECOURT-0001",
+    "title": "铺前界面、外摆与主题场景应共同支撑停留、展示与经营外溢",
+    "source_type": "longfor_c2",
+    "source_file": "99.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "99.png",
+      "region_hint": "铺前群落与外摆专题"
+    },
+    "category_l1": "景观场景与铺前界面",
+    "category_l2": "铺前群落与外摆",
+    "tags": [
+      "铺前界面",
+      "外摆",
+      "停留",
+      "经营外溢"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "street_commerce",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "medium",
+    "rule_text": "铺前界面、外摆区、儿童或餐饮主题场景应共同服务停留、展示、社交和经营外溢，既要形成群落氛围，也应避免侵占主流线或成为只可观看不可使用的装饰界面。",
+    "interpretation": "适合用于评价首层开放界面、餐饮集合区和主题外摆空间。",
+    "evidence_requirement": "需要总平、首层平面和效果图共同支撑。",
+    "diagnosis_targets": [
+      "feature_space",
+      "circulation",
+      "main_entry"
+    ],
+    "trigger_clues": [
+      "铺前空间缺乏停留和展示能力",
+      "外摆与主流线冲突",
+      "主题群落不可运营或不可持续使用"
+    ],
+    "output_template": {
+      "issue_title_hint": "铺前界面与外摆场景的经营外溢能力仍需提升",
+      "issue_body_hint": "当前铺前与外摆空间有一定场景表达，但停留、展示和经营联动还不够充分。",
+      "recommendation_hint": "建议同步优化铺前停留、外摆尺度和主流线关系，使场景空间真正形成经营外溢。"
+    },
+    "source_excerpt": "铺前界面、外摆和主题群落应服务停留、社交、展示和经营外溢。",
+    "notes": "来源于 C2 工具景观场景与铺前界面章节。"
+  }
+]
