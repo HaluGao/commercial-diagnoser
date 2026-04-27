@@ -420,13 +420,16 @@ def render_api_sidebar() -> tuple:
         selected_model = st.selectbox("审查模型", model_options, index=model_index)
         base_url = st.text_input("接口地址", value=default_base_url)
         configured_api_key = os.environ.get("COMMERCIAL_DIAGNOSER_API_KEY", "").strip()
-        api_key = st.text_input(
-            "API Key",
-            value=configured_api_key,
-            type="password",
-        )
         if configured_api_key:
-            st.caption("当前演示环境已预置 API Key，可直接体验；你也可以手动替换。")
+            api_key = configured_api_key
+            st.markdown("**云端服务密钥**")
+            st.info("当前演示环境已配置服务端 API Key。为避免泄露，公开页面不展示真实密钥。")
+        else:
+            api_key = st.text_input(
+                "API Key",
+                value="",
+                type="password",
+            )
         timeout_seconds = st.number_input("请求超时（秒）", min_value=30, max_value=600, value=240)
 
         provider = ApiYiProvider(
