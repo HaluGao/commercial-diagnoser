@@ -16,18 +16,14 @@ from urllib import error, request
 from PIL import Image
 
 
-C2_CACHE_DIR = Path(
-    "/Users/halu/Desktop/codex/commercial_diagnoser/data/source_ingest/c2_incremental_cache"
-)
-EXISTING_NORMALIZED_PATH = Path(
-    "/Users/halu/Desktop/codex/commercial_diagnoser/data/rules/imported/antigravity/antigravity_rule_candidates.normalized.json"
-)
-OUTPUT_DIR = Path(
-    "/Users/halu/Desktop/codex/commercial_diagnoser/data/rules/imported/c2_incremental"
-)
+BASE_DIR = Path(__file__).resolve().parents[1]
+C2_CACHE_DIR = BASE_DIR / "data" / "source_ingest" / "c2_incremental_cache"
+EXISTING_NORMALIZED_PATH = BASE_DIR / "data" / "rules" / "imported" / "antigravity" / "antigravity_rule_candidates.normalized.json"
+OUTPUT_DIR = BASE_DIR / "data" / "rules" / "imported" / "c2_incremental"
 RAW_OUTPUT_PATH = OUTPUT_DIR / "c2_incremental_extracted_rules.raw.json"
 SUMMARY_OUTPUT_PATH = OUTPUT_DIR / "c2_incremental_extracted_rules.summary.json"
 MISSING_MANIFEST_PATH = OUTPUT_DIR / "c2_incremental_missing_images.json"
+PROCESSED_PAGES_PATH = OUTPUT_DIR / "c2_incremental_processed_pages.json"
 
 
 def numeric_image_sort_key(path: Path) -> int:
@@ -35,6 +31,14 @@ def numeric_image_sort_key(path: Path) -> int:
         return int(path.stem)
     except ValueError:
         return 99999
+
+
+def canonical_image_name(name: str) -> str:
+    stem = Path(name).stem
+    suffix = Path(name).suffix or ".png"
+    if stem.isdigit():
+        return f"{int(stem)}{suffix.lower()}"
+    return f"{stem}{suffix.lower()}"
 
 
 def resolve_api_key() -> str | None:
@@ -64,16 +68,38 @@ def resolve_local_c2_dir(cli_source_dir: str | None) -> Path:
     return source_dir
 
 
+def load_processed_page_names() -> set[str]:
+    if not PROCESSED_PAGES_PATH.exists():
+        return set()
+    payload = json.loads(PROCESSED_PAGES_PATH.read_text())
+    return {canonical_image_name(name) for name in payload.get("processed_pages", [])}
+
+
+def save_processed_page_names(names: set[str]) -> None:
+    PROCESSED_PAGES_PATH.write_text(
+        json.dumps({"processed_pages": sorted(names)}, ensure_ascii=False, indent=2) + "\n"
+    )
+
+
 def build_missing_image_list(source_dir: Path) -> list[Path]:
     existing_rules = json.loads(EXISTING_NORMALIZED_PATH.read_text())
-    processed_images = {item.get("source_image") for item in existing_rules if item.get("source_image")}
+    processed_images = {
+        canonical_image_name(item.get("source_image"))
+        for item in existing_rules
+        if item.get("source_image")
+    }
+    processed_images.update(load_processed_page_names())
     if RAW_OUTPUT_PATH.exists():
         incremental_rules = json.loads(RAW_OUTPUT_PATH.read_text())
         processed_images.update(
-            {item.get("source_image") for item in incremental_rules if item.get("source_image")}
+            {
+                canonical_image_name(item.get("source_image"))
+                for item in incremental_rules
+                if item.get("source_image")
+            }
         )
     all_images = sorted(source_dir.glob("*.png"), key=numeric_image_sort_key)
-    missing_images = [path for path in all_images if path.name not in processed_images]
+    missing_images = [path for path in all_images if canonical_image_name(path.name) not in processed_images]
     return missing_images
 
 
@@ -161,19 +187,37 @@ def parse_response_json(response_json: dict[str, Any]) -> list[dict[str, Any]]:
     except json.JSONDecodeError:
         parsed = _extract_embedded_json(content_str)
 
-    if isinstance(parsed, dict) and "rules" in parsed:
-        parsed = parsed["rules"]
+    if isinstance(parsed, dict):
+        if "rules" in parsed and isinstance(parsed["rules"], list):
+            parsed = parsed["rules"]
+        elif len(parsed) == 1:
+            only_value = next(iter(parsed.values()))
+            if isinstance(only_value, list):
+                parsed = only_value
+        elif {"category", "target", "metric", "value", "rule_desc"}.issubset(parsed.keys()):
+            parsed = [parsed]
+
     if not isinstance(parsed, list):
         raise ValueError("模型返回的 JSON 不是数组。")
     return parsed
 
 
 def _extract_embedded_json(content_str: str) -> list[dict[str, Any]] | dict[str, Any]:
-    array_match = re.search(r"\[[\s\S]*\]", content_str)
+    decoder = json.JSONDecoder()
+    for marker in ("[", "{"):
+        start = content_str.find(marker)
+        while start != -1:
+            try:
+                parsed, _ = decoder.raw_decode(content_str[start:])
+                return parsed
+            except json.JSONDecodeError:
+                start = content_str.find(marker, start + 1)
+
+    array_match = re.search(r"\[[\s\S]*?\]", content_str)
     if array_match:
         return json.loads(array_match.group(0))
 
-    object_match = re.search(r"\{[\s\S]*\}", content_str)
+    object_match = re.search(r"\{[\s\S]*?\}", content_str)
     if object_match:
         return json.loads(object_match.group(0))
 
@@ -221,11 +265,21 @@ def main() -> None:
     parser.add_argument("--limit", type=int, default=None, help="Only process the first N missing images.")
     parser.add_argument("--timeout", type=int, default=90)
     parser.add_argument("--source-dir", type=str, default=None, help="Directory of the manually prepared local C2 image copies.")
+    parser.add_argument("--only-images", type=str, default=None, help="Comma-separated image list to process explicitly.")
+    parser.add_argument("--skip-images", type=str, default=None, help="Comma-separated image list to skip from the pending set.")
     args = parser.parse_args()
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     source_dir = resolve_local_c2_dir(args.source_dir)
     missing_images = build_missing_image_list(source_dir)
+
+    if args.only_images:
+        requested = {item.strip() for item in args.only_images.split(",") if item.strip()}
+        missing_images = [path for path in missing_images if path.name in requested]
+
+    if args.skip_images:
+        skip_set = {item.strip() for item in args.skip_images.split(",") if item.strip()}
+        missing_images = [path for path in missing_images if path.name not in skip_set]
 
     MISSING_MANIFEST_PATH.write_text(
         json.dumps(
@@ -233,6 +287,8 @@ def main() -> None:
                 "c2_dir": str(source_dir),
                 "missing_image_count": len(missing_images),
                 "missing_images": [path.name for path in missing_images],
+                "only_images": args.only_images,
+                "skip_images": args.skip_images,
             },
             ensure_ascii=False,
             indent=2,
@@ -252,6 +308,7 @@ def main() -> None:
     base_url = os.environ.get("COMMERCIAL_DIAGNOSER_BASE_URL", "https://api.apiyi.com/v1")
     extracted_rules: list[dict[str, Any]] = []
     failed_images: list[dict[str, str]] = []
+    processed_page_names = load_processed_page_names()
     if RAW_OUTPUT_PATH.exists():
         extracted_rules = json.loads(RAW_OUTPUT_PATH.read_text())
 
@@ -265,7 +322,9 @@ def main() -> None:
                 timeout_seconds=args.timeout,
             )
             extracted_rules.extend(parsed_rules)
+            processed_page_names.add(canonical_image_name(image_path.name))
             RAW_OUTPUT_PATH.write_text(json.dumps(extracted_rules, ensure_ascii=False, indent=2) + "\n")
+            save_processed_page_names(processed_page_names)
             print(f"Completed {image_path.name}: {len(parsed_rules)} rules", flush=True)
             time.sleep(3)
         except Exception as exc:

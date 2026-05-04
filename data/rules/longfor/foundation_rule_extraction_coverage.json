@@ -12,8 +12,8 @@
     ]
   },
   "rule_count_summary": {
-    "total_rules": 28,
-    "c2_rules": 20,
+    "total_rules": 44,
+    "c2_rules": 36,
     "standard_rules": 8
   },
   "c2_chapter_coverage": [
@@ -21,9 +21,17 @@
       "section_id": "c2-01",
       "title": "总纲与价值逻辑",
       "pages": "1-8",
-      "coverage_status": "章节已覆盖，后续可继续补更多条目",
+      "coverage_status": "章节已覆盖，当前已补入总纲方法论、五大基本策略、客户视角与定位标签规则",
       "rule_ids": [
-        "LF-C2-VALUE-LOGIC-0001"
+        "LF-C2-VALUE-LOGIC-0001",
+        "LF-C2-FIVE-BASICS-0001",
+        "LF-C2-STANDARD-MODULE-0001",
+        "LF-C2-BUSINESS-LOGIC-TOTAL-0001",
+        "LF-C2-CONNECTION-STRATEGY-0001",
+        "LF-C2-FIRE-BUSINESS-LOGIC-0001",
+        "LF-C2-POSITIONING-TAG-0001",
+        "LF-C2-CUSTOMER-TENANT-PLACEMENT-0001",
+        "LF-C2-CUSTOMER-SPATIAL-LAYOUT-0001"
       ]
     },
     {
@@ -41,26 +49,34 @@
       "section_id": "c2-03",
       "title": "租户落位与铺位效率",
       "pages": "23-42",
-      "coverage_status": "章节已覆盖，当前已含B1、主力店、超市、低效端头、多经点位等核心条目",
+      "coverage_status": "章节已覆盖，当前已含B1、主力店、超市、低效端头、多经点位、铺位有效化、餐饮层零售穿插与次主力店面积控制条目",
       "rule_ids": [
         "LF-C2-B1-METRO-0001",
         "LF-C2-MAIN-ANCHOR-0001",
         "LF-C2-SUPERMARKET-0001",
         "LF-C2-LOW-EFFICIENCY-END-0001",
-        "LF-C2-MULTI-KIOSK-0001"
+        "LF-C2-MULTI-KIOSK-0001",
+        "LF-C2-EFFECTIVE-SHOP-0001",
+        "LF-C2-FOOD-FLOOR-RETAIL-0001",
+        "LF-C2-CINEMA-FOYER-RETAIL-0001",
+        "LF-C2-WEAK-SECONDARY-ANCHOR-DOWNSIZE-0001"
       ]
     },
     {
       "section_id": "c2-04",
       "title": "客流分发、地下商业与TOD",
       "pages": "43-63",
-      "coverage_status": "章节已覆盖，当前已含客流分发系统、地下商业策略、TOD一体化、到达体验和下沉转化",
+      "coverage_status": "章节已覆盖，当前已含客流分发系统、地下商业策略、TOD一体化、到达体验、下沉转化、扶梯总控与超市口部组织条目",
       "rule_ids": [
         "LF-C2-DISTRIBUTION-NODES-0001",
         "LF-C2-UG-COMMERCIAL-0001",
         "LF-C2-TOD-INTEGRATION-0001",
         "LF-C2-ARRIVAL-EXPERIENCE-0001",
-        "LF-C2-SUNKEN-CONVERSION-0001"
+        "LF-C2-SUNKEN-CONVERSION-0001",
+        "LF-C2-ESCALATOR-BUSINESS-LOGIC-0001",
+        "LF-C2-SUPERMARKET-OPENING-WIDTH-0001",
+        "LF-C2-SUPERMARKET-SHUTTER-OBSTRUCTION-0001",
+        "LF-C2-SUPERMARKET-OPENING-EXIT-LOGIC-0001"
       ]
     },
     {

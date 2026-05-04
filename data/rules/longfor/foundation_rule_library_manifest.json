@@ -31,7 +31,7 @@
   ],
   "rule_files": [
     {
-      "path": "/Users/halu/Desktop/codex/commercial_diagnoser/data/rules/longfor/longfor_first_batch_rules.json",
+      "path": "/Users/halu/临时工作文件/codex/commercial_diagnoser/data/rules/longfor/longfor_first_batch_rules.json",
       "source_mix": [
         "longfor_c2",
         "longfor_standard_2024"
@@ -40,7 +40,7 @@
       "rule_count": 8
     },
     {
-      "path": "/Users/halu/Desktop/codex/commercial_diagnoser/data/rules/longfor/longfor_second_batch_rules.json",
+      "path": "/Users/halu/临时工作文件/codex/commercial_diagnoser/data/rules/longfor/longfor_second_batch_rules.json",
       "source_mix": [
         "longfor_standard_2024"
       ],
@@ -48,7 +48,7 @@
       "rule_count": 4
     },
     {
-      "path": "/Users/halu/Desktop/codex/commercial_diagnoser/data/rules/longfor/longfor_third_batch_rules.json",
+      "path": "/Users/halu/临时工作文件/codex/commercial_diagnoser/data/rules/longfor/longfor_third_batch_rules.json",
       "source_mix": [
         "longfor_c2",
         "longfor_standard_2024"
@@ -57,30 +57,46 @@
       "rule_count": 7
     },
     {
-      "path": "/Users/halu/Desktop/codex/commercial_diagnoser/data/rules/longfor/longfor_fourth_batch_rules.json",
+      "path": "/Users/halu/临时工作文件/codex/commercial_diagnoser/data/rules/longfor/longfor_fourth_batch_rules.json",
       "source_mix": [
         "longfor_c2"
       ],
       "batch": 4,
       "rule_count": 9
+    },
+    {
+      "path": "/Users/halu/临时工作文件/codex/commercial_diagnoser/data/rules/longfor/longfor_fifth_batch_rules.json",
+      "source_mix": [
+        "longfor_c2"
+      ],
+      "batch": 5,
+      "rule_count": 10
+    },
+    {
+      "path": "/Users/halu/临时工作文件/codex/commercial_diagnoser/data/rules/longfor/longfor_sixth_batch_rules.json",
+      "source_mix": [
+        "longfor_c2"
+      ],
+      "batch": 6,
+      "rule_count": 6
     }
   ],
   "supporting_indexes": [
     {
-      "path": "/Users/halu/Desktop/codex/commercial_diagnoser/data/rules/longfor/c2_tool_full_page_index.json",
+      "path": "/Users/halu/临时工作文件/codex/commercial_diagnoser/data/rules/longfor/c2_tool_full_page_index.json",
       "purpose": "C2工具全量页序和章节覆盖索引"
     },
     {
-      "path": "/Users/halu/Desktop/codex/commercial_diagnoser/data/rules/longfor/foundation_rule_extraction_coverage.json",
+      "path": "/Users/halu/临时工作文件/codex/commercial_diagnoser/data/rules/longfor/foundation_rule_extraction_coverage.json",
       "purpose": "基础规则库的章节级条目覆盖情况"
     }
   ],
   "rule_count_summary": {
-    "total_rules": 28,
-    "c2_rules": 20,
+    "total_rules": 44,
+    "c2_rules": 36,
     "standard_rules": 8
   },
   "test_cases_excluded_from_foundation": [
-    "/Users/halu/Desktop/codex/commercial_diagnoser/data/source_ingest/huishan_tod_0409"
+    "/Users/halu/临时工作文件/codex/commercial_diagnoser/data/source_ingest/huishan_tod_0409"
   ]
 }

@@ -1,0 +1,24 @@
+{
+  "input_incremental_rule_count": 857,
+  "formal_rule_count": 28,
+  "review_base_count": 857,
+  "review_bucket_counts": {
+    "candidate_rule": 553,
+    "needs_category_refine": 304
+  },
+  "merge_recommendation_counts": {
+    "candidate_for_foundation_merge": 553,
+    "keep_in_review_base": 304
+  },
+  "category_l1_counts": {
+    "整体定位与规划逻辑": 196,
+    "租户落位与铺位效率": 52,
+    "动线与客流分发": 26,
+    "空间布局与体验场景": 172,
+    "待人工归类": 304,
+    "TOD与地下商业": 14,
+    "产品表达与建筑形象": 53,
+    "建造标准与安全底线": 40
+  },
+  "note": "这是新版 C2 图片自动抽取规则的首轮复核底库，不等同于逐条人工定稿后的正式基础规则库。"
+}

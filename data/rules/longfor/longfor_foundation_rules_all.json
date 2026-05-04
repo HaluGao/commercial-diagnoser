@@ -1254,5 +1254,722 @@
     },
     "source_excerpt": "铺前界面、外摆和主题群落应服务停留、社交、展示和经营外溢。",
     "notes": "来源于 C2 工具景观场景与铺前界面章节。"
+  },
+  {
+    "rule_id": "LF-C2-FIVE-BASICS-0001",
+    "title": "方案首轮诊断应先校核大规划、大交通、大连接、大骨架、大场景五大基本策略",
+    "source_type": "longfor_c2",
+    "source_file": "1.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "1.png",
+      "region_hint": "C2总纲首页与五大基本策略框架"
+    },
+    "category_l1": "总纲与价值逻辑",
+    "category_l2": "五大基本策略",
+    "tags": [
+      "五大基本策略",
+      "总纲",
+      "首轮诊断",
+      "整体判断"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "high",
+    "rule_text": "商业建筑方案的首轮诊断不应直接陷入局部尺寸或单点体验，而应先按大规划、大交通、大连接、大骨架、大场景五大基本策略校核方案是否具备完整的经营与空间框架。",
+    "interpretation": "这是总控方法论规则，用于约束首轮诊断顺序，先看框架完整性，再看专项优化。",
+    "evidence_requirement": "需要总平、首层、关键楼层平面以及主要场景或到达界面信息共同支撑。",
+    "diagnosis_targets": [
+      "circulation",
+      "main_entry",
+      "secondary_entry",
+      "feature_space",
+      "facade",
+      "parking"
+    ],
+    "trigger_clues": [
+      "只盯局部铺位或单点节点",
+      "交通、连接和场景被割裂判断",
+      "缺少对整体骨架和主界面的统筹"
+    ],
+    "output_template": {
+      "issue_title_hint": "方案仍需回到五大基本策略做总控校核",
+      "issue_body_hint": "当前判断若只聚焦局部问题，容易遗漏大规划、大交通、大连接、大骨架和大场景之间的系统关系。",
+      "recommendation_hint": "建议先以五大基本策略重建首轮审查框架，再展开专项问题判断。"
+    },
+    "source_excerpt": "商业建筑设计应夯实基础行活，关注大规划、大交通、大连接、大骨架、大场景五大基本策略。",
+    "notes": "由新版C2总纲页抽取并精修。"
+  },
+  {
+    "rule_id": "LF-C2-STANDARD-MODULE-0001",
+    "title": "方案判断应把建造标准与空间模块作为底层约束而非后置校核项",
+    "source_type": "longfor_c2",
+    "source_file": "1.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "1.png",
+      "region_hint": "C2总纲首页与基础构成说明"
+    },
+    "category_l1": "总纲与价值逻辑",
+    "category_l2": "底层约束",
+    "tags": [
+      "建造标准",
+      "空间模块",
+      "底层约束"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "medium",
+    "rule_text": "商业方案判断应把建造标准、基础尺度和空间模块作为前置约束纳入方案组织，而不是在方案成型后再被动校核，以避免概念表达与落地条件脱节。",
+    "interpretation": "这条规则连接集团建标与方案推演过程，适合作为产品与技术之间的总控约束。",
+    "evidence_requirement": "需要平面、必要尺寸信息和建标条款联合判断。",
+    "diagnosis_targets": [
+      "circulation",
+      "feature_space",
+      "facade"
+    ],
+    "trigger_clues": [
+      "概念表达超前但模块无法落地",
+      "核心空间缺少标准化支撑",
+      "后期频繁因建标或机电条件被动调整"
+    ],
+    "output_template": {
+      "issue_title_hint": "方案的底层建造约束仍需前置",
+      "issue_body_hint": "当前方案在表达层面已有方向，但建造标准与空间模块尚未充分嵌入前期推演。",
+      "recommendation_hint": "建议将建造标准、基础尺度和空间模块前置纳入方案组织。"
+    },
+    "source_excerpt": "商业建筑设计应以建造标准和空间模块为基础。",
+    "notes": "由新版C2总纲页抽取并精修。"
+  },
+  {
+    "rule_id": "LF-C2-BUSINESS-LOGIC-TOTAL-0001",
+    "title": "整体规划策略应从生意逻辑出发统筹连接、消防、铺位有效化与扶梯动线",
+    "source_type": "longfor_c2",
+    "source_file": "1.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "1.png",
+      "region_hint": "C2总纲首页与整体规划策略说明"
+    },
+    "category_l1": "总纲与价值逻辑",
+    "category_l2": "生意逻辑总控",
+    "tags": [
+      "生意逻辑",
+      "整体规划",
+      "连接策略",
+      "消防策略",
+      "扶梯动线"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "high",
+    "rule_text": "商业项目的整体规划策略应从生意逻辑出发，统筹连接策略、消防策略、铺位有效化和扶梯动线等关键系统，不宜把这些问题拆成彼此孤立的后置专项。",
+    "interpretation": "这是把经营逻辑和技术条件统一到同一判断框架中的总控规则。",
+    "evidence_requirement": "需要总平、首层、典型楼层和基本消防分区/换层关系共同支撑。",
+    "diagnosis_targets": [
+      "circulation",
+      "main_entry",
+      "secondary_entry",
+      "anchor_store"
+    ],
+    "trigger_clues": [
+      "连接、消防和铺位判断彼此割裂",
+      "扶梯组织无法支撑经营节奏",
+      "为了技术妥协牺牲经营效率"
+    ],
+    "output_template": {
+      "issue_title_hint": "方案的整体规划仍需回到生意逻辑总控",
+      "issue_body_hint": "当前方案对连接、消防、铺位和扶梯的组织还没有完全纳入统一的经营框架。",
+      "recommendation_hint": "建议以生意逻辑为主线，联动校核连接、消防、铺位有效化与扶梯动线。"
+    },
+    "source_excerpt": "整体规划策略应从生意逻辑出发，关注连接策略、消防策略、铺位有效化和扶梯动线。",
+    "notes": "由新版C2总纲页抽取并精修。"
+  },
+  {
+    "rule_id": "LF-C2-EFFECTIVE-SHOP-0001",
+    "title": "铺位设计应以有效化为基本目标，避免产生可经营性弱的无效铺位",
+    "source_type": "longfor_c2",
+    "source_file": "1.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "1.png",
+      "region_hint": "C2总纲首页与铺位有效化说明"
+    },
+    "category_l1": "租户落位与铺位效率",
+    "category_l2": "铺位有效化",
+    "tags": [
+      "铺位有效化",
+      "租户效率",
+      "可经营性"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "high",
+    "rule_text": "铺位设计应以有效化为基本目标，优先避免形状失衡、进深失控、展示面不足或位置弱化造成的无效铺位，并把可经营性作为首轮判断指标之一。",
+    "interpretation": "这条规则为后续主力店、次主力店和标准铺位诊断提供统一口径。",
+    "evidence_requirement": "需要典型楼层平面、铺位轮廓、开口界面和关键节点位置共同判断。",
+    "diagnosis_targets": [
+      "anchor_store",
+      "secondary_entry",
+      "circulation"
+    ],
+    "trigger_clues": [
+      "端头或转折区铺位畸形",
+      "展示面与进深不匹配",
+      "位置可达但不易转化为有效经营"
+    ],
+    "output_template": {
+      "issue_title_hint": "局部铺位的有效化仍需提升",
+      "issue_body_hint": "当前方案存在若干可经营性偏弱的铺位，可能影响后续招商和坪效兑现。",
+      "recommendation_hint": "建议以铺位有效化为目标，回看形状、界面、进深和节点关系。"
+    },
+    "source_excerpt": "商业建筑设计应确保铺位的有效性。",
+    "notes": "由新版C2总纲页抽取并精修。"
+  },
+  {
+    "rule_id": "LF-C2-ESCALATOR-BUSINESS-LOGIC-0001",
+    "title": "扶梯动线应服务生意逻辑，而非只满足机械布置或换层便利",
+    "source_type": "longfor_c2",
+    "source_file": "1.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "1.png",
+      "region_hint": "C2总纲首页与扶梯动线说明"
+    },
+    "category_l1": "动线与客流分发",
+    "category_l2": "扶梯动线策略",
+    "tags": [
+      "扶梯动线",
+      "换层",
+      "生意逻辑"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "high",
+    "rule_text": "扶梯动线应服务经营节奏、客流转换和节点停留，不宜只以机械布置、最短换层路径或局部技术便利为主要依据。",
+    "interpretation": "这条规则用于把扶梯从纯技术构件拉回到商业骨架组织中。",
+    "evidence_requirement": "需要典型楼层平面、扶梯组团位置、中庭或节点关系共同判断。",
+    "diagnosis_targets": [
+      "circulation",
+      "feature_space",
+      "main_entry"
+    ],
+    "trigger_clues": [
+      "扶梯布置脱离主流线",
+      "换层后客流无法继续被导向有效经营界面",
+      "扶梯只承担穿越功能不形成节点价值"
+    ],
+    "output_template": {
+      "issue_title_hint": "扶梯动线与经营逻辑的耦合度不足",
+      "issue_body_hint": "当前扶梯系统能够完成换层，但对客流分发和经营节点的支撑还不够充分。",
+      "recommendation_hint": "建议把扶梯组团重新放回经营骨架中，联动校核换层、停留和导流价值。"
+    },
+    "source_excerpt": "商业建筑设计应优化扶梯动线以支持生意逻辑。",
+    "notes": "由新版C2总纲页抽取并精修。"
+  },
+  {
+    "rule_id": "LF-C2-FIRE-BUSINESS-LOGIC-0001",
+    "title": "消防策略应与经营逻辑同步规划，避免后期以消防妥协破坏商业组织",
+    "source_type": "longfor_c2",
+    "source_file": "1.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "1.png",
+      "region_hint": "C2总纲首页与消防策略说明"
+    },
+    "category_l1": "整体定位与规划逻辑",
+    "category_l2": "消防与经营协同",
+    "tags": [
+      "消防策略",
+      "经营逻辑",
+      "同步规划"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "high",
+    "rule_text": "消防策略应与经营逻辑同步规划，前期就考虑防火分区、疏散组织和营业界面的协同关系，避免后期以消防整改破坏主流线、主节点或有效铺位。",
+    "interpretation": "这条规则把消防从后置审查要求前移为前期商业组织的一部分。",
+    "evidence_requirement": "需要首层及典型楼层平面、主次流线与必要消防组织信息共同判断。",
+    "diagnosis_targets": [
+      "circulation",
+      "anchor_store",
+      "secondary_entry"
+    ],
+    "trigger_clues": [
+      "因消防切分导致主流线破碎",
+      "关键铺位被后期疏散条件侵蚀",
+      "消防与经营两套逻辑互相冲突"
+    ],
+    "output_template": {
+      "issue_title_hint": "消防策略与经营组织仍需前置协同",
+      "issue_body_hint": "当前方案若在消防层面后置处理，后续很可能反向侵蚀商业骨架和有效界面。",
+      "recommendation_hint": "建议在前期同步校核消防分区、疏散组织与经营界面的协同关系。"
+    },
+    "source_excerpt": "商业建筑的消防策略应与生意逻辑挂接，进行整体规划。",
+    "notes": "由新版C2总纲页抽取并精修。"
+  },
+  {
+    "rule_id": "LF-C2-CONNECTION-STRATEGY-0001",
+    "title": "连接策略应前置定义，确保项目对外接驳、对内转换和关键界面形成连续系统",
+    "source_type": "longfor_c2",
+    "source_file": "1.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "1.png",
+      "region_hint": "C2总纲首页与连接策略说明"
+    },
+    "category_l1": "整体定位与规划逻辑",
+    "category_l2": "连接策略",
+    "tags": [
+      "连接策略",
+      "对外接驳",
+      "对内转换",
+      "连续系统"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "high",
+    "rule_text": "连接策略应在方案前期被明确定义，系统处理项目对外接驳、对内转换和关键界面的连续关系，不宜等到交通、景观或单体深化阶段再被动拼接。",
+    "interpretation": "这是连接高价值界面、到达体验和内部骨架的总控规则。",
+    "evidence_requirement": "需要总平、主到达方向、入口体系和关键楼层平面联合判断。",
+    "diagnosis_targets": [
+      "main_entry",
+      "secondary_entry",
+      "circulation",
+      "feature_space"
+    ],
+    "trigger_clues": [
+      "外部接驳与内部主流线断裂",
+      "高价值界面不能顺畅转化为经营客流",
+      "不同楼层或分区之间缺少连续转换"
+    ],
+    "output_template": {
+      "issue_title_hint": "连接策略仍需前置统筹",
+      "issue_body_hint": "当前方案在接驳、转换和关键界面之间的关系还不够连续，后期容易出现拼接式修补。",
+      "recommendation_hint": "建议把连接策略前置到整体规划阶段，统一校核对外接驳、对内转换和关键界面。"
+    },
+    "source_excerpt": "商业建筑设计应制定并优化连接策略以支持生意逻辑。",
+    "notes": "由新版C2总纲页抽取并精修。"
+  },
+  {
+    "rule_id": "LF-C2-CUSTOMER-TENANT-PLACEMENT-0001",
+    "title": "业态落位应从客户视角反推，而非只按招商清单或面积拼图推进",
+    "source_type": "longfor_c2",
+    "source_file": "1.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "1.png",
+      "region_hint": "C2总纲首页与客户视角说明"
+    },
+    "category_l1": "租户落位与铺位效率",
+    "category_l2": "客户视角落位",
+    "tags": [
+      "客户视角",
+      "业态落位",
+      "招商逻辑"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "medium",
+    "rule_text": "业态落位应从客户的到达路径、停留动机、消费链条和视线感知反推，不宜只按招商清单、面积拼图或局部招商需求直接落位。",
+    "interpretation": "这条规则用于约束业态落位的判断口径，强调先有客户逻辑再有平面填充。",
+    "evidence_requirement": "需要典型楼层平面、主流线、主次入口和关键业态节点共同判断。",
+    "diagnosis_targets": [
+      "anchor_store",
+      "secondary_entry",
+      "circulation"
+    ],
+    "trigger_clues": [
+      "业态位置与客户路径脱节",
+      "强目的性业态没有承接关键客流",
+      "落位更像面积拼图而非经营组织"
+    ],
+    "output_template": {
+      "issue_title_hint": "业态落位仍需回到客户视角",
+      "issue_body_hint": "当前落位关系更多体现招商填充逻辑，尚未完全转化为客户路径和消费动机组织。",
+      "recommendation_hint": "建议以客户到达、停留和消费链条反推业态落位，再校核面积与招商条件。"
+    },
+    "source_excerpt": "商业建筑设计应从客户视角出发，优化业态落位。",
+    "notes": "由新版C2总纲页抽取并精修。"
+  },
+  {
+    "rule_id": "LF-C2-CUSTOMER-SPATIAL-LAYOUT-0001",
+    "title": "空间布局应从客户感知与行为路径反推，而非停留在形式化构图",
+    "source_type": "longfor_c2",
+    "source_file": "1.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "1.png",
+      "region_hint": "C2总纲首页与客户视角说明"
+    },
+    "category_l1": "空间布局与体验场景",
+    "category_l2": "客户视角布局",
+    "tags": [
+      "客户视角",
+      "空间布局",
+      "行为路径"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "medium",
+    "rule_text": "空间布局应从客户的感知顺序、停留行为、换层动机和场景记忆点反推，不宜只停留在平面构图、形态趣味或孤立节点表达层面。",
+    "interpretation": "这条规则把空间布局评价从形式审美拉回到客户行为和经营效率。",
+    "evidence_requirement": "需要典型楼层平面、节点关系和必要场景表达共同判断。",
+    "diagnosis_targets": [
+      "feature_space",
+      "circulation",
+      "main_entry"
+    ],
+    "trigger_clues": [
+      "空间构图有趣但行为路径混乱",
+      "节点表达存在但停留和换层动机弱",
+      "场景记忆点无法转化为客流停留"
+    ],
+    "output_template": {
+      "issue_title_hint": "空间布局仍需回到客户行为逻辑",
+      "issue_body_hint": "当前方案在形态或节点表达上已有特征，但客户感知顺序和停留逻辑还不够完整。",
+      "recommendation_hint": "建议从客户视角重排感知顺序、停留行为与场景记忆点，再校核空间布局。"
+    },
+    "source_excerpt": "商业建筑设计应从客户视角出发，优化空间布局。",
+    "notes": "由新版C2总纲页抽取并精修。"
+  },
+  {
+    "rule_id": "LF-C2-POSITIONING-TAG-0001",
+    "title": "项目定位应形成可感知、可表达、可映射到空间组织的清晰标签",
+    "source_type": "longfor_c2",
+    "source_file": "1.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "1.png",
+      "region_hint": "C2总纲首页与项目定位标签说明"
+    },
+    "category_l1": "整体定位与规划逻辑",
+    "category_l2": "项目定位标签",
+    "tags": [
+      "项目定位",
+      "标签",
+      "空间映射"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "medium",
+    "rule_text": "项目定位不应停留在抽象口号，而应形成可感知、可表达、可映射到主入口、主界面、场景节点和业态组织中的清晰标签。",
+    "interpretation": "这条规则用于判断项目定位是否真正进入方案组织层，而不是停留在汇报话术。",
+    "evidence_requirement": "需要项目定位说明、总平/首层组织和关键场景表达共同判断。",
+    "diagnosis_targets": [
+      "main_entry",
+      "feature_space",
+      "facade",
+      "anchor_store"
+    ],
+    "trigger_clues": [
+      "定位口号与空间组织脱节",
+      "主界面和场景节点无法体现项目标签",
+      "业态落位不能支撑项目认知"
+    ],
+    "output_template": {
+      "issue_title_hint": "项目定位标签仍需落到空间与经营组织上",
+      "issue_body_hint": "当前项目定位已有方向，但还没有完整转化为可识别的空间与业态表达。",
+      "recommendation_hint": "建议把项目定位标签映射到主入口、主界面、节点场景和业态组织中。"
+    },
+    "source_excerpt": "商业建筑设计应从客户视角出发，明确项目定位标签。",
+    "notes": "由新版C2总纲页抽取并精修。"
+  },
+  {
+    "rule_id": "LF-C2-FOOD-FLOOR-RETAIL-0001",
+    "title": "餐饮楼层应穿插零售业态，并主动利用主中庭展面与流量价值",
+    "source_type": "longfor_c2",
+    "source_file": "34.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "34.png",
+      "region_hint": "餐饮层与零售穿插策略"
+    },
+    "category_l1": "租户落位与铺位效率",
+    "category_l2": "餐饮层零售穿插",
+    "tags": [
+      "餐饮楼层",
+      "零售穿插",
+      "中庭展面",
+      "流量转化"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "medium",
+    "rule_text": "餐饮楼层不宜被单一餐饮业态完全占满，应结合主中庭、主节点和高停留界面穿插零售或轻体验业态，以提升楼层展面利用率和复合消费转化效率。",
+    "interpretation": "这条规则用于判断高停留楼层是否具备跨品类复合经营能力。",
+    "evidence_requirement": "需要餐饮楼层平面、主中庭界面和主力店前场关系共同判断。",
+    "diagnosis_targets": [
+      "feature_space",
+      "anchor_store",
+      "circulation"
+    ],
+    "trigger_clues": [
+      "餐饮楼层业态单一",
+      "中庭展面只承担通行不承担经营",
+      "高停留节点没有形成复合消费"
+    ],
+    "output_template": {
+      "issue_title_hint": "餐饮楼层的复合经营组织仍可加强",
+      "issue_body_hint": "当前餐饮楼层具备较强停留基础，但零售或轻体验内容的嵌入还不充分。",
+      "recommendation_hint": "建议结合主中庭与高停留界面，穿插零售或轻体验业态，增强复合消费转化。"
+    },
+    "source_excerpt": "在餐饮楼层中应穿插零售业态，并充分利用餐饮层主中庭的展面和流量价值。",
+    "notes": "由新版C2餐饮层与主力店专题抽取并精修。"
+  },
+  {
+    "rule_id": "LF-C2-CINEMA-FOYER-RETAIL-0001",
+    "title": "影院等主力店前场应布置高转化小铺，放大主力店导流价值",
+    "source_type": "longfor_c2",
+    "source_file": "34.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "34.png",
+      "region_hint": "影院大堂前场小铺组织策略"
+    },
+    "category_l1": "租户落位与铺位效率",
+    "category_l2": "主力店前场转化",
+    "tags": [
+      "影院",
+      "主力店前场",
+      "小铺",
+      "导流转化"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "medium",
+    "rule_text": "影院等主力店前场不宜只作为纯候场或纯通行空间使用，应结合大堂前 30 至 50 米范围内的两侧界面布置高转化小铺、轻餐或快反零售，放大主力店客流外溢价值。",
+    "interpretation": "用于判断主力店前场是否真正形成二次经营界面。",
+    "evidence_requirement": "需要影院或类似主力店所在楼层平面、前场长度与两侧界面关系共同判断。",
+    "diagnosis_targets": [
+      "anchor_store",
+      "feature_space",
+      "circulation"
+    ],
+    "trigger_clues": [
+      "影院大堂前场空置或弱经营",
+      "大量等候客流未被二次转化",
+      "前场界面只承担疏散和通行"
+    ],
+    "output_template": {
+      "issue_title_hint": "主力店前场的二次经营转化仍有提升空间",
+      "issue_body_hint": "当前主力店已具备导流能力，但前场界面还没有充分承接高频外溢客流。",
+      "recommendation_hint": "建议在主力店大堂前场两侧补入高转化小铺或轻体验内容，提升流量兑现效率。"
+    },
+    "source_excerpt": "应充分利用主力店（如影院）的流量，例如在影院大堂前30-50米两侧设置零售小铺。",
+    "notes": "由新版C2餐饮层与影院专题抽取并精修。"
+  },
+  {
+    "rule_id": "LF-C2-WEAK-SECONDARY-ANCHOR-DOWNSIZE-0001",
+    "title": "低效次主力店应控制面积，避免以过大体量占用高价值商业资源",
+    "source_type": "longfor_c2",
+    "source_file": "34.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "34.png",
+      "region_hint": "次主力店面积压降策略"
+    },
+    "category_l1": "租户落位与铺位效率",
+    "category_l2": "次主力店面积控制",
+    "tags": [
+      "次主力店",
+      "面积压降",
+      "KTV",
+      "健身"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "medium",
+    "rule_text": "对经营效率偏弱、导流能力有限的次主力店，不宜以过大体量占用高价值经营界面，应依据业态特征控制面积规模，优先保障整体铺位效率与复合经营弹性。",
+    "interpretation": "适用于KTV、健身等次主力店的面积合理性判断，不强调单一绝对数值，而强调效率与资源匹配。",
+    "evidence_requirement": "需要次主力店面积、位置、周边界面价值和楼层功能结构共同判断。",
+    "diagnosis_targets": [
+      "anchor_store",
+      "circulation"
+    ],
+    "trigger_clues": [
+      "次主力店面积明显偏大",
+      "高价值界面被低导流业态长期占用",
+      "次主力店挤压标准铺或复合经营机会"
+    ],
+    "output_template": {
+      "issue_title_hint": "次主力店体量与效率的匹配度仍需优化",
+      "issue_body_hint": "当前次主力店占用的面积和界面价值偏高，可能不利于整体经营效率最大化。",
+      "recommendation_hint": "建议回看次主力店面积规模与界面资源配置，必要时压降体量并释放高价值经营面。"
+    },
+    "source_excerpt": "对于低效的次主力店，应考虑压降其面积。",
+    "notes": "由新版C2次主力店案例页抽取并精修。"
+  },
+  {
+    "rule_id": "LF-C2-SUPERMARKET-OPENING-WIDTH-0001",
+    "title": "超市口部展面不宜过宽，应控制在可运营且可识别的合理尺度内",
+    "source_type": "longfor_c2",
+    "source_file": "40.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "40.png",
+      "region_hint": "超市口部展面宽度控制"
+    },
+    "category_l1": "租户落位与铺位效率",
+    "category_l2": "超市口部尺度",
+    "tags": [
+      "超市",
+      "口部展面",
+      "尺度控制"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "medium",
+    "rule_text": "超市口部展面不宜一味放大，应控制在可运营、可识别且不破坏周边标准铺组织的合理尺度内，避免超市界面过宽侵蚀连续商业界面。",
+    "interpretation": "这条规则把超市口部从“越大越好”纠正为“以经营和界面协同为准”。",
+    "evidence_requirement": "需要超市口部宽度、周边铺位组织和扶梯/入口关系共同判断。",
+    "diagnosis_targets": [
+      "anchor_store",
+      "circulation",
+      "secondary_entry"
+    ],
+    "trigger_clues": [
+      "超市口部过宽挤压标准铺",
+      "界面识别虽强但连续商业被削弱",
+      "超市前场缺少合理的界面节奏"
+    ],
+    "output_template": {
+      "issue_title_hint": "超市口部尺度仍需与整体界面协同",
+      "issue_body_hint": "当前超市口部具备较强识别性，但其展面尺度与周边商业界面的协同还有优化空间。",
+      "recommendation_hint": "建议重新校核超市口部宽度与周边铺位、扶梯及主流线的界面平衡。"
+    },
+    "source_excerpt": "超市口部展面宽度应控制在合理范围内。",
+    "notes": "由新版C2超市专题页抽取并精修。"
+  },
+  {
+    "rule_id": "LF-C2-SUPERMARKET-SHUTTER-OBSTRUCTION-0001",
+    "title": "超市口部应避免卷帘柱或防火构件遮挡，必要时前置调整分区与构造策略",
+    "source_type": "longfor_c2",
+    "source_file": "40.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "40.png",
+      "region_hint": "超市口部遮挡与防火分区优化"
+    },
+    "category_l1": "建造标准与安全底线",
+    "category_l2": "口部遮挡控制",
+    "tags": [
+      "超市口部",
+      "卷帘柱",
+      "防火分区",
+      "遮挡"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "hard_rule",
+    "severity_default": "high",
+    "rule_text": "超市口部不应被卷帘柱、明显防火构件或低效边界遮挡；若存在冲突，应在前期通过防火分区调整、构造优化或异形卷帘等方式化解，而不是在后期接受口部经营品质下降。",
+    "interpretation": "这条规则适合判断超市口部品质是否被技术边界反向削弱。",
+    "evidence_requirement": "需要超市口部平面、卷帘/防火边界关系及前场界面共同判断。",
+    "diagnosis_targets": [
+      "anchor_store",
+      "feature_space"
+    ],
+    "trigger_clues": [
+      "卷帘柱正挡超市主口",
+      "防火边界切断前场展示面",
+      "口部识别和经营品质因技术构件明显下降"
+    ],
+    "output_template": {
+      "issue_title_hint": "超市口部仍受技术构件遮挡影响",
+      "issue_body_hint": "当前超市口部经营界面受到卷帘柱或防火构件干扰，可能削弱展示和导流效果。",
+      "recommendation_hint": "建议前置优化分区与构造策略，避免以后置妥协接受口部遮挡。"
+    },
+    "source_excerpt": "超市口部应避免卷帘柱遮挡，必要时通过防火分区或卷帘方式优化。",
+    "notes": "由新版C2超市口部专题抽取并精修。"
+  },
+  {
+    "rule_id": "LF-C2-SUPERMARKET-OPENING-EXIT-LOGIC-0001",
+    "title": "超市口部与出口位置应服务次动线拉通和主界面连续，不宜制造拥堵或断流",
+    "source_type": "longfor_c2",
+    "source_file": "40.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "40.png",
+      "region_hint": "超市口部与出口位置逻辑"
+    },
+    "category_l1": "动线与客流分发",
+    "category_l2": "超市口部与出口逻辑",
+    "tags": [
+      "超市出口",
+      "次动线",
+      "界面连续",
+      "拥堵控制"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "high",
+    "rule_text": "超市口部与出口位置应服务次动线拉通、客流连续和主界面完整，不宜把出口布置在人流拥堵点或将口部做成阻断商业动线的正冲构件。",
+    "interpretation": "这条规则适用于判断一字型或L型超市口部是否真正促进楼层客流组织。",
+    "evidence_requirement": "需要超市所在楼层平面、口部位置、出口位置及周边扶梯/节点关系共同判断。",
+    "diagnosis_targets": [
+      "circulation",
+      "anchor_store",
+      "secondary_entry"
+    ],
+    "trigger_clues": [
+      "超市出口没有拉通次动线",
+      "口部正冲拥堵节点",
+      "超市界面打断主流线连续性"
+    ],
+    "output_template": {
+      "issue_title_hint": "超市口部与出口对客流组织的支撑仍需优化",
+      "issue_body_hint": "当前超市口部和出口虽然完成功能设置，但对次动线拉通和界面连续的贡献还不够理想。",
+      "recommendation_hint": "建议把超市口部与出口重新放到楼层整体客流组织中，校核其对次动线、拥堵点和连续界面的影响。"
+    },
+    "source_excerpt": "超市出口与口部位置应服务次动线拉通，并避免破坏连续商业动线。",
+    "notes": "由新版C2超市专题页抽取并精修。"
   }
 ]

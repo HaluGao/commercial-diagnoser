@@ -1,0 +1,269 @@
+[
+  {
+    "rule_id": "LF-C2-FOOD-FLOOR-RETAIL-0001",
+    "title": "餐饮楼层应穿插零售业态，并主动利用主中庭展面与流量价值",
+    "source_type": "longfor_c2",
+    "source_file": "34.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "34.png",
+      "region_hint": "餐饮层与零售穿插策略"
+    },
+    "category_l1": "租户落位与铺位效率",
+    "category_l2": "餐饮层零售穿插",
+    "tags": [
+      "餐饮楼层",
+      "零售穿插",
+      "中庭展面",
+      "流量转化"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "medium",
+    "rule_text": "餐饮楼层不宜被单一餐饮业态完全占满，应结合主中庭、主节点和高停留界面穿插零售或轻体验业态，以提升楼层展面利用率和复合消费转化效率。",
+    "interpretation": "这条规则用于判断高停留楼层是否具备跨品类复合经营能力。",
+    "evidence_requirement": "需要餐饮楼层平面、主中庭界面和主力店前场关系共同判断。",
+    "diagnosis_targets": [
+      "feature_space",
+      "anchor_store",
+      "circulation"
+    ],
+    "trigger_clues": [
+      "餐饮楼层业态单一",
+      "中庭展面只承担通行不承担经营",
+      "高停留节点没有形成复合消费"
+    ],
+    "output_template": {
+      "issue_title_hint": "餐饮楼层的复合经营组织仍可加强",
+      "issue_body_hint": "当前餐饮楼层具备较强停留基础，但零售或轻体验内容的嵌入还不充分。",
+      "recommendation_hint": "建议结合主中庭与高停留界面，穿插零售或轻体验业态，增强复合消费转化。"
+    },
+    "source_excerpt": "在餐饮楼层中应穿插零售业态，并充分利用餐饮层主中庭的展面和流量价值。",
+    "notes": "由新版C2餐饮层与主力店专题抽取并精修。"
+  },
+  {
+    "rule_id": "LF-C2-CINEMA-FOYER-RETAIL-0001",
+    "title": "影院等主力店前场应布置高转化小铺，放大主力店导流价值",
+    "source_type": "longfor_c2",
+    "source_file": "34.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "34.png",
+      "region_hint": "影院大堂前场小铺组织策略"
+    },
+    "category_l1": "租户落位与铺位效率",
+    "category_l2": "主力店前场转化",
+    "tags": [
+      "影院",
+      "主力店前场",
+      "小铺",
+      "导流转化"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "medium",
+    "rule_text": "影院等主力店前场不宜只作为纯候场或纯通行空间使用，应结合大堂前 30 至 50 米范围内的两侧界面布置高转化小铺、轻餐或快反零售，放大主力店客流外溢价值。",
+    "interpretation": "用于判断主力店前场是否真正形成二次经营界面。",
+    "evidence_requirement": "需要影院或类似主力店所在楼层平面、前场长度与两侧界面关系共同判断。",
+    "diagnosis_targets": [
+      "anchor_store",
+      "feature_space",
+      "circulation"
+    ],
+    "trigger_clues": [
+      "影院大堂前场空置或弱经营",
+      "大量等候客流未被二次转化",
+      "前场界面只承担疏散和通行"
+    ],
+    "output_template": {
+      "issue_title_hint": "主力店前场的二次经营转化仍有提升空间",
+      "issue_body_hint": "当前主力店已具备导流能力，但前场界面还没有充分承接高频外溢客流。",
+      "recommendation_hint": "建议在主力店大堂前场两侧补入高转化小铺或轻体验内容，提升流量兑现效率。"
+    },
+    "source_excerpt": "应充分利用主力店（如影院）的流量，例如在影院大堂前30-50米两侧设置零售小铺。",
+    "notes": "由新版C2餐饮层与影院专题抽取并精修。"
+  },
+  {
+    "rule_id": "LF-C2-WEAK-SECONDARY-ANCHOR-DOWNSIZE-0001",
+    "title": "低效次主力店应控制面积，避免以过大体量占用高价值商业资源",
+    "source_type": "longfor_c2",
+    "source_file": "34.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "34.png",
+      "region_hint": "次主力店面积压降策略"
+    },
+    "category_l1": "租户落位与铺位效率",
+    "category_l2": "次主力店面积控制",
+    "tags": [
+      "次主力店",
+      "面积压降",
+      "KTV",
+      "健身"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "medium",
+    "rule_text": "对经营效率偏弱、导流能力有限的次主力店，不宜以过大体量占用高价值经营界面，应依据业态特征控制面积规模，优先保障整体铺位效率与复合经营弹性。",
+    "interpretation": "适用于KTV、健身等次主力店的面积合理性判断，不强调单一绝对数值，而强调效率与资源匹配。",
+    "evidence_requirement": "需要次主力店面积、位置、周边界面价值和楼层功能结构共同判断。",
+    "diagnosis_targets": [
+      "anchor_store",
+      "circulation"
+    ],
+    "trigger_clues": [
+      "次主力店面积明显偏大",
+      "高价值界面被低导流业态长期占用",
+      "次主力店挤压标准铺或复合经营机会"
+    ],
+    "output_template": {
+      "issue_title_hint": "次主力店体量与效率的匹配度仍需优化",
+      "issue_body_hint": "当前次主力店占用的面积和界面价值偏高，可能不利于整体经营效率最大化。",
+      "recommendation_hint": "建议回看次主力店面积规模与界面资源配置，必要时压降体量并释放高价值经营面。"
+    },
+    "source_excerpt": "对于低效的次主力店，应考虑压降其面积。",
+    "notes": "由新版C2次主力店案例页抽取并精修。"
+  },
+  {
+    "rule_id": "LF-C2-SUPERMARKET-OPENING-WIDTH-0001",
+    "title": "超市口部展面不宜过宽，应控制在可运营且可识别的合理尺度内",
+    "source_type": "longfor_c2",
+    "source_file": "40.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "40.png",
+      "region_hint": "超市口部展面宽度控制"
+    },
+    "category_l1": "租户落位与铺位效率",
+    "category_l2": "超市口部尺度",
+    "tags": [
+      "超市",
+      "口部展面",
+      "尺度控制"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "medium",
+    "rule_text": "超市口部展面不宜一味放大，应控制在可运营、可识别且不破坏周边标准铺组织的合理尺度内，避免超市界面过宽侵蚀连续商业界面。",
+    "interpretation": "这条规则把超市口部从“越大越好”纠正为“以经营和界面协同为准”。",
+    "evidence_requirement": "需要超市口部宽度、周边铺位组织和扶梯/入口关系共同判断。",
+    "diagnosis_targets": [
+      "anchor_store",
+      "circulation",
+      "secondary_entry"
+    ],
+    "trigger_clues": [
+      "超市口部过宽挤压标准铺",
+      "界面识别虽强但连续商业被削弱",
+      "超市前场缺少合理的界面节奏"
+    ],
+    "output_template": {
+      "issue_title_hint": "超市口部尺度仍需与整体界面协同",
+      "issue_body_hint": "当前超市口部具备较强识别性，但其展面尺度与周边商业界面的协同还有优化空间。",
+      "recommendation_hint": "建议重新校核超市口部宽度与周边铺位、扶梯及主流线的界面平衡。"
+    },
+    "source_excerpt": "超市口部展面宽度应控制在合理范围内。",
+    "notes": "由新版C2超市专题页抽取并精修。"
+  },
+  {
+    "rule_id": "LF-C2-SUPERMARKET-SHUTTER-OBSTRUCTION-0001",
+    "title": "超市口部应避免卷帘柱或防火构件遮挡，必要时前置调整分区与构造策略",
+    "source_type": "longfor_c2",
+    "source_file": "40.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "40.png",
+      "region_hint": "超市口部遮挡与防火分区优化"
+    },
+    "category_l1": "建造标准与安全底线",
+    "category_l2": "口部遮挡控制",
+    "tags": [
+      "超市口部",
+      "卷帘柱",
+      "防火分区",
+      "遮挡"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "hard_rule",
+    "severity_default": "high",
+    "rule_text": "超市口部不应被卷帘柱、明显防火构件或低效边界遮挡；若存在冲突，应在前期通过防火分区调整、构造优化或异形卷帘等方式化解，而不是在后期接受口部经营品质下降。",
+    "interpretation": "这条规则适合判断超市口部品质是否被技术边界反向削弱。",
+    "evidence_requirement": "需要超市口部平面、卷帘/防火边界关系及前场界面共同判断。",
+    "diagnosis_targets": [
+      "anchor_store",
+      "feature_space"
+    ],
+    "trigger_clues": [
+      "卷帘柱正挡超市主口",
+      "防火边界切断前场展示面",
+      "口部识别和经营品质因技术构件明显下降"
+    ],
+    "output_template": {
+      "issue_title_hint": "超市口部仍受技术构件遮挡影响",
+      "issue_body_hint": "当前超市口部经营界面受到卷帘柱或防火构件干扰，可能削弱展示和导流效果。",
+      "recommendation_hint": "建议前置优化分区与构造策略，避免以后置妥协接受口部遮挡。"
+    },
+    "source_excerpt": "超市口部应避免卷帘柱遮挡，必要时通过防火分区或卷帘方式优化。",
+    "notes": "由新版C2超市口部专题抽取并精修。"
+  },
+  {
+    "rule_id": "LF-C2-SUPERMARKET-OPENING-EXIT-LOGIC-0001",
+    "title": "超市口部与出口位置应服务次动线拉通和主界面连续，不宜制造拥堵或断流",
+    "source_type": "longfor_c2",
+    "source_file": "40.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "40.png",
+      "region_hint": "超市口部与出口位置逻辑"
+    },
+    "category_l1": "动线与客流分发",
+    "category_l2": "超市口部与出口逻辑",
+    "tags": [
+      "超市出口",
+      "次动线",
+      "界面连续",
+      "拥堵控制"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "high",
+    "rule_text": "超市口部与出口位置应服务次动线拉通、客流连续和主界面完整，不宜把出口布置在人流拥堵点或将口部做成阻断商业动线的正冲构件。",
+    "interpretation": "这条规则适用于判断一字型或L型超市口部是否真正促进楼层客流组织。",
+    "evidence_requirement": "需要超市所在楼层平面、口部位置、出口位置及周边扶梯/节点关系共同判断。",
+    "diagnosis_targets": [
+      "circulation",
+      "anchor_store",
+      "secondary_entry"
+    ],
+    "trigger_clues": [
+      "超市出口没有拉通次动线",
+      "口部正冲拥堵节点",
+      "超市界面打断主流线连续性"
+    ],
+    "output_template": {
+      "issue_title_hint": "超市口部与出口对客流组织的支撑仍需优化",
+      "issue_body_hint": "当前超市口部和出口虽然完成功能设置，但对次动线拉通和界面连续的贡献还不够理想。",
+      "recommendation_hint": "建议把超市口部与出口重新放到楼层整体客流组织中，校核其对次动线、拥堵点和连续界面的影响。"
+    },
+    "source_excerpt": "超市出口与口部位置应服务次动线拉通，并避免破坏连续商业动线。",
+    "notes": "由新版C2超市专题页抽取并精修。"
+  }
+]
