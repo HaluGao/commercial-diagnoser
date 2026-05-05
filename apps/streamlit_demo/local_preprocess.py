@@ -2,52 +2,36 @@ from __future__ import annotations
 
 import base64
 import json
-import re
 from pathlib import Path
 from typing import Any
 
 import fitz
 
 
-FOUNDATION_RULES_PATH = (
-    Path(__file__).resolve().parents[2] / "data" / "rules" / "longfor" / "longfor_foundation_rules_all.json"
-)
-IMPORTED_RULES_PATH = (
-    Path(__file__).resolve().parents[2] / "data" / "rules" / "imported" / "antigravity" / "antigravity_rule_candidates.normalized.json"
-)
-REVIEW_BASE_RULES_PATH = (
-    Path(__file__).resolve().parents[2] / "data" / "rules" / "review" / "antigravity" / "antigravity_review_base_library.json"
+COMPLETE_RULES_PATH = (
+    Path(__file__).resolve().parents[2]
+    / "data"
+    / "rules"
+    / "longfor"
+    / "longfor_complete_rule_library_v1.json"
 )
 
-FORMAL_ONLY = "formal_only"
-IMPORTED_ONLY = "imported_only"
-MERGED_ALL = "merged_all"
 
-
-def load_rule_library(mode: str = FORMAL_ONLY) -> dict[str, Any]:
-    formal_rules = json.loads(FOUNDATION_RULES_PATH.read_text())
-    if REVIEW_BASE_RULES_PATH.exists():
-        imported_rules = json.loads(REVIEW_BASE_RULES_PATH.read_text())
-    else:
-        imported_raw_rules = json.loads(IMPORTED_RULES_PATH.read_text())
-        imported_rules = [_normalize_imported_rule(rule) for rule in imported_raw_rules]
-
-    if mode == IMPORTED_ONLY:
-        selected_rules = imported_rules
-    elif mode == MERGED_ALL:
-        selected_rules = _deduplicate_rules(formal_rules + imported_rules)
-    else:
-        selected_rules = formal_rules
-
-    return {
-        "rules": selected_rules,
-        "summary": _build_rule_summary(
-            mode=mode,
-            formal_rules=formal_rules,
-            imported_rules=imported_rules,
-            selected_rules=selected_rules,
-        ),
+def load_rule_library() -> dict[str, Any]:
+    library = json.loads(COMPLETE_RULES_PATH.read_text())
+    rules = library.get("rules", [])
+    summary = {
+        "library_id": library.get("library_id"),
+        "library_name": library.get("library_name"),
+        "version": library.get("version"),
+        "total_rule_count": library.get("total_rule_count", len(rules)),
+        "formal_rule_count": library.get("formal_rule_count", 0),
+        "c2_complete_rule_count": library.get("c2_complete_rule_count", 0),
+        "deduplicated_overlap_count": library.get("deduplicated_overlap_count", 0),
+        "category_breakdown": library.get("category_breakdown", {}),
+        "source_breakdown": library.get("source_breakdown", {}),
     }
+    return {"rules": rules, "summary": summary}
 
 
 def build_rule_context(rules: list[dict[str, Any]]) -> dict[str, dict[str, list[dict[str, Any]]]]:
@@ -132,7 +116,7 @@ def build_analysis_prompt(preprocessed: dict[str, Any], rules: list[dict[str, An
     return f"""
 你是一个严谨、克制、专业的商业建筑方案 AI 诊断顾问。
 
-你的任务是基于本地预处理结果、上传的图纸图像，以及内置基础规则库，对商业建筑方案做第一轮顾问式诊断。
+你的任务是基于本地预处理结果、上传的图纸图像，以及内置完整规则库，对商业建筑方案做第一轮顾问式诊断。
 
 【重要要求】
 1. 当前诊断对象可能包含 PDF 拆页后的平面图、总平、立面图片或现场实拍图片。
@@ -147,7 +131,7 @@ def build_analysis_prompt(preprocessed: dict[str, Any], rules: list[dict[str, An
 【本地预处理结果：抽取到的文本片段】
 {text_context}
 
-【内置基础规则库】
+【内置完整规则库】
 {rule_context}
 
 【输出格式】
@@ -176,104 +160,6 @@ def build_analysis_prompt(preprocessed: dict[str, Any], rules: list[dict[str, An
 """.strip()
 
 
-def _normalize_imported_rule(rule: dict[str, Any]) -> dict[str, Any]:
-    category_l1 = rule.get("mapped_category_l1") or rule.get("raw_category") or "导入候选规则"
-    source_image = rule.get("source_image") or "unknown"
-    normalized_text = (
-        rule.get("normalized_text")
-        or rule.get("rule_desc")
-        or rule.get("raw_metric")
-        or rule.get("raw_category")
-        or "未命名候选规则"
-    )
-    title = normalized_text[:48]
-
-    interpretation_parts = [
-        part
-        for part in [
-            rule.get("rule_desc"),
-            f"原始分类：{rule['raw_category']}" if rule.get("raw_category") else None,
-            f"原始指标：{rule['raw_metric']}" if rule.get("raw_metric") else None,
-            f"原始取值：{rule['raw_value']}" if rule.get("raw_value") else None,
-            "该条目来自 Antigravity 导入候选规则，尚未完成正式校核。"
-            if rule.get("candidate_status") == "imported_raw_candidate"
-            else None,
-        ]
-        if part
-    ]
-
-    return {
-        "rule_id": rule.get("import_id"),
-        "title": title,
-        "source_type": "imported_antigravity_candidate",
-        "source_label": "Antigravity 导入候选规则",
-        "source_file": rule.get("source_file"),
-        "source_locator": {
-            "page": None,
-            "image_name": source_image,
-            "region_hint": "导入候选规则条目",
-        },
-        "category_l1": category_l1,
-        "category_l2": rule.get("raw_metric") or rule.get("raw_target") or "导入候选项",
-        "tags": [item for item in [rule.get("raw_category"), rule.get("raw_metric"), rule.get("raw_target")] if item],
-        "applicable_asset_types": ["mall"],
-        "judgement_type": "candidate_reference",
-        "severity_default": "medium",
-        "rule_text": normalized_text,
-        "interpretation": "；".join(interpretation_parts),
-        "evidence_requirement": "需要结合正式规则和图纸继续复核，不可单独作为硬性违规结论依据。",
-        "diagnosis_targets": [],
-        "trigger_clues": [],
-        "output_template": {
-            "statement_style": "consulting",
-            "use_as": "reference_or_hypothesis",
-        },
-        "source_excerpt": rule.get("rule_desc"),
-        "notes": rule.get("notes"),
-    }
-
-
-def _deduplicate_rules(rules: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    deduped: list[dict[str, Any]] = []
-    seen_signatures: set[str] = set()
-
-    for rule in rules:
-        signature = _rule_signature(rule)
-        if signature in seen_signatures:
-            continue
-        seen_signatures.add(signature)
-        deduped.append(rule)
-
-    return deduped
-
-
-def _rule_signature(rule: dict[str, Any]) -> str:
-    text = str(rule.get("rule_text") or rule.get("normalized_text") or rule.get("title") or "")
-    category = str(rule.get("category_l1") or "")
-    compact_text = re.sub(r"\s+", "", text).lower()
-    return f"{category}::{compact_text}"
-
-
-def _build_rule_summary(
-    mode: str,
-    formal_rules: list[dict[str, Any]],
-    imported_rules: list[dict[str, Any]],
-    selected_rules: list[dict[str, Any]],
-) -> dict[str, Any]:
-    source_counts: dict[str, int] = {}
-    for rule in selected_rules:
-        source_label = rule.get("source_label") or rule.get("source_type") or "unknown"
-        source_counts[source_label] = source_counts.get(source_label, 0) + 1
-
-    return {
-        "mode": mode,
-        "formal_rule_count": len(formal_rules),
-        "imported_candidate_count": len(imported_rules),
-        "selected_rule_count": len(selected_rules),
-        "source_breakdown": source_counts,
-    }
-
-
 def _preprocess_pdf(file_name: str, file_bytes: bytes) -> dict[str, Any]:
     document = fitz.open(stream=file_bytes, filetype="pdf")
     media_items: list[dict[str, str]] = []
@@ -293,9 +179,7 @@ def _preprocess_pdf(file_name: str, file_bytes: bytes) -> dict[str, Any]:
         raw_text = page.get_text("text").strip()
         if raw_text:
             compact_text = " ".join(raw_text.split())
-            text_snippets.append(
-                f"第{page_index + 1}页：{compact_text[:500]}"
-            )
+            text_snippets.append(f"第{page_index + 1}页：{compact_text[:500]}")
 
     return {
         "media_items": media_items,

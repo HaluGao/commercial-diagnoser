@@ -15,14 +15,7 @@ from diagnoser_provider import (
     ApiYiProvider,
     ProviderConfig,
 )
-from local_preprocess import (
-    FORMAL_ONLY,
-    IMPORTED_ONLY,
-    MERGED_ALL,
-    build_analysis_prompt,
-    load_rule_library,
-    preprocess_inputs,
-)
+from local_preprocess import build_analysis_prompt, load_rule_library, preprocess_inputs
 
 
 st.set_page_config(
@@ -57,11 +50,7 @@ PROTOCOL_EXPLANATIONS = {
     GEMINI_NATIVE: "直接走 Gemini 原生格式。适合后续高级调试或兼容性测试。",
 }
 
-RULE_MODE_LABELS = {
-    MERGED_ALL: "合并模式（正式28 + 复核底库569）",
-    FORMAL_ONLY: "正式基础规则库（28条）",
-    IMPORTED_ONLY: "复核底库（569条）",
-}
+
 
 
 def ensure_project_store() -> None:
@@ -123,7 +112,7 @@ def add_project_record(
     file_names: list[str],
     model: str,
     protocol: str,
-    rule_mode: str,
+    rule_library_version: str,
     report_content: str,
 ) -> list[dict]:
     project = get_project_by_id(projects, project_id)
@@ -140,7 +129,7 @@ def add_project_record(
             "file_names": file_names,
             "model": model,
             "protocol": protocol,
-            "rule_mode": rule_mode,
+            "rule_library_version": rule_library_version,
             "report_content": report_content,
             "report_preview": report_content[:160],
         },
@@ -445,18 +434,12 @@ def render_api_sidebar() -> tuple:
 
         st.markdown("---")
         st.markdown("### 规则范围")
-        rule_mode = st.selectbox(
-            "规则加载模式",
-            [MERGED_ALL, FORMAL_ONLY, IMPORTED_ONLY],
-            index=0,
-            format_func=lambda value: RULE_MODE_LABELS[value],
-        )
-        rule_library = load_rule_library(rule_mode)
+        rule_library = load_rule_library()
         foundation_rules = rule_library["rules"]
         rule_summary = rule_library["summary"]
-        st.success(f"当前加载规则 {rule_summary['selected_rule_count']} 条")
+        st.success(f"当前加载完整规则库 {rule_summary['total_rule_count']} 条")
         st.caption(
-            f"正式库 {rule_summary['formal_rule_count']} 条 | 复核底库 {rule_summary['imported_candidate_count']} 条"
+            f"版本 {rule_summary['version']} | 正式规则 {rule_summary['formal_rule_count']} 条 | C2完整版规则 {rule_summary['c2_complete_rule_count']} 条 | 去重重叠 {rule_summary['deduplicated_overlap_count']} 条"
         )
 
         st.markdown("---")
@@ -480,7 +463,7 @@ def render_api_sidebar() -> tuple:
             st.info("填入 API Key 后，这里会自动验证通道状态。")
             st.session_state.api_key_ready = False
 
-    return provider, selected_model, provider_protocol, rule_mode, foundation_rules
+    return provider, selected_model, provider_protocol, rule_summary.get("library_id", "longfor-complete-rule-library-v1"), foundation_rules
 
 
 def render_progress() -> tuple:
@@ -565,7 +548,7 @@ def render_project_rail(active_project: dict) -> None:
 
 inject_styles()
 init_state()
-provider, selected_model, provider_protocol, rule_mode, foundation_rules = render_api_sidebar()
+provider, selected_model, provider_protocol, rule_library_version, foundation_rules = render_api_sidebar()
 active_project = get_project_by_id(
     st.session_state.projects, st.session_state.active_project_id
 ) or st.session_state.projects[0]
@@ -705,7 +688,7 @@ if run_analysis:
                 file_names=file_names,
                 model=selected_model,
                 protocol=provider_protocol,
-                rule_mode=rule_mode,
+                rule_library_version=rule_library_version,
                 report_content=report,
             )
 
