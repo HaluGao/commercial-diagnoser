@@ -1,0 +1,354 @@
+[
+  {
+    "category": "经济指标",
+    "target": "得铺率",
+    "metric": "计算公式",
+    "value": "可租赁建筑面积 / 商业总建筑面积",
+    "rule_desc": "得铺率的计算公式为：可租赁建筑面积 / 商业总建筑面积。",
+    "source_image": "2.png"
+  },
+  {
+    "category": "技术控制指标",
+    "target": "得铺率 (L1)",
+    "metric": "单一动线项目基准得铺率",
+    "value": "57%",
+    "rule_desc": "L1级别项目，单一动线项目基准得铺率应为57%。",
+    "source_image": "3.png"
+  },
+  {
+    "category": "建筑层高与净高",
+    "target": "L1+ / L1层",
+    "metric": "层高",
+    "value": "≥5.7m",
+    "rule_desc": "L1+ / L1层层高应不小于5.7米。",
+    "source_image": "4.png"
+  },
+  {
+    "category": "技术控制指标",
+    "target": "地下商业设备机房面积",
+    "metric": "面积",
+    "value": "3200 m²-3600 m²",
+    "rule_desc": "当商业总建筑面积（不含车库）小于8万m²时，地下商业设备机房面积应控制在3200 m²-3600 m²。",
+    "source_image": "5.png"
+  },
+  {
+    "category": "强控红线",
+    "target": "商业经营区域",
+    "metric": "人防设置",
+    "value": "不应设置",
+    "rule_desc": "商业经营区域不应设置人防。",
+    "source_image": "6.png"
+  },
+  {
+    "category": "技术控制指标",
+    "target": "车行动线人防门",
+    "metric": "门类型",
+    "value": "钢结构无门槛双扇防护密闭门",
+    "rule_desc": "车行动线上应优先选用钢结构无门槛双扇防护密闭门。",
+    "source_image": "6.png"
+  },
+  {
+    "category": "技术控制指标",
+    "target": "车行动线人防门",
+    "metric": "门尺寸",
+    "value": "6000mm X 2500mm",
+    "rule_desc": "车行动线上人防门应优先选用钢结构无门槛双扇防护密闭门，尺寸为6000mmX2500mm。",
+    "source_image": "6.png"
+  },
+  {
+    "category": "技术控制指标",
+    "target": "车行动线人防门",
+    "metric": "门宽度",
+    "value": "不小于车道宽度",
+    "rule_desc": "车行动线上人防门的宽度不应小于车道宽度。",
+    "source_image": "6.png"
+  },
+  {
+    "category": "设计判断依据",
+    "target": "车行动线人防门",
+    "metric": "净高影响",
+    "value": "考虑上下支撑高度对净高影响",
+    "rule_desc": "应考虑车道上人防门的上下支撑高度对净高的影响。",
+    "source_image": "6.png"
+  },
+  {
+    "category": "设计判断依据",
+    "target": "车行动线人防门",
+    "metric": "开启方式",
+    "value": "可开启至与墙体贴临，开启路径无管线遮挡，不影响车流",
+    "rule_desc": "车行动线上人防门的开启扇应可开启至与墙体贴临，且开启路径无管线遮挡，不影响车流线。",
+    "source_image": "6.png"
+  },
+  {
+    "category": "设计判断依据",
+    "target": "重要人行通道人防门",
+    "metric": "门类型",
+    "value": "活门槛防护门",
+    "rule_desc": "在满足人防规范的前提下，重要人行通道（光厅出入口等部位）的人防门等应采用活门槛防护门。",
+    "source_image": "6.png"
+  },
+  {
+    "category": "设计指引",
+    "target": "人防区域",
+    "metric": "布置原则",
+    "value": "高层地下库、多层地下室",
+    "rule_desc": "人防尽量布置在高层地下库，如为多层地下室，人防区域宜垂直叠加，上下各层对齐布置，不宜单一楼层平铺。",
+    "source_image": "6.png"
+  },
+  {
+    "category": "设计指引",
+    "target": "复合业态地下空间",
+    "metric": "人防配置",
+    "value": "前期预案阶段充分考虑",
+    "rule_desc": "复合业态地下空间的人防配置在前期预案阶段就应充分考虑其对车位销售货值和商运运营品质的综合影响，合理分配人防布防。",
+    "source_image": "6.png"
+  },
+  {
+    "category": "设计指引",
+    "target": "项目商业性质用地",
+    "metric": "面积",
+    "value": ">200亩",
+    "rule_desc": "项目商业性质用地超过200亩的，应做整体城市设计、综合交通设计、片区中长期发展规划。",
+    "source_image": "6.png"
+  },
+  {
+    "category": "技术控制指标",
+    "target": "动线类型",
+    "metric": "平均进深（单一动线）",
+    "value": "62m-70m",
+    "rule_desc": "当单一动线时，宜平均进深62m-70m。",
+    "source_image": "6.png"
+  },
+  {
+    "category": "技术控制指标",
+    "target": "动线类型",
+    "metric": "平均进深（环形动线）",
+    "value": "110m-140m",
+    "rule_desc": "当环形动线时，宜平均进深110m-140m。",
+    "source_image": "6.png"
+  },
+  {
+    "category": "技术控制指标",
+    "target": "动线类型",
+    "metric": "动线长度",
+    "value": "280-400m",
+    "rule_desc": "动线长度宜控制在280-400m之间。",
+    "source_image": "6.png"
+  },
+  {
+    "category": "强控红线",
+    "target": "塔楼布置",
+    "metric": "位置",
+    "value": "不宜在天街上方",
+    "rule_desc": "不宜在天街上方布置塔楼或者板楼。",
+    "source_image": "6.png"
+  },
+  {
+    "category": "技术控制指标",
+    "target": "塔楼布置",
+    "metric": "数量",
+    "value": "≤2栋",
+    "rule_desc": "塔楼数量宜≤2栋。",
+    "source_image": "6.png"
+  },
+  {
+    "category": "强控红线",
+    "target": "塔楼布置",
+    "metric": "位置",
+    "value": "不宜在出入口、大中庭等主要位置",
+    "rule_desc": "塔楼位置不宜布置在出入口、大中庭等主要位置。",
+    "source_image": "6.png"
+  },
+  {
+    "category": "设计判断依据",
+    "target": "塔楼与购物中心连接",
+    "metric": "人流组织",
+    "value": "增加人流通达性",
+    "rule_desc": "应充分考虑塔楼与购物中心在商场楼层的连接和人流组织，增加人流通达性。",
+    "source_image": "6.png"
+  },
+  {
+    "category": "设计强条",
+    "target": "公共连廊",
+    "metric": "空间属性",
+    "value": "封闭围护结构",
+    "rule_desc": "两端均为商业室内空间的公共连廊应为封闭围护结构的室内空间。",
+    "source_image": "6.png"
+  },
+  {
+    "category": "设计强条",
+    "target": "连廊端头两侧商铺",
+    "metric": "功能",
+    "value": "预留餐饮条件",
+    "rule_desc": "连廊端头两侧的商铺应预留餐饮条件。",
+    "source_image": "6.png"
+  },
+  {
+    "category": "技术控制指标",
+    "target": "大大小小 MALL 之间连廊",
+    "metric": "宽度",
+    "value": "≥12m",
+    "rule_desc": "大大小小 MALL 之间的连廊宽度应≥12m。",
+    "source_image": "6.png"
+  },
+  {
+    "category": "设计判断依据",
+    "target": "大大小小 MALL 之间连廊",
+    "metric": "两侧/单侧设置",
+    "value": "商铺或外摆",
+    "rule_desc": "连廊若计容且宽度适宜，可考虑两侧或者单侧设置商铺或外摆，若不计容可考虑做短期外摆，结合商业业态布置铺位。",
+    "source_image": "6.png"
+  },
+  {
+    "category": "技术控制指标",
+    "target": "大大小小 MALL 之间地下连廊",
+    "metric": "非经营区净高",
+    "value": "≥2.7m",
+    "rule_desc": "大大小小 MALL 之间的地下连廊非经营区净高应≥2.7m。",
+    "source_image": "6.png"
+  },
+  {
+    "category": "技术控制指标",
+    "target": "大大小小 MALL 之间地下连廊",
+    "metric": "经营区面积",
+    "value": "≥3.2m",
+    "rule_desc": "大大小小 MALL 之间的地下连廊经营区面积≥3.2m。",
+    "source_image": "6.png"
+  },
+  {
+    "category": "设计指引",
+    "target": "连廊",
+    "metric": "跨度",
+    "value": "较大",
+    "rule_desc": "如连廊跨度较大，应与政府协商，并确定可在红线外增设竖向承重构件，以减小连廊跨度，降低成本。",
+    "source_image": "6.png"
+  },
+  {
+    "category": "配置标准",
+    "target": "室外连廊防水",
+    "metric": "防水层厚度",
+    "value": "1.5mm",
+    "rule_desc": "室外连廊防水层：1.5mm 单组分聚氨酯涂料。",
+    "source_image": "6.png"
+  },
+  {
+    "category": "配置标准",
+    "target": "排水沟",
+    "metric": "宽度",
+    "value": "300mm",
+    "rule_desc": "排水沟：设置300mm宽排水沟。",
+    "source_image": "6.png"
+  },
+  {
+    "category": "建造标准与安全底线",
+    "target": "混凝土反坎",
+    "metric": "高度",
+    "value": "20cm",
+    "rule_desc": "混凝土反坎应一次浇筑成型，建筑完成面高20cm。",
+    "source_image": "7.png"
+  },
+  {
+    "category": "设计判断依据",
+    "target": "出入口/公区内透/特色幕墙区域",
+    "metric": "玻璃类型",
+    "value": "超白玻",
+    "rule_desc": "出入口和公区内透区域以及特色幕墙区域应选用超白玻。",
+    "source_image": "8.png"
+  },
+  {
+    "category": "技术控制指标",
+    "target": "公区走道宽度",
+    "metric": "洞口有防火卷帘 (有卷帘柱)",
+    "value": "4m",
+    "rule_desc": "标准中庭公区走道宽度（租赁线到土建洞口板边线距离），当洞口有防火卷帘且有卷帘柱时，应为4m。",
+    "source_image": "9.png"
+  },
+  {
+    "category": "建造标准与安全底线",
+    "target": "商业卫生间",
+    "metric": "坐便器数量",
+    "value": ">=1个",
+    "rule_desc": "每个卫生间至少应保留一个坐便器。",
+    "source_image": "10.png"
+  },
+  {
+    "category": "设计强条",
+    "target": "客梯",
+    "metric": "服务半径",
+    "value": "50m~60m",
+    "rule_desc": "客梯服务半径应为50m~60m，并应能到达各商业空间和各层停车库，宜成组单侧布置，并与公区紧密相连。",
+    "source_image": "11.png"
+  },
+  {
+    "category": "交通接驳/服务设施",
+    "target": "地下光厅",
+    "metric": "服务半径",
+    "value": "<=120m",
+    "rule_desc": "地下光厅服务半径不应大于120米。",
+    "source_image": "12.png"
+  },
+  {
+    "category": "建造标准与安全底线",
+    "target": "屋面防水",
+    "metric": "防水层厚度",
+    "value": "2.0mm 非固化橡胶沥青防水涂料 + 3mm 自粘改性沥青防水卷材 (冬季、雨季时) 或 1.5mm 厚聚氨酯防水涂料 + 3mm 改性沥青单面自粘防水卷材 (除冬季、雨季外时)",
+    "rule_desc": "屋面防水应采用2.0mm非固化橡胶沥青防水涂料+3mm自粘改性沥青防水卷材（冬季、雨季时），或1.5mm厚聚氨酯防水涂料+3mm改性沥青单面自粘防水卷材（除冬季、雨季外时）。",
+    "source_image": "13.png"
+  },
+  {
+    "category": "交通流线",
+    "target": "机动车行车道主动线",
+    "metric": "宽度",
+    "value": "6m-7m (L1级天街主动线≥6.5m)",
+    "rule_desc": "机动车行车道主动线宽度应为6m-7m，其中L1级天街主动线宽度应不小于6.5m。",
+    "source_image": "14.png"
+  },
+  {
+    "category": "交通接驳",
+    "target": "卸货通道",
+    "metric": "净高",
+    "value": ">=3.6M",
+    "rule_desc": "卸货通道高度不低于3.6米。",
+    "source_image": "15.png"
+  },
+  {
+    "category": "技术控制指标",
+    "target": "公区走廊",
+    "metric": "净高",
+    "value": "≥3.6m",
+    "rule_desc": "公区走廊净高不低于3.6m。",
+    "source_image": "16.png"
+  },
+  {
+    "category": "设计强条",
+    "target": "后勤通道-裙房顶棚",
+    "metric": "颜色/材质",
+    "value": "灰色乳胶漆 (不透底), GB/T18922-2008 第 N3.25 号",
+    "rule_desc": "后勤通道裙房顶棚应采用灰色乳胶漆（不透底），颜色应确定为中国建筑色卡国家标准 GB/T18922-2008 第 N3.25 号。",
+    "source_image": "17.png"
+  },
+  {
+    "category": "强控红线",
+    "target": "玻璃门",
+    "metric": "玻璃门类型",
+    "value": "不应使用无框玻璃门",
+    "rule_desc": "人流密集区不应使用无框玻璃门。",
+    "source_image": "18.png"
+  },
+  {
+    "category": "设计判断依据",
+    "target": "主次入口公区及商铺",
+    "metric": "效果",
+    "value": "内透效果，日夜协调统一",
+    "rule_desc": "主次入口公区范围、首层商铺以及二层主次入口两侧相邻商铺，应采用内透效果，并保证日、夜间效果协调、统一。",
+    "source_image": "19.png"
+  },
+  {
+    "category": "广告位管理",
+    "target": "外挂广告",
+    "metric": "检修方式",
+    "value": "后勤通道内检修",
+    "rule_desc": "外挂广告应在后勤通道内检修。",
+    "source_image": "20.png"
+  }
+]

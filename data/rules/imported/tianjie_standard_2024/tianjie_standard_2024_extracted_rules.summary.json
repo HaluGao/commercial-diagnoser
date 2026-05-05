@@ -1,0 +1,8 @@
+{
+  "base_url": "https://api.apiyi.com/v1",
+  "requested_image_count": 20,
+  "extracted_rule_count": 44,
+  "failed_images": [],
+  "raw_output_path": "/Users/halu/临时工作文件/codex/commercial_diagnoser/data/rules/imported/tianjie_standard_2024/tianjie_standard_2024_extracted_rules.raw.json",
+  "missing_manifest_path": "/Users/halu/临时工作文件/codex/commercial_diagnoser/data/rules/imported/tianjie_standard_2024/tianjie_standard_2024_missing_images.json"
+}

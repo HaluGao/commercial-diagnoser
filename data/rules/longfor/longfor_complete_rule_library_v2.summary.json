@@ -1,0 +1,29 @@
+{
+  "library_id": "longfor-complete-rule-library-v2",
+  "library_name": "龙湖商业咨询完整规则库 V2",
+  "version": "2026-05-05",
+  "total_rule_count": 943,
+  "formal_rule_count": 44,
+  "c2_complete_rule_count": 857,
+  "tianjie_standard_rule_count": 44,
+  "deduplicated_overlap_count": 2,
+  "category_breakdown": {
+    "租户落位与铺位效率": 64,
+    "整体定位与规划逻辑": 202,
+    "空间布局与体验场景": 177,
+    "建造标准与安全底线": 64,
+    "动线与客流分发": 33,
+    "到达与交通组织": 6,
+    "TOD与地下商业": 18,
+    "产品表达与建筑形象": 59,
+    "景观场景与铺前界面": 2,
+    "总纲与价值逻辑": 4,
+    "精装场景": 1,
+    "待人工归类": 313
+  },
+  "source_breakdown": {
+    "正式基础规则库": 44,
+    "龙湖C2天街产品包（完整抽取）": 855,
+    "龙湖天街建标-2024版": 44
+  }
+}

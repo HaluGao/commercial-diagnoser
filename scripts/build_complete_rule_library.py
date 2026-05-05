@@ -7,8 +7,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 FORMAL_RULES_PATH = ROOT / "data" / "rules" / "longfor" / "longfor_foundation_rules_all.json"
 C2_REVIEW_BASE_PATH = ROOT / "data" / "rules" / "review" / "c2_incremental" / "c2_incremental_review_base_library.json"
-OUTPUT_PATH = ROOT / "data" / "rules" / "longfor" / "longfor_complete_rule_library_v1.json"
-SUMMARY_PATH = ROOT / "data" / "rules" / "longfor" / "longfor_complete_rule_library_v1.summary.json"
+TIANJIE_REVIEW_BASE_PATH = ROOT / "data" / "rules" / "review" / "tianjie_standard_2024" / "tianjie_standard_2024_review_base_library.json"
+OUTPUT_PATH = ROOT / "data" / "rules" / "longfor" / "longfor_complete_rule_library_v2.json"
+SUMMARY_PATH = ROOT / "data" / "rules" / "longfor" / "longfor_complete_rule_library_v2.summary.json"
 
 
 def rule_signature(rule: dict) -> str:
@@ -18,38 +19,36 @@ def rule_signature(rule: dict) -> str:
     return f"{category}::{compact}"
 
 
+def ensure_rule_list(payload):
+    return payload["rules"] if isinstance(payload, dict) else payload
+
+
 def main() -> None:
     formal_rules = json.loads(FORMAL_RULES_PATH.read_text())
-    review_data = json.loads(C2_REVIEW_BASE_PATH.read_text())
-    review_rules = review_data["rules"] if isinstance(review_data, dict) else review_data
+    c2_review_rules = ensure_rule_list(json.loads(C2_REVIEW_BASE_PATH.read_text()))
+    tianjie_review_rules = ensure_rule_list(json.loads(TIANJIE_REVIEW_BASE_PATH.read_text()))
 
     merged: list[dict] = []
     seen: set[str] = set()
     duplicate_count = 0
 
-    for rule in formal_rules:
-        item = dict(rule)
-        item.setdefault("source_label", "正式基础规则库")
-        item["library_role"] = "formal_foundation"
-        item["library_version"] = "longfor-complete-rule-library-v1"
-        signature = rule_signature(item)
-        if signature in seen:
-            duplicate_count += 1
-            continue
-        seen.add(signature)
-        merged.append(item)
+    def add_rules(rules: list[dict], source_label: str, library_role: str) -> None:
+        nonlocal duplicate_count
+        for rule in rules:
+            item = dict(rule)
+            item.setdefault("source_label", source_label)
+            item["library_role"] = library_role
+            item["library_version"] = "longfor-complete-rule-library-v2"
+            signature = rule_signature(item)
+            if signature in seen:
+                duplicate_count += 1
+                continue
+            seen.add(signature)
+            merged.append(item)
 
-    for rule in review_rules:
-        item = dict(rule)
-        item.setdefault("source_label", "龙湖C2天街产品包（完整抽取）")
-        item["library_role"] = "c2_complete_rule"
-        item["library_version"] = "longfor-complete-rule-library-v1"
-        signature = rule_signature(item)
-        if signature in seen:
-            duplicate_count += 1
-            continue
-        seen.add(signature)
-        merged.append(item)
+    add_rules(formal_rules, "正式基础规则库", "formal_foundation")
+    add_rules(c2_review_rules, "龙湖C2天街产品包（完整抽取）", "c2_complete_rule")
+    add_rules(tianjie_review_rules, "龙湖天街建标-2024版", "tianjie_technical_rule")
 
     category_breakdown: dict[str, int] = {}
     source_breakdown: dict[str, int] = {}
@@ -60,17 +59,19 @@ def main() -> None:
         source_breakdown[source] = source_breakdown.get(source, 0) + 1
 
     payload = {
-        "library_id": "longfor-complete-rule-library-v1",
-        "library_name": "龙湖商业咨询完整规则库 V1",
+        "library_id": "longfor-complete-rule-library-v2",
+        "library_name": "龙湖商业咨询完整规则库 V2",
         "version": "2026-05-05",
-        "description": "基于最新版龙湖C2天街产品包全量抽取结果，并合并当前正式基础规则后的单一完整规则库。",
+        "description": "基于最新版龙湖C2天街产品包全量抽取结果，并合并当前正式基础规则与龙湖天街建标-2024版技术规则后的单一完整规则库。",
         "source_scope": [
             "龙湖C2天街产品包（完整版，全量图片抽取）",
-            "当前正式基础规则库（含2024天街建标与已精修规则）",
+            "龙湖天街建标-2024版（技术与强控规则抽取）",
+            "当前正式基础规则库（含已精修规则）",
         ],
         "total_rule_count": len(merged),
         "formal_rule_count": len(formal_rules),
-        "c2_complete_rule_count": len(review_rules),
+        "c2_complete_rule_count": len(c2_review_rules),
+        "tianjie_standard_rule_count": len(tianjie_review_rules),
         "deduplicated_overlap_count": duplicate_count,
         "category_breakdown": category_breakdown,
         "source_breakdown": source_breakdown,
@@ -84,6 +85,7 @@ def main() -> None:
         "total_rule_count": payload["total_rule_count"],
         "formal_rule_count": payload["formal_rule_count"],
         "c2_complete_rule_count": payload["c2_complete_rule_count"],
+        "tianjie_standard_rule_count": payload["tianjie_standard_rule_count"],
         "deduplicated_overlap_count": payload["deduplicated_overlap_count"],
         "category_breakdown": payload["category_breakdown"],
         "source_breakdown": payload["source_breakdown"],

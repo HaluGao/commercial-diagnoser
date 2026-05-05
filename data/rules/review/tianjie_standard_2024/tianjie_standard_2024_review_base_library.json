@@ -1,0 +1,2299 @@
+[
+  {
+    "rule_id": "LF-TJBZ-2024-REVIEW-0001",
+    "title": "得铺率的计算公式为：可租赁建筑面积 / 商业总建筑面积。",
+    "source_type": "longfor_tianjie_standard_2024",
+    "source_label": "龙湖天街建标-2024版",
+    "source_file": "2.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "2.png",
+      "region_hint": "龙湖天街建标-2024版整页自动抽取"
+    },
+    "category_l1": "建造标准与安全底线",
+    "category_l2": "计算公式",
+    "tags": [
+      "经济指标",
+      "得铺率",
+      "计算公式"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "hard_rule",
+    "severity_default": "high",
+    "rule_text": "得铺率的计算公式为：可租赁建筑面积 / 商业总建筑面积。",
+    "interpretation": "原始分类：经济指标；原始对象：得铺率；原始指标：计算公式；原始取值：可租赁建筑面积 / 商业总建筑面积；得铺率的计算公式为：可租赁建筑面积 / 商业总建筑面积。",
+    "evidence_requirement": "需结合龙湖天街建标-2024版原始页及方案图纸核对，可作为较强判断依据。",
+    "diagnosis_targets": [],
+    "trigger_clues": [],
+    "output_template": {
+      "issue_title_hint": "基于天街建标的技术控制项",
+      "issue_body_hint": "该条目具有较强技术性和控制性，可直接作为方案诊断依据之一。",
+      "recommendation_hint": "建议对照建标原始页与方案图纸进一步核验，并纳入正式规则库。"
+    },
+    "source_excerpt": "得铺率的计算公式为：可租赁建筑面积 / 商业总建筑面积。",
+    "notes": "source_value=可租赁建筑面积 / 商业总建筑面积",
+    "review_status": "auto_screened",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86,
+    "duplicate_of_rule_id": null,
+    "lineage": {
+      "source_image": "2.png",
+      "raw_category": "经济指标",
+      "raw_target": "得铺率",
+      "raw_metric": "计算公式",
+      "raw_value": "可租赁建筑面积 / 商业总建筑面积"
+    },
+    "review_notes": [
+      "该条目由龙湖天街建标-2024版图片自动抽取，偏技术性和强控性，可优先进入正式规则库精修。"
+    ]
+  },
+  {
+    "rule_id": "LF-TJBZ-2024-REVIEW-0002",
+    "title": "L1级别项目，单一动线项目基准得铺率应为57%。",
+    "source_type": "longfor_tianjie_standard_2024",
+    "source_label": "龙湖天街建标-2024版",
+    "source_file": "3.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "3.png",
+      "region_hint": "龙湖天街建标-2024版整页自动抽取"
+    },
+    "category_l1": "动线与客流分发",
+    "category_l2": "单一动线项目基准得铺率",
+    "tags": [
+      "技术控制指标",
+      "得铺率 (L1)",
+      "单一动线项目基准得铺率"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "medium",
+    "rule_text": "L1级别项目，单一动线项目基准得铺率应为57%。",
+    "interpretation": "原始分类：技术控制指标；原始对象：得铺率 (L1)；原始指标：单一动线项目基准得铺率；原始取值：57%；L1级别项目，单一动线项目基准得铺率应为57%。",
+    "evidence_requirement": "需结合龙湖天街建标-2024版原始页及方案图纸核对，可作为较强判断依据。",
+    "diagnosis_targets": [],
+    "trigger_clues": [],
+    "output_template": {
+      "issue_title_hint": "基于天街建标的技术控制项",
+      "issue_body_hint": "该条目具有较强技术性和控制性，可直接作为方案诊断依据之一。",
+      "recommendation_hint": "建议对照建标原始页与方案图纸进一步核验，并纳入正式规则库。"
+    },
+    "source_excerpt": "L1级别项目，单一动线项目基准得铺率应为57%。",
+    "notes": "source_value=57%",
+    "review_status": "auto_screened",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86,
+    "duplicate_of_rule_id": null,
+    "lineage": {
+      "source_image": "3.png",
+      "raw_category": "技术控制指标",
+      "raw_target": "得铺率 (L1)",
+      "raw_metric": "单一动线项目基准得铺率",
+      "raw_value": "57%"
+    },
+    "review_notes": [
+      "该条目由龙湖天街建标-2024版图片自动抽取，偏技术性和强控性，可优先进入正式规则库精修。"
+    ]
+  },
+  {
+    "rule_id": "LF-TJBZ-2024-REVIEW-0003",
+    "title": "L1+ / L1层层高应不小于5.7米。",
+    "source_type": "longfor_tianjie_standard_2024",
+    "source_label": "龙湖天街建标-2024版",
+    "source_file": "4.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "4.png",
+      "region_hint": "龙湖天街建标-2024版整页自动抽取"
+    },
+    "category_l1": "建造标准与安全底线",
+    "category_l2": "层高",
+    "tags": [
+      "建筑层高与净高",
+      "L1+ / L1层",
+      "层高"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "hard_rule",
+    "severity_default": "high",
+    "rule_text": "L1+ / L1层层高应不小于5.7米。",
+    "interpretation": "原始分类：建筑层高与净高；原始对象：L1+ / L1层；原始指标：层高；原始取值：≥5.7m；L1+ / L1层层高应不小于5.7米。",
+    "evidence_requirement": "需结合龙湖天街建标-2024版原始页及方案图纸核对，可作为较强判断依据。",
+    "diagnosis_targets": [],
+    "trigger_clues": [],
+    "output_template": {
+      "issue_title_hint": "基于天街建标的技术控制项",
+      "issue_body_hint": "该条目具有较强技术性和控制性，可直接作为方案诊断依据之一。",
+      "recommendation_hint": "建议对照建标原始页与方案图纸进一步核验，并纳入正式规则库。"
+    },
+    "source_excerpt": "L1+ / L1层层高应不小于5.7米。",
+    "notes": "source_value=≥5.7m",
+    "review_status": "auto_screened",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86,
+    "duplicate_of_rule_id": null,
+    "lineage": {
+      "source_image": "4.png",
+      "raw_category": "建筑层高与净高",
+      "raw_target": "L1+ / L1层",
+      "raw_metric": "层高",
+      "raw_value": "≥5.7m"
+    },
+    "review_notes": [
+      "该条目由龙湖天街建标-2024版图片自动抽取，偏技术性和强控性，可优先进入正式规则库精修。"
+    ]
+  },
+  {
+    "rule_id": "LF-TJBZ-2024-REVIEW-0004",
+    "title": "当商业总建筑面积（不含车库）小于8万m²时，地下商业设备机房面积应控制在3200 m²-3600 m²。",
+    "source_type": "longfor_tianjie_standard_2024",
+    "source_label": "龙湖天街建标-2024版",
+    "source_file": "5.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "5.png",
+      "region_hint": "龙湖天街建标-2024版整页自动抽取"
+    },
+    "category_l1": "建造标准与安全底线",
+    "category_l2": "面积",
+    "tags": [
+      "技术控制指标",
+      "地下商业设备机房面积",
+      "面积"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "hard_rule",
+    "severity_default": "high",
+    "rule_text": "当商业总建筑面积（不含车库）小于8万m²时，地下商业设备机房面积应控制在3200 m²-3600 m²。",
+    "interpretation": "原始分类：技术控制指标；原始对象：地下商业设备机房面积；原始指标：面积；原始取值：3200 m²-3600 m²；当商业总建筑面积（不含车库）小于8万m²时，地下商业设备机房面积应控制在3200 m²-3600 m²。",
+    "evidence_requirement": "需结合龙湖天街建标-2024版原始页及方案图纸核对，可作为较强判断依据。",
+    "diagnosis_targets": [],
+    "trigger_clues": [],
+    "output_template": {
+      "issue_title_hint": "基于天街建标的技术控制项",
+      "issue_body_hint": "该条目具有较强技术性和控制性，可直接作为方案诊断依据之一。",
+      "recommendation_hint": "建议对照建标原始页与方案图纸进一步核验，并纳入正式规则库。"
+    },
+    "source_excerpt": "当商业总建筑面积（不含车库）小于8万m²时，地下商业设备机房面积应控制在3200 m²-3600 m²。",
+    "notes": "source_value=3200 m²-3600 m²",
+    "review_status": "auto_screened",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86,
+    "duplicate_of_rule_id": null,
+    "lineage": {
+      "source_image": "5.png",
+      "raw_category": "技术控制指标",
+      "raw_target": "地下商业设备机房面积",
+      "raw_metric": "面积",
+      "raw_value": "3200 m²-3600 m²"
+    },
+    "review_notes": [
+      "该条目由龙湖天街建标-2024版图片自动抽取，偏技术性和强控性，可优先进入正式规则库精修。"
+    ]
+  },
+  {
+    "rule_id": "LF-TJBZ-2024-REVIEW-0005",
+    "title": "商业经营区域不应设置人防。",
+    "source_type": "longfor_tianjie_standard_2024",
+    "source_label": "龙湖天街建标-2024版",
+    "source_file": "6.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "6.png",
+      "region_hint": "龙湖天街建标-2024版整页自动抽取"
+    },
+    "category_l1": "待人工归类",
+    "category_l2": "人防设置",
+    "tags": [
+      "强控红线",
+      "商业经营区域",
+      "人防设置"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "medium",
+    "rule_text": "商业经营区域不应设置人防。",
+    "interpretation": "原始分类：强控红线；原始对象：商业经营区域；原始指标：人防设置；原始取值：不应设置；商业经营区域不应设置人防。",
+    "evidence_requirement": "需结合龙湖天街建标-2024版原始页及方案图纸核对，可作为较强判断依据。",
+    "diagnosis_targets": [],
+    "trigger_clues": [],
+    "output_template": {
+      "issue_title_hint": "基于天街建标的技术控制项",
+      "issue_body_hint": "该条目具有较强技术性和控制性，可直接作为方案诊断依据之一。",
+      "recommendation_hint": "建议对照建标原始页与方案图纸进一步核验，并纳入正式规则库。"
+    },
+    "source_excerpt": "商业经营区域不应设置人防。",
+    "notes": "source_value=不应设置",
+    "review_status": "auto_screened",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.58,
+    "duplicate_of_rule_id": null,
+    "lineage": {
+      "source_image": "6.png",
+      "raw_category": "强控红线",
+      "raw_target": "商业经营区域",
+      "raw_metric": "人防设置",
+      "raw_value": "不应设置"
+    },
+    "review_notes": [
+      "该条目由龙湖天街建标-2024版图片自动抽取，偏技术性和强控性，可优先进入正式规则库精修。",
+      "一级分类仍需人工细化。"
+    ]
+  },
+  {
+    "rule_id": "LF-TJBZ-2024-REVIEW-0006",
+    "title": "车行动线上应优先选用钢结构无门槛双扇防护密闭门。",
+    "source_type": "longfor_tianjie_standard_2024",
+    "source_label": "龙湖天街建标-2024版",
+    "source_file": "6.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "6.png",
+      "region_hint": "龙湖天街建标-2024版整页自动抽取"
+    },
+    "category_l1": "建造标准与安全底线",
+    "category_l2": "门类型",
+    "tags": [
+      "技术控制指标",
+      "车行动线人防门",
+      "门类型"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "hard_rule",
+    "severity_default": "high",
+    "rule_text": "车行动线上应优先选用钢结构无门槛双扇防护密闭门。",
+    "interpretation": "原始分类：技术控制指标；原始对象：车行动线人防门；原始指标：门类型；原始取值：钢结构无门槛双扇防护密闭门；车行动线上应优先选用钢结构无门槛双扇防护密闭门。",
+    "evidence_requirement": "需结合龙湖天街建标-2024版原始页及方案图纸核对，可作为较强判断依据。",
+    "diagnosis_targets": [],
+    "trigger_clues": [],
+    "output_template": {
+      "issue_title_hint": "基于天街建标的技术控制项",
+      "issue_body_hint": "该条目具有较强技术性和控制性，可直接作为方案诊断依据之一。",
+      "recommendation_hint": "建议对照建标原始页与方案图纸进一步核验，并纳入正式规则库。"
+    },
+    "source_excerpt": "车行动线上应优先选用钢结构无门槛双扇防护密闭门。",
+    "notes": "source_value=钢结构无门槛双扇防护密闭门",
+    "review_status": "auto_screened",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86,
+    "duplicate_of_rule_id": null,
+    "lineage": {
+      "source_image": "6.png",
+      "raw_category": "技术控制指标",
+      "raw_target": "车行动线人防门",
+      "raw_metric": "门类型",
+      "raw_value": "钢结构无门槛双扇防护密闭门"
+    },
+    "review_notes": [
+      "该条目由龙湖天街建标-2024版图片自动抽取，偏技术性和强控性，可优先进入正式规则库精修。"
+    ]
+  },
+  {
+    "rule_id": "LF-TJBZ-2024-REVIEW-0007",
+    "title": "车行动线上人防门应优先选用钢结构无门槛双扇防护密闭门，尺寸为6000mmX2500mm。",
+    "source_type": "longfor_tianjie_standard_2024",
+    "source_label": "龙湖天街建标-2024版",
+    "source_file": "6.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "6.png",
+      "region_hint": "龙湖天街建标-2024版整页自动抽取"
+    },
+    "category_l1": "建造标准与安全底线",
+    "category_l2": "门尺寸",
+    "tags": [
+      "技术控制指标",
+      "车行动线人防门",
+      "门尺寸"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "hard_rule",
+    "severity_default": "high",
+    "rule_text": "车行动线上人防门应优先选用钢结构无门槛双扇防护密闭门，尺寸为6000mmX2500mm。",
+    "interpretation": "原始分类：技术控制指标；原始对象：车行动线人防门；原始指标：门尺寸；原始取值：6000mm X 2500mm；车行动线上人防门应优先选用钢结构无门槛双扇防护密闭门，尺寸为6000mmX2500mm。",
+    "evidence_requirement": "需结合龙湖天街建标-2024版原始页及方案图纸核对，可作为较强判断依据。",
+    "diagnosis_targets": [],
+    "trigger_clues": [],
+    "output_template": {
+      "issue_title_hint": "基于天街建标的技术控制项",
+      "issue_body_hint": "该条目具有较强技术性和控制性，可直接作为方案诊断依据之一。",
+      "recommendation_hint": "建议对照建标原始页与方案图纸进一步核验，并纳入正式规则库。"
+    },
+    "source_excerpt": "车行动线上人防门应优先选用钢结构无门槛双扇防护密闭门，尺寸为6000mmX2500mm。",
+    "notes": "source_value=6000mm X 2500mm",
+    "review_status": "auto_screened",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86,
+    "duplicate_of_rule_id": null,
+    "lineage": {
+      "source_image": "6.png",
+      "raw_category": "技术控制指标",
+      "raw_target": "车行动线人防门",
+      "raw_metric": "门尺寸",
+      "raw_value": "6000mm X 2500mm"
+    },
+    "review_notes": [
+      "该条目由龙湖天街建标-2024版图片自动抽取，偏技术性和强控性，可优先进入正式规则库精修。"
+    ]
+  },
+  {
+    "rule_id": "LF-TJBZ-2024-REVIEW-0008",
+    "title": "车行动线上人防门的宽度不应小于车道宽度。",
+    "source_type": "longfor_tianjie_standard_2024",
+    "source_label": "龙湖天街建标-2024版",
+    "source_file": "6.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "6.png",
+      "region_hint": "龙湖天街建标-2024版整页自动抽取"
+    },
+    "category_l1": "建造标准与安全底线",
+    "category_l2": "门宽度",
+    "tags": [
+      "技术控制指标",
+      "车行动线人防门",
+      "门宽度"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "hard_rule",
+    "severity_default": "high",
+    "rule_text": "车行动线上人防门的宽度不应小于车道宽度。",
+    "interpretation": "原始分类：技术控制指标；原始对象：车行动线人防门；原始指标：门宽度；原始取值：不小于车道宽度；车行动线上人防门的宽度不应小于车道宽度。",
+    "evidence_requirement": "需结合龙湖天街建标-2024版原始页及方案图纸核对，可作为较强判断依据。",
+    "diagnosis_targets": [],
+    "trigger_clues": [],
+    "output_template": {
+      "issue_title_hint": "基于天街建标的技术控制项",
+      "issue_body_hint": "该条目具有较强技术性和控制性，可直接作为方案诊断依据之一。",
+      "recommendation_hint": "建议对照建标原始页与方案图纸进一步核验，并纳入正式规则库。"
+    },
+    "source_excerpt": "车行动线上人防门的宽度不应小于车道宽度。",
+    "notes": "source_value=不小于车道宽度",
+    "review_status": "auto_screened",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86,
+    "duplicate_of_rule_id": null,
+    "lineage": {
+      "source_image": "6.png",
+      "raw_category": "技术控制指标",
+      "raw_target": "车行动线人防门",
+      "raw_metric": "门宽度",
+      "raw_value": "不小于车道宽度"
+    },
+    "review_notes": [
+      "该条目由龙湖天街建标-2024版图片自动抽取，偏技术性和强控性，可优先进入正式规则库精修。"
+    ]
+  },
+  {
+    "rule_id": "LF-TJBZ-2024-REVIEW-0009",
+    "title": "应考虑车道上人防门的上下支撑高度对净高的影响。",
+    "source_type": "longfor_tianjie_standard_2024",
+    "source_label": "龙湖天街建标-2024版",
+    "source_file": "6.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "6.png",
+      "region_hint": "龙湖天街建标-2024版整页自动抽取"
+    },
+    "category_l1": "建造标准与安全底线",
+    "category_l2": "净高影响",
+    "tags": [
+      "设计判断依据",
+      "车行动线人防门",
+      "净高影响"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "hard_rule",
+    "severity_default": "high",
+    "rule_text": "应考虑车道上人防门的上下支撑高度对净高的影响。",
+    "interpretation": "原始分类：设计判断依据；原始对象：车行动线人防门；原始指标：净高影响；原始取值：考虑上下支撑高度对净高影响；应考虑车道上人防门的上下支撑高度对净高的影响。",
+    "evidence_requirement": "需结合龙湖天街建标-2024版原始页及方案图纸核对，可作为较强判断依据。",
+    "diagnosis_targets": [],
+    "trigger_clues": [],
+    "output_template": {
+      "issue_title_hint": "基于天街建标的技术控制项",
+      "issue_body_hint": "该条目具有较强技术性和控制性，可直接作为方案诊断依据之一。",
+      "recommendation_hint": "建议对照建标原始页与方案图纸进一步核验，并纳入正式规则库。"
+    },
+    "source_excerpt": "应考虑车道上人防门的上下支撑高度对净高的影响。",
+    "notes": "source_value=考虑上下支撑高度对净高影响",
+    "review_status": "auto_screened",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86,
+    "duplicate_of_rule_id": null,
+    "lineage": {
+      "source_image": "6.png",
+      "raw_category": "设计判断依据",
+      "raw_target": "车行动线人防门",
+      "raw_metric": "净高影响",
+      "raw_value": "考虑上下支撑高度对净高影响"
+    },
+    "review_notes": [
+      "该条目由龙湖天街建标-2024版图片自动抽取，偏技术性和强控性，可优先进入正式规则库精修。"
+    ]
+  },
+  {
+    "rule_id": "LF-TJBZ-2024-REVIEW-0010",
+    "title": "车行动线上人防门的开启扇应可开启至与墙体贴临，且开启路径无管线遮挡，不影响车流线。",
+    "source_type": "longfor_tianjie_standard_2024",
+    "source_label": "龙湖天街建标-2024版",
+    "source_file": "6.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "6.png",
+      "region_hint": "龙湖天街建标-2024版整页自动抽取"
+    },
+    "category_l1": "到达与交通组织",
+    "category_l2": "开启方式",
+    "tags": [
+      "设计判断依据",
+      "车行动线人防门",
+      "开启方式"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "hard_rule",
+    "severity_default": "medium",
+    "rule_text": "车行动线上人防门的开启扇应可开启至与墙体贴临，且开启路径无管线遮挡，不影响车流线。",
+    "interpretation": "原始分类：设计判断依据；原始对象：车行动线人防门；原始指标：开启方式；原始取值：可开启至与墙体贴临，开启路径无管线遮挡，不影响车流；车行动线上人防门的开启扇应可开启至与墙体贴临，且开启路径无管线遮挡，不影响车流线。",
+    "evidence_requirement": "需结合龙湖天街建标-2024版原始页及方案图纸核对，可作为较强判断依据。",
+    "diagnosis_targets": [],
+    "trigger_clues": [],
+    "output_template": {
+      "issue_title_hint": "基于天街建标的技术控制项",
+      "issue_body_hint": "该条目具有较强技术性和控制性，可直接作为方案诊断依据之一。",
+      "recommendation_hint": "建议对照建标原始页与方案图纸进一步核验，并纳入正式规则库。"
+    },
+    "source_excerpt": "车行动线上人防门的开启扇应可开启至与墙体贴临，且开启路径无管线遮挡，不影响车流线。",
+    "notes": "source_value=可开启至与墙体贴临，开启路径无管线遮挡，不影响车流",
+    "review_status": "auto_screened",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86,
+    "duplicate_of_rule_id": null,
+    "lineage": {
+      "source_image": "6.png",
+      "raw_category": "设计判断依据",
+      "raw_target": "车行动线人防门",
+      "raw_metric": "开启方式",
+      "raw_value": "可开启至与墙体贴临，开启路径无管线遮挡，不影响车流"
+    },
+    "review_notes": [
+      "该条目由龙湖天街建标-2024版图片自动抽取，偏技术性和强控性，可优先进入正式规则库精修。"
+    ]
+  },
+  {
+    "rule_id": "LF-TJBZ-2024-REVIEW-0011",
+    "title": "在满足人防规范的前提下，重要人行通道（光厅出入口等部位）的人防门等应采用活门槛防护门。",
+    "source_type": "longfor_tianjie_standard_2024",
+    "source_label": "龙湖天街建标-2024版",
+    "source_file": "6.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "6.png",
+      "region_hint": "龙湖天街建标-2024版整页自动抽取"
+    },
+    "category_l1": "到达与交通组织",
+    "category_l2": "门类型",
+    "tags": [
+      "设计判断依据",
+      "重要人行通道人防门",
+      "门类型"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "hard_rule",
+    "severity_default": "medium",
+    "rule_text": "在满足人防规范的前提下，重要人行通道（光厅出入口等部位）的人防门等应采用活门槛防护门。",
+    "interpretation": "原始分类：设计判断依据；原始对象：重要人行通道人防门；原始指标：门类型；原始取值：活门槛防护门；在满足人防规范的前提下，重要人行通道（光厅出入口等部位）的人防门等应采用活门槛防护门。",
+    "evidence_requirement": "需结合龙湖天街建标-2024版原始页及方案图纸核对，可作为较强判断依据。",
+    "diagnosis_targets": [],
+    "trigger_clues": [],
+    "output_template": {
+      "issue_title_hint": "基于天街建标的技术控制项",
+      "issue_body_hint": "该条目具有较强技术性和控制性，可直接作为方案诊断依据之一。",
+      "recommendation_hint": "建议对照建标原始页与方案图纸进一步核验，并纳入正式规则库。"
+    },
+    "source_excerpt": "在满足人防规范的前提下，重要人行通道（光厅出入口等部位）的人防门等应采用活门槛防护门。",
+    "notes": "source_value=活门槛防护门",
+    "review_status": "auto_screened",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86,
+    "duplicate_of_rule_id": null,
+    "lineage": {
+      "source_image": "6.png",
+      "raw_category": "设计判断依据",
+      "raw_target": "重要人行通道人防门",
+      "raw_metric": "门类型",
+      "raw_value": "活门槛防护门"
+    },
+    "review_notes": [
+      "该条目由龙湖天街建标-2024版图片自动抽取，偏技术性和强控性，可优先进入正式规则库精修。"
+    ]
+  },
+  {
+    "rule_id": "LF-TJBZ-2024-REVIEW-0012",
+    "title": "人防尽量布置在高层地下库，如为多层地下室，人防区域宜垂直叠加，上下各层对齐布置，不宜单一楼层平铺。",
+    "source_type": "longfor_tianjie_standard_2024",
+    "source_label": "龙湖天街建标-2024版",
+    "source_file": "6.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "6.png",
+      "region_hint": "龙湖天街建标-2024版整页自动抽取"
+    },
+    "category_l1": "TOD与地下商业",
+    "category_l2": "布置原则",
+    "tags": [
+      "设计指引",
+      "人防区域",
+      "布置原则"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "medium",
+    "rule_text": "人防尽量布置在高层地下库，如为多层地下室，人防区域宜垂直叠加，上下各层对齐布置，不宜单一楼层平铺。",
+    "interpretation": "原始分类：设计指引；原始对象：人防区域；原始指标：布置原则；原始取值：高层地下库、多层地下室；人防尽量布置在高层地下库，如为多层地下室，人防区域宜垂直叠加，上下各层对齐布置，不宜单一楼层平铺。",
+    "evidence_requirement": "需结合龙湖天街建标-2024版原始页及方案图纸核对，可作为较强判断依据。",
+    "diagnosis_targets": [],
+    "trigger_clues": [],
+    "output_template": {
+      "issue_title_hint": "基于天街建标的技术控制项",
+      "issue_body_hint": "该条目具有较强技术性和控制性，可直接作为方案诊断依据之一。",
+      "recommendation_hint": "建议对照建标原始页与方案图纸进一步核验，并纳入正式规则库。"
+    },
+    "source_excerpt": "人防尽量布置在高层地下库，如为多层地下室，人防区域宜垂直叠加，上下各层对齐布置，不宜单一楼层平铺。",
+    "notes": "source_value=高层地下库、多层地下室",
+    "review_status": "auto_screened",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86,
+    "duplicate_of_rule_id": null,
+    "lineage": {
+      "source_image": "6.png",
+      "raw_category": "设计指引",
+      "raw_target": "人防区域",
+      "raw_metric": "布置原则",
+      "raw_value": "高层地下库、多层地下室"
+    },
+    "review_notes": [
+      "该条目由龙湖天街建标-2024版图片自动抽取，偏技术性和强控性，可优先进入正式规则库精修。"
+    ]
+  },
+  {
+    "rule_id": "LF-TJBZ-2024-REVIEW-0013",
+    "title": "复合业态地下空间的人防配置在前期预案阶段就应充分考虑其对车位销售货值和商运运营品质的综合影响，合理分配人防布防。",
+    "source_type": "longfor_tianjie_standard_2024",
+    "source_label": "龙湖天街建标-2024版",
+    "source_file": "6.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "6.png",
+      "region_hint": "龙湖天街建标-2024版整页自动抽取"
+    },
+    "category_l1": "到达与交通组织",
+    "category_l2": "人防配置",
+    "tags": [
+      "设计指引",
+      "复合业态地下空间",
+      "人防配置"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "hard_rule",
+    "severity_default": "medium",
+    "rule_text": "复合业态地下空间的人防配置在前期预案阶段就应充分考虑其对车位销售货值和商运运营品质的综合影响，合理分配人防布防。",
+    "interpretation": "原始分类：设计指引；原始对象：复合业态地下空间；原始指标：人防配置；原始取值：前期预案阶段充分考虑；复合业态地下空间的人防配置在前期预案阶段就应充分考虑其对车位销售货值和商运运营品质的综合影响，合理分配人防布防。",
+    "evidence_requirement": "需结合龙湖天街建标-2024版原始页及方案图纸核对，可作为较强判断依据。",
+    "diagnosis_targets": [],
+    "trigger_clues": [],
+    "output_template": {
+      "issue_title_hint": "基于天街建标的技术控制项",
+      "issue_body_hint": "该条目具有较强技术性和控制性，可直接作为方案诊断依据之一。",
+      "recommendation_hint": "建议对照建标原始页与方案图纸进一步核验，并纳入正式规则库。"
+    },
+    "source_excerpt": "复合业态地下空间的人防配置在前期预案阶段就应充分考虑其对车位销售货值和商运运营品质的综合影响，合理分配人防布防。",
+    "notes": "source_value=前期预案阶段充分考虑",
+    "review_status": "auto_screened",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86,
+    "duplicate_of_rule_id": null,
+    "lineage": {
+      "source_image": "6.png",
+      "raw_category": "设计指引",
+      "raw_target": "复合业态地下空间",
+      "raw_metric": "人防配置",
+      "raw_value": "前期预案阶段充分考虑"
+    },
+    "review_notes": [
+      "该条目由龙湖天街建标-2024版图片自动抽取，偏技术性和强控性，可优先进入正式规则库精修。"
+    ]
+  },
+  {
+    "rule_id": "LF-TJBZ-2024-REVIEW-0014",
+    "title": "项目商业性质用地超过200亩的，应做整体城市设计、综合交通设计、片区中长期发展规划。",
+    "source_type": "longfor_tianjie_standard_2024",
+    "source_label": "龙湖天街建标-2024版",
+    "source_file": "6.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "6.png",
+      "region_hint": "龙湖天街建标-2024版整页自动抽取"
+    },
+    "category_l1": "建造标准与安全底线",
+    "category_l2": "面积",
+    "tags": [
+      "设计指引",
+      "项目商业性质用地",
+      "面积"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "hard_rule",
+    "severity_default": "high",
+    "rule_text": "项目商业性质用地超过200亩的，应做整体城市设计、综合交通设计、片区中长期发展规划。",
+    "interpretation": "原始分类：设计指引；原始对象：项目商业性质用地；原始指标：面积；原始取值：>200亩；项目商业性质用地超过200亩的，应做整体城市设计、综合交通设计、片区中长期发展规划。",
+    "evidence_requirement": "需结合龙湖天街建标-2024版原始页及方案图纸核对，可作为较强判断依据。",
+    "diagnosis_targets": [],
+    "trigger_clues": [],
+    "output_template": {
+      "issue_title_hint": "基于天街建标的技术控制项",
+      "issue_body_hint": "该条目具有较强技术性和控制性，可直接作为方案诊断依据之一。",
+      "recommendation_hint": "建议对照建标原始页与方案图纸进一步核验，并纳入正式规则库。"
+    },
+    "source_excerpt": "项目商业性质用地超过200亩的，应做整体城市设计、综合交通设计、片区中长期发展规划。",
+    "notes": "source_value=>200亩",
+    "review_status": "auto_screened",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86,
+    "duplicate_of_rule_id": null,
+    "lineage": {
+      "source_image": "6.png",
+      "raw_category": "设计指引",
+      "raw_target": "项目商业性质用地",
+      "raw_metric": "面积",
+      "raw_value": ">200亩"
+    },
+    "review_notes": [
+      "该条目由龙湖天街建标-2024版图片自动抽取，偏技术性和强控性，可优先进入正式规则库精修。"
+    ]
+  },
+  {
+    "rule_id": "LF-TJBZ-2024-REVIEW-0015",
+    "title": "当单一动线时，宜平均进深62m-70m。",
+    "source_type": "longfor_tianjie_standard_2024",
+    "source_label": "龙湖天街建标-2024版",
+    "source_file": "6.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "6.png",
+      "region_hint": "龙湖天街建标-2024版整页自动抽取"
+    },
+    "category_l1": "租户落位与铺位效率",
+    "category_l2": "平均进深（单一动线）",
+    "tags": [
+      "技术控制指标",
+      "动线类型",
+      "平均进深（单一动线）"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "medium",
+    "rule_text": "当单一动线时，宜平均进深62m-70m。",
+    "interpretation": "原始分类：技术控制指标；原始对象：动线类型；原始指标：平均进深（单一动线）；原始取值：62m-70m；当单一动线时，宜平均进深62m-70m。",
+    "evidence_requirement": "需结合龙湖天街建标-2024版原始页及方案图纸核对，可作为较强判断依据。",
+    "diagnosis_targets": [],
+    "trigger_clues": [],
+    "output_template": {
+      "issue_title_hint": "基于天街建标的技术控制项",
+      "issue_body_hint": "该条目具有较强技术性和控制性，可直接作为方案诊断依据之一。",
+      "recommendation_hint": "建议对照建标原始页与方案图纸进一步核验，并纳入正式规则库。"
+    },
+    "source_excerpt": "当单一动线时，宜平均进深62m-70m。",
+    "notes": "source_value=62m-70m",
+    "review_status": "auto_screened",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86,
+    "duplicate_of_rule_id": null,
+    "lineage": {
+      "source_image": "6.png",
+      "raw_category": "技术控制指标",
+      "raw_target": "动线类型",
+      "raw_metric": "平均进深（单一动线）",
+      "raw_value": "62m-70m"
+    },
+    "review_notes": [
+      "该条目由龙湖天街建标-2024版图片自动抽取，偏技术性和强控性，可优先进入正式规则库精修。"
+    ]
+  },
+  {
+    "rule_id": "LF-TJBZ-2024-REVIEW-0016",
+    "title": "当环形动线时，宜平均进深110m-140m。",
+    "source_type": "longfor_tianjie_standard_2024",
+    "source_label": "龙湖天街建标-2024版",
+    "source_file": "6.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "6.png",
+      "region_hint": "龙湖天街建标-2024版整页自动抽取"
+    },
+    "category_l1": "租户落位与铺位效率",
+    "category_l2": "平均进深（环形动线）",
+    "tags": [
+      "技术控制指标",
+      "动线类型",
+      "平均进深（环形动线）"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "medium",
+    "rule_text": "当环形动线时，宜平均进深110m-140m。",
+    "interpretation": "原始分类：技术控制指标；原始对象：动线类型；原始指标：平均进深（环形动线）；原始取值：110m-140m；当环形动线时，宜平均进深110m-140m。",
+    "evidence_requirement": "需结合龙湖天街建标-2024版原始页及方案图纸核对，可作为较强判断依据。",
+    "diagnosis_targets": [],
+    "trigger_clues": [],
+    "output_template": {
+      "issue_title_hint": "基于天街建标的技术控制项",
+      "issue_body_hint": "该条目具有较强技术性和控制性，可直接作为方案诊断依据之一。",
+      "recommendation_hint": "建议对照建标原始页与方案图纸进一步核验，并纳入正式规则库。"
+    },
+    "source_excerpt": "当环形动线时，宜平均进深110m-140m。",
+    "notes": "source_value=110m-140m",
+    "review_status": "auto_screened",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86,
+    "duplicate_of_rule_id": null,
+    "lineage": {
+      "source_image": "6.png",
+      "raw_category": "技术控制指标",
+      "raw_target": "动线类型",
+      "raw_metric": "平均进深（环形动线）",
+      "raw_value": "110m-140m"
+    },
+    "review_notes": [
+      "该条目由龙湖天街建标-2024版图片自动抽取，偏技术性和强控性，可优先进入正式规则库精修。"
+    ]
+  },
+  {
+    "rule_id": "LF-TJBZ-2024-REVIEW-0017",
+    "title": "动线长度宜控制在280-400m之间。",
+    "source_type": "longfor_tianjie_standard_2024",
+    "source_label": "龙湖天街建标-2024版",
+    "source_file": "6.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "6.png",
+      "region_hint": "龙湖天街建标-2024版整页自动抽取"
+    },
+    "category_l1": "动线与客流分发",
+    "category_l2": "动线长度",
+    "tags": [
+      "技术控制指标",
+      "动线类型",
+      "动线长度"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "medium",
+    "rule_text": "动线长度宜控制在280-400m之间。",
+    "interpretation": "原始分类：技术控制指标；原始对象：动线类型；原始指标：动线长度；原始取值：280-400m；动线长度宜控制在280-400m之间。",
+    "evidence_requirement": "需结合龙湖天街建标-2024版原始页及方案图纸核对，可作为较强判断依据。",
+    "diagnosis_targets": [],
+    "trigger_clues": [],
+    "output_template": {
+      "issue_title_hint": "基于天街建标的技术控制项",
+      "issue_body_hint": "该条目具有较强技术性和控制性，可直接作为方案诊断依据之一。",
+      "recommendation_hint": "建议对照建标原始页与方案图纸进一步核验，并纳入正式规则库。"
+    },
+    "source_excerpt": "动线长度宜控制在280-400m之间。",
+    "notes": "source_value=280-400m",
+    "review_status": "auto_screened",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86,
+    "duplicate_of_rule_id": null,
+    "lineage": {
+      "source_image": "6.png",
+      "raw_category": "技术控制指标",
+      "raw_target": "动线类型",
+      "raw_metric": "动线长度",
+      "raw_value": "280-400m"
+    },
+    "review_notes": [
+      "该条目由龙湖天街建标-2024版图片自动抽取，偏技术性和强控性，可优先进入正式规则库精修。"
+    ]
+  },
+  {
+    "rule_id": "LF-TJBZ-2024-REVIEW-0018",
+    "title": "不宜在天街上方布置塔楼或者板楼。",
+    "source_type": "longfor_tianjie_standard_2024",
+    "source_label": "龙湖天街建标-2024版",
+    "source_file": "6.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "6.png",
+      "region_hint": "龙湖天街建标-2024版整页自动抽取"
+    },
+    "category_l1": "待人工归类",
+    "category_l2": "位置",
+    "tags": [
+      "强控红线",
+      "塔楼布置",
+      "位置"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "medium",
+    "rule_text": "不宜在天街上方布置塔楼或者板楼。",
+    "interpretation": "原始分类：强控红线；原始对象：塔楼布置；原始指标：位置；原始取值：不宜在天街上方；不宜在天街上方布置塔楼或者板楼。",
+    "evidence_requirement": "需结合龙湖天街建标-2024版原始页及方案图纸核对，可作为较强判断依据。",
+    "diagnosis_targets": [],
+    "trigger_clues": [],
+    "output_template": {
+      "issue_title_hint": "基于天街建标的技术控制项",
+      "issue_body_hint": "该条目具有较强技术性和控制性，可直接作为方案诊断依据之一。",
+      "recommendation_hint": "建议对照建标原始页与方案图纸进一步核验，并纳入正式规则库。"
+    },
+    "source_excerpt": "不宜在天街上方布置塔楼或者板楼。",
+    "notes": "source_value=不宜在天街上方",
+    "review_status": "auto_screened",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.58,
+    "duplicate_of_rule_id": null,
+    "lineage": {
+      "source_image": "6.png",
+      "raw_category": "强控红线",
+      "raw_target": "塔楼布置",
+      "raw_metric": "位置",
+      "raw_value": "不宜在天街上方"
+    },
+    "review_notes": [
+      "该条目由龙湖天街建标-2024版图片自动抽取，偏技术性和强控性，可优先进入正式规则库精修。",
+      "一级分类仍需人工细化。"
+    ]
+  },
+  {
+    "rule_id": "LF-TJBZ-2024-REVIEW-0019",
+    "title": "塔楼数量宜≤2栋。",
+    "source_type": "longfor_tianjie_standard_2024",
+    "source_label": "龙湖天街建标-2024版",
+    "source_file": "6.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "6.png",
+      "region_hint": "龙湖天街建标-2024版整页自动抽取"
+    },
+    "category_l1": "待人工归类",
+    "category_l2": "数量",
+    "tags": [
+      "技术控制指标",
+      "塔楼布置",
+      "数量"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "medium",
+    "rule_text": "塔楼数量宜≤2栋。",
+    "interpretation": "原始分类：技术控制指标；原始对象：塔楼布置；原始指标：数量；原始取值：≤2栋；塔楼数量宜≤2栋。",
+    "evidence_requirement": "需结合龙湖天街建标-2024版原始页及方案图纸核对，可作为较强判断依据。",
+    "diagnosis_targets": [],
+    "trigger_clues": [],
+    "output_template": {
+      "issue_title_hint": "基于天街建标的技术控制项",
+      "issue_body_hint": "该条目具有较强技术性和控制性，可直接作为方案诊断依据之一。",
+      "recommendation_hint": "建议对照建标原始页与方案图纸进一步核验，并纳入正式规则库。"
+    },
+    "source_excerpt": "塔楼数量宜≤2栋。",
+    "notes": "source_value=≤2栋",
+    "review_status": "auto_screened",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.58,
+    "duplicate_of_rule_id": null,
+    "lineage": {
+      "source_image": "6.png",
+      "raw_category": "技术控制指标",
+      "raw_target": "塔楼布置",
+      "raw_metric": "数量",
+      "raw_value": "≤2栋"
+    },
+    "review_notes": [
+      "该条目由龙湖天街建标-2024版图片自动抽取，偏技术性和强控性，可优先进入正式规则库精修。",
+      "一级分类仍需人工细化。"
+    ]
+  },
+  {
+    "rule_id": "LF-TJBZ-2024-REVIEW-0020",
+    "title": "塔楼位置不宜布置在出入口、大中庭等主要位置。",
+    "source_type": "longfor_tianjie_standard_2024",
+    "source_label": "龙湖天街建标-2024版",
+    "source_file": "6.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "6.png",
+      "region_hint": "龙湖天街建标-2024版整页自动抽取"
+    },
+    "category_l1": "空间布局与体验场景",
+    "category_l2": "位置",
+    "tags": [
+      "强控红线",
+      "塔楼布置",
+      "位置"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "medium",
+    "rule_text": "塔楼位置不宜布置在出入口、大中庭等主要位置。",
+    "interpretation": "原始分类：强控红线；原始对象：塔楼布置；原始指标：位置；原始取值：不宜在出入口、大中庭等主要位置；塔楼位置不宜布置在出入口、大中庭等主要位置。",
+    "evidence_requirement": "需结合龙湖天街建标-2024版原始页及方案图纸核对，可作为较强判断依据。",
+    "diagnosis_targets": [],
+    "trigger_clues": [],
+    "output_template": {
+      "issue_title_hint": "基于天街建标的技术控制项",
+      "issue_body_hint": "该条目具有较强技术性和控制性，可直接作为方案诊断依据之一。",
+      "recommendation_hint": "建议对照建标原始页与方案图纸进一步核验，并纳入正式规则库。"
+    },
+    "source_excerpt": "塔楼位置不宜布置在出入口、大中庭等主要位置。",
+    "notes": "source_value=不宜在出入口、大中庭等主要位置",
+    "review_status": "auto_screened",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86,
+    "duplicate_of_rule_id": null,
+    "lineage": {
+      "source_image": "6.png",
+      "raw_category": "强控红线",
+      "raw_target": "塔楼布置",
+      "raw_metric": "位置",
+      "raw_value": "不宜在出入口、大中庭等主要位置"
+    },
+    "review_notes": [
+      "该条目由龙湖天街建标-2024版图片自动抽取，偏技术性和强控性，可优先进入正式规则库精修。"
+    ]
+  },
+  {
+    "rule_id": "LF-TJBZ-2024-REVIEW-0021",
+    "title": "应充分考虑塔楼与购物中心在商场楼层的连接和人流组织，增加人流通达性。",
+    "source_type": "longfor_tianjie_standard_2024",
+    "source_label": "龙湖天街建标-2024版",
+    "source_file": "6.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "6.png",
+      "region_hint": "龙湖天街建标-2024版整页自动抽取"
+    },
+    "category_l1": "待人工归类",
+    "category_l2": "人流组织",
+    "tags": [
+      "设计判断依据",
+      "塔楼与购物中心连接",
+      "人流组织"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "medium",
+    "rule_text": "应充分考虑塔楼与购物中心在商场楼层的连接和人流组织，增加人流通达性。",
+    "interpretation": "原始分类：设计判断依据；原始对象：塔楼与购物中心连接；原始指标：人流组织；原始取值：增加人流通达性；应充分考虑塔楼与购物中心在商场楼层的连接和人流组织，增加人流通达性。",
+    "evidence_requirement": "需结合龙湖天街建标-2024版原始页及方案图纸核对，可作为较强判断依据。",
+    "diagnosis_targets": [],
+    "trigger_clues": [],
+    "output_template": {
+      "issue_title_hint": "基于天街建标的技术控制项",
+      "issue_body_hint": "该条目具有较强技术性和控制性，可直接作为方案诊断依据之一。",
+      "recommendation_hint": "建议对照建标原始页与方案图纸进一步核验，并纳入正式规则库。"
+    },
+    "source_excerpt": "应充分考虑塔楼与购物中心在商场楼层的连接和人流组织，增加人流通达性。",
+    "notes": "source_value=增加人流通达性",
+    "review_status": "auto_screened",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.58,
+    "duplicate_of_rule_id": null,
+    "lineage": {
+      "source_image": "6.png",
+      "raw_category": "设计判断依据",
+      "raw_target": "塔楼与购物中心连接",
+      "raw_metric": "人流组织",
+      "raw_value": "增加人流通达性"
+    },
+    "review_notes": [
+      "该条目由龙湖天街建标-2024版图片自动抽取，偏技术性和强控性，可优先进入正式规则库精修。",
+      "一级分类仍需人工细化。"
+    ]
+  },
+  {
+    "rule_id": "LF-TJBZ-2024-REVIEW-0022",
+    "title": "两端均为商业室内空间的公共连廊应为封闭围护结构的室内空间。",
+    "source_type": "longfor_tianjie_standard_2024",
+    "source_label": "龙湖天街建标-2024版",
+    "source_file": "6.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "6.png",
+      "region_hint": "龙湖天街建标-2024版整页自动抽取"
+    },
+    "category_l1": "建造标准与安全底线",
+    "category_l2": "空间属性",
+    "tags": [
+      "设计强条",
+      "公共连廊",
+      "空间属性"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "hard_rule",
+    "severity_default": "high",
+    "rule_text": "两端均为商业室内空间的公共连廊应为封闭围护结构的室内空间。",
+    "interpretation": "原始分类：设计强条；原始对象：公共连廊；原始指标：空间属性；原始取值：封闭围护结构；两端均为商业室内空间的公共连廊应为封闭围护结构的室内空间。",
+    "evidence_requirement": "需结合龙湖天街建标-2024版原始页及方案图纸核对，可作为较强判断依据。",
+    "diagnosis_targets": [],
+    "trigger_clues": [],
+    "output_template": {
+      "issue_title_hint": "基于天街建标的技术控制项",
+      "issue_body_hint": "该条目具有较强技术性和控制性，可直接作为方案诊断依据之一。",
+      "recommendation_hint": "建议对照建标原始页与方案图纸进一步核验，并纳入正式规则库。"
+    },
+    "source_excerpt": "两端均为商业室内空间的公共连廊应为封闭围护结构的室内空间。",
+    "notes": "source_value=封闭围护结构",
+    "review_status": "auto_screened",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86,
+    "duplicate_of_rule_id": null,
+    "lineage": {
+      "source_image": "6.png",
+      "raw_category": "设计强条",
+      "raw_target": "公共连廊",
+      "raw_metric": "空间属性",
+      "raw_value": "封闭围护结构"
+    },
+    "review_notes": [
+      "该条目由龙湖天街建标-2024版图片自动抽取，偏技术性和强控性，可优先进入正式规则库精修。"
+    ]
+  },
+  {
+    "rule_id": "LF-TJBZ-2024-REVIEW-0023",
+    "title": "连廊端头两侧的商铺应预留餐饮条件。",
+    "source_type": "longfor_tianjie_standard_2024",
+    "source_label": "龙湖天街建标-2024版",
+    "source_file": "6.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "6.png",
+      "region_hint": "龙湖天街建标-2024版整页自动抽取"
+    },
+    "category_l1": "租户落位与铺位效率",
+    "category_l2": "功能",
+    "tags": [
+      "设计强条",
+      "连廊端头两侧商铺",
+      "功能"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "medium",
+    "rule_text": "连廊端头两侧的商铺应预留餐饮条件。",
+    "interpretation": "原始分类：设计强条；原始对象：连廊端头两侧商铺；原始指标：功能；原始取值：预留餐饮条件；连廊端头两侧的商铺应预留餐饮条件。",
+    "evidence_requirement": "需结合龙湖天街建标-2024版原始页及方案图纸核对，可作为较强判断依据。",
+    "diagnosis_targets": [],
+    "trigger_clues": [],
+    "output_template": {
+      "issue_title_hint": "基于天街建标的技术控制项",
+      "issue_body_hint": "该条目具有较强技术性和控制性，可直接作为方案诊断依据之一。",
+      "recommendation_hint": "建议对照建标原始页与方案图纸进一步核验，并纳入正式规则库。"
+    },
+    "source_excerpt": "连廊端头两侧的商铺应预留餐饮条件。",
+    "notes": "source_value=预留餐饮条件",
+    "review_status": "auto_screened",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86,
+    "duplicate_of_rule_id": null,
+    "lineage": {
+      "source_image": "6.png",
+      "raw_category": "设计强条",
+      "raw_target": "连廊端头两侧商铺",
+      "raw_metric": "功能",
+      "raw_value": "预留餐饮条件"
+    },
+    "review_notes": [
+      "该条目由龙湖天街建标-2024版图片自动抽取，偏技术性和强控性，可优先进入正式规则库精修。"
+    ]
+  },
+  {
+    "rule_id": "LF-TJBZ-2024-REVIEW-0024",
+    "title": "大大小小 MALL 之间的连廊宽度应≥12m。",
+    "source_type": "longfor_tianjie_standard_2024",
+    "source_label": "龙湖天街建标-2024版",
+    "source_file": "6.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "6.png",
+      "region_hint": "龙湖天街建标-2024版整页自动抽取"
+    },
+    "category_l1": "建造标准与安全底线",
+    "category_l2": "宽度",
+    "tags": [
+      "技术控制指标",
+      "大大小小 MALL 之间连廊",
+      "宽度"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "hard_rule",
+    "severity_default": "high",
+    "rule_text": "大大小小 MALL 之间的连廊宽度应≥12m。",
+    "interpretation": "原始分类：技术控制指标；原始对象：大大小小 MALL 之间连廊；原始指标：宽度；原始取值：≥12m；大大小小 MALL 之间的连廊宽度应≥12m。",
+    "evidence_requirement": "需结合龙湖天街建标-2024版原始页及方案图纸核对，可作为较强判断依据。",
+    "diagnosis_targets": [],
+    "trigger_clues": [],
+    "output_template": {
+      "issue_title_hint": "基于天街建标的技术控制项",
+      "issue_body_hint": "该条目具有较强技术性和控制性，可直接作为方案诊断依据之一。",
+      "recommendation_hint": "建议对照建标原始页与方案图纸进一步核验，并纳入正式规则库。"
+    },
+    "source_excerpt": "大大小小 MALL 之间的连廊宽度应≥12m。",
+    "notes": "source_value=≥12m",
+    "review_status": "auto_screened",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86,
+    "duplicate_of_rule_id": null,
+    "lineage": {
+      "source_image": "6.png",
+      "raw_category": "技术控制指标",
+      "raw_target": "大大小小 MALL 之间连廊",
+      "raw_metric": "宽度",
+      "raw_value": "≥12m"
+    },
+    "review_notes": [
+      "该条目由龙湖天街建标-2024版图片自动抽取，偏技术性和强控性，可优先进入正式规则库精修。"
+    ]
+  },
+  {
+    "rule_id": "LF-TJBZ-2024-REVIEW-0025",
+    "title": "连廊若计容且宽度适宜，可考虑两侧或者单侧设置商铺或外摆，若不计容可考虑做短期外摆，结合商业业态布置铺位。",
+    "source_type": "longfor_tianjie_standard_2024",
+    "source_label": "龙湖天街建标-2024版",
+    "source_file": "6.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "6.png",
+      "region_hint": "龙湖天街建标-2024版整页自动抽取"
+    },
+    "category_l1": "建造标准与安全底线",
+    "category_l2": "两侧/单侧设置",
+    "tags": [
+      "设计判断依据",
+      "大大小小 MALL 之间连廊",
+      "两侧/单侧设置"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "hard_rule",
+    "severity_default": "high",
+    "rule_text": "连廊若计容且宽度适宜，可考虑两侧或者单侧设置商铺或外摆，若不计容可考虑做短期外摆，结合商业业态布置铺位。",
+    "interpretation": "原始分类：设计判断依据；原始对象：大大小小 MALL 之间连廊；原始指标：两侧/单侧设置；原始取值：商铺或外摆；连廊若计容且宽度适宜，可考虑两侧或者单侧设置商铺或外摆，若不计容可考虑做短期外摆，结合商业业态布置铺位。",
+    "evidence_requirement": "需结合龙湖天街建标-2024版原始页及方案图纸核对，可作为较强判断依据。",
+    "diagnosis_targets": [],
+    "trigger_clues": [],
+    "output_template": {
+      "issue_title_hint": "基于天街建标的技术控制项",
+      "issue_body_hint": "该条目具有较强技术性和控制性，可直接作为方案诊断依据之一。",
+      "recommendation_hint": "建议对照建标原始页与方案图纸进一步核验，并纳入正式规则库。"
+    },
+    "source_excerpt": "连廊若计容且宽度适宜，可考虑两侧或者单侧设置商铺或外摆，若不计容可考虑做短期外摆，结合商业业态布置铺位。",
+    "notes": "source_value=商铺或外摆",
+    "review_status": "auto_screened",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86,
+    "duplicate_of_rule_id": null,
+    "lineage": {
+      "source_image": "6.png",
+      "raw_category": "设计判断依据",
+      "raw_target": "大大小小 MALL 之间连廊",
+      "raw_metric": "两侧/单侧设置",
+      "raw_value": "商铺或外摆"
+    },
+    "review_notes": [
+      "该条目由龙湖天街建标-2024版图片自动抽取，偏技术性和强控性，可优先进入正式规则库精修。"
+    ]
+  },
+  {
+    "rule_id": "LF-TJBZ-2024-REVIEW-0026",
+    "title": "大大小小 MALL 之间的地下连廊非经营区净高应≥2.7m。",
+    "source_type": "longfor_tianjie_standard_2024",
+    "source_label": "龙湖天街建标-2024版",
+    "source_file": "6.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "6.png",
+      "region_hint": "龙湖天街建标-2024版整页自动抽取"
+    },
+    "category_l1": "建造标准与安全底线",
+    "category_l2": "非经营区净高",
+    "tags": [
+      "技术控制指标",
+      "大大小小 MALL 之间地下连廊",
+      "非经营区净高"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "hard_rule",
+    "severity_default": "high",
+    "rule_text": "大大小小 MALL 之间的地下连廊非经营区净高应≥2.7m。",
+    "interpretation": "原始分类：技术控制指标；原始对象：大大小小 MALL 之间地下连廊；原始指标：非经营区净高；原始取值：≥2.7m；大大小小 MALL 之间的地下连廊非经营区净高应≥2.7m。",
+    "evidence_requirement": "需结合龙湖天街建标-2024版原始页及方案图纸核对，可作为较强判断依据。",
+    "diagnosis_targets": [],
+    "trigger_clues": [],
+    "output_template": {
+      "issue_title_hint": "基于天街建标的技术控制项",
+      "issue_body_hint": "该条目具有较强技术性和控制性，可直接作为方案诊断依据之一。",
+      "recommendation_hint": "建议对照建标原始页与方案图纸进一步核验，并纳入正式规则库。"
+    },
+    "source_excerpt": "大大小小 MALL 之间的地下连廊非经营区净高应≥2.7m。",
+    "notes": "source_value=≥2.7m",
+    "review_status": "auto_screened",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86,
+    "duplicate_of_rule_id": null,
+    "lineage": {
+      "source_image": "6.png",
+      "raw_category": "技术控制指标",
+      "raw_target": "大大小小 MALL 之间地下连廊",
+      "raw_metric": "非经营区净高",
+      "raw_value": "≥2.7m"
+    },
+    "review_notes": [
+      "该条目由龙湖天街建标-2024版图片自动抽取，偏技术性和强控性，可优先进入正式规则库精修。"
+    ]
+  },
+  {
+    "rule_id": "LF-TJBZ-2024-REVIEW-0027",
+    "title": "大大小小 MALL 之间的地下连廊经营区面积≥3.2m。",
+    "source_type": "longfor_tianjie_standard_2024",
+    "source_label": "龙湖天街建标-2024版",
+    "source_file": "6.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "6.png",
+      "region_hint": "龙湖天街建标-2024版整页自动抽取"
+    },
+    "category_l1": "建造标准与安全底线",
+    "category_l2": "经营区面积",
+    "tags": [
+      "技术控制指标",
+      "大大小小 MALL 之间地下连廊",
+      "经营区面积"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "hard_rule",
+    "severity_default": "high",
+    "rule_text": "大大小小 MALL 之间的地下连廊经营区面积≥3.2m。",
+    "interpretation": "原始分类：技术控制指标；原始对象：大大小小 MALL 之间地下连廊；原始指标：经营区面积；原始取值：≥3.2m；大大小小 MALL 之间的地下连廊经营区面积≥3.2m。",
+    "evidence_requirement": "需结合龙湖天街建标-2024版原始页及方案图纸核对，可作为较强判断依据。",
+    "diagnosis_targets": [],
+    "trigger_clues": [],
+    "output_template": {
+      "issue_title_hint": "基于天街建标的技术控制项",
+      "issue_body_hint": "该条目具有较强技术性和控制性，可直接作为方案诊断依据之一。",
+      "recommendation_hint": "建议对照建标原始页与方案图纸进一步核验，并纳入正式规则库。"
+    },
+    "source_excerpt": "大大小小 MALL 之间的地下连廊经营区面积≥3.2m。",
+    "notes": "source_value=≥3.2m",
+    "review_status": "auto_screened",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86,
+    "duplicate_of_rule_id": null,
+    "lineage": {
+      "source_image": "6.png",
+      "raw_category": "技术控制指标",
+      "raw_target": "大大小小 MALL 之间地下连廊",
+      "raw_metric": "经营区面积",
+      "raw_value": "≥3.2m"
+    },
+    "review_notes": [
+      "该条目由龙湖天街建标-2024版图片自动抽取，偏技术性和强控性，可优先进入正式规则库精修。"
+    ]
+  },
+  {
+    "rule_id": "LF-TJBZ-2024-REVIEW-0028",
+    "title": "如连廊跨度较大，应与政府协商，并确定可在红线外增设竖向承重构件，以减小连廊跨度，降低成本。",
+    "source_type": "longfor_tianjie_standard_2024",
+    "source_label": "龙湖天街建标-2024版",
+    "source_file": "6.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "6.png",
+      "region_hint": "龙湖天街建标-2024版整页自动抽取"
+    },
+    "category_l1": "待人工归类",
+    "category_l2": "跨度",
+    "tags": [
+      "设计指引",
+      "连廊",
+      "跨度"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "medium",
+    "rule_text": "如连廊跨度较大，应与政府协商，并确定可在红线外增设竖向承重构件，以减小连廊跨度，降低成本。",
+    "interpretation": "原始分类：设计指引；原始对象：连廊；原始指标：跨度；原始取值：较大；如连廊跨度较大，应与政府协商，并确定可在红线外增设竖向承重构件，以减小连廊跨度，降低成本。",
+    "evidence_requirement": "需结合龙湖天街建标-2024版原始页及方案图纸核对，可作为较强判断依据。",
+    "diagnosis_targets": [],
+    "trigger_clues": [],
+    "output_template": {
+      "issue_title_hint": "基于天街建标的技术控制项",
+      "issue_body_hint": "该条目具有较强技术性和控制性，可直接作为方案诊断依据之一。",
+      "recommendation_hint": "建议对照建标原始页与方案图纸进一步核验，并纳入正式规则库。"
+    },
+    "source_excerpt": "如连廊跨度较大，应与政府协商，并确定可在红线外增设竖向承重构件，以减小连廊跨度，降低成本。",
+    "notes": "source_value=较大",
+    "review_status": "auto_screened",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.58,
+    "duplicate_of_rule_id": null,
+    "lineage": {
+      "source_image": "6.png",
+      "raw_category": "设计指引",
+      "raw_target": "连廊",
+      "raw_metric": "跨度",
+      "raw_value": "较大"
+    },
+    "review_notes": [
+      "该条目由龙湖天街建标-2024版图片自动抽取，偏技术性和强控性，可优先进入正式规则库精修。",
+      "一级分类仍需人工细化。"
+    ]
+  },
+  {
+    "rule_id": "LF-TJBZ-2024-REVIEW-0029",
+    "title": "室外连廊防水层：1.5mm 单组分聚氨酯涂料。",
+    "source_type": "longfor_tianjie_standard_2024",
+    "source_label": "龙湖天街建标-2024版",
+    "source_file": "6.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "6.png",
+      "region_hint": "龙湖天街建标-2024版整页自动抽取"
+    },
+    "category_l1": "待人工归类",
+    "category_l2": "防水层厚度",
+    "tags": [
+      "配置标准",
+      "室外连廊防水",
+      "防水层厚度"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "medium",
+    "rule_text": "室外连廊防水层：1.5mm 单组分聚氨酯涂料。",
+    "interpretation": "原始分类：配置标准；原始对象：室外连廊防水；原始指标：防水层厚度；原始取值：1.5mm；室外连廊防水层：1.5mm 单组分聚氨酯涂料。",
+    "evidence_requirement": "需结合龙湖天街建标-2024版原始页及方案图纸核对，可作为较强判断依据。",
+    "diagnosis_targets": [],
+    "trigger_clues": [],
+    "output_template": {
+      "issue_title_hint": "基于天街建标的技术控制项",
+      "issue_body_hint": "该条目具有较强技术性和控制性，可直接作为方案诊断依据之一。",
+      "recommendation_hint": "建议对照建标原始页与方案图纸进一步核验，并纳入正式规则库。"
+    },
+    "source_excerpt": "室外连廊防水层：1.5mm 单组分聚氨酯涂料。",
+    "notes": "source_value=1.5mm",
+    "review_status": "auto_screened",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.58,
+    "duplicate_of_rule_id": null,
+    "lineage": {
+      "source_image": "6.png",
+      "raw_category": "配置标准",
+      "raw_target": "室外连廊防水",
+      "raw_metric": "防水层厚度",
+      "raw_value": "1.5mm"
+    },
+    "review_notes": [
+      "该条目由龙湖天街建标-2024版图片自动抽取，偏技术性和强控性，可优先进入正式规则库精修。",
+      "一级分类仍需人工细化。"
+    ]
+  },
+  {
+    "rule_id": "LF-TJBZ-2024-REVIEW-0030",
+    "title": "排水沟：设置300mm宽排水沟。",
+    "source_type": "longfor_tianjie_standard_2024",
+    "source_label": "龙湖天街建标-2024版",
+    "source_file": "6.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "6.png",
+      "region_hint": "龙湖天街建标-2024版整页自动抽取"
+    },
+    "category_l1": "建造标准与安全底线",
+    "category_l2": "宽度",
+    "tags": [
+      "配置标准",
+      "排水沟",
+      "宽度"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "hard_rule",
+    "severity_default": "high",
+    "rule_text": "排水沟：设置300mm宽排水沟。",
+    "interpretation": "原始分类：配置标准；原始对象：排水沟；原始指标：宽度；原始取值：300mm；排水沟：设置300mm宽排水沟。",
+    "evidence_requirement": "需结合龙湖天街建标-2024版原始页及方案图纸核对，可作为较强判断依据。",
+    "diagnosis_targets": [],
+    "trigger_clues": [],
+    "output_template": {
+      "issue_title_hint": "基于天街建标的技术控制项",
+      "issue_body_hint": "该条目具有较强技术性和控制性，可直接作为方案诊断依据之一。",
+      "recommendation_hint": "建议对照建标原始页与方案图纸进一步核验，并纳入正式规则库。"
+    },
+    "source_excerpt": "排水沟：设置300mm宽排水沟。",
+    "notes": "source_value=300mm",
+    "review_status": "auto_screened",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86,
+    "duplicate_of_rule_id": null,
+    "lineage": {
+      "source_image": "6.png",
+      "raw_category": "配置标准",
+      "raw_target": "排水沟",
+      "raw_metric": "宽度",
+      "raw_value": "300mm"
+    },
+    "review_notes": [
+      "该条目由龙湖天街建标-2024版图片自动抽取，偏技术性和强控性，可优先进入正式规则库精修。"
+    ]
+  },
+  {
+    "rule_id": "LF-TJBZ-2024-REVIEW-0031",
+    "title": "混凝土反坎应一次浇筑成型，建筑完成面高20cm。",
+    "source_type": "longfor_tianjie_standard_2024",
+    "source_label": "龙湖天街建标-2024版",
+    "source_file": "7.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "7.png",
+      "region_hint": "龙湖天街建标-2024版整页自动抽取"
+    },
+    "category_l1": "待人工归类",
+    "category_l2": "高度",
+    "tags": [
+      "建造标准与安全底线",
+      "混凝土反坎",
+      "高度"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "medium",
+    "rule_text": "混凝土反坎应一次浇筑成型，建筑完成面高20cm。",
+    "interpretation": "原始分类：建造标准与安全底线；原始对象：混凝土反坎；原始指标：高度；原始取值：20cm；混凝土反坎应一次浇筑成型，建筑完成面高20cm。",
+    "evidence_requirement": "需结合龙湖天街建标-2024版原始页及方案图纸核对，可作为较强判断依据。",
+    "diagnosis_targets": [],
+    "trigger_clues": [],
+    "output_template": {
+      "issue_title_hint": "基于天街建标的技术控制项",
+      "issue_body_hint": "该条目具有较强技术性和控制性，可直接作为方案诊断依据之一。",
+      "recommendation_hint": "建议对照建标原始页与方案图纸进一步核验，并纳入正式规则库。"
+    },
+    "source_excerpt": "混凝土反坎应一次浇筑成型，建筑完成面高20cm。",
+    "notes": "source_value=20cm",
+    "review_status": "auto_screened",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.58,
+    "duplicate_of_rule_id": null,
+    "lineage": {
+      "source_image": "7.png",
+      "raw_category": "建造标准与安全底线",
+      "raw_target": "混凝土反坎",
+      "raw_metric": "高度",
+      "raw_value": "20cm"
+    },
+    "review_notes": [
+      "该条目由龙湖天街建标-2024版图片自动抽取，偏技术性和强控性，可优先进入正式规则库精修。",
+      "一级分类仍需人工细化。"
+    ]
+  },
+  {
+    "rule_id": "LF-TJBZ-2024-REVIEW-0032",
+    "title": "出入口和公区内透区域以及特色幕墙区域应选用超白玻。",
+    "source_type": "longfor_tianjie_standard_2024",
+    "source_label": "龙湖天街建标-2024版",
+    "source_file": "8.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "8.png",
+      "region_hint": "龙湖天街建标-2024版整页自动抽取"
+    },
+    "category_l1": "产品表达与建筑形象",
+    "category_l2": "玻璃类型",
+    "tags": [
+      "设计判断依据",
+      "出入口/公区内透/特色幕墙区域",
+      "玻璃类型"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "hard_rule",
+    "severity_default": "high",
+    "rule_text": "出入口和公区内透区域以及特色幕墙区域应选用超白玻。",
+    "interpretation": "原始分类：设计判断依据；原始对象：出入口/公区内透/特色幕墙区域；原始指标：玻璃类型；原始取值：超白玻；出入口和公区内透区域以及特色幕墙区域应选用超白玻。",
+    "evidence_requirement": "需结合龙湖天街建标-2024版原始页及方案图纸核对，可作为较强判断依据。",
+    "diagnosis_targets": [],
+    "trigger_clues": [],
+    "output_template": {
+      "issue_title_hint": "基于天街建标的技术控制项",
+      "issue_body_hint": "该条目具有较强技术性和控制性，可直接作为方案诊断依据之一。",
+      "recommendation_hint": "建议对照建标原始页与方案图纸进一步核验，并纳入正式规则库。"
+    },
+    "source_excerpt": "出入口和公区内透区域以及特色幕墙区域应选用超白玻。",
+    "notes": "source_value=超白玻",
+    "review_status": "auto_screened",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86,
+    "duplicate_of_rule_id": null,
+    "lineage": {
+      "source_image": "8.png",
+      "raw_category": "设计判断依据",
+      "raw_target": "出入口/公区内透/特色幕墙区域",
+      "raw_metric": "玻璃类型",
+      "raw_value": "超白玻"
+    },
+    "review_notes": [
+      "该条目由龙湖天街建标-2024版图片自动抽取，偏技术性和强控性，可优先进入正式规则库精修。"
+    ]
+  },
+  {
+    "rule_id": "LF-TJBZ-2024-REVIEW-0033",
+    "title": "标准中庭公区走道宽度（租赁线到土建洞口板边线距离），当洞口有防火卷帘且有卷帘柱时，应为4m。",
+    "source_type": "longfor_tianjie_standard_2024",
+    "source_label": "龙湖天街建标-2024版",
+    "source_file": "9.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "9.png",
+      "region_hint": "龙湖天街建标-2024版整页自动抽取"
+    },
+    "category_l1": "建造标准与安全底线",
+    "category_l2": "洞口有防火卷帘 (有卷帘柱)",
+    "tags": [
+      "技术控制指标",
+      "公区走道宽度",
+      "洞口有防火卷帘 (有卷帘柱)"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "hard_rule",
+    "severity_default": "high",
+    "rule_text": "标准中庭公区走道宽度（租赁线到土建洞口板边线距离），当洞口有防火卷帘且有卷帘柱时，应为4m。",
+    "interpretation": "原始分类：技术控制指标；原始对象：公区走道宽度；原始指标：洞口有防火卷帘 (有卷帘柱)；原始取值：4m；标准中庭公区走道宽度（租赁线到土建洞口板边线距离），当洞口有防火卷帘且有卷帘柱时，应为4m。",
+    "evidence_requirement": "需结合龙湖天街建标-2024版原始页及方案图纸核对，可作为较强判断依据。",
+    "diagnosis_targets": [],
+    "trigger_clues": [],
+    "output_template": {
+      "issue_title_hint": "基于天街建标的技术控制项",
+      "issue_body_hint": "该条目具有较强技术性和控制性，可直接作为方案诊断依据之一。",
+      "recommendation_hint": "建议对照建标原始页与方案图纸进一步核验，并纳入正式规则库。"
+    },
+    "source_excerpt": "标准中庭公区走道宽度（租赁线到土建洞口板边线距离），当洞口有防火卷帘且有卷帘柱时，应为4m。",
+    "notes": "source_value=4m",
+    "review_status": "auto_screened",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86,
+    "duplicate_of_rule_id": null,
+    "lineage": {
+      "source_image": "9.png",
+      "raw_category": "技术控制指标",
+      "raw_target": "公区走道宽度",
+      "raw_metric": "洞口有防火卷帘 (有卷帘柱)",
+      "raw_value": "4m"
+    },
+    "review_notes": [
+      "该条目由龙湖天街建标-2024版图片自动抽取，偏技术性和强控性，可优先进入正式规则库精修。"
+    ]
+  },
+  {
+    "rule_id": "LF-TJBZ-2024-REVIEW-0034",
+    "title": "每个卫生间至少应保留一个坐便器。",
+    "source_type": "longfor_tianjie_standard_2024",
+    "source_label": "龙湖天街建标-2024版",
+    "source_file": "10.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "10.png",
+      "region_hint": "龙湖天街建标-2024版整页自动抽取"
+    },
+    "category_l1": "建造标准与安全底线",
+    "category_l2": "坐便器数量",
+    "tags": [
+      "建造标准与安全底线",
+      "商业卫生间",
+      "坐便器数量"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "hard_rule",
+    "severity_default": "high",
+    "rule_text": "每个卫生间至少应保留一个坐便器。",
+    "interpretation": "原始分类：建造标准与安全底线；原始对象：商业卫生间；原始指标：坐便器数量；原始取值：>=1个；每个卫生间至少应保留一个坐便器。",
+    "evidence_requirement": "需结合龙湖天街建标-2024版原始页及方案图纸核对，可作为较强判断依据。",
+    "diagnosis_targets": [],
+    "trigger_clues": [],
+    "output_template": {
+      "issue_title_hint": "基于天街建标的技术控制项",
+      "issue_body_hint": "该条目具有较强技术性和控制性，可直接作为方案诊断依据之一。",
+      "recommendation_hint": "建议对照建标原始页与方案图纸进一步核验，并纳入正式规则库。"
+    },
+    "source_excerpt": "每个卫生间至少应保留一个坐便器。",
+    "notes": "source_value=>=1个",
+    "review_status": "auto_screened",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86,
+    "duplicate_of_rule_id": null,
+    "lineage": {
+      "source_image": "10.png",
+      "raw_category": "建造标准与安全底线",
+      "raw_target": "商业卫生间",
+      "raw_metric": "坐便器数量",
+      "raw_value": ">=1个"
+    },
+    "review_notes": [
+      "该条目由龙湖天街建标-2024版图片自动抽取，偏技术性和强控性，可优先进入正式规则库精修。"
+    ]
+  },
+  {
+    "rule_id": "LF-TJBZ-2024-REVIEW-0035",
+    "title": "客梯服务半径应为50m~60m，并应能到达各商业空间和各层停车库，宜成组单侧布置，并与公区紧密相连。",
+    "source_type": "longfor_tianjie_standard_2024",
+    "source_label": "龙湖天街建标-2024版",
+    "source_file": "11.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "11.png",
+      "region_hint": "龙湖天街建标-2024版整页自动抽取"
+    },
+    "category_l1": "建造标准与安全底线",
+    "category_l2": "服务半径",
+    "tags": [
+      "设计强条",
+      "客梯",
+      "服务半径"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "hard_rule",
+    "severity_default": "high",
+    "rule_text": "客梯服务半径应为50m~60m，并应能到达各商业空间和各层停车库，宜成组单侧布置，并与公区紧密相连。",
+    "interpretation": "原始分类：设计强条；原始对象：客梯；原始指标：服务半径；原始取值：50m~60m；客梯服务半径应为50m~60m，并应能到达各商业空间和各层停车库，宜成组单侧布置，并与公区紧密相连。",
+    "evidence_requirement": "需结合龙湖天街建标-2024版原始页及方案图纸核对，可作为较强判断依据。",
+    "diagnosis_targets": [],
+    "trigger_clues": [],
+    "output_template": {
+      "issue_title_hint": "基于天街建标的技术控制项",
+      "issue_body_hint": "该条目具有较强技术性和控制性，可直接作为方案诊断依据之一。",
+      "recommendation_hint": "建议对照建标原始页与方案图纸进一步核验，并纳入正式规则库。"
+    },
+    "source_excerpt": "客梯服务半径应为50m~60m，并应能到达各商业空间和各层停车库，宜成组单侧布置，并与公区紧密相连。",
+    "notes": "source_value=50m~60m",
+    "review_status": "auto_screened",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86,
+    "duplicate_of_rule_id": null,
+    "lineage": {
+      "source_image": "11.png",
+      "raw_category": "设计强条",
+      "raw_target": "客梯",
+      "raw_metric": "服务半径",
+      "raw_value": "50m~60m"
+    },
+    "review_notes": [
+      "该条目由龙湖天街建标-2024版图片自动抽取，偏技术性和强控性，可优先进入正式规则库精修。"
+    ]
+  },
+  {
+    "rule_id": "LF-TJBZ-2024-REVIEW-0036",
+    "title": "地下光厅服务半径不应大于120米。",
+    "source_type": "longfor_tianjie_standard_2024",
+    "source_label": "龙湖天街建标-2024版",
+    "source_file": "12.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "12.png",
+      "region_hint": "龙湖天街建标-2024版整页自动抽取"
+    },
+    "category_l1": "建造标准与安全底线",
+    "category_l2": "服务半径",
+    "tags": [
+      "交通接驳/服务设施",
+      "地下光厅",
+      "服务半径"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "hard_rule",
+    "severity_default": "high",
+    "rule_text": "地下光厅服务半径不应大于120米。",
+    "interpretation": "原始分类：交通接驳/服务设施；原始对象：地下光厅；原始指标：服务半径；原始取值：<=120m；地下光厅服务半径不应大于120米。",
+    "evidence_requirement": "需结合龙湖天街建标-2024版原始页及方案图纸核对，可作为较强判断依据。",
+    "diagnosis_targets": [],
+    "trigger_clues": [],
+    "output_template": {
+      "issue_title_hint": "基于天街建标的技术控制项",
+      "issue_body_hint": "该条目具有较强技术性和控制性，可直接作为方案诊断依据之一。",
+      "recommendation_hint": "建议对照建标原始页与方案图纸进一步核验，并纳入正式规则库。"
+    },
+    "source_excerpt": "地下光厅服务半径不应大于120米。",
+    "notes": "source_value=<=120m",
+    "review_status": "auto_screened",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86,
+    "duplicate_of_rule_id": null,
+    "lineage": {
+      "source_image": "12.png",
+      "raw_category": "交通接驳/服务设施",
+      "raw_target": "地下光厅",
+      "raw_metric": "服务半径",
+      "raw_value": "<=120m"
+    },
+    "review_notes": [
+      "该条目由龙湖天街建标-2024版图片自动抽取，偏技术性和强控性，可优先进入正式规则库精修。"
+    ]
+  },
+  {
+    "rule_id": "LF-TJBZ-2024-REVIEW-0037",
+    "title": "屋面防水应采用2.0mm非固化橡胶沥青防水涂料+3mm自粘改性沥青防水卷材（冬季、雨季时），或1.5mm厚聚氨酯防水涂料",
+    "source_type": "longfor_tianjie_standard_2024",
+    "source_label": "龙湖天街建标-2024版",
+    "source_file": "13.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "13.png",
+      "region_hint": "龙湖天街建标-2024版整页自动抽取"
+    },
+    "category_l1": "待人工归类",
+    "category_l2": "防水层厚度",
+    "tags": [
+      "建造标准与安全底线",
+      "屋面防水",
+      "防水层厚度"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "medium",
+    "rule_text": "屋面防水应采用2.0mm非固化橡胶沥青防水涂料+3mm自粘改性沥青防水卷材（冬季、雨季时），或1.5mm厚聚氨酯防水涂料+3mm改性沥青单面自粘防水卷材（除冬季、雨季外时）。",
+    "interpretation": "原始分类：建造标准与安全底线；原始对象：屋面防水；原始指标：防水层厚度；原始取值：2.0mm 非固化橡胶沥青防水涂料 + 3mm 自粘改性沥青防水卷材 (冬季、雨季时) 或 1.5mm 厚聚氨酯防水涂料 + 3mm 改性沥青单面自粘防水卷材 (除冬季、雨季外时)；屋面防水应采用2.0mm非固化橡胶沥青防水涂料+3mm自粘改性沥青防水卷材（冬季、雨季时），或1.5mm厚聚氨酯防水涂料+3mm改性沥青单面自粘防水卷材（除冬季、雨季外时）。",
+    "evidence_requirement": "需结合龙湖天街建标-2024版原始页及方案图纸核对，可作为较强判断依据。",
+    "diagnosis_targets": [],
+    "trigger_clues": [],
+    "output_template": {
+      "issue_title_hint": "基于天街建标的技术控制项",
+      "issue_body_hint": "该条目具有较强技术性和控制性，可直接作为方案诊断依据之一。",
+      "recommendation_hint": "建议对照建标原始页与方案图纸进一步核验，并纳入正式规则库。"
+    },
+    "source_excerpt": "屋面防水应采用2.0mm非固化橡胶沥青防水涂料+3mm自粘改性沥青防水卷材（冬季、雨季时），或1.5mm厚聚氨酯防水涂料+3mm改性沥青单面自粘防水卷材（除冬季、雨季外时）。",
+    "notes": "source_value=2.0mm 非固化橡胶沥青防水涂料 + 3mm 自粘改性沥青防水卷材 (冬季、雨季时) 或 1.5mm 厚聚氨酯防水涂料 + 3mm 改性沥青单面自粘防水卷材 (除冬季、雨季外时)",
+    "review_status": "auto_screened",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.58,
+    "duplicate_of_rule_id": null,
+    "lineage": {
+      "source_image": "13.png",
+      "raw_category": "建造标准与安全底线",
+      "raw_target": "屋面防水",
+      "raw_metric": "防水层厚度",
+      "raw_value": "2.0mm 非固化橡胶沥青防水涂料 + 3mm 自粘改性沥青防水卷材 (冬季、雨季时) 或 1.5mm 厚聚氨酯防水涂料 + 3mm 改性沥青单面自粘防水卷材 (除冬季、雨季外时)"
+    },
+    "review_notes": [
+      "该条目由龙湖天街建标-2024版图片自动抽取，偏技术性和强控性，可优先进入正式规则库精修。",
+      "一级分类仍需人工细化。"
+    ]
+  },
+  {
+    "rule_id": "LF-TJBZ-2024-REVIEW-0038",
+    "title": "机动车行车道主动线宽度应为6m-7m，其中L1级天街主动线宽度应不小于6.5m。",
+    "source_type": "longfor_tianjie_standard_2024",
+    "source_label": "龙湖天街建标-2024版",
+    "source_file": "14.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "14.png",
+      "region_hint": "龙湖天街建标-2024版整页自动抽取"
+    },
+    "category_l1": "建造标准与安全底线",
+    "category_l2": "宽度",
+    "tags": [
+      "交通流线",
+      "机动车行车道主动线",
+      "宽度"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "hard_rule",
+    "severity_default": "high",
+    "rule_text": "机动车行车道主动线宽度应为6m-7m，其中L1级天街主动线宽度应不小于6.5m。",
+    "interpretation": "原始分类：交通流线；原始对象：机动车行车道主动线；原始指标：宽度；原始取值：6m-7m (L1级天街主动线≥6.5m)；机动车行车道主动线宽度应为6m-7m，其中L1级天街主动线宽度应不小于6.5m。",
+    "evidence_requirement": "需结合龙湖天街建标-2024版原始页及方案图纸核对，可作为较强判断依据。",
+    "diagnosis_targets": [],
+    "trigger_clues": [],
+    "output_template": {
+      "issue_title_hint": "基于天街建标的技术控制项",
+      "issue_body_hint": "该条目具有较强技术性和控制性，可直接作为方案诊断依据之一。",
+      "recommendation_hint": "建议对照建标原始页与方案图纸进一步核验，并纳入正式规则库。"
+    },
+    "source_excerpt": "机动车行车道主动线宽度应为6m-7m，其中L1级天街主动线宽度应不小于6.5m。",
+    "notes": "source_value=6m-7m (L1级天街主动线≥6.5m)",
+    "review_status": "auto_screened",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86,
+    "duplicate_of_rule_id": null,
+    "lineage": {
+      "source_image": "14.png",
+      "raw_category": "交通流线",
+      "raw_target": "机动车行车道主动线",
+      "raw_metric": "宽度",
+      "raw_value": "6m-7m (L1级天街主动线≥6.5m)"
+    },
+    "review_notes": [
+      "该条目由龙湖天街建标-2024版图片自动抽取，偏技术性和强控性，可优先进入正式规则库精修。"
+    ]
+  },
+  {
+    "rule_id": "LF-TJBZ-2024-REVIEW-0039",
+    "title": "卸货通道高度不低于3.6米。",
+    "source_type": "longfor_tianjie_standard_2024",
+    "source_label": "龙湖天街建标-2024版",
+    "source_file": "15.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "15.png",
+      "region_hint": "龙湖天街建标-2024版整页自动抽取"
+    },
+    "category_l1": "建造标准与安全底线",
+    "category_l2": "净高",
+    "tags": [
+      "交通接驳",
+      "卸货通道",
+      "净高"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "hard_rule",
+    "severity_default": "high",
+    "rule_text": "卸货通道高度不低于3.6米。",
+    "interpretation": "原始分类：交通接驳；原始对象：卸货通道；原始指标：净高；原始取值：>=3.6M；卸货通道高度不低于3.6米。",
+    "evidence_requirement": "需结合龙湖天街建标-2024版原始页及方案图纸核对，可作为较强判断依据。",
+    "diagnosis_targets": [],
+    "trigger_clues": [],
+    "output_template": {
+      "issue_title_hint": "基于天街建标的技术控制项",
+      "issue_body_hint": "该条目具有较强技术性和控制性，可直接作为方案诊断依据之一。",
+      "recommendation_hint": "建议对照建标原始页与方案图纸进一步核验，并纳入正式规则库。"
+    },
+    "source_excerpt": "卸货通道高度不低于3.6米。",
+    "notes": "source_value=>=3.6M",
+    "review_status": "auto_screened",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86,
+    "duplicate_of_rule_id": null,
+    "lineage": {
+      "source_image": "15.png",
+      "raw_category": "交通接驳",
+      "raw_target": "卸货通道",
+      "raw_metric": "净高",
+      "raw_value": ">=3.6M"
+    },
+    "review_notes": [
+      "该条目由龙湖天街建标-2024版图片自动抽取，偏技术性和强控性，可优先进入正式规则库精修。"
+    ]
+  },
+  {
+    "rule_id": "LF-TJBZ-2024-REVIEW-0040",
+    "title": "公区走廊净高不低于3.6m。",
+    "source_type": "longfor_tianjie_standard_2024",
+    "source_label": "龙湖天街建标-2024版",
+    "source_file": "16.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "16.png",
+      "region_hint": "龙湖天街建标-2024版整页自动抽取"
+    },
+    "category_l1": "建造标准与安全底线",
+    "category_l2": "净高",
+    "tags": [
+      "技术控制指标",
+      "公区走廊",
+      "净高"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "hard_rule",
+    "severity_default": "high",
+    "rule_text": "公区走廊净高不低于3.6m。",
+    "interpretation": "原始分类：技术控制指标；原始对象：公区走廊；原始指标：净高；原始取值：≥3.6m；公区走廊净高不低于3.6m。",
+    "evidence_requirement": "需结合龙湖天街建标-2024版原始页及方案图纸核对，可作为较强判断依据。",
+    "diagnosis_targets": [],
+    "trigger_clues": [],
+    "output_template": {
+      "issue_title_hint": "基于天街建标的技术控制项",
+      "issue_body_hint": "该条目具有较强技术性和控制性，可直接作为方案诊断依据之一。",
+      "recommendation_hint": "建议对照建标原始页与方案图纸进一步核验，并纳入正式规则库。"
+    },
+    "source_excerpt": "公区走廊净高不低于3.6m。",
+    "notes": "source_value=≥3.6m",
+    "review_status": "auto_screened",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86,
+    "duplicate_of_rule_id": null,
+    "lineage": {
+      "source_image": "16.png",
+      "raw_category": "技术控制指标",
+      "raw_target": "公区走廊",
+      "raw_metric": "净高",
+      "raw_value": "≥3.6m"
+    },
+    "review_notes": [
+      "该条目由龙湖天街建标-2024版图片自动抽取，偏技术性和强控性，可优先进入正式规则库精修。"
+    ]
+  },
+  {
+    "rule_id": "LF-TJBZ-2024-REVIEW-0041",
+    "title": "后勤通道裙房顶棚应采用灰色乳胶漆（不透底），颜色应确定为中国建筑色卡国家标准 GB/T18922-2008 第 N3.2",
+    "source_type": "longfor_tianjie_standard_2024",
+    "source_label": "龙湖天街建标-2024版",
+    "source_file": "17.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "17.png",
+      "region_hint": "龙湖天街建标-2024版整页自动抽取"
+    },
+    "category_l1": "产品表达与建筑形象",
+    "category_l2": "颜色/材质",
+    "tags": [
+      "设计强条",
+      "后勤通道-裙房顶棚",
+      "颜色/材质"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "hard_rule",
+    "severity_default": "high",
+    "rule_text": "后勤通道裙房顶棚应采用灰色乳胶漆（不透底），颜色应确定为中国建筑色卡国家标准 GB/T18922-2008 第 N3.25 号。",
+    "interpretation": "原始分类：设计强条；原始对象：后勤通道-裙房顶棚；原始指标：颜色/材质；原始取值：灰色乳胶漆 (不透底), GB/T18922-2008 第 N3.25 号；后勤通道裙房顶棚应采用灰色乳胶漆（不透底），颜色应确定为中国建筑色卡国家标准 GB/T18922-2008 第 N3.25 号。",
+    "evidence_requirement": "需结合龙湖天街建标-2024版原始页及方案图纸核对，可作为较强判断依据。",
+    "diagnosis_targets": [],
+    "trigger_clues": [],
+    "output_template": {
+      "issue_title_hint": "基于天街建标的技术控制项",
+      "issue_body_hint": "该条目具有较强技术性和控制性，可直接作为方案诊断依据之一。",
+      "recommendation_hint": "建议对照建标原始页与方案图纸进一步核验，并纳入正式规则库。"
+    },
+    "source_excerpt": "后勤通道裙房顶棚应采用灰色乳胶漆（不透底），颜色应确定为中国建筑色卡国家标准 GB/T18922-2008 第 N3.25 号。",
+    "notes": "source_value=灰色乳胶漆 (不透底), GB/T18922-2008 第 N3.25 号",
+    "review_status": "auto_screened",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86,
+    "duplicate_of_rule_id": null,
+    "lineage": {
+      "source_image": "17.png",
+      "raw_category": "设计强条",
+      "raw_target": "后勤通道-裙房顶棚",
+      "raw_metric": "颜色/材质",
+      "raw_value": "灰色乳胶漆 (不透底), GB/T18922-2008 第 N3.25 号"
+    },
+    "review_notes": [
+      "该条目由龙湖天街建标-2024版图片自动抽取，偏技术性和强控性，可优先进入正式规则库精修。"
+    ]
+  },
+  {
+    "rule_id": "LF-TJBZ-2024-REVIEW-0042",
+    "title": "人流密集区不应使用无框玻璃门。",
+    "source_type": "longfor_tianjie_standard_2024",
+    "source_label": "龙湖天街建标-2024版",
+    "source_file": "18.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "18.png",
+      "region_hint": "龙湖天街建标-2024版整页自动抽取"
+    },
+    "category_l1": "待人工归类",
+    "category_l2": "玻璃门类型",
+    "tags": [
+      "强控红线",
+      "玻璃门",
+      "玻璃门类型"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "medium",
+    "rule_text": "人流密集区不应使用无框玻璃门。",
+    "interpretation": "原始分类：强控红线；原始对象：玻璃门；原始指标：玻璃门类型；原始取值：不应使用无框玻璃门；人流密集区不应使用无框玻璃门。",
+    "evidence_requirement": "需结合龙湖天街建标-2024版原始页及方案图纸核对，可作为较强判断依据。",
+    "diagnosis_targets": [],
+    "trigger_clues": [],
+    "output_template": {
+      "issue_title_hint": "基于天街建标的技术控制项",
+      "issue_body_hint": "该条目具有较强技术性和控制性，可直接作为方案诊断依据之一。",
+      "recommendation_hint": "建议对照建标原始页与方案图纸进一步核验，并纳入正式规则库。"
+    },
+    "source_excerpt": "人流密集区不应使用无框玻璃门。",
+    "notes": "source_value=不应使用无框玻璃门",
+    "review_status": "auto_screened",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.58,
+    "duplicate_of_rule_id": null,
+    "lineage": {
+      "source_image": "18.png",
+      "raw_category": "强控红线",
+      "raw_target": "玻璃门",
+      "raw_metric": "玻璃门类型",
+      "raw_value": "不应使用无框玻璃门"
+    },
+    "review_notes": [
+      "该条目由龙湖天街建标-2024版图片自动抽取，偏技术性和强控性，可优先进入正式规则库精修。",
+      "一级分类仍需人工细化。"
+    ]
+  },
+  {
+    "rule_id": "LF-TJBZ-2024-REVIEW-0043",
+    "title": "主次入口公区范围、首层商铺以及二层主次入口两侧相邻商铺，应采用内透效果，并保证日、夜间效果协调、统一。",
+    "source_type": "longfor_tianjie_standard_2024",
+    "source_label": "龙湖天街建标-2024版",
+    "source_file": "19.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "19.png",
+      "region_hint": "龙湖天街建标-2024版整页自动抽取"
+    },
+    "category_l1": "租户落位与铺位效率",
+    "category_l2": "效果",
+    "tags": [
+      "设计判断依据",
+      "主次入口公区及商铺",
+      "效果"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "heuristic",
+    "severity_default": "medium",
+    "rule_text": "主次入口公区范围、首层商铺以及二层主次入口两侧相邻商铺，应采用内透效果，并保证日、夜间效果协调、统一。",
+    "interpretation": "原始分类：设计判断依据；原始对象：主次入口公区及商铺；原始指标：效果；原始取值：内透效果，日夜协调统一；主次入口公区范围、首层商铺以及二层主次入口两侧相邻商铺，应采用内透效果，并保证日、夜间效果协调、统一。",
+    "evidence_requirement": "需结合龙湖天街建标-2024版原始页及方案图纸核对，可作为较强判断依据。",
+    "diagnosis_targets": [],
+    "trigger_clues": [],
+    "output_template": {
+      "issue_title_hint": "基于天街建标的技术控制项",
+      "issue_body_hint": "该条目具有较强技术性和控制性，可直接作为方案诊断依据之一。",
+      "recommendation_hint": "建议对照建标原始页与方案图纸进一步核验，并纳入正式规则库。"
+    },
+    "source_excerpt": "主次入口公区范围、首层商铺以及二层主次入口两侧相邻商铺，应采用内透效果，并保证日、夜间效果协调、统一。",
+    "notes": "source_value=内透效果，日夜协调统一",
+    "review_status": "auto_screened",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86,
+    "duplicate_of_rule_id": null,
+    "lineage": {
+      "source_image": "19.png",
+      "raw_category": "设计判断依据",
+      "raw_target": "主次入口公区及商铺",
+      "raw_metric": "效果",
+      "raw_value": "内透效果，日夜协调统一"
+    },
+    "review_notes": [
+      "该条目由龙湖天街建标-2024版图片自动抽取，偏技术性和强控性，可优先进入正式规则库精修。"
+    ]
+  },
+  {
+    "rule_id": "LF-TJBZ-2024-REVIEW-0044",
+    "title": "外挂广告应在后勤通道内检修。",
+    "source_type": "longfor_tianjie_standard_2024",
+    "source_label": "龙湖天街建标-2024版",
+    "source_file": "20.png",
+    "source_locator": {
+      "page": null,
+      "image_name": "20.png",
+      "region_hint": "龙湖天街建标-2024版整页自动抽取"
+    },
+    "category_l1": "产品表达与建筑形象",
+    "category_l2": "检修方式",
+    "tags": [
+      "广告位管理",
+      "外挂广告",
+      "检修方式"
+    ],
+    "applicable_asset_types": [
+      "mall",
+      "mixed_use"
+    ],
+    "judgement_type": "hard_rule",
+    "severity_default": "high",
+    "rule_text": "外挂广告应在后勤通道内检修。",
+    "interpretation": "原始分类：广告位管理；原始对象：外挂广告；原始指标：检修方式；原始取值：后勤通道内检修；外挂广告应在后勤通道内检修。",
+    "evidence_requirement": "需结合龙湖天街建标-2024版原始页及方案图纸核对，可作为较强判断依据。",
+    "diagnosis_targets": [],
+    "trigger_clues": [],
+    "output_template": {
+      "issue_title_hint": "基于天街建标的技术控制项",
+      "issue_body_hint": "该条目具有较强技术性和控制性，可直接作为方案诊断依据之一。",
+      "recommendation_hint": "建议对照建标原始页与方案图纸进一步核验，并纳入正式规则库。"
+    },
+    "source_excerpt": "外挂广告应在后勤通道内检修。",
+    "notes": "source_value=后勤通道内检修",
+    "review_status": "auto_screened",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86,
+    "duplicate_of_rule_id": null,
+    "lineage": {
+      "source_image": "20.png",
+      "raw_category": "广告位管理",
+      "raw_target": "外挂广告",
+      "raw_metric": "检修方式",
+      "raw_value": "后勤通道内检修"
+    },
+    "review_notes": [
+      "该条目由龙湖天街建标-2024版图片自动抽取，偏技术性和强控性，可优先进入正式规则库精修。"
+    ]
+  }
+]

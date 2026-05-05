@@ -1,0 +1,398 @@
+[
+  {
+    "priority_rank": 1,
+    "rule_id": "LF-TJBZ-2024-REVIEW-0001",
+    "title": "得铺率的计算公式为：可租赁建筑面积 / 商业总建筑面积。",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86
+  },
+  {
+    "priority_rank": 2,
+    "rule_id": "LF-TJBZ-2024-REVIEW-0002",
+    "title": "L1级别项目，单一动线项目基准得铺率应为57%。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86
+  },
+  {
+    "priority_rank": 3,
+    "rule_id": "LF-TJBZ-2024-REVIEW-0003",
+    "title": "L1+ / L1层层高应不小于5.7米。",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86
+  },
+  {
+    "priority_rank": 4,
+    "rule_id": "LF-TJBZ-2024-REVIEW-0004",
+    "title": "当商业总建筑面积（不含车库）小于8万m²时，地下商业设备机房面积应控制在3200 m²-3600 m²。",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86
+  },
+  {
+    "priority_rank": 5,
+    "rule_id": "LF-TJBZ-2024-REVIEW-0006",
+    "title": "车行动线上应优先选用钢结构无门槛双扇防护密闭门。",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86
+  },
+  {
+    "priority_rank": 6,
+    "rule_id": "LF-TJBZ-2024-REVIEW-0007",
+    "title": "车行动线上人防门应优先选用钢结构无门槛双扇防护密闭门，尺寸为6000mmX2500mm。",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86
+  },
+  {
+    "priority_rank": 7,
+    "rule_id": "LF-TJBZ-2024-REVIEW-0008",
+    "title": "车行动线上人防门的宽度不应小于车道宽度。",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86
+  },
+  {
+    "priority_rank": 8,
+    "rule_id": "LF-TJBZ-2024-REVIEW-0009",
+    "title": "应考虑车道上人防门的上下支撑高度对净高的影响。",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86
+  },
+  {
+    "priority_rank": 9,
+    "rule_id": "LF-TJBZ-2024-REVIEW-0010",
+    "title": "车行动线上人防门的开启扇应可开启至与墙体贴临，且开启路径无管线遮挡，不影响车流线。",
+    "category_l1": "到达与交通组织",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86
+  },
+  {
+    "priority_rank": 10,
+    "rule_id": "LF-TJBZ-2024-REVIEW-0011",
+    "title": "在满足人防规范的前提下，重要人行通道（光厅出入口等部位）的人防门等应采用活门槛防护门。",
+    "category_l1": "到达与交通组织",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86
+  },
+  {
+    "priority_rank": 11,
+    "rule_id": "LF-TJBZ-2024-REVIEW-0012",
+    "title": "人防尽量布置在高层地下库，如为多层地下室，人防区域宜垂直叠加，上下各层对齐布置，不宜单一楼层平铺。",
+    "category_l1": "TOD与地下商业",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86
+  },
+  {
+    "priority_rank": 12,
+    "rule_id": "LF-TJBZ-2024-REVIEW-0013",
+    "title": "复合业态地下空间的人防配置在前期预案阶段就应充分考虑其对车位销售货值和商运运营品质的综合影响，合理分配人防布防。",
+    "category_l1": "到达与交通组织",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86
+  },
+  {
+    "priority_rank": 13,
+    "rule_id": "LF-TJBZ-2024-REVIEW-0014",
+    "title": "项目商业性质用地超过200亩的，应做整体城市设计、综合交通设计、片区中长期发展规划。",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86
+  },
+  {
+    "priority_rank": 14,
+    "rule_id": "LF-TJBZ-2024-REVIEW-0015",
+    "title": "当单一动线时，宜平均进深62m-70m。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86
+  },
+  {
+    "priority_rank": 15,
+    "rule_id": "LF-TJBZ-2024-REVIEW-0016",
+    "title": "当环形动线时，宜平均进深110m-140m。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86
+  },
+  {
+    "priority_rank": 16,
+    "rule_id": "LF-TJBZ-2024-REVIEW-0017",
+    "title": "动线长度宜控制在280-400m之间。",
+    "category_l1": "动线与客流分发",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86
+  },
+  {
+    "priority_rank": 17,
+    "rule_id": "LF-TJBZ-2024-REVIEW-0020",
+    "title": "塔楼位置不宜布置在出入口、大中庭等主要位置。",
+    "category_l1": "空间布局与体验场景",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86
+  },
+  {
+    "priority_rank": 18,
+    "rule_id": "LF-TJBZ-2024-REVIEW-0022",
+    "title": "两端均为商业室内空间的公共连廊应为封闭围护结构的室内空间。",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86
+  },
+  {
+    "priority_rank": 19,
+    "rule_id": "LF-TJBZ-2024-REVIEW-0023",
+    "title": "连廊端头两侧的商铺应预留餐饮条件。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86
+  },
+  {
+    "priority_rank": 20,
+    "rule_id": "LF-TJBZ-2024-REVIEW-0024",
+    "title": "大大小小 MALL 之间的连廊宽度应≥12m。",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86
+  },
+  {
+    "priority_rank": 21,
+    "rule_id": "LF-TJBZ-2024-REVIEW-0025",
+    "title": "连廊若计容且宽度适宜，可考虑两侧或者单侧设置商铺或外摆，若不计容可考虑做短期外摆，结合商业业态布置铺位。",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86
+  },
+  {
+    "priority_rank": 22,
+    "rule_id": "LF-TJBZ-2024-REVIEW-0026",
+    "title": "大大小小 MALL 之间的地下连廊非经营区净高应≥2.7m。",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86
+  },
+  {
+    "priority_rank": 23,
+    "rule_id": "LF-TJBZ-2024-REVIEW-0027",
+    "title": "大大小小 MALL 之间的地下连廊经营区面积≥3.2m。",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86
+  },
+  {
+    "priority_rank": 24,
+    "rule_id": "LF-TJBZ-2024-REVIEW-0030",
+    "title": "排水沟：设置300mm宽排水沟。",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86
+  },
+  {
+    "priority_rank": 25,
+    "rule_id": "LF-TJBZ-2024-REVIEW-0032",
+    "title": "出入口和公区内透区域以及特色幕墙区域应选用超白玻。",
+    "category_l1": "产品表达与建筑形象",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86
+  },
+  {
+    "priority_rank": 26,
+    "rule_id": "LF-TJBZ-2024-REVIEW-0033",
+    "title": "标准中庭公区走道宽度（租赁线到土建洞口板边线距离），当洞口有防火卷帘且有卷帘柱时，应为4m。",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86
+  },
+  {
+    "priority_rank": 27,
+    "rule_id": "LF-TJBZ-2024-REVIEW-0034",
+    "title": "每个卫生间至少应保留一个坐便器。",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86
+  },
+  {
+    "priority_rank": 28,
+    "rule_id": "LF-TJBZ-2024-REVIEW-0035",
+    "title": "客梯服务半径应为50m~60m，并应能到达各商业空间和各层停车库，宜成组单侧布置，并与公区紧密相连。",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86
+  },
+  {
+    "priority_rank": 29,
+    "rule_id": "LF-TJBZ-2024-REVIEW-0036",
+    "title": "地下光厅服务半径不应大于120米。",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86
+  },
+  {
+    "priority_rank": 30,
+    "rule_id": "LF-TJBZ-2024-REVIEW-0038",
+    "title": "机动车行车道主动线宽度应为6m-7m，其中L1级天街主动线宽度应不小于6.5m。",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86
+  },
+  {
+    "priority_rank": 31,
+    "rule_id": "LF-TJBZ-2024-REVIEW-0039",
+    "title": "卸货通道高度不低于3.6米。",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86
+  },
+  {
+    "priority_rank": 32,
+    "rule_id": "LF-TJBZ-2024-REVIEW-0040",
+    "title": "公区走廊净高不低于3.6m。",
+    "category_l1": "建造标准与安全底线",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86
+  },
+  {
+    "priority_rank": 33,
+    "rule_id": "LF-TJBZ-2024-REVIEW-0041",
+    "title": "后勤通道裙房顶棚应采用灰色乳胶漆（不透底），颜色应确定为中国建筑色卡国家标准 GB/T18922-2008 第 N3.2",
+    "category_l1": "产品表达与建筑形象",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86
+  },
+  {
+    "priority_rank": 34,
+    "rule_id": "LF-TJBZ-2024-REVIEW-0043",
+    "title": "主次入口公区范围、首层商铺以及二层主次入口两侧相邻商铺，应采用内透效果，并保证日、夜间效果协调、统一。",
+    "category_l1": "租户落位与铺位效率",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86
+  },
+  {
+    "priority_rank": 35,
+    "rule_id": "LF-TJBZ-2024-REVIEW-0044",
+    "title": "外挂广告应在后勤通道内检修。",
+    "category_l1": "产品表达与建筑形象",
+    "review_bucket": "technical_control_rule",
+    "merge_recommendation": "candidate_for_foundation_merge",
+    "confidence_score": 0.86
+  },
+  {
+    "priority_rank": 36,
+    "rule_id": "LF-TJBZ-2024-REVIEW-0005",
+    "title": "商业经营区域不应设置人防。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.58
+  },
+  {
+    "priority_rank": 37,
+    "rule_id": "LF-TJBZ-2024-REVIEW-0018",
+    "title": "不宜在天街上方布置塔楼或者板楼。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.58
+  },
+  {
+    "priority_rank": 38,
+    "rule_id": "LF-TJBZ-2024-REVIEW-0019",
+    "title": "塔楼数量宜≤2栋。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.58
+  },
+  {
+    "priority_rank": 39,
+    "rule_id": "LF-TJBZ-2024-REVIEW-0021",
+    "title": "应充分考虑塔楼与购物中心在商场楼层的连接和人流组织，增加人流通达性。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.58
+  },
+  {
+    "priority_rank": 40,
+    "rule_id": "LF-TJBZ-2024-REVIEW-0028",
+    "title": "如连廊跨度较大，应与政府协商，并确定可在红线外增设竖向承重构件，以减小连廊跨度，降低成本。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.58
+  },
+  {
+    "priority_rank": 41,
+    "rule_id": "LF-TJBZ-2024-REVIEW-0029",
+    "title": "室外连廊防水层：1.5mm 单组分聚氨酯涂料。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.58
+  },
+  {
+    "priority_rank": 42,
+    "rule_id": "LF-TJBZ-2024-REVIEW-0031",
+    "title": "混凝土反坎应一次浇筑成型，建筑完成面高20cm。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.58
+  },
+  {
+    "priority_rank": 43,
+    "rule_id": "LF-TJBZ-2024-REVIEW-0037",
+    "title": "屋面防水应采用2.0mm非固化橡胶沥青防水涂料+3mm自粘改性沥青防水卷材（冬季、雨季时），或1.5mm厚聚氨酯防水涂料",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.58
+  },
+  {
+    "priority_rank": 44,
+    "rule_id": "LF-TJBZ-2024-REVIEW-0042",
+    "title": "人流密集区不应使用无框玻璃门。",
+    "category_l1": "待人工归类",
+    "review_bucket": "needs_category_refine",
+    "merge_recommendation": "keep_in_review_base",
+    "confidence_score": 0.58
+  }
+]

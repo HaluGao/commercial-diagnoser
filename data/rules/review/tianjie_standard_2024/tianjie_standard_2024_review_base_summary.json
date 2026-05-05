@@ -1,0 +1,23 @@
+{
+  "input_rule_count": 44,
+  "review_base_count": 44,
+  "review_bucket_counts": {
+    "technical_control_rule": 35,
+    "needs_category_refine": 9
+  },
+  "merge_recommendation_counts": {
+    "candidate_for_foundation_merge": 35,
+    "keep_in_review_base": 9
+  },
+  "category_l1_counts": {
+    "建造标准与安全底线": 21,
+    "动线与客流分发": 2,
+    "待人工归类": 9,
+    "到达与交通组织": 3,
+    "TOD与地下商业": 1,
+    "租户落位与铺位效率": 4,
+    "空间布局与体验场景": 1,
+    "产品表达与建筑形象": 3
+  },
+  "note": "这是龙湖天街建标-2024版图片自动抽取规则的首轮复核底库，偏技术性和强控性。"
+}
